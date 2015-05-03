@@ -258,9 +258,14 @@
 <li>如果发现本地html在UIWebView加载不出来，请检查html代码编码格式，一般来说都采用的时UTF8编码格式。</li>
 </ul>
 <hr>
-<h2 id="2、UIWebView加载一个在线的URL">2、UIWebView加载一个在线的URL</h2><figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">NSURL <span class="strong">*url = [NSURLV URLWithString:@"http://duxinfeng.com"];</span><br><span class="line">NSURLRequest *</span>req = [NSURLRequest requestWithURL:url];</span><br><span class="line">[webView loadRequest:req];</span><br><span class="line"><span class="header">```  </span><br><span class="line">---</span></span><br><span class="line"></span><br><span class="line">如果对html排版有特殊要求，则需要自己或前端写好css文件，可以放本地，也可以加到html文件里面，如果放到本地需要注意路径，</span><br><span class="line">当我把css文件放在和xx.xcodeproj 一个目录时是这样的</span><br></pre></td></tr></table></figure>
-<p> [webView loadHTMLString:htmlString baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]];</p>
-<h2 id="```">```  </h2><p>如果是放到html里面可以参考网易新闻开源组件(<code>view-source:http://m.163.com/special/newsclient/ios_libraries.html</code>)  chrome打开，或者直接访问查看<a href="http://m.163.com/special/newsclient/ios_libraries.html" target="_blank" rel="external">hmtl源码</a></p>
+<h2 id="2、UIWebView加载一个在线的URL">2、UIWebView加载一个在线的URL</h2><pre><code><span class="built_in">NSURL</span> *url = [<span class="built_in">NSURLV</span> URLWithString:<span class="string">@"http://duxinfeng.com"</span>];
+<span class="built_in">NSURLRequest</span> *req = [<span class="built_in">NSURLRequest</span> requestWithURL:url];
+[webView loadRequest:req];
+</code></pre><hr>
+<p>如果对html排版有特殊要求，则需要自己或前端写好css文件，可以放本地，也可以加到html文件里面，如果放到本地需要注意路径，当我把css文件放在和xx.xcodeproj 一个目录时是这样的</p>
+<pre><code>[webView loadHTMLString:htmlString baseURL:[NSURL fileURLWithPath:<span class="string">[[NSBundle mainBundle] bundlePath]]</span>];
+</code></pre><hr>
+<p>如果是放到html里面可以参考网易新闻开源组件(<code>view-source:http://m.163.com/special/newsclient/ios_libraries.html</code>)  chrome打开，或者直接访问查看<a href="http://m.163.com/special/newsclient/ios_libraries.html" target="_blank" rel="external">hmtl源码</a></p>
 
       
     </div>
