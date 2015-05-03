@@ -3,17 +3,20 @@
 <head>
   <meta charset="utf-8">
   
-  <title>To Do List | 新风作浪</title>
+  <title>UIWebView加载Html | 新风作浪</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="To Do List">
-<meta property="og:url" content="http://duxinfeng.com/To-Do-List/index.html">
+  <meta name="description" content="UIWebView加载html分两种方式
+1、UIWebView加载本地html123NSString *htmlFile = [[NSBundle mainBundle] pathForResource:@&quot;xxx&quot; ofType:@&quot;html&quot;];NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encodin">
+<meta property="og:type" content="article">
+<meta property="og:title" content="UIWebView加载Html">
+<meta property="og:url" content="http://duxinfeng.com/2015/05/03/UIWebView加载Html/index.html">
 <meta property="og:site_name" content="新风作浪">
-<meta property="og:description">
+<meta property="og:description" content="UIWebView加载html分两种方式
+1、UIWebView加载本地html123NSString *htmlFile = [[NSBundle mainBundle] pathForResource:@&quot;xxx&quot; ofType:@&quot;html&quot;];NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encodin">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="To Do List">
-<meta name="twitter:description">
+<meta name="twitter:title" content="UIWebView加载Html">
+<meta name="twitter:description" content="UIWebView加载html分两种方式
+1、UIWebView加载本地html123NSString *htmlFile = [[NSBundle mainBundle] pathForResource:@&quot;xxx&quot; ofType:@&quot;html&quot;];NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encodin">
   
     <link rel="alternative" href="/atom.xml" title="新风作浪" type="application/atom+xml">
   
@@ -198,11 +201,11 @@
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap"><article id="page-undefined" class="article article-type-page" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-UIWebView加载Html" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/To-Do-List/index.html" class="article-date">
-  	<time datetime="2015-05-01T15:06:18.000Z" itemprop="datePublished">2015-05-01</time>
+      <a href="/2015/05/03/UIWebView加载Html/" class="article-date">
+  	<time datetime="2015-05-03T12:52:01.000Z" itemprop="datePublished">2015-05-03</time>
 </a>
     </div>
   
@@ -215,7 +218,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      To Do List
+      UIWebView加载Html
     </h1>
   
 
@@ -223,7 +226,15 @@
       
       <div class="article-info article-info-post">
         
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Html/">Html</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/UIWebView/">UIWebView</a></li></ul>
+	</div>
+
         
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/iOS/">iOS</a>
+	</div>
+
 
         <div class="clearfix"></div>
       </div>
@@ -231,13 +242,42 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p>UIWebView加载html分两种方式</p>
+<h2 id="1、UIWebView加载本地html">1、UIWebView加载本地html</h2><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">NSString *htmlFile = [[NSBundle mainBundle] <span class="string">pathForResource:</span>@<span class="string">"xxx"</span> <span class="string">ofType:</span>@<span class="string">"html"</span>];</span><br><span class="line">NSString* htmlString = [NSString <span class="string">stringWithContentsOfFile:</span>htmlFile <span class="string">encoding:</span>NSUTF8StringEncoding <span class="string">error:</span>nil];</span><br><span class="line">[webView <span class="string">loadHTMLString:</span>htmlString <span class="string">baseURL:</span>nil];</span><br></pre></td></tr></table></figure>
+<p>本地加载可以修改html显示的文本大小和字体</p>
+<a id="more"></a>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">NSString* formatString = [NSString stringWithFormat:</span><br><span class="line">     @"<span class="tag">&lt;<span class="title">html</span>&gt;</span>"</span><br><span class="line">     "<span class="tag">&lt;<span class="title">style</span> <span class="attribute">type</span>=<span class="value">\"text</span>/<span class="attribute">css</span>\"&gt;</span><span class="css">"</span><br><span class="line">     "<span class="tag">body</span> <span class="rules">&#123;<span class="rule"><span class="attribute">background-color</span>:<span class="value">transparent</span></span>; <span class="rule"><span class="attribute">font-family</span>:<span class="value">helvetica</span></span>; <span class="rule"><span class="attribute">font-size</span>:<span class="value">%@</span></span>; <span class="rule"><span class="attribute">color</span>:<span class="value">%@</span></span>;&#125;</span>"</span><br><span class="line">     "</span><span class="tag">&lt;/<span class="title">style</span>&gt;</span>"</span><br><span class="line">     "<span class="tag">&lt;<span class="title">body</span>&gt;</span>"</span><br><span class="line">     "<span class="tag">&lt;<span class="title">p</span>&gt;</span>%@<span class="tag">&lt;/<span class="title">p</span>&gt;</span>"</span><br><span class="line">     "<span class="tag">&lt;/<span class="title">body</span>&gt;</span><span class="tag">&lt;/<span class="title">html</span>&gt;</span>",@"24",@"#000000", html];</span><br><span class="line">  [webView loadHTMLString:formatString baseURL:nil];</span><br></pre></td></tr></table></figure>
+<ul>
+<li>background-color:transparent; 背景颜色(透明)</li>
+<li>font-family:helvetica; 字体</li>
+<li>font-size:24; 字体大小</li>
+<li>color:#000fff; 字体的颜色</li>
+</ul>
+<hr>
+<ul>
+<li>如果发现本地html在UIWebView加载不出来，请检查html代码编码格式，一般来说都采用的时UTF8编码格式。</li>
+</ul>
+<hr>
+<h2 id="2、UIWebView加载一个在线的URL">2、UIWebView加载一个在线的URL</h2><figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">NSURL <span class="strong">*url = [NSURLV URLWithString:@"http://duxinfeng.com"];</span><br><span class="line">NSURLRequest *</span>req = [NSURLRequest requestWithURL:url];</span><br><span class="line">[webView loadRequest:req];</span><br><span class="line"><span class="header">```  </span><br><span class="line">---</span></span><br><span class="line"></span><br><span class="line">如果对html排版有特殊要求，则需要自己或前端写好css文件，可以放本地，也可以加到html文件里面，如果放到本地需要注意路径，</span><br><span class="line">当我把css文件放在和xx.xcodeproj 一个目录时是这样的</span><br></pre></td></tr></table></figure>
+<p> [webView loadHTMLString:htmlString baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]];</p>
+<h2 id="```">```  </h2><p>如果是放到html里面可以参考网易新闻开源组件(<code>view-source:http://m.163.com/special/newsclient/ios_libraries.html</code>)  chrome打开，或者直接访问查看<a href="http://m.163.com/special/newsclient/ios_libraries.html" target="_blank" rel="external">hmtl源码</a></p>
+
       
     </div>
     
   </div>
   
     
+<nav id="article-nav">
+  
+  
+    <a href="/2015/05/01/基于Github和Hexo搭建Blog/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">基于Github和Hexo搭建Blog</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
   
 </article>
 
@@ -261,7 +301,7 @@
 
 <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="undefined" data-title="To Do List" data-url="http://duxinfeng.com/To-Do-List/index.html"></div>
+	<div class="ds-thread" data-thread-key="UIWebView加载Html" data-title="UIWebView加载Html" data-url="http://duxinfeng.com/2015/05/03/UIWebView加载Html/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
