@@ -116,7 +116,7 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/Html/" style="font-size: NaNpx;">Html</a><a href="/tags/UIWebView/" style="font-size: NaNpx;">UIWebView</a><a href="/tags/待办事项/" style="font-size: NaNpx;">待办事项</a><a href="/tags/计划/" style="font-size: NaNpx;">计划</a>
+						<a href="/tags/Html/" style="font-size: NaNpx;">Html</a><a href="/tags/UIWebView/" style="font-size: NaNpx;">UIWebView</a><a href="/tags/Xcode6/" style="font-size: NaNpx;">Xcode6</a><a href="/tags/simulator/" style="font-size: NaNpx;">simulator</a><a href="/tags/待办事项/" style="font-size: NaNpx;">待办事项</a><a href="/tags/计划/" style="font-size: NaNpx;">计划</a>
 					</div>
 				</section>
 				
@@ -191,6 +191,64 @@
 	</div>
 </nav>
       <div class="body-wrap">
+  
+    <article id="post-Xcode-6删除模拟器上所有app" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/05/06/Xcode-6删除模拟器上所有app/" class="article-date">
+  	<time datetime="2015-05-06T06:26:41.000Z" itemprop="datePublished">2015-05-06</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/05/06/Xcode-6删除模拟器上所有app/">Xcode 6删除模拟器上所有app</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="在终端上执行如下命令">在终端上执行如下命令</h3><pre><code>xcrun simctl list | grep -oh '<span class="special">[</span>A-Z0-9<span class="special">]</span><span class="command">\{</span>8<span class="command">\}</span>-<span class="special">[</span>A-Z0-9<span class="special">]</span><span class="command">\{</span>4<span class="command">\}</span>-<span class="special">[</span>A-Z0-9<span class="special">]</span><span class="command">\{</span>4<span class="command">\}</span>-<span class="special">[</span>A-Z0-9<span class="special">]</span><span class="command">\{</span>4<span class="command">\}</span>-<span class="special">[</span>A-Z0-9<span class="special">]</span><span class="command">\{</span>12<span class="command">\}</span>' | xargs -I<span class="special">{</span><span class="special">}</span> xcrun simctl erase <span class="special">{</span><span class="special">}</span>
+</code></pre><p>参考链接：<a href="http://stackoverflow.com/questions/692064/cleaning-up-the-iphone-simulator" target="_blank" rel="external">http://stackoverflow.com/questions/692064/cleaning-up-the-iphone-simulator</a></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Xcode6/">Xcode6</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/simulator/">simulator</a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/iOS/">iOS</a>
+	</div>
+
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
   
     <article id="post-UIWebView加载Html" class="article article-type-post" itemscope itemprop="blogPost">
   
