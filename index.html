@@ -219,7 +219,8 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h3 id="在终端上执行如下命令">在终端上执行如下命令</h3><pre><code>xcrun simctl list | grep -oh '<span class="special">[</span>A-Z0-9<span class="special">]</span><span class="command">\{</span>8<span class="command">\}</span>-<span class="special">[</span>A-Z0-9<span class="special">]</span><span class="command">\{</span>4<span class="command">\}</span>-<span class="special">[</span>A-Z0-9<span class="special">]</span><span class="command">\{</span>4<span class="command">\}</span>-<span class="special">[</span>A-Z0-9<span class="special">]</span><span class="command">\{</span>4<span class="command">\}</span>-<span class="special">[</span>A-Z0-9<span class="special">]</span><span class="command">\{</span>12<span class="command">\}</span>' | xargs -I<span class="special">{</span><span class="special">}</span> xcrun simctl erase <span class="special">{</span><span class="special">}</span>
-</code></pre><p>参考链接：<a href="http://stackoverflow.com/questions/692064/cleaning-up-the-iphone-simulator" target="_blank" rel="external">http://stackoverflow.com/questions/692064/cleaning-up-the-iphone-simulator</a></p>
+</code></pre><p>这样所有模拟器里的数据被会被还原出事状态，又可以清理很多空间！</p>
+<p>参考链接：<a href="http://stackoverflow.com/questions/692064/cleaning-up-the-iphone-simulator" target="_blank" rel="external">http://stackoverflow.com/questions/692064/cleaning-up-the-iphone-simulator</a></p>
 
       
     </div>
