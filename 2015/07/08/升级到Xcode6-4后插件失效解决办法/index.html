@@ -3,17 +3,29 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Category: Hexo | 新风作浪</title>
+  <title>升级到Xcode6.4后插件失效解决办法 | 新风作浪</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="新风作浪">
-<meta property="og:url" content="http://duxinfeng.com/categories/Hexo/index.html">
+  <meta name="description" content="升级到Xcode 6.4 之后，插件失效不能使用，
+
+1、首先要知道xcode的UUID,在终端下输入以下命令，会打开一个info.plist的文件，复制DVTPlugInCompatibilityUUID对应的值。
+open /Applications/Xcode.app/Contents/Info.plist
+2、然后替换掉下面命令最后面的“7FDF5C7A-131F-4ABB-9EDC-8C">
+<meta property="og:type" content="article">
+<meta property="og:title" content="升级到Xcode6.4后插件失效解决办法">
+<meta property="og:url" content="http://duxinfeng.com/2015/07/08/升级到Xcode6-4后插件失效解决办法/index.html">
 <meta property="og:site_name" content="新风作浪">
-<meta property="og:description">
+<meta property="og:description" content="升级到Xcode 6.4 之后，插件失效不能使用，
+
+1、首先要知道xcode的UUID,在终端下输入以下命令，会打开一个info.plist的文件，复制DVTPlugInCompatibilityUUID对应的值。
+open /Applications/Xcode.app/Contents/Info.plist
+2、然后替换掉下面命令最后面的“7FDF5C7A-131F-4ABB-9EDC-8C">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="新风作浪">
-<meta name="twitter:description">
+<meta name="twitter:title" content="升级到Xcode6.4后插件失效解决办法">
+<meta name="twitter:description" content="升级到Xcode 6.4 之后，插件失效不能使用，
+
+1、首先要知道xcode的UUID,在终端下输入以下命令，会打开一个info.plist的文件，复制DVTPlugInCompatibilityUUID对应的值。
+open /Applications/Xcode.app/Contents/Info.plist
+2、然后替换掉下面命令最后面的“7FDF5C7A-131F-4ABB-9EDC-8C">
   
   
     <link rel="icon" href="/favicon.png">
@@ -168,55 +180,118 @@
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap">
+      <div class="body-wrap"><article id="post-升级到Xcode6-4后插件失效解决办法" class="article article-type-post" itemscope itemprop="blogPost">
   
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2015" class="archive-year">2015</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/05/01/基于Github和Hexo搭建Blog/" class="archive-article-date">
-  	<time datetime="2015-05-01T15:35:30.000Z" itemprop="datePublished">May 1</time>
+    <div class="article-meta">
+      <a href="/2015/07/08/升级到Xcode6-4后插件失效解决办法/" class="article-date">
+  	<time datetime="2015-07-08T05:53:02.000Z" itemprop="datePublished">2015-07-08</time>
 </a>
-        </div>
-    	 
+    </div>
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/05/01/基于Github和Hexo搭建Blog/">基于Github和Hexo搭建Blog</a>
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      升级到Xcode6.4后插件失效解决办法
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+      </header>
+      
+      <div class="article-info article-info-post">
+        
 	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Blog/">Blog</a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Xcode/">Xcode</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/插件/">插件</a></li></ul>
 	</div>
 
-          
+        
 	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/Hexo/">Hexo</a>
+	<a class="article-category-link" href="/categories/iOS/">iOS</a>
 	</div>
 
 
-        </div>
         <div class="clearfix"></div>
-    </header>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>升级到Xcode 6.4 之后，插件失效不能使用，</p>
+</blockquote>
+<p>1、首先要知道xcode的UUID,在终端下输入以下命令，会打开一个info.plist的文件，复制DVTPlugInCompatibilityUUID对应的值。</p>
+<pre><code>open <span class="regexp">/Applications/</span>Xcode.app<span class="regexp">/Contents/I</span>nfo.plist
+</code></pre><p>2、然后替换掉下面命令最后面的“7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90”，在终端上执行下面的命令</p>
+<pre><code><span class="keyword">find</span> ~<span class="regexp">/Library/</span>Application\ Support<span class="regexp">/Developer/</span>Shared<span class="regexp">/Xcode/</span>Plug-ins -name Info.plist -maxdepth <span class="number">3</span> | xargs -I{} defaults <span class="keyword">write</span> {} DVTPlugInCompatibilityUUIDs -array-add <span class="number">7</span>FDF5C7A-<span class="number">131</span>F-<span class="number">4</span>ABB-<span class="number">9</span>EDC-<span class="number">8</span>C5F8F0B8A90
+</code></pre><p>3、最后重启Xcode</p>
+<blockquote>
+<p>参考链接：</p>
+</blockquote>
+<p>1、<a href="http://joeshang.github.io/2015/04/10/fix-xcode-upgrade-plugin-invalid" target="_blank" rel="external">http://joeshang.github.io/2015/04/10/fix-xcode-upgrade-plugin-invalid</a><br>2、<a href="http://segmentfault.com/a/1190000002591005" target="_blank" rel="external">http://segmentfault.com/a/1190000002591005</a></p>
+
+      
+    </div>
+    
   </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2015/07/07/国内使用Google搜索/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">国内使用Google搜索</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
+
+
+<div class="share">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到：</span>
+		<a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="升级到Xcode6-4后插件失效解决办法" data-title="升级到Xcode6.4后插件失效解决办法" data-url="http://duxinfeng.com/2015/07/08/升级到Xcode6-4后插件失效解决办法/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"duxinfeng"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
 </div>
       <footer id="footer">
   <div class="outer">
