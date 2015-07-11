@@ -236,7 +236,9 @@
 <pre><code>[webView loadHTMLString:htmlString baseURL:[NSURL fileURLWithPath:<span class="string">[[NSBundle mainBundle] bundlePath]]</span>];
 </code></pre><hr>
 <p>如果是放到html里面可以参考网易新闻开源组件(<code>view-source:http://m.163.com/special/newsclient/ios_libraries.html</code>)  chrome打开，或者直接访问查看<a href="http://m.163.com/special/newsclient/ios_libraries.html" target="_blank" rel="external">hmtl源码</a></p>
-
+<h2 id="3、UIWebView_高亮显示问题">3、UIWebView 高亮显示问题</h2><p>UIWebView 是可以监测html里的数字、电话号码、url链接，然后高亮显示，可以通过设置他的<code>dataDetectorTypes</code>属性来改变</p>
+<pre><code><span class="keyword">self</span><span class="variable">.webView</span><span class="variable">.dataDetectorTypes</span> = <span class="built_in">UIDataDetectorTypeNone</span>;
+</code></pre>
       
     </div>
     

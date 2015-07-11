@@ -3,29 +3,44 @@
 <head>
   <meta charset="utf-8">
   
-  <title>升级到Xcode6.4后插件失效解决办法 | 新风作浪</title>
+  <title>FMDB的使用 | 新风作浪</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="升级到Xcode 6.4 之后，插件失效不能使用，
+  <meta name="description" content="关于这篇Blog:
+网上也有不少写FMDB用法的，我为什么还在这里重造轮子？有两个目的：1、自己做总结和备忘，在项目里会常用的东西2、
 
-1、首先要知道xcode的UUID,在终端下输入以下命令，会打开一个info.plist的文件，复制DVTPlugInCompatibilityUUID对应的值。
-open /Applications/Xcode.app/Contents/Info.plist
-2、然后替换掉下面命令最后面的“7FDF5C7A-131F-4ABB-9EDC-8C">
+FMDB介绍：
+
+下载地址：https://github.com/ccgus/fmdb
+
+如何集成
+
+1、如果你的工程使用了CocoaPods进行管理，直接 pod &amp;#39;FMDB&amp;#39; 或 pod &amp;#39;FMDB&amp;#39;, &amp;#39;~&amp;gt;">
 <meta property="og:type" content="article">
-<meta property="og:title" content="升级到Xcode6.4后插件失效解决办法">
-<meta property="og:url" content="http://duxinfeng.com/2015/07/08/升级到Xcode6-4后插件失效解决办法/index.html">
+<meta property="og:title" content="FMDB的使用">
+<meta property="og:url" content="http://duxinfeng.com/2015/07/11/FMDB的使用/index.html">
 <meta property="og:site_name" content="新风作浪">
-<meta property="og:description" content="升级到Xcode 6.4 之后，插件失效不能使用，
+<meta property="og:description" content="关于这篇Blog:
+网上也有不少写FMDB用法的，我为什么还在这里重造轮子？有两个目的：1、自己做总结和备忘，在项目里会常用的东西2、
 
-1、首先要知道xcode的UUID,在终端下输入以下命令，会打开一个info.plist的文件，复制DVTPlugInCompatibilityUUID对应的值。
-open /Applications/Xcode.app/Contents/Info.plist
-2、然后替换掉下面命令最后面的“7FDF5C7A-131F-4ABB-9EDC-8C">
+FMDB介绍：
+
+下载地址：https://github.com/ccgus/fmdb
+
+如何集成
+
+1、如果你的工程使用了CocoaPods进行管理，直接 pod &amp;#39;FMDB&amp;#39; 或 pod &amp;#39;FMDB&amp;#39;, &amp;#39;~&amp;gt;">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="升级到Xcode6.4后插件失效解决办法">
-<meta name="twitter:description" content="升级到Xcode 6.4 之后，插件失效不能使用，
+<meta name="twitter:title" content="FMDB的使用">
+<meta name="twitter:description" content="关于这篇Blog:
+网上也有不少写FMDB用法的，我为什么还在这里重造轮子？有两个目的：1、自己做总结和备忘，在项目里会常用的东西2、
 
-1、首先要知道xcode的UUID,在终端下输入以下命令，会打开一个info.plist的文件，复制DVTPlugInCompatibilityUUID对应的值。
-open /Applications/Xcode.app/Contents/Info.plist
-2、然后替换掉下面命令最后面的“7FDF5C7A-131F-4ABB-9EDC-8C">
+FMDB介绍：
+
+下载地址：https://github.com/ccgus/fmdb
+
+如何集成
+
+1、如果你的工程使用了CocoaPods进行管理，直接 pod &amp;#39;FMDB&amp;#39; 或 pod &amp;#39;FMDB&amp;#39;, &amp;#39;~&amp;gt;">
   
   
     <link rel="icon" href="/favicon.png">
@@ -180,11 +195,11 @@ open /Applications/Xcode.app/Contents/Info.plist
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap"><article id="post-升级到Xcode6-4后插件失效解决办法" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-FMDB的使用" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2015/07/08/升级到Xcode6-4后插件失效解决办法/" class="article-date">
-  	<time datetime="2015-07-08T05:53:02.000Z" itemprop="datePublished">2015-07-08</time>
+      <a href="/2015/07/11/FMDB的使用/" class="article-date">
+  	<time datetime="2015-07-11T03:54:19.000Z" itemprop="datePublished">2015-07-11</time>
 </a>
     </div>
   
@@ -197,7 +212,7 @@ open /Applications/Xcode.app/Contents/Info.plist
         
   
     <h1 class="article-title" itemprop="name">
-      升级到Xcode6.4后插件失效解决办法
+      FMDB的使用
     </h1>
   
 
@@ -205,10 +220,6 @@ open /Applications/Xcode.app/Contents/Info.plist
       
       <div class="article-info article-info-post">
         
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Xcode/">Xcode</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/插件/">插件</a></li></ul>
-	</div>
-
         
 	<div class="article-category tagcloud">
 	<a class="article-category-link" href="/categories/iOS/">iOS</a>
@@ -221,19 +232,55 @@ open /Applications/Xcode.app/Contents/Info.plist
     
     <div class="article-entry" itemprop="articleBody">
       
-        <blockquote>
-<p>升级到Xcode 6.4 之后，插件失效不能使用，</p>
-</blockquote>
-<p>1、首先要知道xcode的UUID,在终端下输入以下命令，会打开一个info.plist的文件，复制DVTPlugInCompatibilityUUID对应的值。</p>
-<pre><code>open <span class="regexp">/Applications/</span>Xcode.app<span class="regexp">/Contents/I</span>nfo.plist
-</code></pre><p>2、然后替换掉下面命令最后面的“7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90”，在终端上执行下面的命令</p>
-<pre><code><span class="keyword">find</span> ~<span class="regexp">/Library/</span>Application\ Support<span class="regexp">/Developer/</span>Shared<span class="regexp">/Xcode/</span>Plug-ins -name Info.plist -maxdepth <span class="number">3</span> | xargs -I{} defaults <span class="keyword">write</span> {} DVTPlugInCompatibilityUUIDs -array-add <span class="number">7</span>FDF5C7A-<span class="number">131</span>F-<span class="number">4</span>ABB-<span class="number">9</span>EDC-<span class="number">8</span>C5F8F0B8A90
-</code></pre><p>3、最后重启Xcode</p>
+        <p>关于这篇Blog:</p>
+<p>网上也有不少写FMDB用法的，我为什么还在这里重造轮子？有两个目的：<br>1、自己做总结和备忘，在项目里会常用的东西<br>2、</p>
 <blockquote>
-<p>参考链接：</p>
+<p>FMDB介绍：</p>
 </blockquote>
-<p>1、<a href="http://joeshang.github.io/2015/04/10/fix-xcode-upgrade-plugin-invalid" target="_blank" rel="external">http://joeshang.github.io/2015/04/10/fix-xcode-upgrade-plugin-invalid</a><br>2、<a href="http://segmentfault.com/a/1190000002591005" target="_blank" rel="external">http://segmentfault.com/a/1190000002591005</a></p>
-
+<p>下载地址：<a href="https://github.com/ccgus/fmdb" target="_blank" rel="external">https://github.com/ccgus/fmdb</a></p>
+<blockquote>
+<p>如何集成</p>
+</blockquote>
+<p>1、如果你的工程使用了CocoaPods进行管理，直接 <code>pod &#39;FMDB&#39;</code> 或 <code>pod &#39;FMDB&#39;, &#39;~&gt; 2.5&#39;</code><br>2、下载源码，把src目录下的fmdb文件夹拖到工程，导入libsqlite3.dylib库</p>
+<hr>
+<blockquote>
+<p>创建操作 <code>CREAT</code></p>
+</blockquote>
+<ul>
+<li><p>创建数据库</p>
+</li>
+<li><p>创建表</p>
+</li>
+</ul>
+<blockquote>
+<p>插入操作 <code>INSERT</code></p>
+<p>查询操作 <code>SELECT</code></p>
+<p>删除操作 <code>DELETE</code></p>
+</blockquote>
+<ul>
+<li>删除某个表</li>
+<li>删除表中某一个内容</li>
+</ul>
+<blockquote>
+<p>修改操作 <code>UPDATE</code></p>
+</blockquote>
+<hr>
+<p>一些特殊需求：</p>
+<ul>
+<li><p>数据库中如何存 NSArray和NSDictionary </p>
+<p>  转换成NSData存放</p>
+</li>
+<li><p>数据中如何存放UIImage </p>
+<p>  因为图片太大，所以，一般情况下，数据库中是不存放图片的，只存放图片的路径</p>
+</li>
+<li><p>字段追加</p>
+</li>
+</ul>
+<hr>
+<p>Demo 源码下载 </p>
+<p>在写SQL语句的时候大写，变量小写，方便区分。</p>
+<pre><code><span class="hexcolor">#def</span>ine kPath_FMDB [<span class="function"><span class="title">NSHomeDirectory</span><span class="params">()</span></span> stringByAppendingPathComponent:@<span class="string">"Documents/db.sqlite"</span>]
+</code></pre>
       
     </div>
     
@@ -242,18 +289,9 @@ open /Applications/Xcode.app/Contents/Info.plist
     
 <nav id="article-nav">
   
-    <a href="/2015/07/11/FMDB的使用/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption"><</strong>
-      <div class="article-nav-title">
-        
-          FMDB的使用
-        
-      </div>
-    </a>
   
-  
-    <a href="/2015/07/07/国内使用Google搜索/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">国内使用Google搜索</div>
+    <a href="/2015/07/08/升级到Xcode6-4后插件失效解决办法/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">升级到Xcode6.4后插件失效解决办法</div>
       <strong class="article-nav-caption">></strong>
     </a>
   
@@ -282,7 +320,7 @@ open /Applications/Xcode.app/Contents/Info.plist
 
 <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="升级到Xcode6-4后插件失效解决办法" data-title="升级到Xcode6.4后插件失效解决办法" data-url="http://duxinfeng.com/2015/07/08/升级到Xcode6-4后插件失效解决办法/"></div>
+	<div class="ds-thread" data-thread-key="FMDB的使用" data-title="FMDB的使用" data-url="http://duxinfeng.com/2015/07/11/FMDB的使用/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
