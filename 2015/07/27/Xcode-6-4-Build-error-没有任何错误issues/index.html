@@ -3,26 +3,27 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Mantle的使用 | 新风作浪</title>
+  <title>Xcode 6.4 Build error 没有任何错误issues | 新风作浪</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="关于Mantle
+  <meta name="description" content="今天遇到一个很奇怪的问题，我修改了一个变量，然后Xcode一直Build Error ,没有任何提示。尝试Clean、重启XCode、重启Mac都这样，然后在网上找到了一个12年的Blog，尝试了一下解决了。
+因为在其他地方也有使用这个变量，我改动这个变量名称后，忘记修改，然后xcode也没提示。
 
-项目地址：https://github.com/Mantle/Mantle
-Mantle介绍：Mantle 是Github团队开源出来的一项能够简化Cocoa 和 Cocoa Touch 应用的Model层，避免每次重写-(instancetype)initWithAttributes:(NSDictionary *)attributes;实例方法，并且进行类似[[[attri">
+参考地址：http://bhlzlx.blog.51cto.com/3389283/967811">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Mantle的使用">
-<meta property="og:url" content="http://duxinfeng.com/2015/07/26/Mantle的使用/index.html">
+<meta property="og:title" content="Xcode 6.4 Build error 没有任何错误issues">
+<meta property="og:url" content="http://duxinfeng.com/2015/07/27/Xcode-6-4-Build-error-没有任何错误issues/index.html">
 <meta property="og:site_name" content="新风作浪">
-<meta property="og:description" content="关于Mantle
+<meta property="og:description" content="今天遇到一个很奇怪的问题，我修改了一个变量，然后Xcode一直Build Error ,没有任何提示。尝试Clean、重启XCode、重启Mac都这样，然后在网上找到了一个12年的Blog，尝试了一下解决了。
+因为在其他地方也有使用这个变量，我改动这个变量名称后，忘记修改，然后xcode也没提示。
 
-项目地址：https://github.com/Mantle/Mantle
-Mantle介绍：Mantle 是Github团队开源出来的一项能够简化Cocoa 和 Cocoa Touch 应用的Model层，避免每次重写-(instancetype)initWithAttributes:(NSDictionary *)attributes;实例方法，并且进行类似[[[attri">
+参考地址：http://bhlzlx.blog.51cto.com/3389283/967811">
+<meta property="og:image" content="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20150727-1@2x.png?imageView2/2/w/203/h/203&e=1438072456&token=596g_8b9Ka6kLibWwB39cl9XGlFGK1fzc-RGOsy-:RF9_jJdVnNhKSdEjW7axTBGZ1r0">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Mantle的使用">
-<meta name="twitter:description" content="关于Mantle
+<meta name="twitter:title" content="Xcode 6.4 Build error 没有任何错误issues">
+<meta name="twitter:description" content="今天遇到一个很奇怪的问题，我修改了一个变量，然后Xcode一直Build Error ,没有任何提示。尝试Clean、重启XCode、重启Mac都这样，然后在网上找到了一个12年的Blog，尝试了一下解决了。
+因为在其他地方也有使用这个变量，我改动这个变量名称后，忘记修改，然后xcode也没提示。
 
-项目地址：https://github.com/Mantle/Mantle
-Mantle介绍：Mantle 是Github团队开源出来的一项能够简化Cocoa 和 Cocoa Touch 应用的Model层，避免每次重写-(instancetype)initWithAttributes:(NSDictionary *)attributes;实例方法，并且进行类似[[[attri">
+参考地址：http://bhlzlx.blog.51cto.com/3389283/967811">
   
   
     <link rel="icon" href="/favicon.png">
@@ -177,11 +178,11 @@ Mantle介绍：Mantle 是Github团队开源出来的一项能够简化Cocoa 和 
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap"><article id="post-Mantle的使用" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-Xcode-6-4-Build-error-没有任何错误issues" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2015/07/26/Mantle的使用/" class="article-date">
-  	<time datetime="2015-07-25T16:02:12.000Z" itemprop="datePublished">2015-07-26</time>
+      <a href="/2015/07/27/Xcode-6-4-Build-error-没有任何错误issues/" class="article-date">
+  	<time datetime="2015-07-27T08:21:51.000Z" itemprop="datePublished">2015-07-27</time>
 </a>
     </div>
   
@@ -194,7 +195,7 @@ Mantle介绍：Mantle 是Github团队开源出来的一项能够简化Cocoa 和 
         
   
     <h1 class="article-title" itemprop="name">
-      Mantle的使用
+      Xcode 6.4 Build error 没有任何错误issues
     </h1>
   
 
@@ -214,15 +215,10 @@ Mantle介绍：Mantle 是Github团队开源出来的一项能够简化Cocoa 和 
     
     <div class="article-entry" itemprop="articleBody">
       
-        <blockquote>
-<p>关于Mantle</p>
-</blockquote>
-<p>项目地址：<a href="https://github.com/Mantle/Mantle" target="_blank" rel="external">https://github.com/Mantle/Mantle</a></p>
-<p>Mantle介绍：<br>Mantle 是Github团队开源出来的一项能够简化Cocoa 和 Cocoa Touch 应用的Model层，避免每次重写<code>-(instancetype)initWithAttributes:(NSDictionary *)attributes;</code>实例方法，并且进行类似<code>[[[attributes objectForKey:@&quot;key&quot;] valueForKeyPath:@&quot;key&quot;] integerValue]</code> 的取值操作。</p>
-<p>处理BOOL型</p>
-<p>mantle  处理bool 类型<br><a href="http://www.objc.at/mantle" target="_blank" rel="external">http://www.objc.at/mantle</a><br><a href="https://github.com/Mantle/Mantle/issues/145" target="_blank" rel="external">https://github.com/Mantle/Mantle/issues/145</a><br><a href="http://stackoverflow.com/questions/24670702/mantle-convert-0-and-1-to-bool-automatically" target="_blank" rel="external">http://stackoverflow.com/questions/24670702/mantle-convert-0-and-1-to-bool-automatically</a></p>
-<hr>
-<p>没写完，希望有时间好好梳理一下，然后整理出来</p>
+        <p>今天遇到一个很奇怪的问题，我修改了一个变量，然后Xcode一直Build Error ,没有任何提示。尝试Clean、重启XCode、重启Mac都这样，然后在网上找到了一个12年的Blog，尝试了一下解决了。</p>
+<p>因为在其他地方也有使用这个变量，我改动这个变量名称后，忘记修改，然后xcode也没提示。</p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20150727-1@2x.png?imageView2/2/w/203/h/203&amp;e=1438072456&amp;token=596g_8b9Ka6kLibWwB39cl9XGlFGK1fzc-RGOsy-:RF9_jJdVnNhKSdEjW7axTBGZ1r0" alt=""></p>
+<p>参考地址：<a href="http://bhlzlx.blog.51cto.com/3389283/967811" target="_blank" rel="external">http://bhlzlx.blog.51cto.com/3389283/967811</a></p>
 
       
     </div>
@@ -232,18 +228,9 @@ Mantle介绍：Mantle 是Github团队开源出来的一项能够简化Cocoa 和 
     
 <nav id="article-nav">
   
-    <a href="/2015/07/27/Xcode-6-4-Build-error-没有任何错误issues/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption"><</strong>
-      <div class="article-nav-title">
-        
-          Xcode 6.4 Build error 没有任何错误issues
-        
-      </div>
-    </a>
   
-  
-    <a href="/2015/07/14/iOS开源App整理/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">iOS开源App整理</div>
+    <a href="/2015/07/26/Mantle的使用/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Mantle的使用</div>
       <strong class="article-nav-caption">></strong>
     </a>
   
@@ -272,7 +259,7 @@ Mantle介绍：Mantle 是Github团队开源出来的一项能够简化Cocoa 和 
 
 <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="Mantle的使用" data-title="Mantle的使用" data-url="http://duxinfeng.com/2015/07/26/Mantle的使用/"></div>
+	<div class="ds-thread" data-thread-key="Xcode-6-4-Build-error-没有任何错误issues" data-title="Xcode 6.4 Build error 没有任何错误issues" data-url="http://duxinfeng.com/2015/07/27/Xcode-6-4-Build-error-没有任何错误issues/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
