@@ -562,42 +562,17 @@
 </li>
 </ul>
 <ul>
-<li><p>初始化数据库</p>
-<ul>
-<li><p>(BOOL) initClientDB<br>{<br>__block BOOL result = NO;</p>
-<p>FMDatabaseQueue *queue = [FMDatabaseQueue databaseQueueWithPath:kPath_FMDB];</p>
-<p>[queue inDatabase:^(FMDatabase *db) {</p>
-<p>  NSString *sql = [NSString stringWithFormat:@”CREATE TABLE IF NOT EXISTS %@ (content TEXT,qid INTEGER,commentcount INTEGER,likecount INTEGER,imgarray BLOB”,kTableName];<br>  result = [db executeUpdate:sql];</p>
-<p>}];</p>
-<p>return result;</p>
-<p>}</p>
-</li>
+<li>初始化数据库</li>
 </ul>
-</li>
-</ul>
+<figure class="highlight nimrod"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">+ (<span class="type">BOOL</span>) initClientDB</span><br><span class="line">&#123;</span><br><span class="line">    __block <span class="type">BOOL</span> <span class="literal">result</span> = <span class="type">NO</span>;</span><br><span class="line">    </span><br><span class="line">   <span class="type">FMDatabaseQueue</span> *queue = [<span class="type">FMDatabaseQueue</span> databaseQueueWithPath:kPath_FMDB];</span><br><span class="line">    </span><br><span class="line">   [queue inDatabase:^(<span class="type">FMDatabase</span> *db) &#123;</span><br><span class="line">        </span><br><span class="line">   <span class="type">NSString</span> *sql = [<span class="type">NSString</span> stringWithFormat:@<span class="string">"CREATE TABLE IF NOT EXISTS %@ (content TEXT,qid INTEGER,commentcount INTEGER,likecount INTEGER,imgarray BLOB"</span>,kTableName];</span><br><span class="line">        <span class="literal">result</span> = [db executeUpdate:sql];</span><br><span class="line"></span><br><span class="line">   &#125;];</span><br><span class="line">    </span><br><span class="line">   <span class="keyword">return</span> <span class="literal">result</span>;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>插入操作 <code>INSERT</code></p>
 <p>查询操作 <code>SELECT</code></p>
 </blockquote>
 <ul>
-<li><p>获取表中某一元素的个数</p>
-<pre><code> + (NSInteger)getAllCountFromDB
-{     __block NSInteger totalCount = <span class="number">0</span>;
-
-          FMDatabaseQueue *queue = [FMDatabaseQueue <span class="string">databaseQueueWithPath:</span>kPath_FMDB];
-
-     [queue <span class="string">inDatabase:</span>^(FMDatabase *db) {
-
-    NSString *sql = [NSString <span class="string">stringWithFormat:</span>@<span class="string">"SELECT COUNT(qid) FROM %@"</span>,kTableName];
-
-     totalCount = [db <span class="string">intForQuery:</span>sql];
-
-}];
-
- <span class="keyword">return</span> totalCount;
- }    
-</code></pre></li>
+<li>获取表中某一元素的个数</li>
 </ul>
+<figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"> + (NSInteger)getAllCountFromDB</span><br><span class="line"> &#123;    </span><br><span class="line"> 	 __block NSInteger totalCount = <span class="number">0</span>;</span><br><span class="line"> 	   </span><br><span class="line">    FMDatabaseQueue *queue = [FMDatabaseQueue <span class="string">databaseQueueWithPath:</span>kPath_FMDB];</span><br><span class="line">    </span><br><span class="line">    [queue <span class="string">inDatabase:</span>^(FMDatabase *db) &#123;</span><br><span class="line">        </span><br><span class="line">    NSString *sql = [NSString <span class="string">stringWithFormat:</span>@<span class="string">"SELECT COUNT(qid) FROM %@"</span>,kTableName];</span><br><span class="line">        </span><br><span class="line">       totalCount = [db <span class="string">intForQuery:</span>sql];</span><br><span class="line">        </span><br><span class="line">      &#125;];</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> totalCount;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>删除操作 <code>DELETE</code></p>
 </blockquote>
@@ -608,25 +583,8 @@
 <blockquote>
 <p>修改操作 <code>UPDATE</code></p>
 </blockquote>
-<pre><code> + (<span class="type">BOOL</span>)unlikeFromDB:(<span class="type">NSInteger</span>)tid
-{
-__block <span class="type">BOOL</span> <span class="literal">result</span> = <span class="type">NO</span>;
-<span class="type">NSString</span> *sql = [<span class="type">NSString</span> stringWithFormat:@<span class="string">"DELETE FROM %@ WHERE tid = %zd"</span>,kTableName,tid];
-
-<span class="type">FMDatabaseQueue</span> *queue = [<span class="type">FMDatabaseQueue</span> databaseQueueWithPath:kPath_FMDB];
-[queue inDatabase:^(<span class="type">FMDatabase</span> *db) {
-
-    <span class="literal">result</span> = [db executeUpdate:sql];
-    <span class="keyword">if</span> (<span class="literal">result</span>) {
-        <span class="type">NSLog</span>(@<span class="string">"取消收藏成功"</span>);
-    } <span class="keyword">else</span> {
-        <span class="type">NSLog</span>(@<span class="string">"取消收藏失败"</span>);
-    }
-}];
-
-<span class="keyword">return</span> <span class="literal">result</span>;
- }
-</code></pre><hr>
+<figure class="highlight nimrod"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">+ (<span class="type">BOOL</span>)unlikeFromDB:(<span class="type">NSInteger</span>)tid</span><br><span class="line">&#123;</span><br><span class="line">    __block <span class="type">BOOL</span> <span class="literal">result</span> = <span class="type">NO</span>;</span><br><span class="line">    <span class="type">NSString</span> *sql = [<span class="type">NSString</span> stringWithFormat:@<span class="string">"DELETE FROM %@ WHERE tid = %zd"</span>,kTableName,tid];</span><br><span class="line">    </span><br><span class="line">   <span class="type">FMDatabaseQueue</span> *queue = [<span class="type">FMDatabaseQueue</span> databaseQueueWithPath:kPath_FMDB];</span><br><span class="line">    [queue inDatabase:^(<span class="type">FMDatabase</span> *db) &#123;</span><br><span class="line">        </span><br><span class="line">   <span class="literal">result</span> = [db executeUpdate:sql];</span><br><span class="line">        <span class="keyword">if</span> (<span class="literal">result</span>) &#123;</span><br><span class="line">            <span class="type">NSLog</span>(@<span class="string">"取消收藏成功"</span>);</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="type">NSLog</span>(@<span class="string">"取消收藏失败"</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;];</span><br><span class="line">    </span><br><span class="line">   <span class="keyword">return</span> <span class="literal">result</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<hr>
 <p>一些特殊需求：</p>
 <ul>
 <li><p>数据库中如何存 NSArray和NSDictionary </p>
