@@ -105,7 +105,7 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/Blog/" style="font-size: 10px;">Blog</a><a href="/tags/Crash/" style="font-size: 10px;">Crash</a><a href="/tags/FMDB/" style="font-size: 10px;">FMDB</a><a href="/tags/GitHub/" style="font-size: 10px;">GitHub</a><a href="/tags/Google/" style="font-size: 15px;">Google</a><a href="/tags/Html/" style="font-size: 10px;">Html</a><a href="/tags/Mantle/" style="font-size: 10px;">Mantle</a><a href="/tags/MarkDown/" style="font-size: 10px;">MarkDown</a><a href="/tags/Repo/" style="font-size: 10px;">Repo</a><a href="/tags/UIWebView/" style="font-size: 10px;">UIWebView</a><a href="/tags/Xcode/" style="font-size: 20px;">Xcode</a><a href="/tags/Xcode6/" style="font-size: 10px;">Xcode6</a><a href="/tags/iOS/" style="font-size: 20px;">iOS</a><a href="/tags/mac/" style="font-size: 10px;">mac</a><a href="/tags/simulator/" style="font-size: 10px;">simulator</a><a href="/tags/工具/" style="font-size: 10px;">工具</a><a href="/tags/开源/" style="font-size: 10px;">开源</a><a href="/tags/待办事项/" style="font-size: 10px;">待办事项</a><a href="/tags/总结/" style="font-size: 10px;">总结</a><a href="/tags/插件/" style="font-size: 10px;">插件</a><a href="/tags/生活/" style="font-size: 20px;">生活</a><a href="/tags/苹果客服/" style="font-size: 10px;">苹果客服</a><a href="/tags/计划/" style="font-size: 10px;">计划</a><a href="/tags/读书/" style="font-size: 10px;">读书</a>
+						<a href="/tags/Blog/" style="font-size: 10px;">Blog</a><a href="/tags/Crash/" style="font-size: 10px;">Crash</a><a href="/tags/FMDB/" style="font-size: 10px;">FMDB</a><a href="/tags/GitHub/" style="font-size: 10px;">GitHub</a><a href="/tags/Google/" style="font-size: 15px;">Google</a><a href="/tags/Html/" style="font-size: 10px;">Html</a><a href="/tags/Mantle/" style="font-size: 10px;">Mantle</a><a href="/tags/MarkDown/" style="font-size: 10px;">MarkDown</a><a href="/tags/Repo/" style="font-size: 10px;">Repo</a><a href="/tags/UIWebView/" style="font-size: 10px;">UIWebView</a><a href="/tags/Xcode/" style="font-size: 20px;">Xcode</a><a href="/tags/Xcode6/" style="font-size: 10px;">Xcode6</a><a href="/tags/iOS/" style="font-size: 20px;">iOS</a><a href="/tags/mac/" style="font-size: 10px;">mac</a><a href="/tags/simulator/" style="font-size: 10px;">simulator</a><a href="/tags/城市/" style="font-size: 10px;">城市</a><a href="/tags/工具/" style="font-size: 10px;">工具</a><a href="/tags/开源/" style="font-size: 10px;">开源</a><a href="/tags/待办事项/" style="font-size: 10px;">待办事项</a><a href="/tags/总结/" style="font-size: 10px;">总结</a><a href="/tags/接口/" style="font-size: 10px;">接口</a><a href="/tags/插件/" style="font-size: 10px;">插件</a><a href="/tags/生活/" style="font-size: 20px;">生活</a><a href="/tags/苹果客服/" style="font-size: 10px;">苹果客服</a><a href="/tags/计划/" style="font-size: 10px;">计划</a><a href="/tags/读书/" style="font-size: 10px;">读书</a>
 					</div>
 				</section>
 				
@@ -170,6 +170,124 @@
 	</div>
 </nav>
       <div class="body-wrap">
+  
+    <article id="post-根据ip获取省份-城市的接口" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/10/12/根据ip获取省份-城市的接口/" class="article-date">
+  	<time datetime="2015-10-12T06:47:44.000Z" itemprop="datePublished">2015-10-12</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/10/12/根据ip获取省份-城市的接口/">根据ip获取省份/城市的接口</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="淘宝接口">淘宝接口</h3><p><a href="http://ip.taobao.com/service/getIpInfo.php?ip=119.57.173.141" target="_blank" rel="external">http://ip.taobao.com/service/getIpInfo.php?ip=119.57.173.141</a></p>
+<h5 id="返回结果">返回结果</h5><p><code>{
+    &quot;code&quot;: 0,
+    &quot;data&quot;: {
+        &quot;country&quot;: &quot;中国&quot;,
+        &quot;country_id&quot;: &quot;CN&quot;,
+        &quot;area&quot;: &quot;华北&quot;,
+        &quot;area_id&quot;: &quot;100000&quot;,
+        &quot;region&quot;: &quot;北京市&quot;,
+        &quot;region_id&quot;: &quot;110000&quot;,
+        &quot;city&quot;: &quot;北京市&quot;,
+        &quot;city_id&quot;: &quot;110100&quot;,
+        &quot;county&quot;: &quot;&quot;,
+        &quot;county_id&quot;: &quot;-1&quot;,
+        &quot;isp&quot;: &quot;日升天信科技&quot;,
+        &quot;isp_id&quot;: &quot;1000157&quot;,
+        &quot;ip&quot;: &quot;119.57.173.141&quot;
+    }
+}</code></p>
+<h3 id="新浪接口">新浪接口</h3><p><a href="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json&amp;ip=119.57.173.141" target="_blank" rel="external">http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json&amp;ip=119.57.173.141</a></p>
+<h5 id="返回结果-1">返回结果</h5><p><code>{
+    &quot;ret&quot;: 1,
+    &quot;start&quot;: -1,
+    &quot;end&quot;: -1,
+    &quot;country&quot;: &quot;中国&quot;,
+    &quot;province&quot;: &quot;北京&quot;,
+    &quot;city&quot;: &quot;北京&quot;,
+    &quot;district&quot;: &quot;&quot;,
+    &quot;isp&quot;: &quot;&quot;,
+    &quot;type&quot;: &quot;&quot;,
+    &quot;desc&quot;: &quot;&quot;
+}</code></p>
+<h3 id="百度接口">百度接口</h3><p><a href="http://api.map.baidu.com/location/ip" target="_blank" rel="external">http://api.map.baidu.com/location/ip</a></p>
+<p>需要申请key才能用<a href="http://developer.baidu.com/map/index.php?title=webapi/ip-api" target="_blank" rel="external">http://developer.baidu.com/map/index.php?title=webapi/ip-api</a></p>
+<h5 id="返回结果-2">返回结果</h5><p><code>{  
+        address: &quot;CN|北京|北京|None|CHINANET|1|None&quot;,   #地址  
+        content:       #详细内容  
+        {  
+        address: &quot;北京市&quot;,   #简要地址  
+        address_detail:      #详细地址信息  
+        {  
+        city: &quot;北京市&quot;,        #城市  
+        city_code: 131,       #百度城市代码  
+        district: &quot;&quot;,           #区县  
+        province: &quot;北京市&quot;,   #省份  
+        street: &quot;&quot;,            #街道  
+        street_number: &quot;&quot;    #门址  
+        },  
+        point:               #百度经纬度坐标值  
+        {  
+        x: &quot;116.39564504&quot;,  
+        y: &quot;39.92998578&quot;  
+        }  
+        },  
+        status: 0     #返回状态码  
+    }</code></p>
+<h3 id="腾讯接口">腾讯接口</h3><p>如果网页端查看一下 直接 <a href="http://ip.qq.com" target="_blank" rel="external">http://ip.qq.com</a></p>
+<p><code>欢迎您，尊敬的用户
+您当前的IP为：119.57.173.141
+该IP所在地为：中国北京市 联通</code></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/城市/">城市</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/接口/">接口</a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/default/">default</a>
+	</div>
+
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
   
     <article id="post-科学上网" class="article article-type-post" itemscope itemprop="blogPost">
   
@@ -890,113 +1008,6 @@
     <div class="article-info article-info-index">
       
       
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/iOS/">iOS</a>
-	</div>
-
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-FMDB的使用" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/07/11/FMDB的使用/" class="article-date">
-  	<time datetime="2015-07-11T03:54:19.000Z" itemprop="datePublished">2015-07-11</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/07/11/FMDB的使用/">FMDB的使用</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>关于这篇Blog:</p>
-<p>网上也有不少写FMDB用法的，我为什么还在这里重造轮子？有两个目的：<br>1、自己做总结和备忘，在项目里会常用的东西<br>2、</p>
-<h3 id="FMDB介绍：">FMDB介绍：</h3><p>下载地址：<a href="https://github.com/ccgus/fmdb" target="_blank" rel="external">https://github.com/ccgus/fmdb</a></p>
-<h3 id="如何集成">如何集成</h3><p>1、如果你的工程使用了CocoaPods进行管理，直接 <code>pod &#39;FMDB&#39;</code> 或 <code>pod &#39;FMDB&#39;, &#39;~&gt; 2.5&#39;</code><br>2、下载源码，把src目录下的fmdb文件夹拖到工程，导入libsqlite3.dylib库</p>
-<hr>
-<p>我们先用一个宏来定义数据库的路径，每次通过这个宏来访问数据库路径</p>
-<pre><code><span class="hexcolor">#def</span>ine kPath_FMDB [<span class="function"><span class="title">NSHomeDirectory</span><span class="params">()</span></span> stringByAppendingPathComponent:@<span class="string">"Documents/db.sqlite"</span>]
-</code></pre><h3 id="创建操作_CREAT">创建操作 <code>CREAT</code></h3><ul>
-<li><p>创建数据库</p>
-</li>
-<li><p>创建表</p>
-</li>
-</ul>
-<ul>
-<li>初始化数据库</li>
-</ul>
-<figure class="highlight nimrod"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">+ (<span class="type">BOOL</span>) initClientDB</span><br><span class="line">&#123;</span><br><span class="line">    __block <span class="type">BOOL</span> <span class="literal">result</span> = <span class="type">NO</span>;</span><br><span class="line">    </span><br><span class="line">   <span class="type">FMDatabaseQueue</span> *queue = [<span class="type">FMDatabaseQueue</span> databaseQueueWithPath:kPath_FMDB];</span><br><span class="line">    </span><br><span class="line">   [queue inDatabase:^(<span class="type">FMDatabase</span> *db) &#123;</span><br><span class="line">        </span><br><span class="line">   <span class="type">NSString</span> *sql = [<span class="type">NSString</span> stringWithFormat:@<span class="string">"CREATE TABLE IF NOT EXISTS %@ (content TEXT,qid INTEGER,commentcount INTEGER,likecount INTEGER,imgarray BLOB"</span>,kTableName];</span><br><span class="line">        <span class="literal">result</span> = [db executeUpdate:sql];</span><br><span class="line"></span><br><span class="line">   &#125;];</span><br><span class="line">    </span><br><span class="line">   <span class="keyword">return</span> <span class="literal">result</span>;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="插入操作_INSERT">插入操作 <code>INSERT</code></h3><h3 id="查询操作_SELECT">查询操作 <code>SELECT</code></h3><ul>
-<li>获取表中某一元素的个数</li>
-</ul>
-<figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"> + (NSInteger)getAllCountFromDB</span><br><span class="line"> &#123;    </span><br><span class="line"> 	 __block NSInteger totalCount = <span class="number">0</span>;</span><br><span class="line"> 	   </span><br><span class="line">    FMDatabaseQueue *queue = [FMDatabaseQueue <span class="string">databaseQueueWithPath:</span>kPath_FMDB];</span><br><span class="line">    </span><br><span class="line">    [queue <span class="string">inDatabase:</span>^(FMDatabase *db) &#123;</span><br><span class="line">        </span><br><span class="line">    NSString *sql = [NSString <span class="string">stringWithFormat:</span>@<span class="string">"SELECT COUNT(qid) FROM %@"</span>,kTableName];</span><br><span class="line">        </span><br><span class="line">       totalCount = [db <span class="string">intForQuery:</span>sql];</span><br><span class="line">        </span><br><span class="line">      &#125;];</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> totalCount;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="删除操作_DELETE">删除操作 <code>DELETE</code></h3><ul>
-<li>删除某个表</li>
-<li>删除表中某一个内容</li>
-</ul>
-<h3 id="修改操作_UPDATE">修改操作 <code>UPDATE</code></h3><figure class="highlight nimrod"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">+ (<span class="type">BOOL</span>)unlikeFromDB:(<span class="type">NSInteger</span>)tid</span><br><span class="line">&#123;</span><br><span class="line">    __block <span class="type">BOOL</span> <span class="literal">result</span> = <span class="type">NO</span>;</span><br><span class="line">    <span class="type">NSString</span> *sql = [<span class="type">NSString</span> stringWithFormat:@<span class="string">"DELETE FROM %@ WHERE tid = %zd"</span>,kTableName,tid];</span><br><span class="line">    </span><br><span class="line">   <span class="type">FMDatabaseQueue</span> *queue = [<span class="type">FMDatabaseQueue</span> databaseQueueWithPath:kPath_FMDB];</span><br><span class="line">    [queue inDatabase:^(<span class="type">FMDatabase</span> *db) &#123;</span><br><span class="line">        </span><br><span class="line">   <span class="literal">result</span> = [db executeUpdate:sql];</span><br><span class="line">        <span class="keyword">if</span> (<span class="literal">result</span>) &#123;</span><br><span class="line">            <span class="type">NSLog</span>(@<span class="string">"取消收藏成功"</span>);</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="type">NSLog</span>(@<span class="string">"取消收藏失败"</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;];</span><br><span class="line">    </span><br><span class="line">   <span class="keyword">return</span> <span class="literal">result</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<hr>
-<h3 id="一些特殊需求：">一些特殊需求：</h3><ul>
-<li><p>数据库中如何存 NSArray和NSDictionary </p>
-<p>  转换成NSData存放</p>
-</li>
-<li><p>数据中如何存放UIImage </p>
-<p>  因为图片太大，所以，一般情况下，数据库中是不存放图片的，只存放图片的路径</p>
-</li>
-<li><p>字段追加(追加一列)</p>
-<p>  <a href="http://www.w3school.com.cn/sql/sql_alter.asp" target="_blank" rel="external">http://www.w3school.com.cn/sql/sql_alter.asp</a></p>
-</li>
-<li><p>删除一个字段(删除一列)</p>
-<p>  <a href="http://www.w3school.com.cn/sql/sql_alter.asp" target="_blank" rel="external">http://www.w3school.com.cn/sql/sql_alter.asp</a></p>
-</li>
-</ul>
-<hr>
-<p>*在写SQL语句的时候,SQL语句大写，变量小写，方便区分。</p>
-<hr>
-<ul>
-<li>如果遇到一些自己不会写的SQL语句，可以去<a href="http://www.w3school.com.cn/sql/index.asp" target="_blank" rel="external">http://www.w3school.com.cn/sql/index.asp</a> 学习。</li>
-</ul>
-<hr>
-<p>(待整理和完善)</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/FMDB/">FMDB</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/总结/">总结</a></li></ul>
-	</div>
-
       
 	<div class="article-category tagcloud">
 	<a class="article-category-link" href="/categories/iOS/">iOS</a>
