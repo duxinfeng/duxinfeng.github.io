@@ -171,6 +171,131 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-Xcode-6删除模拟器上所有app" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/05/06/Xcode-6删除模拟器上所有app/" class="article-date">
+  	<time datetime="2015-05-06T06:26:41.000Z" itemprop="datePublished">2015-05-06</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/05/06/Xcode-6删除模拟器上所有app/">Xcode 6删除模拟器上所有app</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="在终端上执行如下命令">在终端上执行如下命令</h3><pre><code>xcrun simctl list | grep -oh '<span class="special">[</span>A-Z0-9<span class="special">]</span><span class="command">\{</span>8<span class="command">\}</span>-<span class="special">[</span>A-Z0-9<span class="special">]</span><span class="command">\{</span>4<span class="command">\}</span>-<span class="special">[</span>A-Z0-9<span class="special">]</span><span class="command">\{</span>4<span class="command">\}</span>-<span class="special">[</span>A-Z0-9<span class="special">]</span><span class="command">\{</span>4<span class="command">\}</span>-<span class="special">[</span>A-Z0-9<span class="special">]</span><span class="command">\{</span>12<span class="command">\}</span>' | xargs -I<span class="special">{</span><span class="special">}</span> xcrun simctl erase <span class="special">{</span><span class="special">}</span>
+</code></pre><p>这样所有模拟器里的数据被会被还原出事状态，又可以清理很多空间！</p>
+<p>参考链接：<a href="http://stackoverflow.com/questions/692064/cleaning-up-the-iphone-simulator" target="_blank" rel="external">http://stackoverflow.com/questions/692064/cleaning-up-the-iphone-simulator</a></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Xcode6/">Xcode6</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/simulator/">simulator</a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/iOS/">iOS</a>
+	</div>
+
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
+    <article id="post-UIWebView加载Html" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/05/03/UIWebView加载Html/" class="article-date">
+  	<time datetime="2015-05-03T12:52:01.000Z" itemprop="datePublished">2015-05-03</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/05/03/UIWebView加载Html/">UIWebView加载Html</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>UIWebView加载html分两种方式</p>
+<h2 id="1、UIWebView加载本地html">1、UIWebView加载本地html</h2><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">NSString *htmlFile = [[NSBundle mainBundle] <span class="string">pathForResource:</span>@<span class="string">"xxx"</span> <span class="string">ofType:</span>@<span class="string">"html"</span>];</span><br><span class="line">NSString* htmlString = [NSString <span class="string">stringWithContentsOfFile:</span>htmlFile <span class="string">encoding:</span>NSUTF8StringEncoding <span class="string">error:</span>nil];</span><br><span class="line">[webView <span class="string">loadHTMLString:</span>htmlString <span class="string">baseURL:</span>nil];</span><br></pre></td></tr></table></figure>
+<p>本地加载可以修改html显示的文本大小和字体</p>
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Html/">Html</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/UIWebView/">UIWebView</a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/iOS/">iOS</a>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a  href="/2015/05/03/UIWebView加载Html/#more">more >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
     <article id="post-基于Github和Hexo搭建Blog" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -356,65 +481,6 @@
         <p class="article-more-link">
           <a  href="/2015/05/01/关于这个Blog/#more">more >></a>
         </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/05/01/hello-world/" class="article-date">
-  	<time datetime="2015-05-01T09:16:14.000Z" itemprop="datePublished">2015-05-01</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/05/01/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-      
-
       
       <div class="clearfix"></div>
     </div>
