@@ -305,65 +305,6 @@
 
 
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/10/17/hello-world/" class="article-date">
-  	<time datetime="2015-10-17T12:41:14.000Z" itemprop="datePublished">2015-10-17</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/10/17/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
     <article id="post-根据ip获取省份-城市的接口" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -965,6 +906,79 @@
       
 	<div class="article-category tagcloud">
 	<a class="article-category-link" href="/categories/工具/">工具</a>
+	</div>
+
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
+    <article id="post-Mantle的使用" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/07/26/Mantle的使用/" class="article-date">
+  	<time datetime="2015-07-25T16:02:12.000Z" itemprop="datePublished">2015-07-26</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/07/26/Mantle的使用/">Mantle的使用</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>关于Mantle</p>
+</blockquote>
+<p>项目地址：<a href="https://github.com/Mantle/Mantle" target="_blank" rel="external">https://github.com/Mantle/Mantle</a></p>
+<p>Mantle介绍：<br>Mantle 是Github团队开源出来的一项能够简化Cocoa 和 Cocoa Touch 应用的Model层，避免每次重写<code>-(instancetype)initWithAttributes:(NSDictionary *)attributes;</code>实例方法，并且进行类似<code>[[[attributes objectForKey:@&quot;key&quot;] valueForKeyPath:@&quot;key&quot;] integerValue]</code> 的取值操作。</p>
+<h3 id="项目中服务器端返回的内容，我需要进行自己的一些处理数据，以及处理数据遇到的问题：">项目中服务器端返回的内容，我需要进行自己的一些处理数据，以及处理数据遇到的问题：</h3><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">            <span class="string">"count"</span>: <span class="number">63778</span>,</span><br><span class="line">            <span class="string">"type"</span>: <span class="string">"0"</span>,</span><br><span class="line">            <span class="string">"yuwen_edition"</span>: <span class="string">"人教版|北师大版|沪教版|浙教版|苏教新版|S版"</span>,</span><br><span class="line">            <span class="string">"title"</span>: <span class="string">"左手边的织女，你在哪里？"</span>,</span><br><span class="line">            <span class="string">"url"</span>: <span class="string">""</span>,</span><br><span class="line">            <span class="string">"qid"</span>: <span class="string">"13660|13652|13663|13676|13668"</span>,</span><br><span class="line">            <span class="string">"cover"</span>: <span class="string">"http://file.haojiazhang123.com/static/server/flow/201508/905fe1b2-4716-11e5-8074-00163e000ba7.jpg"</span>,</span><br><span class="line">            <span class="string">"grade"</span>: <span class="string">"学龄前|一年级|二年级|三年级|四年级|五年级|六年级|初中"</span>,</span><br><span class="line">            <span class="string">"label"</span>: <span class="string">"科学小达人"</span>,</span><br><span class="line">            <span class="string">"subtype"</span>: <span class="literal">null</span>,</span><br><span class="line">            <span class="string">"label_color"</span>: <span class="string">"blue"</span>,</span><br><span class="line">            <span class="string">"location"</span>: <span class="string">"全国通用"</span>,</span><br><span class="line">            <span class="string">"push_date"</span>: <span class="string">"2015-08-21 00:00"</span>,</span><br><span class="line">            <span class="string">"time"</span>: <span class="string">"2015-08-20T16:36:34"</span>,</span><br><span class="line">            <span class="string">"shuxue_edition"</span>: <span class="string">"人教版|北师大版|沪教版|浙教版|苏教新版|S版"</span>,</span><br><span class="line">            <span class="string">"share_count"</span>: <span class="number">154</span>,</span><br><span class="line">            <span class="string">"has_coin"</span>: <span class="string">"0"</span>,</span><br><span class="line">            <span class="string">"id"</span>: <span class="number">516</span></span><br><span class="line">        &#125;,</span><br></pre></td></tr></table></figure>
+<h3 id="BOOL型数据处理">BOOL型数据处理</h3><figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">+ <span class="list">(<span class="keyword">NSValueTransformer</span> <span class="variable">*)has_coinJSONTransformer</span><br><span class="line">&#123;</span><br><span class="line">   NSDictionary *</span>dictionary = @&#123;@<span class="string">"0"</span>:@<span class="list">(<span class="keyword">NO</span>)</span>,</span><br><span class="line">                                @<span class="string">"1"</span>:@<span class="list">(<span class="keyword">YES</span>)</span>&#125;<span class="comment">;</span></span><br><span class="line">   </span><br><span class="line">   return [NSValueTransformer mtl_valueMappingTransformerWithDictionary<span class="keyword">:dictionary</span>]<span class="comment">;</span></span><br><span class="line">   </span><br><span class="line">&#125;</span></span><br></pre></td></tr></table></figure>
+<h3 id="处理枚举类型数据">处理枚举类型数据</h3><figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">+ <span class="list">(<span class="keyword">NSValueTransformer</span> <span class="variable">*)typeJSONTransformer&#123;</span><br><span class="line">    </span><br><span class="line">    NSDictionary *</span>dictionary = @&#123;@<span class="string">"0"</span>:@<span class="list">(<span class="keyword">ContentSubjectType</span>)</span>,</span><br><span class="line">                                 @<span class="string">"1"</span>:@<span class="list">(<span class="keyword">ContentLinkType</span>)</span>&#125;<span class="comment">;</span></span><br><span class="line">  </span><br><span class="line">    return [NSValueTransformer mtl_valueMappingTransformerWithDictionary<span class="keyword">:dictionary</span>]<span class="comment">;</span></span><br><span class="line">&#125;</span></span><br></pre></td></tr></table></figure>
+<h3 id="转成URL对象">转成URL对象</h3><figure class="highlight objectivec"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">+ (<span class="built_in">NSValueTransformer</span> *)urlJSONTransformer&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> [<span class="built_in">NSValueTransformer</span> valueTransformerForName:MTLURLValueTransformerName];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h5 id="【需要注意】">【需要注意】</h5><p>如果后台返回的字符串中带有<code>中文</code>,需要让后台做一下转码，不然程序会崩。<br>以为这是Mantle的一个bug，官方给出回答让转码处理，还是转码处理吧。或者就不要转成URL对象了，还是有String类型进行接收妥当。<br><a href="https://github.com/Mantle/Mantle/issues/603" target="_blank" rel="external">https://github.com/Mantle/Mantle/issues/603</a></p>
+<h3 id="空对象处理">空对象处理</h3><p>遇到这样一个空对象处理问题，描述和处理方法已在这个issue记录 <a href="https://github.com/Mantle/Mantle/issues/595" target="_blank" rel="external">https://github.com/Mantle/Mantle/issues/595</a></p>
+<p>参考内容：<a href="http://bawn.github.io/ios/2014/12/11/Mantle.html" target="_blank" rel="external">http://bawn.github.io/ios/2014/12/11/Mantle.html</a></p>
+<h3 id="处理BOOL类型">处理BOOL类型</h3><p><a href="http://www.objc.at/mantle" target="_blank" rel="external">http://www.objc.at/mantle</a><br><a href="https://github.com/Mantle/Mantle/issues/145" target="_blank" rel="external">https://github.com/Mantle/Mantle/issues/145</a><br><a href="http://stackoverflow.com/questions/24670702/mantle-convert-0-and-1-to-bool-automatically" target="_blank" rel="external">http://stackoverflow.com/questions/24670702/mantle-convert-0-and-1-to-bool-automatically</a></p>
+<hr>
+<p>没写完，希望有时间好好梳理一下，然后整理出来</p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Mantle/">Mantle</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/iOS/">iOS</a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/iOS/">iOS</a>
 	</div>
 
 
