@@ -258,7 +258,7 @@ for (NSDictionary *attributes in responsearray) {
 <p>搞了半天，就在我想Mantle的Github repo上添加issue的时候发现，服务器端返回的数据时候：”image_id” = 8821; “mp3_path” = “”; 前面说到的变量的有双引号有的没有，然后和后台沟通也没查出什么问题，因为在postman上获取接口信息的时候根本没问题。</p>
 <p>然后呢，我就开始注释<code>.m</code>文件里代码，让他一个个变量的获取，看看是在获取那个变量的时候出问题，果然查出来是 page变量的问题，服务前返回的是String类型，因为是数据接口潜意识写成NSNumer类型来接受。改成<code>@property (nonatomic, copy) NSNumber* page;</code>就没有问题了。好吧归根结底还是命名规范的问题。</p>
 <hr>
-<p>在使用Mantle的时候还是会有一些其他的坑存在，像数据类型不要用NSInteger、int,最好用NSNumer接受，如果服务器端返回的数据为nil，程序就crash掉了。issue的问题[<a href="https://github.com/Mantle/Mantle/issues/595]，还有一些其他坑在，如：接受NSURL对象，但是URL字符串包含中文[http://duxinfeng.com/2015/07/26/Mantle%E7%9A%84%E4%BD%BF%E7%94%A8" target="_blank" rel="external">https://github.com/Mantle/Mantle/issues/595]，还有一些其他坑在，如：接受NSURL对象，但是URL字符串包含中文[http://duxinfeng.com/2015/07/26/Mantle%E7%9A%84%E4%BD%BF%E7%94%A8</a>]</p>
+<p>在使用Mantle的时候还是会有一些其他的坑存在，像数据类型不要用NSInteger、int,最好用NSNumer接受，如果服务器端返回的数据为nil，程序就crash掉了。issue的问题<a href="https://github.com/Mantle/Mantle/issues/595" target="_blank" rel="external">https://github.com/Mantle/Mantle/issues/595</a>，还有一些其他坑在，如：接受NSURL对象，但是URL字符串包含中文<a href="http://duxinfeng.com/2015/07/26/Mantle%E7%9A%84%E4%BD%BF%E7%94%A8" target="_blank" rel="external">http://duxinfeng.com/2015/07/26/Mantle%E7%9A%84%E4%BD%BF%E7%94%A8</a></p>
 
       
     </div>
