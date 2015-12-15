@@ -200,18 +200,18 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="下载SDK">下载SDK</h3><p>有可能是我搜索姿势不对，但是在网上看到很童鞋吐槽支付宝SDK藏得太深很不好找。</p>
+        <h3 id="搜索SDK坑">搜索SDK坑</h3><p>有可能是我搜索姿势不对，但是在网上看到很童鞋吐槽支付宝SDK藏得太深很不好找。</p>
 <p>和很多童鞋一样在Google/Baidu搜索框输入<code>支付宝SDK</code>,然后第一条结果<a href="https://openhome.alipay.com/doc/docIndex.htm?url=https://openhome.alipay.com/doc/viewKbDoc.htm?key=236698_261849&amp;type=info" target="_blank" rel="external">https://openhome.alipay.com/doc/docIndex.htm?url=https://openhome.alipay.com/doc/viewKbDoc.htm?key=236698_261849&amp;type=info</a>(Baidu要忽略掉前面推广部分的第一条)，然后点到SDK下载跳到：<br><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-0.png" width="80%" height="80%" alt=""></p>
 <p>纳尼？版本2.0最新更新日期2013-10-10，好歹也是大公司，不科学啊,果然下载下来的SDK也不正确。。。</p>
 <p>然后在网上扒扒扒。。。</p>
-<h3 id="找到原因">找到原因</h3><p>原来关键词输入错误，应该搜索<code>支付宝开放平台</code>（<a href="http://doc.open.alipay.com/doc2/alipayDocIndex.htm" target="_blank" rel="external">http://doc.open.alipay.com/doc2/alipayDocIndex.htm</a>。</p>
+<h3 id="找到坑的原因">找到坑的原因</h3><p>原来关键词输入错误，应该搜索<code>支付宝开放平台</code>（<a href="http://doc.open.alipay.com/doc2/alipayDocIndex.htm" target="_blank" rel="external">http://doc.open.alipay.com/doc2/alipayDocIndex.htm</a>。</p>
 <p>或者在搜索支付宝SDK出来页面的时候,点击导航栏跳转一下就好。<br><a href="!--&lt;http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-1.png">!--&lt;http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-1.png</a>—&gt;<br><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-1.png" width="80%" height="80%" alt=""></p>
 <h3 id="下载坑">下载坑</h3><p>不知道是什么原因，在网页上下载完，但是一直是这个状态,应该是解压打不开。最后用的迅雷。<br><a href="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-2.png" target="_blank" rel="external">http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-2.png</a><br><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-2.png" width="80%" height="80%" alt=""></p>
-<h3 id="支付宝支付问题">支付宝支付问题</h3><p>文档里建议：“出于安全考虑，请商户尽量把私钥保存在服务端，在服务端进行签名验签。”，所以客户单在本地拿到订单信息之后进行字符串拼接，然后给丢到支付宝SDK中,等待处理结果。</p>
+<h3 id="支付宝支付坑">支付宝支付坑</h3><p>文档里建议：“出于安全考虑，请商户尽量把私钥保存在服务端，在服务端进行签名验签。”，所以客户单在本地拿到订单信息之后进行字符串拼接，然后给丢到支付宝SDK中,等待处理结果。</p>
 <pre><code><span class="collection">[<span class="collection">[AlipaySDK defaultService]</span> payOrder:orderString fromScheme:appScheme callback:^<span class="list">(<span class="keyword">NSDictionary</span> *resultDic)</span> <span class="collection">{
        NSLog<span class="list">(@<span class="string">"reslut = %@"</span>,resultDic)</span><span class="comment">;</span>
    }</span>]</span><span class="comment">;</span>
-</code></pre><h3 id="注意">注意</h3><ul>
+</code></pre><h3 id="注意坑">注意坑</h3><ul>
 <li><p>如果出现6001错误（用户中途取消），请检查订单在做拼接时候是否符合规则。参数需要有“双引号”包起来，因为这个也排查好一会儿才找到错误原因。</p>
 </li>
 <li><p>运行Demo前，需要作为商户到 <a href="https://b.alipay.com" target="_blank" rel="external">https://b.alipay.com</a> 进行签约与审核，才能拿到 <code>partner</code>、<code>seller</code>、<code>privateKey</code> 信息，demo中参数配置在<code>APViewController.m</code>文件里。</p>
