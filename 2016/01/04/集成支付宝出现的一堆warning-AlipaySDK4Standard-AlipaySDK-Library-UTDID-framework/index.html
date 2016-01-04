@@ -7,16 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="baidu-site-verification" content="iemxLt7U81" />
   <meta name="google-site-verification" content="FpId6OGSgB8VJMaoHmEWt1ak7IZHT4Rd2Med6wOPJ5c" />
-  <meta name="description" content="警告信息warning: (i386) /Users/scmbuild/workspace/standard-pay/IOS/cp_record_client_release_515040/1212/mspc_iphone_msdk/AlipaySDK4Standard/AlipaySDK/Library/UTDID.framework/UTDID(UTDIDBaseUtils.o) unable">
+  <meta name="description" content="警告信息 warning: (i386) /Users/scmbuild/workspace/standard-pay/IOS/cp_record_client_release_515040/1212/mspc_iphone_msdk/AlipaySDK4Standard/AlipaySDK/Library/UTDID.framework/UTDID(UTDIDBaseUtils.o) unabl">
 <meta property="og:type" content="article">
 <meta property="og:title" content="集成支付宝出现的一堆warning:AlipaySDK4Standard/AlipaySDK/Library/UTDID.framework">
 <meta property="og:url" content="http://duxinfeng.com/2016/01/04/集成支付宝出现的一堆warning-AlipaySDK4Standard-AlipaySDK-Library-UTDID-framework/index.html">
 <meta property="og:site_name" content="新风作浪">
-<meta property="og:description" content="警告信息warning: (i386) /Users/scmbuild/workspace/standard-pay/IOS/cp_record_client_release_515040/1212/mspc_iphone_msdk/AlipaySDK4Standard/AlipaySDK/Library/UTDID.framework/UTDID(UTDIDBaseUtils.o) unable">
+<meta property="og:description" content="警告信息 warning: (i386) /Users/scmbuild/workspace/standard-pay/IOS/cp_record_client_release_515040/1212/mspc_iphone_msdk/AlipaySDK4Standard/AlipaySDK/Library/UTDID.framework/UTDID(UTDIDBaseUtils.o) unabl">
 <meta property="og:image" content="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20160104-0.png">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="集成支付宝出现的一堆warning:AlipaySDK4Standard/AlipaySDK/Library/UTDID.framework">
-<meta name="twitter:description" content="警告信息warning: (i386) /Users/scmbuild/workspace/standard-pay/IOS/cp_record_client_release_515040/1212/mspc_iphone_msdk/AlipaySDK4Standard/AlipaySDK/Library/UTDID.framework/UTDID(UTDIDBaseUtils.o) unable">
+<meta name="twitter:description" content="警告信息 warning: (i386) /Users/scmbuild/workspace/standard-pay/IOS/cp_record_client_release_515040/1212/mspc_iphone_msdk/AlipaySDK4Standard/AlipaySDK/Library/UTDID.framework/UTDID(UTDIDBaseUtils.o) unabl">
   
   
     <link rel="icon" href="/favicon.png">
@@ -210,11 +210,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="警告信息">警告信息</h3><pre><code><span class="string">warning:</span> (i386) <span class="regexp">/Users/</span>scmbuild<span class="regexp">/workspace/</span>standard-pay<span class="regexp">/IOS/</span>cp_record_client_release_515040<span class="regexp">/1212/</span>mspc_iphone_msdk<span class="regexp">/AlipaySDK4Standard/</span>AlipaySDK<span class="regexp">/Library/</span>UTDID.framework/UTDID(UTDIDBaseUtils.o) unable to open object <span class="string">file:</span> No such file or directory
-</code></pre><h3 id="解决办法">解决办法</h3><p>1) Go to Build Settings -&gt; Build Options -&gt; Debug Information Format</p>
+        <h3 id="警告信息">警告信息</h3><p><strong> warning: (i386) /Users/scmbuild/workspace/standard-pay/IOS/cp_record_client_release_515040/1212/mspc_iphone_msdk/AlipaySDK4Standard/AlipaySDK/Library/UTDID.framework/UTDID(UTDIDBaseUtils.o) unable to open object file: No such file or directory </strong></p>
+<h3 id="解决办法">解决办法</h3><p>1) Go to Build Settings -&gt; Build Options -&gt; Debug Information Format</p>
 <p>2) Change the Debug setting from “DWARF with dSYM File” to “DWARF”</p>
 <p>3) Leave the Release setting at “DWARF with dSYM File”</p>
 <p>AlipaySDK.framework 是先 build 的静态 lib ，然后转成的 framework ，但是在 build 静态 lib 时 CLANG_ENABLE_MODULES 没有被设置成 disabled 。</p>
+<p>如图：</p>
 <p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20160104-0.png" alt=""></p>
 <p>参考原文：<a href="http://www.cocoachina.com/bbs/3g/read.php?tid=332174" target="_blank" rel="external">http://www.cocoachina.com/bbs/3g/read.php?tid=332174</a></p>
 
