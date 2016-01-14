@@ -174,6 +174,76 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-升级到Xcode6-4后插件失效解决办法" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/07/08/升级到Xcode6-4后插件失效解决办法/" class="article-date">
+  	<time datetime="2015-07-08T05:53:02.000Z" itemprop="datePublished">2015-07-08</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/07/08/升级到Xcode6-4后插件失效解决办法/">升级到Xcode6.4后插件失效解决办法</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>升级到Xcode 6.4 之后，插件失效不能使用，</p>
+</blockquote>
+<p>1、首先要知道xcode的UUID,在终端下输入以下命令，会打开一个info.plist的文件，复制DVTPlugInCompatibilityUUID对应的值。</p>
+<pre><code>open <span class="regexp">/Applications/</span>Xcode.app<span class="regexp">/Contents/I</span>nfo.plist
+</code></pre><p>2、然后替换掉下面命令最后面的“7FDF5C7A-131F-4ABB-9EDC-8C5F8F0B8A90”，在终端上执行下面的命令</p>
+<pre><code><span class="keyword">find</span> ~<span class="regexp">/Library/</span>Application\ Support<span class="regexp">/Developer/</span>Shared<span class="regexp">/Xcode/</span>Plug-ins -name Info.plist -maxdepth <span class="number">3</span> | xargs -I{} defaults <span class="keyword">write</span> {} DVTPlugInCompatibilityUUIDs -array-add <span class="number">7</span>FDF5C7A-<span class="number">131</span>F-<span class="number">4</span>ABB-<span class="number">9</span>EDC-<span class="number">8</span>C5F8F0B8A90
+</code></pre><p>3、最后重启Xcode</p>
+<blockquote>
+<p>参考链接：</p>
+</blockquote>
+<p>1、<a href="http://joeshang.github.io/2015/04/10/fix-xcode-upgrade-plugin-invalid" target="_blank" rel="external">http://joeshang.github.io/2015/04/10/fix-xcode-upgrade-plugin-invalid</a><br>2、<a href="http://segmentfault.com/a/1190000002591005" target="_blank" rel="external">http://segmentfault.com/a/1190000002591005</a></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Xcode/">Xcode</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/插件/">插件</a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/iOS/">iOS</a>
+	</div>
+
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
     <article id="post-国内使用Google搜索" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -768,67 +838,6 @@
       
 	<div class="article-category tagcloud">
 	<a class="article-category-link" href="/categories/Hexo/">Hexo</a>
-	</div>
-
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-To-Do-List" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/05/01/To-Do-List/" class="article-date">
-  	<time datetime="2015-05-01T15:23:19.000Z" itemprop="datePublished">2015-05-01</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/05/01/To-Do-List/">To Do List</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>一些代办的事项和学习计划！</p>
-<p>想学Python，找了一些教程<br><a href="http://cuiqingcai.com/1052.html" target="_blank" rel="external">http://cuiqingcai.com/1052.html</a></p>
-<p>看到数据类型和变量<br><a href="http://www.liaoxuefeng.com" target="_blank" rel="external">http://www.liaoxuefeng.com</a><br><a href="http://zipperary.com/categories/python/" target="_blank" rel="external">http://zipperary.com/categories/python/</a></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/待办事项/">待办事项</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/计划/">计划</a></li></ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/todolist/">todolist</a>
 	</div>
 
 
