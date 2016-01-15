@@ -3,29 +3,19 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Xcode 6.4 Build error 没有任何错误issues | 新风作浪</title>
+  <title>Category: NSURL | 新风作浪</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="baidu-site-verification" content="iemxLt7U81" />
   <meta name="google-site-verification" content="FpId6OGSgB8VJMaoHmEWt1ak7IZHT4Rd2Med6wOPJ5c" />
-  <meta name="description" content="今天遇到一个很奇怪的问题，我修改了一个变量，然后Xcode一直Build Error ,没有任何提示。尝试Clean、重启XCode、重启Mac都这样，然后在网上找到了一个12年的Blog，尝试了一下解决了。
-因为在其他地方也有使用这个变量，我改动这个变量名称后，忘记修改，然后xcode也没提示。按照下面截图方式可以查看到错误位置。
-
-参考地址：http://bhlzlx.blog.51cto.c">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Xcode 6.4 Build error 没有任何错误issues">
-<meta property="og:url" content="http://duxinfeng.com/2015/07/27/Xcode-6-4-Build-error-没有任何错误issues/index.html">
+  <meta name="description">
+<meta property="og:type" content="website">
+<meta property="og:title" content="新风作浪">
+<meta property="og:url" content="http://duxinfeng.com/categories/iOS/NSURL/index.html">
 <meta property="og:site_name" content="新风作浪">
-<meta property="og:description" content="今天遇到一个很奇怪的问题，我修改了一个变量，然后Xcode一直Build Error ,没有任何提示。尝试Clean、重启XCode、重启Mac都这样，然后在网上找到了一个12年的Blog，尝试了一下解决了。
-因为在其他地方也有使用这个变量，我改动这个变量名称后，忘记修改，然后xcode也没提示。按照下面截图方式可以查看到错误位置。
-
-参考地址：http://bhlzlx.blog.51cto.c">
-<meta property="og:image" content="http://7xj2sw.com1.z0.glb.clouddn.com/QQ201507271.png">
+<meta property="og:description">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Xcode 6.4 Build error 没有任何错误issues">
-<meta name="twitter:description" content="今天遇到一个很奇怪的问题，我修改了一个变量，然后Xcode一直Build Error ,没有任何提示。尝试Clean、重启XCode、重启Mac都这样，然后在网上找到了一个12年的Blog，尝试了一下解决了。
-因为在其他地方也有使用这个变量，我改动这个变量名称后，忘记修改，然后xcode也没提示。按照下面截图方式可以查看到错误位置。
-
-参考地址：http://bhlzlx.blog.51cto.c">
+<meta name="twitter:title" content="新风作浪">
+<meta name="twitter:description">
   
   
     <link rel="icon" href="/favicon.png">
@@ -182,119 +172,57 @@
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap"><article id="post-Xcode-6-4-Build-error-没有任何错误issues" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap">
   
-    <div class="article-meta">
-      <a href="/2015/07/27/Xcode-6-4-Build-error-没有任何错误issues/" class="article-date">
-  	<time datetime="2015-07-27T08:21:51.000Z" itemprop="datePublished">2015-07-27</time>
+  
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2016" class="archive-year">2016</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	<a href="/2016/01/15/NSURL初始化失败/" class="archive-article-date">
+  	<time datetime="2016-01-14T16:36:01.000Z" itemprop="datePublished">Jan 15</time>
 </a>
-    </div>
+        </div>
+    	 
   
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      Xcode 6.4 Build error 没有任何错误issues
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2016/01/15/NSURL初始化失败/">NSURL初始化失败</a>
     </h1>
   
 
-      </header>
-      
-      <div class="article-info article-info-post">
-        
+        <div class="article-info info-on-right">
+          
 	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Xcode/">Xcode</a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/iOS/">iOS</a></li></ul>
 	</div>
 
-        
+          
 	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/工具/">工具</a>
+	<a class="article-category-link" href="/categories/iOS/">iOS</a><a class="article-category-link" href="/categories/iOS/NSURL/">NSURL</a>
 	</div>
 
 
+        </div>
         <div class="clearfix"></div>
-      </div>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>今天遇到一个很奇怪的问题，我修改了一个变量，然后Xcode一直Build Error ,没有任何提示。尝试Clean、重启XCode、重启Mac都这样，然后在网上找到了一个12年的Blog，尝试了一下解决了。</p>
-<p>因为在其他地方也有使用这个变量，我改动这个变量名称后，忘记修改，然后xcode也没提示。按照下面截图方式可以查看到错误位置。</p>
-<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ201507271.png" alt=""></p>
-<p>参考地址：<a href="http://bhlzlx.blog.51cto.com/3389283/967811" target="_blank" rel="external">http://bhlzlx.blog.51cto.com/3389283/967811</a></p>
-
-      
-    </div>
-    
+    </header>
   </div>
-  
-    
-<nav id="article-nav">
-  
-    <a href="/2015/08/18/symbolicatecrash-分析iOS-Crash文件/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption"><</strong>
-      <div class="article-nav-title">
-        
-          symbolicatecrash 分析iOS Crash文件
-        
-      </div>
-    </a>
-  
-  
-    <a href="/2015/07/26/Mantle的使用/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Mantle的使用</div>
-      <strong class="article-nav-caption">></strong>
-    </a>
-  
-</nav>
-
-  
 </article>
+  
+  
+    </div></section>
+  
 
-
-<div class="share">
-	<!-- JiaThis Button BEGIN -->
-	<div class="jiathis_style">
-		<span class="jiathis_txt">分享到：</span>
-		<a class="jiathis_button_tsina"></a>
-		<a class="jiathis_button_cqq"></a>
-		<a class="jiathis_button_douban"></a>
-		<a class="jiathis_button_weixin"></a>
-		<a class="jiathis_button_tumblr"></a>
-		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
-	</div>
-	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
-	<!-- JiaThis Button END -->
-</div>
-
-
-
-<div class="duoshuo">
-	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="Xcode-6-4-Build-error-没有任何错误issues" data-title="Xcode 6.4 Build error 没有任何错误issues" data-url="http://duxinfeng.com/2015/07/27/Xcode-6-4-Build-error-没有任何错误issues/"></div>
-	<!-- 多说评论框 end -->
-	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-	<script type="text/javascript">
-	var duoshuoQuery = {short_name:"duxinfeng"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0] 
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>
-	<!-- 多说公共JS代码 end -->
-</div>
-
-
-
+    
 
 </div>
       <footer id="footer">
@@ -320,10 +248,10 @@
 		mathjax: true,
 		animate: true,
 		isHome: false,
-		isPost: true,
+		isPost: false,
 		isArchive: false,
 		isTag: false,
-		isCategory: false,
+		isCategory: true,
 		open_in_new: false
 	}
 </script>

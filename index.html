@@ -108,7 +108,7 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/Blog/" style="font-size: 10px;">Blog</a><a href="/tags/Crash/" style="font-size: 10px;">Crash</a><a href="/tags/FMDB/" style="font-size: 10px;">FMDB</a><a href="/tags/Git/" style="font-size: 10px;">Git</a><a href="/tags/GitHub/" style="font-size: 10px;">GitHub</a><a href="/tags/Google/" style="font-size: 12px;">Google</a><a href="/tags/Html/" style="font-size: 10px;">Html</a><a href="/tags/Mantle/" style="font-size: 12px;">Mantle</a><a href="/tags/MarkDown/" style="font-size: 10px;">MarkDown</a><a href="/tags/Pop/" style="font-size: 10px;">Pop</a><a href="/tags/Push/" style="font-size: 10px;">Push</a><a href="/tags/Repo/" style="font-size: 10px;">Repo</a><a href="/tags/UIWebView/" style="font-size: 10px;">UIWebView</a><a href="/tags/Xcode/" style="font-size: 14px;">Xcode</a><a href="/tags/Xcode6/" style="font-size: 10px;">Xcode6</a><a href="/tags/iOS/" style="font-size: 16px;">iOS</a><a href="/tags/mac/" style="font-size: 10px;">mac</a><a href="/tags/simulator/" style="font-size: 10px;">simulator</a><a href="/tags/书单/" style="font-size: 10px;">书单</a><a href="/tags/城市/" style="font-size: 10px;">城市</a><a href="/tags/工具/" style="font-size: 10px;">工具</a><a href="/tags/开源/" style="font-size: 10px;">开源</a><a href="/tags/待办事项/" style="font-size: 10px;">待办事项</a><a href="/tags/总结/" style="font-size: 18px;">总结</a><a href="/tags/打包/" style="font-size: 10px;">打包</a><a href="/tags/接口/" style="font-size: 10px;">接口</a><a href="/tags/插件/" style="font-size: 10px;">插件</a><a href="/tags/支付宝/" style="font-size: 10px;">支付宝</a><a href="/tags/生活/" style="font-size: 20px;">生活</a><a href="/tags/苹果客服/" style="font-size: 10px;">苹果客服</a><a href="/tags/计划/" style="font-size: 10px;">计划</a><a href="/tags/读书/" style="font-size: 10px;">读书</a>
+						<a href="/tags/Blog/" style="font-size: 10px;">Blog</a><a href="/tags/Crash/" style="font-size: 10px;">Crash</a><a href="/tags/FMDB/" style="font-size: 10px;">FMDB</a><a href="/tags/Git/" style="font-size: 10px;">Git</a><a href="/tags/GitHub/" style="font-size: 10px;">GitHub</a><a href="/tags/Google/" style="font-size: 12.5px;">Google</a><a href="/tags/Html/" style="font-size: 10px;">Html</a><a href="/tags/Mantle/" style="font-size: 12.5px;">Mantle</a><a href="/tags/MarkDown/" style="font-size: 10px;">MarkDown</a><a href="/tags/Pop/" style="font-size: 10px;">Pop</a><a href="/tags/Push/" style="font-size: 10px;">Push</a><a href="/tags/Repo/" style="font-size: 10px;">Repo</a><a href="/tags/UIWebView/" style="font-size: 10px;">UIWebView</a><a href="/tags/Xcode/" style="font-size: 15px;">Xcode</a><a href="/tags/Xcode6/" style="font-size: 10px;">Xcode6</a><a href="/tags/iOS/" style="font-size: 17.5px;">iOS</a><a href="/tags/mac/" style="font-size: 10px;">mac</a><a href="/tags/simulator/" style="font-size: 10px;">simulator</a><a href="/tags/书单/" style="font-size: 10px;">书单</a><a href="/tags/城市/" style="font-size: 10px;">城市</a><a href="/tags/工具/" style="font-size: 10px;">工具</a><a href="/tags/开源/" style="font-size: 10px;">开源</a><a href="/tags/待办事项/" style="font-size: 10px;">待办事项</a><a href="/tags/总结/" style="font-size: 17.5px;">总结</a><a href="/tags/打包/" style="font-size: 10px;">打包</a><a href="/tags/接口/" style="font-size: 10px;">接口</a><a href="/tags/插件/" style="font-size: 10px;">插件</a><a href="/tags/支付宝/" style="font-size: 10px;">支付宝</a><a href="/tags/生活/" style="font-size: 20px;">生活</a><a href="/tags/苹果客服/" style="font-size: 10px;">苹果客服</a><a href="/tags/计划/" style="font-size: 10px;">计划</a><a href="/tags/读书/" style="font-size: 10px;">读书</a>
 					</div>
 				</section>
 				
@@ -174,6 +174,71 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-NSURL初始化失败" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/01/15/NSURL初始化失败/" class="article-date">
+  	<time datetime="2016-01-14T16:36:01.000Z" itemprop="datePublished">2016-01-15</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/01/15/NSURL初始化失败/">NSURL初始化失败</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <pre><code><span class="built_in">NSString</span> *usrstring = <span class="string">@"xxxxxx"</span>;
+<span class="built_in">NSURL</span> *URL = [<span class="built_in">NSURL</span> URLWithString:usrstring];
+</code></pre><p>有时候你会发现URL为nil;为什么呢？<br>因为你的usrstring里包含中文或者其他什么文字，需要进行一下UTF8转码</p>
+<pre><code><span class="built_in">NSURL</span> *URL = [<span class="built_in">NSURL</span> URLWithString:[urlstring stringByAddingPercentEscapesUsingEncoding:<span class="built_in">NSUTF8StringEncoding</span>]];
+</code></pre><p>本地路径如果有中文字符是没有问题的！</p>
+<pre><code><span class="built_in">NSString</span> *path = <span class="string">@"本地路径XXX"</span>;
+<span class="built_in">NSURL</span> *URL = [<span class="built_in">NSURL</span> fileURLWithPath:mp3Path];
+</code></pre>
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/iOS/">iOS</a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/iOS/">iOS</a><a class="article-category-link" href="/categories/iOS/NSURL/">NSURL</a>
+	</div>
+
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
     <article id="post-集成支付宝出现的一堆warning-AlipaySDK4Standard-AlipaySDK-Library-UTDID-framework" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -218,68 +283,6 @@
       
 	<div class="article-category tagcloud">
 	<a class="article-category-link" href="/categories/iOS/">iOS</a>
-	</div>
-
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-2016的些碎碎念" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/01/02/2016的些碎碎念/" class="article-date">
-  	<time datetime="2016-01-01T17:43:54.000Z" itemprop="datePublished">2016-01-02</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/01/02/2016的些碎碎念/">2016的些碎碎念</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>一点愿望：<br>给自己买一台MacBook Pro，买台iPhone 7<br>毕业的时候就想买台mac，但是没有money，还欠学费。然后推迟到了15年，因为公司提供的有，手头也不太宽裕，也不是太必要买，所以一直放着。作为2016年生日礼物吧，希望到时候送给自己。</p>
-<p>锻炼身体，增重10kg<br>191cm的身高，72kg的体重确实偏瘦，浑身肋骨。体质太弱，希望2016年底体重能涨到80kg左右。</p>
-<p>存款15w<br>每月存8k*12+年终奖6w吧。希望顺利，但愿2016年顺利。</p>
-<p>每个月出去玩一次，一年出北京城旅游2次<br>够宅，够宅，够宅。闷，闷，闷。生命不该这样平平淡淡。每个月至少要出去一次，不能老宅在家里。来北京一年多快两年了，去的地方寥寥无几。借着长假出北京玩两次，见见世界。也培养一下别的兴趣，比如学学摄影，提升下逼格。</p>
-<p>看够12本书<br>凡是成功之人，不寻常之人，让你敬佩之人，他们都有一个共同的特点就是：读了很多书。计划是每月读一本书。</p>
-<p>学习Python、Swift<br>增长技能，跟别人学习下Python，能够写一写爬虫。学一下Swift。</p>
-<p>学一点理财知识，坚持记账<br>理财第一步便是记账，这个年纪该学着存点钱娶媳妇了。多投资自己，也是一种理财方式。每个月100投资。</p>
-<p>生活习惯上<br>为美好的事物早起一个小时，八点起床，11点睡觉。看书一个小时，或做其他事。</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/default/">default</a>
 	</div>
 
 
