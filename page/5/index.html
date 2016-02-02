@@ -174,6 +174,70 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-UIWebView加载Html" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/05/03/UIWebView加载Html/" class="article-date">
+  	<time datetime="2015-05-03T12:52:01.000Z" itemprop="datePublished">2015-05-03</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/05/03/UIWebView加载Html/">UIWebView加载Html</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>UIWebView加载html分两种方式</p>
+<h2 id="1、UIWebView加载本地html">1、UIWebView加载本地html</h2><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">NSString *htmlFile = [[NSBundle mainBundle] <span class="string">pathForResource:</span>@<span class="string">"xxx"</span> <span class="string">ofType:</span>@<span class="string">"html"</span>];</span><br><span class="line">NSString* htmlString = [NSString <span class="string">stringWithContentsOfFile:</span>htmlFile <span class="string">encoding:</span>NSUTF8StringEncoding <span class="string">error:</span>nil];</span><br><span class="line">[webView <span class="string">loadHTMLString:</span>htmlString <span class="string">baseURL:</span>nil];</span><br></pre></td></tr></table></figure>
+<p>本地加载可以修改html显示的文本大小和字体</p>
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Html/">Html</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/UIWebView/">UIWebView</a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/iOS/">iOS</a>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a  href="/2015/05/03/UIWebView加载Html/#more">more >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
     <article id="post-基于Github和Hexo搭建Blog" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
