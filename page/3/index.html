@@ -174,6 +174,79 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-怎么判断viewcontroller是Push还是Pop" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/10/23/怎么判断viewcontroller是Push还是Pop/" class="article-date">
+  	<time datetime="2015-10-23T07:33:35.000Z" itemprop="datePublished">2015-10-23</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/10/23/怎么判断viewcontroller是Push还是Pop/">怎么判断viewcontroller是Push还是Pop?</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>一般情况下判断viewcontroller在返回时需要push还是pop都会在<code>.h</code>文件带一个参数进来。如何让容器自己判断？</p>
+<h3 id="方法一">方法一</h3><pre><code><span class="built_in">NSArray</span>* views = [<span class="keyword">self</span><span class="variable">.navigationController</span> viewControllers];
+<span class="built_in">BOOL</span> variable = [views containsObject: <span class="keyword">self</span>];
+<span class="keyword">if</span> (variable) {
+    [<span class="keyword">self</span><span class="variable">.navigationController</span> popViewControllerAnimated:<span class="literal">YES</span>];
+}
+<span class="keyword">else</span> {
+    [<span class="keyword">self</span> dismissViewControllerAnimated:<span class="literal">YES</span> completion:^{}];
+}
+</code></pre><h3 id="方法二">方法二</h3><pre><code><span class="keyword">if</span> (<span class="keyword">self</span><span class="variable">.navigationController</span> != <span class="literal">nil</span>) {
+    [<span class="keyword">self</span><span class="variable">.navigationController</span> popViewControllerAnimated:<span class="literal">YES</span>];
+}<span class="keyword">else</span>{
+    [<span class="keyword">self</span> dismissViewControllerAnimated:<span class="literal">YES</span> completion:^{}];
+}
+</code></pre><p>参考：<a href="http://stackoverflow.com/questions/16562546/how-to-check-whether-the-viewcontroller-is-popped-or-pushed-without-using-the-bo" target="_blank" rel="external">http://stackoverflow.com/questions/16562546/how-to-check-whether-the-viewcontroller-is-popped-or-pushed-without-using-the-bo</a></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Pop/">Pop</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Push/">Push</a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/iOS/">iOS</a>
+	</div>
+
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
     <article id="post-为何你会一年经验用十年" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -905,125 +978,6 @@
       
 	<div class="article-tag tagcloud">
 		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Mantle/">Mantle</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/iOS/">iOS</a></li></ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/iOS/">iOS</a>
-	</div>
-
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-iOS开源App整理" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/07/14/iOS开源App整理/" class="article-date">
-  	<time datetime="2015-07-14T05:09:48.000Z" itemprop="datePublished">2015-07-14</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/07/14/iOS开源App整理/">iOS开源App整理</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="有时候在逛Weibo、Github的时候看到一些最近开源或者持续更新的iOS项目源码，大部分都已经上线，在这篇Blog里作了整理（排名不分先后，按照发现时间排序）。">有时候在逛Weibo、Github的时候看到一些最近开源或者持续更新的iOS项目源码，大部分都已经上线，在这篇Blog里作了整理（排名不分先后，按照发现时间排序）。</h3><blockquote>
-<p>开源中国</p>
-</blockquote>
-<p>开源中国社区iPhone客户端。</p>
-<p>Appstore 下载地址：<a href="https://itunes.apple.com/cn/app/kai-yuan-zhong-guo/id524298520" target="_blank" rel="external">https://itunes.apple.com/cn/app/kai-yuan-zhong-guo/id524298520</a></p>
-<p>Git@OSC源码下载地址： <a href="http://git.oschina.net/oschina/iphone-app" target="_blank" rel="external">http://git.oschina.net/oschina/iphone-app</a></p>
-<blockquote>
-<p>V2EX for iOS</p>
-</blockquote>
-<p>V2EX for iOS,V2EX 社区源码</p>
-<p>Appstore 下载地址：<a href="https://itunes.apple.com/us/app/v2ex-chuang-yi-gong-zuo-zhe/id898181535" target="_blank" rel="external">https://itunes.apple.com/us/app/v2ex-chuang-yi-gong-zuo-zhe/id898181535</a></p>
-<p>Github源码下载地址：<a href="https://github.com/singro/v2ex" target="_blank" rel="external">https://github.com/singro/v2ex</a></p>
-<blockquote>
-<p>Monkey for Github</p>
-</blockquote>
-<p>Monkey是一个GitHub第三方客户端。主要是用来展示GitHub上的开发者的排名，以及仓库的排名，并且能够搜索开发者和仓库。</p>
-<p>Appstore 下载地址：<a href="https://itunes.apple.com/cn/app/monkey-for-github/id1003765407" target="_blank" rel="external">https://itunes.apple.com/cn/app/monkey-for-github/id1003765407</a></p>
-<p>Github源码下载地址：<a href="https://github.com/coderyi/Monkey" target="_blank" rel="external">https://github.com/coderyi/Monkey</a></p>
-<blockquote>
-<p>TeamTalk </p>
-</blockquote>
-<p>蘑菇街开源的即时通讯框架，包括iOS、Android、Mac、Windows客户端和后台</p>
-<p>Github源码下载地址：<a href="https://github.com/mogujie/TeamTalk" target="_blank" rel="external">https://github.com/mogujie/TeamTalk</a></p>
-<blockquote>
-<p>高仿城觅2.0</p>
-</blockquote>
-<p>iOS高仿城觅项目（开发思路和代码）</p>
-<p>作何也有对应的Blog讲解：<a href="http://www.jianshu.com/p/8b0d694d1c69" target="_blank" rel="external">http://www.jianshu.com/p/8b0d694d1c69</a></p>
-<p>Github源码下载地址：<a href="https://github.com/ZhongTaoTian/WNXHuntForCity" target="_blank" rel="external">https://github.com/ZhongTaoTian/WNXHuntForCity</a></p>
-<blockquote>
-<p>高仿一元云购</p>
-</blockquote>
-<p>高仿一元云购IOS应用,因版权问题已下架，作者开源出来。<br>Github源码下载地址：<a href="https://github.com/JxbSir/YiYuanYunGou" target="_blank" rel="external">https://github.com/JxbSir/YiYuanYunGou</a></p>
-<blockquote>
-<p>GitBucket<br>又一GitHub第三方开源客户端,基于MVVM和RAC.</p>
-</blockquote>
-<p>Appstore 下载地址：<a href="https://itunes.apple.com/cn/app/id961330940?mt=8" target="_blank" rel="external">https://itunes.apple.com/cn/app/id961330940?mt=8</a></p>
-<p>Github源码下载地址：<a href="https://github.com/leichunfeng/MVVMReactiveCocoa" target="_blank" rel="external">https://github.com/leichunfeng/MVVMReactiveCocoa</a></p>
-<blockquote>
-<p>ONE一个</p>
-</blockquote>
-<p>非官方客户端源码，作者抓的数据，更多介绍点击GitHub链接 。官方app请到Appstore下载</p>
-<p>Github源码下载地址：<a href="https://github.com/ihappyhacking/MyOne-iOS" target="_blank" rel="external">https://github.com/ihappyhacking/MyOne-iOS</a></p>
-<blockquote>
-<p>Coding iPhone 客户端源码</p>
-</blockquote>
-<p>Coding 上下载地址：<a href="https://coding.net/u/coding/p/Coding-iOS/git" target="_blank" rel="external">https://coding.net/u/coding/p/Coding-iOS/git</a><br>Github源码下载地址：<a href="https://github.com/Coding/Coding-iOS" target="_blank" rel="external">https://github.com/Coding/Coding-iOS</a></p>
-<blockquote>
-<p>Coding iPad 客户端源码</p>
-</blockquote>
-<p>Coding 上下载地址： <a href="https://coding.net/u/coding/p/Coding-iPad/git" target="_blank" rel="external">https://coding.net/u/coding/p/Coding-iPad/git</a><br>Github源码下载地址：<a href="https://github.com/Coding/Coding-iPad" target="_blank" rel="external">https://github.com/Coding/Coding-iPad</a></p>
-<blockquote>
-<p>PHPHub 社区iOS客户端源码</p>
-</blockquote>
-<p>Appstore 下载地址：<a href="https://itunes.apple.com/cn/app/phphub-ji-ji-xiang-shang-php/id1052966564?l=en&amp;mt=8" target="_blank" rel="external">https://itunes.apple.com/cn/app/phphub-ji-ji-xiang-shang-php/id1052966564?l=en&amp;mt=8</a><br>Github源码下载地址：<a href="https://github.com/phphub/phphub-ios" target="_blank" rel="external">https://github.com/phphub/phphub-ios</a></p>
-<blockquote>
-<p>Yep<br>Yep 是一款非常小巧而轻量化的社交 App，围绕「遇见天才」这个主题，让用户去找到领域中的精英或者是正在一起学习的人。</p>
-</blockquote>
-<p>Appstore 下载地址：<a href="https://itunes.apple.com/us/app/yep-meet-genius/id983891256" target="_blank" rel="external">https://itunes.apple.com/us/app/yep-meet-genius/id983891256</a></p>
-<p>GitHub源码下载地址：<a href="https://github.com/CatchChat/Yep" target="_blank" rel="external">https://github.com/CatchChat/Yep</a></p>
-<hr>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/iOS/">iOS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/开源/">开源</a></li></ul>
 	</div>
 
       
