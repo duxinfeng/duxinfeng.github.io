@@ -174,6 +174,71 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-碎碎念在12月14日" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/12/14/碎碎念在12月14日/" class="article-date">
+  	<time datetime="2015-12-14T06:48:43.000Z" itemprop="datePublished">2015-12-14</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/12/14/碎碎念在12月14日/">碎碎念在12月14日</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>因为一些不可抗拒因素，所以这一期碎碎念是后来追加的。</p>
+<p>不过发现也没那多内容拿出来叨叨了，本来也就是记一记碎事，愈发归于平淡。</p>
+<h4 id="发现一个不错repo">发现一个不错repo</h4><p>关于创业，关于如何做好产品的一些优秀文章个人收集：<a href="https://github.com/voff12/awesome-product-thought" target="_blank" rel="external">https://github.com/voff12/awesome-product-thought</a></p>
+<p>很值得一读，不过目前我看了<code>雷军在联想的内部分享</code>这一篇，<code>信仰</code>、<code>超出预期</code>、<code>口碑</code>是看完这篇文章时候比较兴趣的词汇。（此时我在绞尽脑汁想写一段读后感，无奈词穷，还欠思考，还是多读书多看报。）</p>
+<h4 id="接力GoAgent翻墙工具">接力GoAgent翻墙工具</h4><p>并未尝试能不能用，有需要可以尝试尝试。</p>
+<p>Github：<a href="https://github.com/XX-net/XX-Net" target="_blank" rel="external">https://github.com/XX-net/XX-Net</a></p>
+<h4 id="PHPHub_iOS开源客户端">PHPHub iOS开源客户端</h4><p>又一社区开源了iOS客户单源码。之前看到这个源码客户端的时候拉不到数据，于是提了一个issue，然后这周作者回复了我可以用了。<br>GitHub:<a href="https://github.com/Aufree/phphub-ios" target="_blank" rel="external">https://github.com/Aufree/phphub-ios</a></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/总结/">总结</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/生活/">生活</a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/总结/">总结</a>
+	</div>
+
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
     <article id="post-《人性的弱点读书》读书笔记" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -827,104 +892,6 @@
       
 	<div class="article-tag tagcloud">
 		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Xcode/">Xcode</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/打包/">打包</a></li></ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/iOS/">iOS</a>
-	</div>
-
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-Mantle使用问题-MTLTransformerErrorHandlingErrorDomain" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/10/29/Mantle使用问题-MTLTransformerErrorHandlingErrorDomain/" class="article-date">
-  	<time datetime="2015-10-29T06:00:41.000Z" itemprop="datePublished">2015-10-29</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/10/29/Mantle使用问题-MTLTransformerErrorHandlingErrorDomain/">Mantle使用问题: MTLTransformerErrorHandlingErrorDomain</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>再使用Mantle序列化JSON文件的时候程序一直crash，使用断点判断到获取<code>model</code>却一直为<code>nil</code>，然后把这个空对象add到数组里的时候就崩了。</p>
-<pre><code><span class="keyword">for</span> (NSDictionary *attributes <span class="keyword">in</span> responsearray) {
-            NSError *<span class="keyword">error</span> = nil;
-            BookDetailsModel *model = [MTLJSONAdapter modelOfClass:[BookDetailsModel <span class="type">class</span>] fromJSONDictionary:attributes <span class="keyword">error</span>:&amp;<span class="keyword">error</span>];
-            DLog(@<span class="string">"--&gt;%@"</span>,<span class="keyword">error</span>.description);
-            [mutablearray addObject:model];
-        }
-</code></pre><p>Error description：</p>
-<p>Domain=MTLTransformerErrorHandlingErrorDomain Code=1 “Value did not match expected type” UserInfo={MTLTransformerErrorHandlingInputValueErrorKey=7, NSLocalizedDescription=Value did not match expected type, NSLocalizedFailureReason=Expected 7 to be of class NSNumber but got NSTaggedPointerString}</p>
-<p>大意也就是说声明的NSNumber类型变量不能匹配到相应的类型。一些数据格式如下：</p>
-<p>从服务器端拉倒数据之后JSON信息：</p>
-<pre><code>{
-       <span class="string">"title"</span>: <span class="string">"北师版三年级上册语文"</span>,
-       <span class="string">"grade"</span>: <span class="string">""</span>,
-       <span class="string">"image_id"</span>: <span class="number">8821</span>,
-       <span class="string">"edition"</span>: <span class="string">"北师大版电子课本"</span>,
-       <span class="string">"mp3_path"</span>: <span class="string">"http://file.haojiazhang123.com/static/server/tom61_kejian/598/99/mp3/9.mp3"</span>,
-       <span class="string">"path"</span>: <span class="string">"http://file.haojiazhang123.com/static/server/tom61_kejian/907/106/img/7.jpg"</span>,
-       <span class="string">"lesson"</span>: <span class="literal">null</span>,
-       <span class="string">"page"</span>: <span class="string">"7"</span>,
-       <span class="string">"subject"</span>: <span class="string">""</span>
-   },
-   {
-       <span class="string">"title"</span>: <span class="string">"北师版三年级上册语文"</span>,
-       <span class="string">"grade"</span>: <span class="string">""</span>,
-       <span class="string">"image_id"</span>: <span class="number">8847</span>,
-       <span class="string">"edition"</span>: <span class="string">"北师大版电子课本"</span>,
-       <span class="string">"mp3_path"</span>: <span class="string">""</span>,
-       <span class="string">"path"</span>: <span class="string">"http://file.haojiazhang123.com/static/server/tom61_kejian/907/106/img/8.jpg"</span>,
-       <span class="string">"lesson"</span>: <span class="literal">null</span>,
-       <span class="string">"page"</span>: <span class="string">"8"</span>,
-       <span class="string">"subject"</span>: <span class="string">""</span>
-   }
-</code></pre><p>客户端获取数据后放到数组里，数组里的字典格式（不理解为什么变量有的双引号有的没有，和在网页上获取内容不全一样，双引号问题）：</p>
-<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="special">&#123;</span></span><br><span class="line">    edition = "<span class="command">\U</span>5317<span class="command">\U</span>5e08<span class="command">\U</span>5927<span class="command">\U</span>7248<span class="command">\U</span>7535<span class="command">\U</span>5b50<span class="command">\U</span>8bfe<span class="command">\U</span>672c";</span><br><span class="line">    grade = "";</span><br><span class="line">    "image_id" = 8821;</span><br><span class="line">    lesson = "&lt;null&gt;";</span><br><span class="line">    "mp3_path" = "http://file.haojiazhang123.com/static/server/tom61_kejian/598/99/mp3/9.mp3";</span><br><span class="line">    page = 7;</span><br><span class="line">    path = "http://file.haojiazhang123.com/static/server/tom61_kejian/907/106/img/7.jpg";</span><br><span class="line">    subject = "";</span><br><span class="line">    title = "<span class="command">\U</span>5317<span class="command">\U</span>5e08<span class="command">\U</span>7248<span class="command">\U</span>4e09<span class="command">\U</span>5e74<span class="command">\U</span>7ea7<span class="command">\U</span>4e0a<span class="command">\U</span>518c<span class="command">\U</span>8bed<span class="command">\U</span>6587";</span><br><span class="line"><span class="special">&#125;</span>,</span><br><span class="line"><span class="special">&#123;</span></span><br><span class="line">    edition = "<span class="command">\U</span>5317<span class="command">\U</span>5e08<span class="command">\U</span>5927<span class="command">\U</span>7248<span class="command">\U</span>7535<span class="command">\U</span>5b50<span class="command">\U</span>8bfe<span class="command">\U</span>672c";</span><br><span class="line">    grade = "";</span><br><span class="line">    "image_id" = 8847;</span><br><span class="line">    lesson = "&lt;null&gt;";</span><br><span class="line">    "mp3_path" = "";</span><br><span class="line">    page = 8;</span><br><span class="line">    path = "http://file.haojiazhang123.com/static/server/tom61_kejian/907/106/img/8.jpg";</span><br><span class="line">    subject = "";</span><br><span class="line">    title = "<span class="command">\U</span>5317<span class="command">\U</span>5e08<span class="command">\U</span>7248<span class="command">\U</span>4e09<span class="command">\U</span>5e74<span class="command">\U</span>7ea7<span class="command">\U</span>4e0a<span class="command">\U</span>518c<span class="command">\U</span>8bed<span class="command">\U</span>6587";</span><br><span class="line"><span class="special">&#125;</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight objectivec"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// .h 文件</span></span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">copy</span>) <span class="built_in">NSString</span>* title;</span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">copy</span>) <span class="built_in">NSString</span>* grade;</span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">strong</span>) <span class="built_in">NSNumber</span>* image_id;</span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">copy</span>) <span class="built_in">NSString</span>* edition;</span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">copy</span>) <span class="built_in">NSString</span>* mp3_path;</span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">copy</span>) <span class="built_in">NSString</span>* path;</span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">copy</span>) <span class="built_in">NSString</span>* lesson;</span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">strong</span>) <span class="built_in">NSNumber</span>* page;</span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">copy</span>) <span class="built_in">NSString</span>* subject;</span><br><span class="line"></span><br><span class="line"><span class="comment">// .m 文件</span></span><br><span class="line">+ (<span class="built_in">NSDictionary</span> *)JSONKeyPathsByPropertyKey</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">return</span> @&#123;</span><br><span class="line">             <span class="string">@"title"</span>: <span class="string">@"title"</span>,</span><br><span class="line">             <span class="string">@"grade"</span>: <span class="string">@"grade"</span>,</span><br><span class="line">             <span class="string">@"image_id"</span>: <span class="string">@"image_id"</span>,</span><br><span class="line">             <span class="string">@"edition"</span>: <span class="string">@"edition"</span>,</span><br><span class="line">             <span class="string">@"mp3_path"</span>: <span class="string">@"mp3_path"</span>,</span><br><span class="line">             <span class="string">@"path"</span>: <span class="string">@"path"</span>,</span><br><span class="line">             <span class="string">@"lesson"</span>: <span class="string">@"lesson"</span>,</span><br><span class="line">             <span class="string">@"page"</span>: <span class="string">@"page"</span>,</span><br><span class="line">             <span class="string">@"subject"</span>: <span class="string">@"subject"</span></span><br><span class="line">             &#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>搞了半天，就在我想Mantle的Github repo上添加issue的时候发现，服务器端返回的数据时候：”image_id” = 8821; “mp3_path” = “”; 前面说到的变量的有双引号有的没有，然后和后台沟通也没查出什么问题，因为在postman上获取接口信息的时候根本没问题。</p>
-<p>然后呢，我就开始注释<code>.m</code>文件里代码，让他一个个变量的获取，看看是在获取那个变量的时候出问题，果然查出来是 page变量的问题，服务前返回的是String类型，因为是数据接口潜意识写成NSNumer类型来接受。改成<code>@property (nonatomic, copy) NSNumber* page;</code>就没有问题了。好吧归根结底还是命名规范的问题。</p>
-<hr>
-<h4 id="后记">后记</h4><p>在使用Mantle的时候还是会有一些其他的坑存在，像数据类型不要用NSInteger、int,最好用NSNumer接受，如果服务器端返回的数据为nil，程序就crash掉了。issue的问题<a href="https://github.com/Mantle/Mantle/issues/595" target="_blank" rel="external">https://github.com/Mantle/Mantle/issues/595</a>，还有一些其他坑在，如：接受NSURL对象，但是URL字符串包含中文<a href="http://duxinfeng.com/2015/07/26/Mantle%E7%9A%84%E4%BD%BF%E7%94%A8" target="_blank" rel="external">http://duxinfeng.com/2015/07/26/Mantle%E7%9A%84%E4%BD%BF%E7%94%A8</a></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Mantle/">Mantle</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/iOS/">iOS</a></li></ul>
 	</div>
 
       
