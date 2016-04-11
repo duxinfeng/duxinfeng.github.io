@@ -174,6 +174,72 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-Git忽略UserInterfaceState-xcuserstate文件" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/12/15/Git忽略UserInterfaceState-xcuserstate文件/" class="article-date">
+  	<time datetime="2015-12-15T03:28:52.000Z" itemprop="datePublished">2015-12-15</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/12/15/Git忽略UserInterfaceState-xcuserstate文件/">Git忽略UserInterfaceState.xcuserstate文件</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="关于UserInterfaceState-xcuserstate文件">关于UserInterfaceState.xcuserstate文件</h3><p>路径：ProjectFolder.xcodeproj/project.xcworkspace/xcuserdata/myUserName.xcuserdatad/UserInterfaceState.xcuserstate</p>
+<p>每次打开工程，动一动Xcode UserInterfaceState.xcuserstate就会出现变动。</p>
+<h3 id="解决办法">解决办法</h3><p>因为我们团队使用SourceTree进行代码管理，选中UserInterfaceState.xcuserstate右键出现菜单，然后选中<code>停止追踪</code>，然后进行commit。如果是对人协作开发，团队其他人员也需要执行相同操作。</p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-3.png" width="80%" height="80%" alt=""></p>
+<h3 id="还有其他解决方案，原理一样">还有其他解决方案，原理一样</h3><pre><code>git rm --cached ProjectFolder.xcodeproj<span class="regexp">/project.xcworkspace/</span>xcuserdata<span class="regexp">/myUserName.xcuserdatad/U</span>serInterfaceState.xcuserstate
+
+git commit -m <span class="string">"Removed file that shouldn't be tracked"</span>
+</code></pre><p>原地址：<a href="http://stackoverflow.com/questions/6564257/cant-ignore-userinterfacestate-xcuserstate" target="_blank" rel="external">http://stackoverflow.com/questions/6564257/cant-ignore-userinterfacestate-xcuserstate</a></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Git/">Git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/iOS/">iOS</a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/iOS/">iOS</a>
+	</div>
+
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
     <article id="post-碎碎念在12月14日" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -836,67 +902,6 @@
       
 	<div class="article-category tagcloud">
 	<a class="article-category-link" href="/categories/总结/">总结</a>
-	</div>
-
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-ERROR-ITMS-90046-Invalid-Code-Signing-Entitlements" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/11/03/ERROR-ITMS-90046-Invalid-Code-Signing-Entitlements/" class="article-date">
-  	<time datetime="2015-11-03T15:58:47.000Z" itemprop="datePublished">2015-11-03</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/11/03/ERROR-ITMS-90046-Invalid-Code-Signing-Entitlements/">ERROR ITMS-90046:Invalid Code Signing Entitlements</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="使用Xcode_7_打包上传app时候环境没变突然报错，如下：">使用Xcode 7 打包上传app时候环境没变突然报错，如下：</h3><p><code>ERROR ITMS-90046: &quot;Invalid Code Signing Entitlements. Your application bundle&#39;s signature contains code signing entitlements that are not supported on iOS. Specifically, value &#39;development&#39; for key &#39;aps-environment&#39; in &#39;Payload/app&#39; is not supported.&quot;</code></p>
-<p>解决方案：clean 工程然后重新打包上传。</p>
-<p>参考：<a href="http://www.devdiv.com/forum.php?mod=viewthread&amp;tid=213847" target="_blank" rel="external">http://www.devdiv.com/forum.php?mod=viewthread&amp;tid=213847</a></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Xcode/">Xcode</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/打包/">打包</a></li></ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/iOS/">iOS</a>
 	</div>
 
 

@@ -174,6 +174,67 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-ERROR-ITMS-90046-Invalid-Code-Signing-Entitlements" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/11/03/ERROR-ITMS-90046-Invalid-Code-Signing-Entitlements/" class="article-date">
+  	<time datetime="2015-11-03T15:58:47.000Z" itemprop="datePublished">2015-11-03</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/11/03/ERROR-ITMS-90046-Invalid-Code-Signing-Entitlements/">ERROR ITMS-90046:Invalid Code Signing Entitlements</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="使用Xcode_7_打包上传app时候环境没变突然报错，如下：">使用Xcode 7 打包上传app时候环境没变突然报错，如下：</h3><p><code>ERROR ITMS-90046: &quot;Invalid Code Signing Entitlements. Your application bundle&#39;s signature contains code signing entitlements that are not supported on iOS. Specifically, value &#39;development&#39; for key &#39;aps-environment&#39; in &#39;Payload/app&#39; is not supported.&quot;</code></p>
+<p>解决方案：clean 工程然后重新打包上传。</p>
+<p>参考：<a href="http://www.devdiv.com/forum.php?mod=viewthread&amp;tid=213847" target="_blank" rel="external">http://www.devdiv.com/forum.php?mod=viewthread&amp;tid=213847</a></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Xcode/">Xcode</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/打包/">打包</a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/iOS/">iOS</a>
+	</div>
+
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
     <article id="post-Mantle使用问题-MTLTransformerErrorHandlingErrorDomain" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -946,68 +1007,6 @@
       
 	<div class="article-category tagcloud">
 	<a class="article-category-link" href="/categories/iOS/">iOS</a>
-	</div>
-
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-Xcode-6-4-Build-error-没有任何错误issues" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/07/27/Xcode-6-4-Build-error-没有任何错误issues/" class="article-date">
-  	<time datetime="2015-07-27T08:21:51.000Z" itemprop="datePublished">2015-07-27</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/07/27/Xcode-6-4-Build-error-没有任何错误issues/">Xcode 6.4 Build error 没有任何错误issues</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>今天遇到一个很奇怪的问题，我修改了一个变量，然后Xcode一直Build Error ,没有任何提示。尝试Clean、重启XCode、重启Mac都这样，然后在网上找到了一个12年的Blog，尝试了一下解决了。</p>
-<p>因为在其他地方也有使用这个变量，我改动这个变量名称后，忘记修改，然后xcode也没提示。按照下面截图方式可以查看到错误位置。</p>
-<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ201507271.png" alt=""></p>
-<p>参考地址：<a href="http://bhlzlx.blog.51cto.com/3389283/967811" target="_blank" rel="external">http://bhlzlx.blog.51cto.com/3389283/967811</a></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Xcode/">Xcode</a></li></ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/工具/">工具</a>
 	</div>
 
 
