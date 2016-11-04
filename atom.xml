@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>新风作浪</title>
+  <subtitle>生命不息，折腾不止</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://duxinfeng.com/"/>
+  <updated>2016-04-11T05:45:52.000Z</updated>
+  <id>http://duxinfeng.com/</id>
+  
+  <author>
+    <name>新风作浪</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>An error occurred while processing the post-install hook of the Podfile.</title>
+    <link href="http://duxinfeng.com/2016/04/11/An-error-occurred-while-processing-the-post-install-hook-of-the-Podfile/"/>
+    <id>http://duxinfeng.com/2016/04/11/An-error-occurred-while-processing-the-post-install-hook-of-the-Podfile/</id>
+    <published>2016-04-11T05:38:42.000Z</published>
+    <updated>2016-04-11T05:45:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>执行Pod install 报错：</p>
+<p>An error occurred while processing the post-install hook of the Podfile.</p>
+<p>undefined method `project’ for #<pod::installer:0x007fe9332feee0></pod::installer:0x007fe9332feee0></p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20160411-0.png" alt=""></p>
+<p>解决方案：</p>
+<p>打开Podfile,把里面的 project 改为 pods_project</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;执行Pod install 报错：&lt;/p&gt;
+&lt;p&gt;An error occurred while processing the post-install hook of the Podfile.&lt;/p&gt;
+&lt;p&gt;undefined method `project’ for #
+    
+    </summary>
+    
+      <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>碎碎念在2016年3月27日</title>
+    <link href="http://duxinfeng.com/2016/03/27/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82016%E5%B9%B43%E6%9C%8827%E6%97%A5/"/>
+    <id>http://duxinfeng.com/2016/03/27/碎碎念在2016年3月27日/</id>
+    <published>2016-03-27T03:11:30.000Z</published>
+    <updated>2016-03-27T15:46:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、社交障碍。只能和熟悉的人侃侃，和陌生人完全无话可说，不知道聊什么话题。</p>
+<p>2、同样一句话，需要在一个特定时间和场景下才能深入内心。<br>“时光是有限的，所以不要浪费在别人的生命中。不要对信条盲从使自己活在别人的思考结果下。不要让外界意见的噪音淹没自己内心的声音。最重要的是，要有勇气去跟随你的心和直觉，知道自己真正想成为什么样的人，除此之外其他都是次要的。 — 乔布斯”</p>
+<p>3、学神和学霸的差距。学神考了100分学霸考了98分。他们之间的的差距回是多少？2分？那他们真不在一个等级上了。学神之所以考100分是这种那个试卷上只有100分，学霸考98分是本身实力问题。</p>
+<p>4、昨天参加婚宴，今天又一同学结婚。年龄都到了，有对象的都到了该办事的时候，貌似着急的都是父母们。</p>
+<p>5、米3换屏终于换好了。以后自己可以开店修手机了。哈哈哈~~</p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_0773.JPG" width="30%" height="30%"><br><img src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_0772.JPG" width="30%" height="30%"><br><img src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_0835.JPG" width="30%" height="30%"><br><img src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_0836.JPG" width="30%" height="30%"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;1、社交障碍。只能和熟悉的人侃侃，和陌生人完全无话可说，不知道聊什么话题。&lt;/p&gt;
+&lt;p&gt;2、同样一句话，需要在一个特定时间和场景下才能深入内心。&lt;br&gt;“时光是有限的，所以不要浪费在别人的生命中。不要对信条盲从使自己活在别人的思考结果下。不要让外界意见的噪音淹没自己内心的
+    
+    </summary>
+    
+      <category term="default" scheme="http://duxinfeng.com/categories/default/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>碎碎念在2016年3月21日</title>
+    <link href="http://duxinfeng.com/2016/03/21/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82016%E5%B9%B43%E6%9C%8821%E6%97%A5/"/>
+    <id>http://duxinfeng.com/2016/03/21/碎碎念在2016年3月21日/</id>
+    <published>2016-03-21T13:50:05.000Z</published>
+    <updated>2016-03-28T14:46:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>又来写了，距离上一次碎碎念已经50天了，中间开篇过两次，不知道写啥，然后放弃了。只有当你静下心来，你才能很好的思考。</p>
+<p>1、经实验表明，21天并不能养成一个习惯，你需要一直坚持，坚持让他成为生活中不可缺少的一部分。一件事如果你一直坚持，那么他或许成为一种习惯，倘若中间持续中断几天，那么你这习惯就被破坏了。去年的时候有段时间强迫自己看书，即使有时事情，也会强迫自己去看几分钟或者看几页，大概坚持了四十多天的样子，后来断了几天，到现在就再也没看了，那段时间买了七八本书，五六本还在睡觉。</p>
+<p>2、思考。我认识的一些优秀的人里面他们都有一个共同特点就是善于思考，能很清楚表达自己观点，讲的内容有理有据，能从一个你想不到的角度来解释一个现象或一件很平常的事情。即使在出牛逼也能让你一脸懵逼的觉得很有道理。</p>
+<p>3、思考需要给自己自己营造气氛。12年十二月份搬到公司附近，省去每天地铁到公司的70min车程，现在每天从家走到工位15min足够。原本是每天能节省两个小时可以去干更多自己的事情，然而并没有，甚至少了阅读和思考。在地铁上你会发现搭建都在看自己的手机或者kindle，所以你也在看你的手机，有时候会看一些公共账号，有时候会用微信阅读看看书，有时候看着看着就在思考一件事情，想明白一个道理，或是记下来。然而，现在坐车的时间省下来了，阅读少了，思考少了。</p>
+<p>4、依然经营不好爱情。和别人的区别就是别人的女朋友和别人的男朋友。彼此都存在问题，都在和以前比，没用以前XXX。</p>
+<p>5、凌晨苹果春季发布会，然而并不关心，也不想熬夜去看了，身体素质越来越差，快要死了。明早看个新闻就好。</p>
+<p>6、API调用者。上周看到的一句话，做了三年的开发，然后发现只是API调用者，和比人比拼谁知道的API多，谁用的熟。</p>
+<p>7、当一件事情只有发生在你身边的时候，才感觉到紧急。今年房价疯涨一下，然后也意外知道几个同学房买好了，心里会惊讶一下了，才开始去细想这个事情。之前有个错误的认识就是放假将来会跌，好幼稚。房价会随着人才的流动而变化，而且每年都在印钞票，物价上涨，怎么可能会跌，她会是一种向上涨的一个过程，不可能会像股市那样跌宕起伏。当然不排除风水不好地势不佳的地方房价会降，然而也不回去那。</p>
+<p>8、钱解决99%的事情，所以多挣钱。</p>
+<p>9、不要懒，早起，吃早饭。早睡！</p>
+<p>10、没有10.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;又来写了，距离上一次碎碎念已经50天了，中间开篇过两次，不知道写啥，然后放弃了。只有当你静下心来，你才能很好的思考。&lt;/p&gt;
+&lt;p&gt;1、经实验表明，21天并不能养成一个习惯，你需要一直坚持，坚持让他成为生活中不可缺少的一部分。一件事如果你一直坚持，那么他或许成为一种习惯，倘
+    
+    </summary>
+    
+      <category term="生活" scheme="http://duxinfeng.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>碎碎念在2016年2月2日</title>
+    <link href="http://duxinfeng.com/2016/02/02/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82016%E5%B9%B42%E6%9C%882%E6%97%A5/"/>
+    <id>http://duxinfeng.com/2016/02/02/碎碎念在2016年2月2日/</id>
+    <published>2016-02-02T07:41:23.000Z</published>
+    <updated>2016-02-02T07:55:31.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>有一段时间没叨叨了，临时改变行程，决定明天回家，火车票没抢到合适的，搭坐滴滴顺风车，希望明天顺利，能当天到！</p>
+<p>因为堂弟结婚2月4日结婚，本来想着年底火车票不好买，所以不赶了，但是家里很希望我能回去，于是我就动摇了。2月3日回家。</p>
+<p>越到走前心里感觉还是没做好准备，还没收拾，好像有事情也没交代好。有些事情会放心不下。</p>
+<p>这两年回家过年并不是很心切，只是到点了，你该回去和家人团聚一下了。因为回去之后总要面临一些事情需要你去解决，一些人需要从你口中得知一些答案，和他们无关的答案，然后站在他们观点上，对你指点迷津，所以我到是也没那么期待过年。但是呢，回去之后又不想来。</p>
+<p>新年快乐！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;有一段时间没叨叨了，临时改变行程，决定明天回家，火车票没抢到合适的，搭坐滴滴顺风车，希望明天顺利，能当天到！&lt;/p&gt;
+&lt;p&gt;因为堂弟结婚2月4日结婚，本来想着年底火车票不好买，所以不赶了，但是家里很希望我能回去，于是我就动摇了。2月3日回家。&lt;/p&gt;
+&lt;p&gt;越到走前心里感觉
+    
+    </summary>
+    
+      <category term="default" scheme="http://duxinfeng.com/categories/default/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>DOUAudioStreamer设置currentTime无效</title>
+    <link href="http://duxinfeng.com/2016/01/31/DOUAudioStreamer%E8%AE%BE%E7%BD%AEcurrentTime%E6%97%A0%E6%95%88/"/>
+    <id>http://duxinfeng.com/2016/01/31/DOUAudioStreamer设置currentTime无效/</id>
+    <published>2016-01-30T16:43:44.000Z</published>
+    <updated>2016-01-30T16:51:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="关于DOUAudioStreamer">关于DOUAudioStreamer</h3><p>DOUAudioStreamer是基于豆瓣团队Core Audio实现的用于iOS/Mac的开源流媒体播放引擎。代码托管地址：<a href="https://github.com/douban/DOUAudioStreamer" target="_blank" rel="external">https://github.com/douban/DOUAudioStreamer</a></p>
+<h3 id="示例Demo">示例Demo</h3><p>1、官方有个demo:<a href="https://github.com/douban/DOUAudioStreamer/tree/master/example/DOUASDemo" target="_blank" rel="external">https://github.com/douban/DOUAudioStreamer/tree/master/example/DOUASDemo</a><br>2、另一个功能比较完善的demo:<a href="https://github.com/Aufree/ESTMusicPlayer" target="_blank" rel="external">https://github.com/Aufree/ESTMusicPlayer</a></p>
+<h3 id="遇到的问题">遇到的问题</h3><p>因为需求问题，我需要在初始化DOUAudioStreamer对象时，就去设置currentTime属性：</p>
+<pre><code>_streamer = [DOUAudioStreamer streamerWithAudioFile:<span class="keyword">track</span>];
+_streamer.<span class="keyword">currentTime</span> = <span class="number">10.0</span>; 
+[_streamer <span class="keyword">play</span>];
+</code></pre><p>然而，这并不像我们相信那样，从10s的时候开始播放。</p>
+<h3 id="猥琐的解决办法">猥琐的解决办法</h3><p>当然如果你正常的播放音频文件，然后拖动滑动条从某个时间点开始播放是没有问题的，完全正常。也就是说streamer在play之前有个加载音频文件的缓冲时间。所以想到一个比较猥琐的办法，</p>
+<pre><code>_streamer = [DOUAudioStreamer streamerWithAudioFile:<span class="keyword">track</span>];
+[_streamer <span class="keyword">play</span>];
+[NSThread sleepForTimeInterval:<span class="number">0.5</span>];
+_audioStreamer.<span class="keyword">currentTime</span> = <span class="number">10.0</span>;
+</code></pre><p>嗯，貌似草草的解决了。</p>
+<p>如果看过demo的知道，demo里会有几个KVO的方法，其中有一个是监听 <code>updateSliderValue</code>方法，监听_audioStreamer当前播放进度。</p>
+<figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">- (<span class="typename">void</span>)removeStreamerObserver &#123;</span><br><span class="line">    [_audioStreamer <span class="string">removeObserver:</span>self <span class="string">forKeyPath:</span>@<span class="string">"status"</span>];</span><br><span class="line">    [_audioStreamer <span class="string">removeObserver:</span>self <span class="string">forKeyPath:</span>@<span class="string">"duration"</span>];</span><br><span class="line">    [_audioStreamer <span class="string">removeObserver:</span>self <span class="string">forKeyPath:</span>@<span class="string">"bufferingRatio"</span>];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">- (<span class="typename">void</span>)addStreamerObserver &#123;</span><br><span class="line">    [_audioStreamer <span class="string">addObserver:</span>self <span class="string">forKeyPath:</span>@<span class="string">"status"</span> <span class="string">options:</span>NSKeyValueObservingOptionNew <span class="string">context:</span>kStatusKVOKey];</span><br><span class="line">    [_audioStreamer <span class="string">addObserver:</span>self <span class="string">forKeyPath:</span>@<span class="string">"duration"</span> <span class="string">options:</span>NSKeyValueObservingOptionNew <span class="string">context:</span>kDurationKVOKey];</span><br><span class="line">    [_audioStreamer <span class="string">addObserver:</span>self <span class="string">forKeyPath:</span>@<span class="string">"bufferingRatio"</span> <span class="string">options:</span>NSKeyValueObservingOptionNew <span class="string">context:</span>kBufferingRatioKVOKey];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">- (<span class="typename">void</span>)<span class="string">observeValueForKeyPath:</span>(NSString *)keyPath <span class="string">ofObject:</span>(id)object <span class="string">change:</span>(NSDictionary *)change <span class="string">context:</span>(<span class="typename">void</span> *)context &#123;</span><br><span class="line">    <span class="keyword">if</span> (context == kStatusKVOKey) &#123;</span><br><span class="line">        [self <span class="string">performSelector:</span><span class="annotation">@selector</span>(updateStatus)</span><br><span class="line"><span class="label">                     onThread:</span>[NSThread mainThread]</span><br><span class="line"><span class="label">                   withObject:</span>nil</span><br><span class="line"><span class="label">                waitUntilDone:</span>NO];</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (context == kDurationKVOKey) &#123;</span><br><span class="line">        [self <span class="string">performSelector:</span><span class="annotation">@selector</span>(<span class="string">updateSliderValue:</span>)</span><br><span class="line"><span class="label">                     onThread:</span>[NSThread mainThread]</span><br><span class="line"><span class="label">                   withObject:</span>nil</span><br><span class="line"><span class="label">                waitUntilDone:</span>NO];</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (context == kBufferingRatioKVOKey) &#123;</span><br><span class="line">        [self <span class="string">performSelector:</span><span class="annotation">@selector</span>(updateBufferingStatus)</span><br><span class="line"><span class="label">                     onThread:</span>[NSThread mainThread]</span><br><span class="line"><span class="label">                   withObject:</span>nil</span><br><span class="line"><span class="label">                waitUntilDone:</span>NO];</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        [<span class="keyword">super</span> <span class="string">observeValueForKeyPath:</span>keyPath <span class="string">ofObject:</span>object <span class="string">change:</span>change <span class="string">context:</span>context];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>所以又意淫出另外一个方法，如果<code>self.audioStreamer.currentTime &lt; 10</code>, 我就设置<code>self.audioStreamer.currentTime = 10;</code>,</p>
+<p>初始化</p>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="setting">_streamer = <span class="value">[DOUAudioStreamer streamerWithAudioFile:track];</span></span></span><br><span class="line">	<span class="title">[_streamer play]</span><span class="comment">;</span></span><br></pre></td></tr></table></figure>
+<p>然后，在updateSliderValue方法里做判断</p>
+<pre><code><span class="keyword">if</span> (<span class="keyword">self</span>.audioStreamer.currentTime&lt;<span class="number">10</span>)
+{
+     <span class="keyword">self</span>.audioStreamer.currentTime = <span class="number">10</span>;
+}
+</code></pre><h3 id="后记">后记</h3><p>当然遇到这样问题，也去Github上提交了issue(<a href="https://github.com/douban/DOUAudioStreamer/issues/102" target="_blank" rel="external">https://github.com/douban/DOUAudioStreamer/issues/102</a>)，但是一直没有回复，也没有精力去研究源码，改一改，也没用那水平，所以就这样解决了。</p>
+<p>也想过找另外类似的播放引擎，确实找打一个StreamingKit：<a href="https://github.com/tumtumtum/StreamingKit" target="_blank" rel="external">https://github.com/tumtumtum/StreamingKit</a><br>确实也简单易用，但是和DOUAudioStreamer存在同样的问题，最终还是选择了DOUAudioStreamer。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;关于DOUAudioStreamer&quot;&gt;关于DOUAudioStreamer&lt;/h3&gt;&lt;p&gt;DOUAudioStreamer是基于豆瓣团队Core Audio实现的用于iOS/Mac的开源流媒体播放引擎。代码托管地址：&lt;a href=&quot;https://github
+    
+    </summary>
+    
+      <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
+    
+    
+      <category term="DOUAudioStreamer" scheme="http://duxinfeng.com/tags/DOUAudioStreamer/"/>
+    
+      <category term="currentTime" scheme="http://duxinfeng.com/tags/currentTime/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NSURL初始化失败</title>
+    <link href="http://duxinfeng.com/2016/01/15/NSURL%E5%88%9D%E5%A7%8B%E5%8C%96%E5%A4%B1%E8%B4%A5/"/>
+    <id>http://duxinfeng.com/2016/01/15/NSURL初始化失败/</id>
+    <published>2016-01-14T16:36:01.000Z</published>
+    <updated>2016-01-15T01:48:36.000Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code><span class="built_in">NSString</span> *usrstring = <span class="string">@"xxxxxx"</span>;
+<span class="built_in">NSURL</span> *URL = [<span class="built_in">NSURL</span> URLWithString:usrstring];
+</code></pre><p>有时候你会发现URL为nil;为什么呢？<br>因为你的usrstring里包含中文或者其他什么文字，需要进行一下UTF8转码</p>
+<pre><code><span class="built_in">NSURL</span> *URL = [<span class="built_in">NSURL</span> URLWithString:[urlstring stringByAddingPercentEscapesUsingEncoding:<span class="built_in">NSUTF8StringEncoding</span>]];
+</code></pre><p>本地路径如果有中文字符是没有问题的！</p>
+<pre><code><span class="built_in">NSString</span> *path = <span class="string">@"本地路径XXX"</span>;
+<span class="built_in">NSURL</span> *URL = [<span class="built_in">NSURL</span> fileURLWithPath:mp3Path];
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code&gt;&lt;span class=&quot;built_in&quot;&gt;NSString&lt;/span&gt; *usrstring = &lt;span class=&quot;string&quot;&gt;@&quot;xxxxxx&quot;&lt;/span&gt;;
+&lt;span class=&quot;built_in&quot;&gt;NSURL&lt;/span&gt; *U
+    
+    </summary>
+    
+      <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
+    
+      <category term="NSURL" scheme="http://duxinfeng.com/categories/iOS/NSURL/"/>
+    
+    
+      <category term="iOS" scheme="http://duxinfeng.com/tags/iOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>集成支付宝出现的一堆warning:AlipaySDK4Standard/AlipaySDK/Library/UTDID.framework</title>
+    <link href="http://duxinfeng.com/2016/01/04/%E9%9B%86%E6%88%90%E6%94%AF%E4%BB%98%E5%AE%9D%E5%87%BA%E7%8E%B0%E7%9A%84%E4%B8%80%E5%A0%86warning-AlipaySDK4Standard-AlipaySDK-Library-UTDID-framework/"/>
+    <id>http://duxinfeng.com/2016/01/04/集成支付宝出现的一堆warning-AlipaySDK4Standard-AlipaySDK-Library-UTDID-framework/</id>
+    <published>2016-01-04T08:08:19.000Z</published>
+    <updated>2016-01-30T16:44:39.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="警告信息">警告信息</h3><p><strong> warning: (i386) /Users/scmbuild/workspace/standard-pay/IOS/cp_record_client_release_515040/1212/mspc_iphone_msdk/AlipaySDK4Standard/AlipaySDK/Library/UTDID.framework/UTDID(UTDIDBaseUtils.o) unable to open object file: No such file or directory </strong></p>
+<h3 id="解决办法">解决办法</h3><p>1) Go to Build Settings -&gt; Build Options -&gt; Debug Information Format</p>
+<p>2) Change the Debug setting from “DWARF with dSYM File” to “DWARF”</p>
+<p>3) Leave the Release setting at “DWARF with dSYM File”</p>
+<p>AlipaySDK.framework 是先 build 的静态 lib ，然后转成的 framework ，但是在 build 静态 lib 时 CLANG_ENABLE_MODULES 没有被设置成 disabled 。</p>
+<p>如图：</p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20160104-0.png" alt=""></p>
+<p>参考原文：<a href="http://www.cocoachina.com/bbs/3g/read.php?tid=332174" target="_blank" rel="external">http://www.cocoachina.com/bbs/3g/read.php?tid=332174</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;警告信息&quot;&gt;警告信息&lt;/h3&gt;&lt;p&gt;&lt;strong&gt; warning: (i386) /Users/scmbuild/workspace/standard-pay/IOS/cp_record_client_release_515040/1212/mspc_ipho
+    
+    </summary>
+    
+      <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
+    
+    
+      <category term="Alipay" scheme="http://duxinfeng.com/tags/Alipay/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>碎碎念在12月31日</title>
+    <link href="http://duxinfeng.com/2015/12/31/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A812%E6%9C%8831%E6%97%A5/"/>
+    <id>http://duxinfeng.com/2015/12/31/碎碎念在12月31日/</id>
+    <published>2015-12-31T15:56:14.000Z</published>
+    <updated>2015-12-31T16:49:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>梦想总是要有的，万一要实现了呢？</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;梦想总是要有的，万一要实现了呢？&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="default" scheme="http://duxinfeng.com/categories/default/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>碎碎念在12月20日</title>
+    <link href="http://duxinfeng.com/2015/12/20/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A812%E6%9C%8820%E6%97%A5/"/>
+    <id>http://duxinfeng.com/2015/12/20/碎碎念在12月20日/</id>
+    <published>2015-12-20T13:12:53.000Z</published>
+    <updated>2015-12-21T01:37:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>临近过年，琐事也多了起来。各种朋友同学亲戚结婚</p>
+<h4 id="关于介绍iOS项目结构的文章">关于介绍iOS项目结构的文章</h4><p><a href="http://limboy.me/ios/2013/09/23/build-ios-application.html" target="_blank" rel="external">http://limboy.me/ios/2013/09/23/build-ios-application.html</a></p>
+<p><a href="http://www.samirchen.com/ios-project-structure/" target="_blank" rel="external">http://www.samirchen.com/ios-project-structure/</a></p>
+<h4 id="关于Git，还没看，low了一眼看作者写的不错">关于Git，还没看，low了一眼看作者写的不错</h4><p><a href="http://github.phodal.com" target="_blank" rel="external">http://github.phodal.com</a></p>
+<h4 id="这世界上99%的事情都可以用钱来解决">这世界上99%的事情都可以用钱来解决</h4><p>当前我正在陷入这个99%的情况中，在尴尬的年纪里缺钱。。。</p>
+<h4 id="被上一课">被上一课</h4><h5 id="内向的人">内向的人</h5><p>不善于言谈，社交恐惧，不会表达。有的时候在描述一件事情的时候结结巴巴，有的时候说完人家不知道你说的什么，有的时候人家听不清在说啥，只看到喉喽在动。缺气势，没气场。</p>
+<h5 id="没主见">没主见</h5><p>唯唯诺诺，心态不成熟，缺乏担当。</p>
+<h5 id="笨，缺心眼">笨，缺心眼</h5><p>事情只看到表面，而隐含的意思</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;临近过年，琐事也多了起来。各种朋友同学亲戚结婚&lt;/p&gt;
+&lt;h4 id=&quot;关于介绍iOS项目结构的文章&quot;&gt;关于介绍iOS项目结构的文章&lt;/h4&gt;&lt;p&gt;&lt;a href=&quot;http://limboy.me/ios/2013/09/23/build-ios-application.
+    
+    </summary>
+    
+      <category term="default" scheme="http://duxinfeng.com/categories/default/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>使用支付宝SDK遇到的坑</title>
+    <link href="http://duxinfeng.com/2015/12/15/%E4%BD%BF%E7%94%A8%E6%94%AF%E4%BB%98%E5%AE%9DSDK%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91/"/>
+    <id>http://duxinfeng.com/2015/12/15/使用支付宝SDK遇到的坑/</id>
+    <published>2015-12-15T06:20:05.000Z</published>
+    <updated>2015-12-15T08:53:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="搜索SDK坑">搜索SDK坑</h3><p>有可能是我搜索姿势不对，但是在网上看到很童鞋吐槽支付宝SDK藏得太深很不好找。</p>
+<p>和很多童鞋一样在Google/Baidu搜索框输入<code>支付宝SDK</code>,然后第一条结果<a href="https://openhome.alipay.com/doc/docIndex.htm?url=https://openhome.alipay.com/doc/viewKbDoc.htm?key=236698_261849&amp;type=info" target="_blank" rel="external">https://openhome.alipay.com/doc/docIndex.htm?url=https://openhome.alipay.com/doc/viewKbDoc.htm?key=236698_261849&amp;type=info</a>(Baidu要忽略掉前面推广部分的第一条)，然后点到SDK下载跳到：<br><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-0.png" width="80%" height="80%" alt=""></p>
+<p>纳尼？版本2.0最新更新日期2013-10-10，好歹也是大公司，不科学啊,果然下载下来的SDK也不正确。。。</p>
+<p>然后在网上扒扒扒。。。</p>
+<h3 id="找到坑的原因">找到坑的原因</h3><p>原来关键词输入错误，应该搜索<code>支付宝开放平台</code>（<a href="http://doc.open.alipay.com/doc2/alipayDocIndex.htm" target="_blank" rel="external">http://doc.open.alipay.com/doc2/alipayDocIndex.htm</a>。</p>
+<p>或者在搜索支付宝SDK出来页面的时候,点击导航栏跳转一下就好。<br><a href="!--&lt;http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-1.png">!--&lt;http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-1.png</a>—&gt;<br><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-1.png" width="80%" height="80%" alt=""></p>
+<h3 id="下载坑">下载坑</h3><p>不知道是什么原因，在网页上下载完，但是一直是这个状态,应该是解压打不开。最后用的迅雷。<br><a href="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-2.png" target="_blank" rel="external">http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-2.png</a><br><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-2.png" width="80%" height="80%" alt=""></p>
+<h3 id="支付宝支付坑">支付宝支付坑</h3><p>文档里建议：“出于安全考虑，请商户尽量把私钥保存在服务端，在服务端进行签名验签。”，所以客户单在本地拿到订单信息之后进行字符串拼接，然后给丢到支付宝SDK中,等待处理结果。</p>
+<pre><code><span class="collection">[<span class="collection">[AlipaySDK defaultService]</span> payOrder:orderString fromScheme:appScheme callback:^<span class="list">(<span class="keyword">NSDictionary</span> *resultDic)</span> <span class="collection">{
+       NSLog<span class="list">(@<span class="string">"reslut = %@"</span>,resultDic)</span><span class="comment">;</span>
+   }</span>]</span><span class="comment">;</span>
+</code></pre><h3 id="注意坑">注意坑</h3><ul>
+<li><p>如果出现6001错误（用户中途取消），请检查订单在做拼接时候是否符合规则。参数需要有“双引号”包起来，因为这个也排查好一会儿才找到错误原因。</p>
+</li>
+<li><p>运行Demo前，需要作为商户到 <a href="https://b.alipay.com" target="_blank" rel="external">https://b.alipay.com</a> 进行签约与审核，才能拿到 <code>partner</code>、<code>seller</code>、<code>privateKey</code> 信息，demo中参数配置在<code>APViewController.m</code>文件里。</p>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;搜索SDK坑&quot;&gt;搜索SDK坑&lt;/h3&gt;&lt;p&gt;有可能是我搜索姿势不对，但是在网上看到很童鞋吐槽支付宝SDK藏得太深很不好找。&lt;/p&gt;
+&lt;p&gt;和很多童鞋一样在Google/Baidu搜索框输入&lt;code&gt;支付宝SDK&lt;/code&gt;,然后第一条结果&lt;a href=&quot;ht
+    
+    </summary>
+    
+      <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
+    
+    
+      <category term="iOS" scheme="http://duxinfeng.com/tags/iOS/"/>
+    
+      <category term="支付宝" scheme="http://duxinfeng.com/tags/%E6%94%AF%E4%BB%98%E5%AE%9D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git忽略UserInterfaceState.xcuserstate文件</title>
+    <link href="http://duxinfeng.com/2015/12/15/Git%E5%BF%BD%E7%95%A5UserInterfaceState-xcuserstate%E6%96%87%E4%BB%B6/"/>
+    <id>http://duxinfeng.com/2015/12/15/Git忽略UserInterfaceState-xcuserstate文件/</id>
+    <published>2015-12-15T03:28:52.000Z</published>
+    <updated>2015-12-15T08:06:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="关于UserInterfaceState-xcuserstate文件">关于UserInterfaceState.xcuserstate文件</h3><p>路径：ProjectFolder.xcodeproj/project.xcworkspace/xcuserdata/myUserName.xcuserdatad/UserInterfaceState.xcuserstate</p>
+<p>每次打开工程，动一动Xcode UserInterfaceState.xcuserstate就会出现变动。</p>
+<h3 id="解决办法">解决办法</h3><p>因为我们团队使用SourceTree进行代码管理，选中UserInterfaceState.xcuserstate右键出现菜单，然后选中<code>停止追踪</code>，然后进行commit。如果是对人协作开发，团队其他人员也需要执行相同操作。</p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-3.png" width="80%" height="80%" alt=""></p>
+<h3 id="还有其他解决方案，原理一样">还有其他解决方案，原理一样</h3><pre><code>git rm --cached ProjectFolder.xcodeproj<span class="regexp">/project.xcworkspace/</span>xcuserdata<span class="regexp">/myUserName.xcuserdatad/U</span>serInterfaceState.xcuserstate
+
+git commit -m <span class="string">"Removed file that shouldn't be tracked"</span>
+</code></pre><p>原地址：<a href="http://stackoverflow.com/questions/6564257/cant-ignore-userinterfacestate-xcuserstate" target="_blank" rel="external">http://stackoverflow.com/questions/6564257/cant-ignore-userinterfacestate-xcuserstate</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;关于UserInterfaceState-xcuserstate文件&quot;&gt;关于UserInterfaceState.xcuserstate文件&lt;/h3&gt;&lt;p&gt;路径：ProjectFolder.xcodeproj/project.xcworkspace/xcuserd
+    
+    </summary>
+    
+      <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
+    
+    
+      <category term="Git" scheme="http://duxinfeng.com/tags/Git/"/>
+    
+      <category term="iOS" scheme="http://duxinfeng.com/tags/iOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>碎碎念在12月14日</title>
+    <link href="http://duxinfeng.com/2015/12/14/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A812%E6%9C%8814%E6%97%A5/"/>
+    <id>http://duxinfeng.com/2015/12/14/碎碎念在12月14日/</id>
+    <published>2015-12-14T06:48:43.000Z</published>
+    <updated>2015-12-15T08:45:39.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>因为一些不可抗拒因素，所以这一期碎碎念是后来追加的。</p>
+<p>不过发现也没那多内容拿出来叨叨了，本来也就是记一记碎事，愈发归于平淡。</p>
+<h4 id="发现一个不错repo">发现一个不错repo</h4><p>关于创业，关于如何做好产品的一些优秀文章个人收集：<a href="https://github.com/voff12/awesome-product-thought" target="_blank" rel="external">https://github.com/voff12/awesome-product-thought</a></p>
+<p>很值得一读，不过目前我看了<code>雷军在联想的内部分享</code>这一篇，<code>信仰</code>、<code>超出预期</code>、<code>口碑</code>是看完这篇文章时候比较兴趣的词汇。（此时我在绞尽脑汁想写一段读后感，无奈词穷，还欠思考，还是多读书多看报。）</p>
+<h4 id="接力GoAgent翻墙工具">接力GoAgent翻墙工具</h4><p>并未尝试能不能用，有需要可以尝试尝试。</p>
+<p>Github：<a href="https://github.com/XX-net/XX-Net" target="_blank" rel="external">https://github.com/XX-net/XX-Net</a></p>
+<h4 id="PHPHub_iOS开源客户端">PHPHub iOS开源客户端</h4><p>又一社区开源了iOS客户单源码。之前看到这个源码客户端的时候拉不到数据，于是提了一个issue，然后这周作者回复了我可以用了。<br>GitHub:<a href="https://github.com/Aufree/phphub-ios" target="_blank" rel="external">https://github.com/Aufree/phphub-ios</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;因为一些不可抗拒因素，所以这一期碎碎念是后来追加的。&lt;/p&gt;
+&lt;p&gt;不过发现也没那多内容拿出来叨叨了，本来也就是记一记碎事，愈发归于平淡。&lt;/p&gt;
+&lt;h4 id=&quot;发现一个不错repo&quot;&gt;发现一个不错repo&lt;/h4&gt;&lt;p&gt;关于创业，关于如何做好产品的一些优秀文章个人收集：
+    
+    </summary>
+    
+      <category term="总结" scheme="http://duxinfeng.com/categories/%E6%80%BB%E7%BB%93/"/>
+    
+    
+      <category term="总结" scheme="http://duxinfeng.com/tags/%E6%80%BB%E7%BB%93/"/>
+    
+      <category term="生活" scheme="http://duxinfeng.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《人性的弱点读书》读书笔记</title>
+    <link href="http://duxinfeng.com/2015/12/11/%E3%80%8A%E4%BA%BA%E6%80%A7%E7%9A%84%E5%BC%B1%E7%82%B9%E8%AF%BB%E4%B9%A6%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    <id>http://duxinfeng.com/2015/12/11/《人性的弱点读书》读书笔记/</id>
+    <published>2015-12-11T11:49:16.000Z</published>
+    <updated>2015-12-15T08:43:03.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>（半成品，先隐藏，完整后在放出来）</p>
+<h3 id="为什么读这本书？">为什么读这本书？</h3><p>在一个伸手</p>
+<h3 id="书摘">书摘</h3><p>摘录部分是我在读书的时候做的笔记，也有一些对特立观点的，无法描述，但是作者说出了我想说的话，或者说来的好有道理，我竟无言以对。</p>
+<p>为什么我会摘抄这一点呢？或多或少某一点打动了，说出了我心里表达不出来的，<br>1、xxxx</p>
+<p>个人的成功只要百分之十五院子专业能力，另外的百分之八十五则来自“人类工程学”，即人格特质和领导能力。</p>
+<p>无论是工程、会计、建筑还是其他需要技术能力的行业，专业的人才只要有过硬的技术就能找到工作。但想要拿高薪，他们必须在专业技能之外还具备表达能力、领导能力和激发他人的工作热情的能力。</p>
+<p>人际交往能力决定了我们的受欢迎程度、我的幸福感和自我价值。</p>
+<p>每当你需要解决管教孩子、说服家人或者安抚客户等具体问题时，请不要听任自己的本能反应，因为第一反应往往是错的。</p>
+<!--[我的理解：不要误解作者说的第一反应就是错的，而是作者前提条件的时候，“管教孩子”“舒服家人”“解决、安抚客户问题”，其实我想说的应该是说在你冲动的时候，告诉你要冷静思考]-->
+<p>批评是无用的，她激起抵触，让人急于辩白；批评是危险的，它会伤害自尊，甚至让人萌生恨意。</p>
+<p>责备所引发的怨恨不仅无益，更会大几家人、朋友和员工的积极性。</p>
+<p>对性和成功的欲望是人类永恒的动机。<br><!--为什么不是永恒的动力，翻译问题？--></p>
+<p>人性的根源深处，强烈渴求他人的欣赏。</p>
+<p>一些精神分裂患者确实在疯癫中得到了现实世界中无法获得的被重视感。</p>
+<p>人们如此渴望他们的认同，甚至不惜以发疯为代价。</p>
+<p>真心实意地感谢他人、赞美他人</p>
+<p>3、xxx<br>2、xxxx</p>
+<p>我个人非常喜欢草莓和奶油，不过我惊奇发现，鱼类居然对人间美味不感兴趣，只喜欢吃虫子。所以每次去钓鱼的时候，我不会考虑自己想要什么，而是考虑鱼想要什么。<br><!--对考虑用户的需求，用户想要什么，不能我们自己坐在那意淫用户想要什么，当然有的用户也不知自己想要什么，那我们就要去意淫他们的需求，发现他们还需要什么--></p>
+<p>说服别人的首要途径，是引发对方强烈的欲求。</p>
+<p>人们只有真心热爱自己做的事，才有可能取得成功。</p>
+<p>哪怕你不习惯微笑，也请努力试看。独自一个人的时候，假装很开心—这些举动真的会让你开心起来。<br><!--科学解释：人们往往认为感觉先于行动，但实际上，感觉与行动是同步的。相较于情绪，只有调整行为，才能够调整间接的调整兴趣--><br><!--想要找回丢失的快乐，就偷偷的坐直身体，愉快的谈天做事，感觉快乐已经回到你的身边，这是通往快乐的最佳方式。--></p>
+<p>无论对于任何人，无论以何种语言，自己的名字都是世界是哪个最甜蜜的词汇</p>
+<p>专注倾听，鼓励他人谈论自己。</p>
+<p>发自肺腑的赞美所产生的力量。</p>
+<p>如果能得到他人的重视，很多人得生活会因此改变。</p>
+<p>每个人在内心深处都渴望被重视。<br><!--在学校里渴望被老师重视，在工作中渴望被上司老板重视。就像上一句说的，如果能得到他人的重视，很多人的生活会因此改变--></p>
+<p>4、xxx</p>
+<p>争辩、抱怨和反驳或许会带来暂时的胜利，但是你永远无法通过这表面的胜利赢得对方的尊敬—本杰明 富兰克林。</p>
+<p>要比所有人聪明，但是不要告诉他们这一点。</p>
+<p>如果你想了解为人处世知道，提升个人魅力，不妨读一读本杰明·富兰克林的自传。<br><!--所以在看这本书的时候，我又买了一儿半女富兰克林自传--></p>
+<p>尊重他人的观点，绝不要说“你错了”。</p>
+<p>不经意地抛出系那个发，引起他的兴趣，让他自行揣摩。<br><!--这个好像是是说服上级或建议或拍马屁什么的时候处理方式--></p>
+<p>同理心是为人处世的制胜之道。</p>
+<p>若想让交流变得流畅，请像重视自己感受一样重视对方。</p>
+<p>同情所产生的化学作用能够平息怨气。</p>
+<p>激发对方内心深处的高尚情操</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;（半成品，先隐藏，完整后在放出来）&lt;/p&gt;
+&lt;h3 id=&quot;为什么读这本书？&quot;&gt;为什么读这本书？&lt;/h3&gt;&lt;p&gt;在一个伸手&lt;/p&gt;
+&lt;h3 id=&quot;书摘&quot;&gt;书摘&lt;/h3&gt;&lt;p&gt;摘录部分是我在读书的时候做的笔记，也有一些对特立观点的，无法描述，但是作者说出了我想说的话，或者说
+    
+    </summary>
+    
+      <category term="default" scheme="http://duxinfeng.com/categories/default/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>我的书单</title>
+    <link href="http://duxinfeng.com/2015/12/11/%E6%88%91%E7%9A%84%E4%B9%A6%E5%8D%95/"/>
+    <id>http://duxinfeng.com/2015/12/11/我的书单/</id>
+    <published>2015-12-11T11:37:41.000Z</published>
+    <updated>2015-12-11T11:48:09.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>已读</p>
+</blockquote>
+<ul>
+<li><p>人性的弱点（2015.11-2015.11）</p>
+</li>
+<li><p>黑客与画家（2015.11-2015.12）</p>
+</li>
+</ul>
+<blockquote>
+<p>在读</p>
+</blockquote>
+<ul>
+<li><p>如何变得有思想 （2015.9-xx.xx）</p>
+</li>
+<li><p>穷查理宝典    （2015.12-xx.xx）</p>
+</li>
+<li><p>富兰克林自传  （2015.12-xx.xx）</p>
+</li>
+</ul>
+<blockquote>
+<p>待读</p>
+</blockquote>
+<ul>
+<li><p>增长黑客</p>
+</li>
+<li><p>解忧杂货铺</p>
+</li>
+<li><p>岛上书店</p>
+</li>
+<li><p>只为了好玩 Linux之父林纳斯自传</p>
+</li>
+<li><p>小狗钱钱的爸爸教你实现财务自由</p>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;已读&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;人性的弱点（2015.11-2015.11）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;黑客与画家（2015.11-2015.12）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+    
+    </summary>
+    
+      <category term="default" scheme="http://duxinfeng.com/categories/default/"/>
+    
+    
+      <category term="书单" scheme="http://duxinfeng.com/tags/%E4%B9%A6%E5%8D%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>碎碎念在12月6日</title>
+    <link href="http://duxinfeng.com/2015/12/06/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A812%E6%9C%886%E6%97%A5/"/>
+    <id>http://duxinfeng.com/2015/12/06/碎碎念在12月6日/</id>
+    <published>2015-12-06T15:26:59.000Z</published>
+    <updated>2015-12-06T16:23:15.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="搬家">搬家</h4><p>从去年的五月份的时候说搬家，在公司部分资助一直搬到现在，搬了一年半终于搬离天通苑北，来到公司附近，现在东西全部办过来了，找了一两个星期的房子，明天再回去交接一下，终于心里一个石头可以落下了，不过还的置办生活用品。</p>
+<h4 id="Swift开源">Swift开源</h4><p>本周最重磅的消息就是苹果兑现承诺，终于赶在年底前把Swift开源了，官网<a href="https://swift.org" target="_blank" rel="external">https://swift.org</a>,听说当天被手动DDos了，访问不到。github:<a href="https://github.com/apple/swift" target="_blank" rel="external">https://github.com/apple/swift</a>开源当天star过万，截止目前已有19010个star，170人贡献代码。也该准备准备好好学习下Swift了。</p>
+<h4 id="关于ASO">关于ASO</h4><p>周六app被拒，因为在做ASO的时候标题写的有点过，大概五月份苹果就开始严查副标题，虽然可以写255个字，如果你的副标题太长还是会被拒，然后建议你写到关键词或者描述里面，关于ASO标题、副标题、关键词等一些权值在八月份的时候学习了一段时候，然后做了一次分享，PPT:<a href="https://docs.google.com/presentation/d/19Jp49NY07U25GQ_PUAQSH7VzChgTboJ5LvZvX4HMuhY/edit?usp=sharing" target="_blank" rel="external">https://docs.google.com/presentation/d/19Jp49NY07U25GQ_PUAQSH7VzChgTboJ5LvZvX4HMuhY/edit?usp=sharing</a>.<br>因为关键词限制255个字符，偶然得知，关键词可以不隔开，所有的词连在一起，这样被拆分后的关键词覆盖可以超过1200+，不过也有缺点，就是会产生较多的无用关键词，总体来说还是好的。</p>
+<h4 id="线上读书活动完成">线上读书活动完成</h4><p>三周前我参加了一个<a href="http://www.yiqixxx.com/e/iODU2NQ==/" target="_blank" rel="external">21天挑战——每天读书半小时第一期</a>的活动，今天正好结束，502人参加，156人挑战失败，第一天的时候超过40人挑战失败，然后挑战完成不仅可以拿回自己的本金，还可以平分失败人得本金，能多得45.22.</p>
+<p>从理财角度上分析，我用100元，12天后我得到145.22，这个投资回报率超过45%。不过从收获方面来看自己学到的东西属于自己，谁也拿不走,这样就转的更多了。</p>
+<p>谈一点体会：</p>
+<p>这21天里我读了《人性的弱点》（100%）、《黑客与画家》（90%），因为书中有的章节自己现在这个水平和精力读起来还是难以理解，所以会显得枯燥，然后读了之后没有任何感觉，这个时候最好的办法的就是换一本容易理解的书去读，比如人物传记。因为每天夜晚到家晚，所以为了完成读书任务，在读起来的时候明显觉得有点赶，不能静心来去体会，也会造成效率差。</p>
+<p>从中最大收获就是，发现自己读的书太少，也就是你读的书越多，就会发现自己读的越少，很矛盾，但是那是你的真是体会。在读一本书的时候，你能从这本书中找到下一本或下下本要读的书，就是这么神奇。</p>
+<p>当然，书读完完了，还差读后感，需要补上。</p>
+<h4 id="朋友圈刷了两条鸡汤">朋友圈刷了两条鸡汤</h4><p>每个大人，曾经都是孩子，只是后来他们忘记了！</p>
+<p>你学过的每一样东西，你遭受的每一次苦难，都会在你一生中的某个时候派上用场。</p>
+<h4 id="微博上刷了几个段子">微博上刷了几个段子</h4><p>假如生活欺骗了，<br>不要悲伤，不要心急，<br>多被骗几次记好了！</p>
+<p>比你优秀的人还在努力，<br>那你努力还有个屁用！</p>
+<p>上帝为你关上一扇门的同时，<br>还会顺带夹一下你的脑袋！</p>
+<p>长得丑就是病，<br>不然整形医院为什么叫医院！</p>
+<p>咸鱼翻了身，<br>还是咸鱼！</p>
+<p>丑小鸭会变成白天鹅，<br>不是因为它努力了，<br>而是因为它父母本来就是白天鹅！</p>
+<p>胖子瘦下来了，<br>不一定就漂亮！</p>
+<p>不要以为全世界都抛弃了你，<br>世界根本没空搭理你！</p>
+<p>如果你特别迷恋一个人，<br>那一定是你配不上他！</p>
+<p>墙角的瓜不甜，<br>但是有瓜吃啊！</p>
+<p>没有外表，<br>谁TM看你内心啊！</p>
+<p>世界上99%的事情，<br>都能用钱来解决！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;搬家&quot;&gt;搬家&lt;/h4&gt;&lt;p&gt;从去年的五月份的时候说搬家，在公司部分资助一直搬到现在，搬了一年半终于搬离天通苑北，来到公司附近，现在东西全部办过来了，找了一两个星期的房子，明天再回去交接一下，终于心里一个石头可以落下了，不过还的置办生活用品。&lt;/p&gt;
+&lt;h4 id=
+    
+    </summary>
+    
+      <category term="总结" scheme="http://duxinfeng.com/categories/%E6%80%BB%E7%BB%93/"/>
+    
+    
+      <category term="总结" scheme="http://duxinfeng.com/tags/%E6%80%BB%E7%BB%93/"/>
+    
+      <category term="生活" scheme="http://duxinfeng.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>碎碎念在11月29日</title>
+    <link href="http://duxinfeng.com/2015/11/29/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A811%E6%9C%8829%E6%97%A5/"/>
+    <id>http://duxinfeng.com/2015/11/29/碎碎念在11月29日/</id>
+    <published>2015-11-29T15:24:50.000Z</published>
+    <updated>2015-12-01T05:12:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="可以搜索github排名的站点">可以搜索github排名的站点</h4><p>1.<a href="http://githuber.cn" target="_blank" rel="external">http://githuber.cn</a></p>
+<p>2.<a href="http://github-awards.com" target="_blank" rel="external">http://github-awards.com</a></p>
+<p>你可以搜索某一个语言里排名靠前的大神，或者以一些互联网公司的开源项目，关注他们，向他们学习。（PS：排名标准不一样）</p>
+<h4 id="值得现在去反思的一段话">值得现在去反思的一段话</h4><p>很多时候我在看到一篇能让自己反思的文章的时候，发现已经晚了，如果早几年，或者早几个月看到就好了，那样的话也许今天就不会这样。</p>
+<p>就像这篇文章的思考<a href="http://weibo.com/p/1001603889179808392224?sudaref=passport.weibo.com" target="_blank" rel="external">也说程序员30岁转型危机问题</a>,我很庆幸现在能看到它，而且我现在还没到30岁，我还有三四年的时候去努力和改变，能将我自己变得更好，能在30岁的时候有个完美的蜕变。</p>
+<h4 id="Git正确姿势">Git正确姿势</h4><p>虽然接触Git相对来说也不晚，在项目中也经常提倡别人使用Git，但是依然比较初级，只是在一个master分支上处理，最近看到一篇文章非常清晰:<a href="http://livoras.com/post/28" target="_blank" rel="external">使用git和github进行协同开发流程</a>，所以我决定给自己挖一个坑，不出意外必然会出现一些问题，但是，倘若我不去尝试，又怎能进步和提升呢？</p>
+<h4 id="专访_YYKit_作者_Ibireme">专访 YYKit 作者 Ibireme</h4><p>因为作者的一些开源库在段时间内引起不少的称赞，而且全部是业余时间完成，因为这些代码，作者也收到facebook、Uber这样公司的工程师关注，而且这些公司向他发出工作邀请。也有段子这么说“怎么样快速得到 Facebook 和 Uber 的工作邀请？请看《专访YYKit作者郭曜源 @ibireme ：开源大牛是怎样炼成的》”.原文:<a href="http://blog.devtang.com/blog/2015/11/26/yykit-auther-interview/" target="_blank" rel="external">专访 YYKit 作者 Ibireme: 开源大牛是怎样炼成的</a>。</p>
+<p>同是90后做iOS的，被别人秒了几十条街。希望自己能潜下心来学习一两个开源项目源码。</p>
+<h4 id="找房子的事情">找房子的事情</h4><p>找房子确实是一件很痛苦的事情，特别是天秤座的我，极度选择恐惧症，加上我又反应迟钝墨迹，这两天也算折磨死我，在选择之中，左右为难死。从中也感觉到自己得失心太重，所以也总是心里暗示自己知足常乐。</p>
+<p>因为是在自如上租的房子，刚好赶到11月有活动，可以用微信玩自如点的游戏，也就是5秒之类你点击一个H5上的一个金币，然后产生钱，点的越快越多，能减免的也越多。</p>
+<p>最开始别人告诉我淘宝上100块钱可以刷满2000，他们前几天（一周左右）自如上找的房子，然后我在淘宝上搜了，果真有。但是一问，多数刷不了，因为现在加了限制，每次刷的时候还需要手机号，而且每个手机号只能刷4个，当然也需要微信登陆，所以有一家要800，感觉这太贵就没有刷。下午的时候问了另外一家收600，但是夜晚回复延迟，开始要600时候问能不能便宜点，他有问我能接受多少，我说四百，然后有很久才回复我，所以就没换，第二天在问的时候涨到1000了，我说我已经招人刷了两百能便宜点吗？她说980，去你大爷，我就没理他。然后找那个前一天800的了，然后人家直接说刷不了，此时我也开始着急了，于是我纠结还是自己招人刷一吧。因为开始后只有48小时，所以我开始一个个找同事、朋友、同学帮我刷。</p>
+<p>最感动的是有两位不仅自己帮我刷了，而且也发动他的朋友帮我刷。因为这确实是一件很麻烦人的事情，既要微信授权登陆，还要手机验证码验证，所以我很怕麻烦人家，也不喜欢欠人家。当然有的也主动给人发了一个对折的红包 哈哈哈哈哈~</p>
+<p>最终筹集378，然后昨天签约了一套房子用了。但是由于一个很无奈的事情把房子退了，所以这个自如点活动我也不能用了。现在还在找。差一点就花钱刷了，我这选择恐惧症+墨迹好不好呢？</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;可以搜索github排名的站点&quot;&gt;可以搜索github排名的站点&lt;/h4&gt;&lt;p&gt;1.&lt;a href=&quot;http://githuber.cn&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://githuber.cn&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+    
+    </summary>
+    
+      <category term="总结" scheme="http://duxinfeng.com/categories/%E6%80%BB%E7%BB%93/"/>
+    
+    
+      <category term="总结" scheme="http://duxinfeng.com/tags/%E6%80%BB%E7%BB%93/"/>
+    
+      <category term="生活" scheme="http://duxinfeng.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>碎碎念在11月22日</title>
+    <link href="http://duxinfeng.com/2015/11/22/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A811%E6%9C%8822%E6%97%A5/"/>
+    <id>http://duxinfeng.com/2015/11/22/碎碎念在11月22日/</id>
+    <published>2015-11-22T12:01:48.000Z</published>
+    <updated>2015-11-22T16:18:15.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>写碎碎念流水账是想给自己生活记录一点什么，记住这周有趣有味的东西，不过到今天第三期明显觉得没有前两次想写的多了。也就是说这周过的很简单。不过还是要写，坚持。。。</p>
+<h4 id="#21天#读书活动">#21天#读书活动</h4><p>话说21天能养成一个习惯，因为住的地方停电的缘故，所以某一天，也就是11.9号开始读书，《人性的弱点》计划20天读完，实际用了10天，这个21天得活动是16号开始，坚持到现在11.22，有几个晚上困的不想看了，咬咬牙还是坚持了一下。11.19号开始阅读《黑客与画家》每天10页，20天读完，按照目前进度，应该能提前读完。</p>
+<h4 id="见王老师">见王老师</h4><p>大学的老师，对我来说很重要的一个老师。工作狂，技术牛人，也是对很多同学有重要影响的老师， 来北京出差，11.21（周六）夜晚九点半的车，下午赶过去见了一面吃了一顿饭，饭毕，合影：（总共10人，还有几个未入境，哈哈哈哈哈哈）</p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_0200.JPG" width="80%" height="80%" alt="与老王"></p>
+<h4 id="为自己喜欢的事情早起一个小时">为自己喜欢的事情早起一个小时</h4><p>为自己喜欢的事情早起一个小时，这完全是属于你自己的一个小时。</p>
+<p>“世界还没有苏醒，先生和孩子还在熟睡，工作伙伴还不能接受短讯，你不用与任何人交流，你不需要和任何事情协商，你也不用对谁有任何亏欠，心安理得的，享受这，属于自己的一个小时。</p>
+<p>写字，插花，跑步，画画，任何事，哪怕只是去看花园里的一片叶子。”（作者声音也很好听）</p>
+<p>原文：<a href="http://mp.weixin.qq.com/s?__biz=MjM5ODg5NTk1OQ==&amp;mid=401219861&amp;idx=1&amp;sn=6f009a9ed31663fe35372a5251bcc1f4&amp;scene=23&amp;srcid=1119owUsnhgj4GzemnB6CVfC#rd" target="_blank" rel="external">http://mp.weixin.qq.com/s?__biz=MjM5ODg5NTk1OQ==&amp;mid=401219861&amp;idx=1&amp;sn=6f009a9ed31663fe35372a5251bcc1f4&amp;scene=23&amp;srcid=1119owUsnhgj4GzemnB6CVfC#rd</a></p>
+<p>后话：现在的习惯可不好，因为公司不用打卡，所以都是晚睡晚起，明明知道这个习惯不好，却还是不愿意去改，即使很困，依然不愿睡去。以前会定闹钟，后来就麻木了，即使闹钟闹醒了，依然睡着。索性现在一觉睡到自然醒也来这舒服。工作一年多，体质明显比前年在学校差很多。貌似就缺一个为之改变的动力，等待，等待，等待。。。</p>
+<p>等到躺在医院？等在每天喝着中药？</p>
+<p>早起一小时会不会主动早睡一个小时？试试吧。。。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;写碎碎念流水账是想给自己生活记录一点什么，记住这周有趣有味的东西，不过到今天第三期明显觉得没有前两次想写的多了。也就是说这周过的很简单。不过还是要写，坚持。。。&lt;/p&gt;
+&lt;h4 id=&quot;#21天#读书活动&quot;&gt;#21天#读书活动&lt;/h4&gt;&lt;p&gt;话说21天能养成一个习惯，因为住
+    
+    </summary>
+    
+      <category term="总结" scheme="http://duxinfeng.com/categories/%E6%80%BB%E7%BB%93/"/>
+    
+    
+      <category term="总结" scheme="http://duxinfeng.com/tags/%E6%80%BB%E7%BB%93/"/>
+    
+      <category term="生活" scheme="http://duxinfeng.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>碎碎念在11月15日</title>
+    <link href="http://duxinfeng.com/2015/11/15/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A811%E6%9C%8815%E6%97%A5/"/>
+    <id>http://duxinfeng.com/2015/11/15/碎碎念在11月15日/</id>
+    <published>2015-11-15T05:08:00.000Z</published>
+    <updated>2015-11-16T14:43:11.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="1、看书《人性的弱点》">1、看书《人性的弱点》</h4><p>在微信读书上每天看四十屏以上的电子书，一直在坚持。读书过程中是很容易被打断的，如果手机看书一定的是飞行模式下比较好。</p>
+<h4 id="2、看到一篇不错的博客">2、看到一篇不错的博客</h4><p><a href="http://tech.glowing.com/cn/advices-to-junior-developers/" target="_blank" rel="external">《如何提升你的能力？给年轻程序员的几条建议》</a>,博主建议很中肯，从中提取的几点：</p>
+<ul>
+<li>每个程序员都应该经营一款自己的产品，它可以是一款app，一个网站或是一个开源软件。</li>
+<li>我觉得每个人都需要一个职场导师，他可以是你第一份工作的导师或是Manager，也可以是你认识的其他前辈。你们需要维系一个非常长期的关系，不止于一家公司，最好贯穿你的整个职业生涯。每当你遇到疑惑时，都可以询求他的建议，我觉得这将是你最宝贵的一笔人脉财富。</li>
+<li>在面试一家公司的时候，你要意识到面试是双向的，公司在面试你的同时，你也在面试这家公司。</li>
+</ul>
+<p>第一条我正做，第二条比较幸运，冥冥之中存在着那么一个Manager，第三条是我读完之后才能意识到，或者是表达除了我们在面试的时候想法。</p>
+<h4 id="3、公司团建">3、公司团建</h4><p>周三公司组织了团建，学会了两个卡牌游戏，德国心脏病、巫髅（wlow?）忘记怎么拼得了。玩的蛮开心，那天幸运数字3竟然没有帮到我，没有得奖。拿了个参与奖暖宝宝.</p>
+<h4 id="4、本周五的分享">4、本周五的分享</h4><p>主题是做一个关于About me的页面，PPT地址：<a href="https://docs.google.com/presentation/d/1dz-_7-FwTtsOS-7Qiw9uGLqDhkMlDs8B1z7RLaE3IRw/edit#slide=id.p" target="_blank" rel="external">https://docs.google.com/presentation/d/1dz-_7-FwTtsOS-7Qiw9uGLqDhkMlDs8B1z7RLaE3IRw/edit#slide=id.p</a>,虽然也有准备但是还是遇到一些问题，效果不是很好。</p>
+<h4 id="5、参加了一个线上读书活动">5、参加了一个线上读书活动</h4><p>周六在朋友圈看到一个活动，<a href="http://www.yiqixxx.com/e/iODU2NQ==/" target="_blank" rel="external">21天挑战——每天读书半小时第一期</a>，活动参加人数还蛮多的，13日开始截至目前有五百人参加。对监督读书这个需求还是蛮大的。希望用21天培养一下习惯，能坚持下去,阅读计划<a href="http://www.yiqixxx.com/g/viewQuan/70167" target="_blank" rel="external">http://www.yiqixxx.com/g/viewQuan/70167</a></p>
+<h4 id="6、一个让我热泪盈眶的视频">6、一个让我热泪盈眶的视频</h4><p>看了好几遍，跳的真是很好，特别是双膝跪地移动简直帅到爆。。。。</p>
+<p>高潮部分：<a href="http://video.weibo.com/show?fid=1034:7d1eddb4af5100aa66c3c593140ce42f" target="_blank" rel="external">http://video.weibo.com/show?fid=1034:7d1eddb4af5100aa66c3c593140ce42f</a></p>
+<p>完整版：<a href="http://v.qq.com/cover/z/z71t4kv4sm70nct.html" target="_blank" rel="external">http://v.qq.com/cover/z/z71t4kv4sm70nct.html</a></p>
+<p>背景音乐：Dance To The Death </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;1、看书《人性的弱点》&quot;&gt;1、看书《人性的弱点》&lt;/h4&gt;&lt;p&gt;在微信读书上每天看四十屏以上的电子书，一直在坚持。读书过程中是很容易被打断的，如果手机看书一定的是飞行模式下比较好。&lt;/p&gt;
+&lt;h4 id=&quot;2、看到一篇不错的博客&quot;&gt;2、看到一篇不错的博客&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="总结" scheme="http://duxinfeng.com/categories/%E6%80%BB%E7%BB%93/"/>
+    
+    
+      <category term="总结" scheme="http://duxinfeng.com/tags/%E6%80%BB%E7%BB%93/"/>
+    
+      <category term="生活" scheme="http://duxinfeng.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>The identity used to sign the executable is no longer valid</title>
+    <link href="http://duxinfeng.com/2015/11/09/The-identity-used-to-sign-the-executable-is-no-longer-valid/"/>
+    <id>http://duxinfeng.com/2015/11/09/The-identity-used-to-sign-the-executable-is-no-longer-valid/</id>
+    <published>2015-11-09T05:49:11.000Z</published>
+    <updated>2015-11-09T06:06:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="问题描述">问题描述</h3><p>公司一个账号，然后在多台设备使用。</p>
+<p>The identity used to sign the executable is no longer valid.</p>
+<p>Please verify that your device’s clock is properly set, and that your signing certificate is not expired. (0xE8008018).</p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151109-0.png" alt=""></p>
+<p>Preferences —&gt; Accounts —&gt; View Details<br>Reset和Download all 都使过，不管用。<br><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151109-1.png" alt=""></p>
+<p>包括按照参考资料2.<a href="http://pinkstone.co.uk/how-to-fix-the-identity-used-to-sign-the-executable-is-no-longer-valid-error-in-xcode/" target="_blank" rel="external">http://pinkstone.co.uk/how-to-fix-the-identity-used-to-sign-the-executable-is-no-longer-valid-error-in-xcode/</a>也无果。</p>
+<h3 id="最终解决姿势">最终解决姿势</h3><p>还是简单粗暴的从Xcode移除Apple id,然后重新登录就好了。</p>
+<p>原话:<code>Remove your apple id from Xcode preference and add it back again. Clean, rebuild and make sure coding signing is correct in project settings. That works for me.</code></p>
+<h4 id="参考资料：">参考资料：</h4><p>1.<a href="http://stackoverflow.com/questions/31717492/the-identity-used-to-sign-the-executable-is-no-longer-valid-at-xcode" target="_blank" rel="external">http://stackoverflow.com/questions/31717492/the-identity-used-to-sign-the-executable-is-no-longer-valid-at-xcode</a></p>
+<p>2.<a href="http://pinkstone.co.uk/how-to-fix-the-identity-used-to-sign-the-executable-is-no-longer-valid-error-in-xcode/" target="_blank" rel="external">http://pinkstone.co.uk/how-to-fix-the-identity-used-to-sign-the-executable-is-no-longer-valid-error-in-xcode/</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;问题描述&quot;&gt;问题描述&lt;/h3&gt;&lt;p&gt;公司一个账号，然后在多台设备使用。&lt;/p&gt;
+&lt;p&gt;The identity used to sign the executable is no longer valid.&lt;/p&gt;
+&lt;p&gt;Please verify that yo
+    
+    </summary>
+    
+      <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
+    
+    
+      <category term="Xcode" scheme="http://duxinfeng.com/tags/Xcode/"/>
+    
+      <category term="iOS" scheme="http://duxinfeng.com/tags/iOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>碎碎念在11月7日</title>
+    <link href="http://duxinfeng.com/2015/11/07/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A811%E6%9C%887%E6%97%A5/"/>
+    <id>http://duxinfeng.com/2015/11/07/碎碎念在11月7日/</id>
+    <published>2015-11-07T12:54:27.000Z</published>
+    <updated>2015-11-22T12:02:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>“生活总是要有变化的，哪怕你今天是换了一条路线也好，不然久了真的会变得麻木！”,这是在微信订阅号<code>她在江湖漂</code>(微信号:tazaijianghupiao)里<a href="http://mp.weixin.qq.com/s?__biz=MjM5ODQxMDU0Ng==&amp;mid=400119843&amp;idx=1&amp;sn=04633a296fd5ddd279d98f9cb02a7f36&amp;scene=23&amp;srcid=11079VKox5FiixyiA60SZeft#rd" target="_blank" rel="external">试错二三事</a>一篇文章里读到的.现在生活状态工作状态混在一起，今天copy昨日，昨日copy前天。生活是需要有点变化，需要一些碎碎念的来写写流水账，所以有了这篇碎碎念，希望有个系列，每周能总结下这周遇到有趣的，对自己有益的东西，或者思考。</p>
+<h4 id="前奏">前奏</h4><p>下午在家停电了，还好电脑还有电，手机有电，充电宝。但是断电之后信号就不好了，背包里背了一个多月的书（阮一峰的《如何变得有思想》），一直没看完正好那拿出来继续看。</p>
+<p>翻开上次的书页，看了两段之后我就在想，昨天下的Parse源码要不要研究呢？衣服还没洗，要不要现在洗洗？好冷的说，今天不洗了？一会儿夜晚吃啥饭？床边还有一本书也是看了一半，瞅了瞅。就这样，当看书的时候发现又想干其他的事情，在意识到精力分散了之后，不应该这样，然后读了两页，看到一句话说的好有道理，我应该做个笔记，于是把一个笔记本拿来画画，就这样思绪在各个环节跳跃着、跳跃着。。。</p>
+<p>我知道，这是病，得治。</p>
+<p>近段时间的碎碎念。。。。</p>
+<h5 id="1、发现一个满满干活的博客http://blog-ibireme-com">1、发现一个满满干活的博客<a href="http://blog.ibireme.com" target="_blank" rel="external">http://blog.ibireme.com</a></h5><p>刷微博的时候转到一个人的博客，发现大量干货，一看就是高手，然后顺着找到他的GitHub:<a href="https://github.com/ibireme" target="_blank" rel="external">https://github.com/ibireme</a>,最近开源了一个源码YYText YYWebImage YYModel YYCache等，我发现这个的时候微博上只有少数转发，一两天之后被多人转载，作者优酷的，90后。</p>
+<h5 id="2、下周三有个分享，在做PPT">2、下周三有个分享，在做PPT</h5><p>下周三，也就是2015年11月11日按照之前的排表需要做一个分享，正好近几天在研究搭建关于个人页面的东西，然后分享就叫：给自己一个About me页面。</p>
+<h5 id="3、发现了Linux在GitHub上的源码https://github-com/torvalds/linux">3、发现了Linux在GitHub上的源码<a href="https://github.com/torvalds/linux" target="_blank" rel="external">https://github.com/torvalds/linux</a></h5><p>无意中发现了Linux在GitHub上的源码，截止目前5620有个人贡献过代码，557331次提交。虽然不会看，但是对依然点了个star表示支持。本身对Linux系统也有一定学习，感谢大学里王耀宽老师让我知道Linux，当然还有移动教研室的邱雅老师、曹蕾老师、韩璞老师。虽然忘了GCC的编译命令，忘了博创6410开发板上的挂载步骤，忘了交叉编译步骤，忘了SDL的一些移植，忘记了Mplayer的移植，但是那个过程忘不了，多次失败的尝试直至成功让我对Linux底层一些结构有了深一步了解，至今受用。</p>
+<h5 id="4、那为什么写博客？促进思考">4、那为什么写博客？促进思考</h5><p>阮一峰的《如何变得有思想》把第一辑看完了，也忘得差不多，还是很享受作者在阐述一些观点深入我心的感觉，对第二辑的文学和第三辑的历史不是太感兴趣，暂且略过。第四辑的是科技我会看看。然后跳到带后记为什么写博客。那为什么写博客？因为能促进思考。自己在码这些字的时候也是一直在不停地思考，博客的受益人是自己，读者是自己，如果能够帮助到被人，那就是意外收获。</p>
+<h5 id="5、北京下雪">5、北京下雪</h5><p>11月6日北京下雪了，貌似比往年更早一些，依然青葱的柳树却已披上银装，生平第一次见。对了，该穿秋裤了。哦，我妈还没提醒我穿秋裤。<br>还有个段子：我在北方裹着貂，你在南方露着腰。</p>
+<h5 id="6、给每天一个清单">6、给每天一个清单</h5><p>主要是想让工作更有条理些，日常琐事有序些。要知道自己要干什么，什么没有干，什么事重要要先干，什么事可以排后(PS:道理都懂，却依然过不好一生)。</p>
+<h4 id="7、我的About_me_页面">7、我的About me 页面</h4><p>经过一番折腾<a href="http://duxinfeng.com/about-me" target="_blank" rel="external">http://duxinfeng.com/about-me</a>页面终于折腾好了，搞的别人的源码，然后改改。之前一直是Blog里面的一个静态页面<a href="http://duxinfeng.com/about" target="_blank" rel="external">http://duxinfeng.com/about</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;“生活总是要有变化的，哪怕你今天是换了一条路线也好，不然久了真的会变得麻木！”,这是在微信订阅号&lt;code&gt;她在江湖漂&lt;/code&gt;(微信号:tazaijianghupiao)里&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MjM5ODQ
+    
+    </summary>
+    
+      <category term="总结" scheme="http://duxinfeng.com/categories/%E6%80%BB%E7%BB%93/"/>
+    
+    
+      <category term="总结" scheme="http://duxinfeng.com/tags/%E6%80%BB%E7%BB%93/"/>
+    
+      <category term="生活" scheme="http://duxinfeng.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+</feed>
