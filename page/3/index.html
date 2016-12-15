@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8">
   
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <link rel="dns-prefetch" href="http://duxinfeng.com">
   <title>新风作浪</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="baidu-site-verification" content="iemxLt7U81" />
-  <meta name="google-site-verification" content="FpId6OGSgB8VJMaoHmEWt1ak7IZHT4Rd2Med6wOPJ5c" />
   <meta name="description">
 <meta property="og:type" content="website">
 <meta property="og:title" content="新风作浪">
@@ -17,22 +18,27 @@
 <meta name="twitter:title" content="新风作浪">
 <meta name="twitter:description">
   
+    <link rel="alternative" href="/atom.xml" title="新风作浪" type="application/atom+xml">
+  
   
     <link rel="icon" href="/favicon.png">
   
-  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  <link rel="stylesheet" href="/main.css?v=4.0.0.css" type="text/css">
+  
+
+  
+
 </head>
 
 <body>
-  <div id="container">
-    <div class="left-col">
-    <div class="overlay"></div>
+  <div id="container" q-class="show:isCtnShow">
+    <canvas id="anm-canvas" class="anm-canvas"></canvas>
+    <div class="left-col" q-class="show:isShow">
+      <div class="overlay"></div>
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			
-			<img lazy-src="/avatar.png" class="js-avatar">
-			
+			<img src="/avatar.png" class="js-avatar">
 		</a>
 
 		<hgroup>
@@ -43,102 +49,56 @@
 		<p class="header-subtitle">生命不息，折腾不止</p>
 		
 
-		
-			<div class="switch-btn">
-				<div class="icon">
-					<div class="icon-ctn">
-						<div class="icon-wrap icon-house" data-idx="0">
-							<div class="birdhouse"></div>
-							<div class="birdhouse_holes"></div>
-						</div>
-						<div class="icon-wrap icon-ribbon hide" data-idx="1">
-							<div class="ribbon"></div>
-						</div>
-						
-						<div class="icon-wrap icon-link hide" data-idx="2">
-							<div class="loopback_l"></div>
-							<div class="loopback_r"></div>
-						</div>
-						
-						
-					</div>
-					
-				</div>
-				<div class="tips-box hide">
-					<div class="tips-arrow"></div>
-					<ul class="tips-inner">
-						<li>菜单</li>
-						<li>标签</li>
-						
-						<li>友情链接</li>
-						
-						
-					</ul>
-				</div>
+		<nav class="header-menu">
+			<ul>
+			
+				<li><a href="/">主页</a></li>
+	        
+				<li><a href="/archives">归档</a></li>
+	        
+			</ul>
+		</nav>
+		<nav class="header-smart-menu">
+	        
+    		
+    			
+    			<a data-idx="0" q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
+    			
+    			
+            
+    			
+    			<a data-idx="1" q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">关于我</a>
+    			
+    			
+            
+		</nav>
+		<nav class="header-nav">
+			<div class="social">
+				
+					<a class="github" target="_blank" href="https://github.com/duxinfeng" title="github"><i class="icon-github"></i></a>
+		        
+					<a class="weibo" target="_blank" href="http://www.weibo.com/duxinfeng" title="weibo"><i class="icon-weibo"></i></a>
+		        
+					<a class="rss" target="_blank" href="/atom.xml" title="rss"><i class="icon-rss"></i></a>
+		        
+					<a class="mail" target="_blank" href="mailto:duxinfeng99@gmail.com" title="mail"><i class="icon-mail"></i></a>
+		        
 			</div>
-		
-
-		<div class="switch-area">
-			<div class="switch-wrap">
-				<section class="switch-part switch-part1">
-					<nav class="header-menu">
-						<ul>
-						
-							<li><a href="/">主页</a></li>
-				        
-							<li><a href="/archives">归档</a></li>
-				        
-							<li><a href="/about">关于</a></li>
-				        
-						</ul>
-					</nav>
-					<nav class="header-nav">
-						<div class="social">
-							
-								<a class="github" target="_blank" href="https://github.com/duxinfeng" title="github">github</a>
-					        
-								<a class="weibo" target="_blank" href="http://www.weibo.com/duxinfeng" title="weibo">weibo</a>
-					        
-								<a class="twitter" target="_blank" href="https://twitter.com/iduxinfeng" title="twitter">twitter</a>
-					        
-						</div>
-					</nav>
-				</section>
-				
-				
-				<section class="switch-part switch-part2">
-					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/Alipay/" style="font-size: 10px;">Alipay</a><a href="/tags/Blog/" style="font-size: 10px;">Blog</a><a href="/tags/Crash/" style="font-size: 10px;">Crash</a><a href="/tags/DOUAudioStreamer/" style="font-size: 10px;">DOUAudioStreamer</a><a href="/tags/FMDB/" style="font-size: 10px;">FMDB</a><a href="/tags/Git/" style="font-size: 10px;">Git</a><a href="/tags/GitHub/" style="font-size: 10px;">GitHub</a><a href="/tags/Google/" style="font-size: 12.5px;">Google</a><a href="/tags/Html/" style="font-size: 10px;">Html</a><a href="/tags/Mantle/" style="font-size: 12.5px;">Mantle</a><a href="/tags/MarkDown/" style="font-size: 10px;">MarkDown</a><a href="/tags/Pop/" style="font-size: 10px;">Pop</a><a href="/tags/Push/" style="font-size: 10px;">Push</a><a href="/tags/Repo/" style="font-size: 10px;">Repo</a><a href="/tags/UIWebView/" style="font-size: 10px;">UIWebView</a><a href="/tags/Xcode/" style="font-size: 15px;">Xcode</a><a href="/tags/Xcode6/" style="font-size: 10px;">Xcode6</a><a href="/tags/currentTime/" style="font-size: 10px;">currentTime</a><a href="/tags/iOS/" style="font-size: 17.5px;">iOS</a><a href="/tags/mac/" style="font-size: 10px;">mac</a><a href="/tags/simulator/" style="font-size: 10px;">simulator</a><a href="/tags/书单/" style="font-size: 10px;">书单</a><a href="/tags/城市/" style="font-size: 10px;">城市</a><a href="/tags/工具/" style="font-size: 10px;">工具</a><a href="/tags/开源/" style="font-size: 10px;">开源</a><a href="/tags/待办事项/" style="font-size: 10px;">待办事项</a><a href="/tags/总结/" style="font-size: 17.5px;">总结</a><a href="/tags/打包/" style="font-size: 10px;">打包</a><a href="/tags/接口/" style="font-size: 10px;">接口</a><a href="/tags/插件/" style="font-size: 10px;">插件</a><a href="/tags/支付宝/" style="font-size: 10px;">支付宝</a><a href="/tags/生活/" style="font-size: 20px;">生活</a><a href="/tags/苹果客服/" style="font-size: 10px;">苹果客服</a><a href="/tags/计划/" style="font-size: 10px;">计划</a><a href="/tags/读书/" style="font-size: 10px;">读书</a>
-					</div>
-				</section>
-				
-				
-				
-				<section class="switch-part switch-part3">
-					<div id="js-friends">
-					
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://blog.csdn.net/duxinfeng2010">CSDN Blog</a>
-			        
-			        </div>
-				</section>
-				
-
-				
-			</div>
-		</div>
-	</header>				
+		</nav>
+	</header>		
 </div>
+
     </div>
-    <div class="mid-col">
+    <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse">
       <nav id="mobile-nav">
   	<div class="overlay">
-  		<div class="slider-trigger"></div>
+  		<div class="slider-trigger"><i class="icon-sort"></i></div>
   		<h1 class="header-author js-mobile-header hide">新风作浪</h1>
   	</div>
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img lazy-src="/avatar.png" class="js-avatar">
+				<img src="/avatar.png" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author">新风作浪</h1>
@@ -153,39 +113,38 @@
 		        
 					<li><a href="/archives">归档</a></li>
 		        
-					<li><a href="/about">关于</a></li>
 		        
-		        <div class="clearfix"></div>
+		        	<li><a href="/archives/">所有文章</a></li>
+		        
 				</ul>
 			</nav>
 			<nav class="header-nav">
 				<div class="social">
 					
-						<a class="github" target="_blank" href="https://github.com/duxinfeng" title="github">github</a>
+						<a class="github" target="_blank" href="https://github.com/duxinfeng" title="github"><i class="icon-github"></i></a>
 			        
-						<a class="weibo" target="_blank" href="http://www.weibo.com/duxinfeng" title="weibo">weibo</a>
+						<a class="weibo" target="_blank" href="http://www.weibo.com/duxinfeng" title="weibo"><i class="icon-weibo"></i></a>
 			        
-						<a class="twitter" target="_blank" href="https://twitter.com/iduxinfeng" title="twitter">twitter</a>
+						<a class="rss" target="_blank" href="/atom.xml" title="rss"><i class="icon-rss"></i></a>
+			        
+						<a class="mail" target="_blank" href="mailto:duxinfeng99@gmail.com" title="mail"><i class="icon-mail"></i></a>
 			        
 				</div>
 			</nav>
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap">
+
+      <div id="wrapper" class="body-wrap">
+        <div class="menu-l">
+          <div class="canvas-wrap">
+            <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
+          </div>
+          <div id="js-content" class="content-ll">
+            
   
-    <article id="post-ERROR-ITMS-90046-Invalid-Code-Signing-Entitlements" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/11/03/ERROR-ITMS-90046-Invalid-Code-Signing-Entitlements/" class="article-date">
-  	<time datetime="2015-11-03T15:58:47.000Z" itemprop="datePublished">2015-11-03</time>
-</a>
-    </div>
-  
+    <article id="post-ERROR-ITMS-90046-Invalid-Code-Signing-Entitlements" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
     
       <header class="article-header">
         
@@ -195,8 +154,10 @@
     </h1>
   
 
+        <a href="/2015/11/03/ERROR-ITMS-90046-Invalid-Code-Signing-Entitlements/" class="archive-article-date">
+  	<time datetime="2015-11-03T15:58:47.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2015-11-03</time>
+</a>
       </header>
-      
     
     <div class="article-entry" itemprop="articleBody">
       
@@ -205,27 +166,34 @@
 <p>参考：<a href="http://www.devdiv.com/forum.php?mod=viewthread&amp;tid=213847" target="_blank" rel="external">http://www.devdiv.com/forum.php?mod=viewthread&amp;tid=213847</a></p>
 
       
+
+      
     </div>
-    
     <div class="article-info article-info-index">
       
       
 	<div class="article-tag tagcloud">
+		<i class="icon-price-tags"></i>
 		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Xcode/">Xcode</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/打包/">打包</a></li></ul>
 	</div>
 
       
 	<div class="article-category tagcloud">
+	<i class="icon-book icon"></i>
 	<a class="article-category-link" href="/categories/iOS/">iOS</a>
 	</div>
 
 
       
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2015/11/03/ERROR-ITMS-90046-Invalid-Code-Signing-Entitlements/">展开全文 >></a>
+        </p>
+      
+
+      
       <div class="clearfix"></div>
     </div>
-    
   </div>
-  
 </article>
 
 
@@ -234,19 +202,10 @@
 
 
 
+
   
-    <article id="post-Mantle使用问题-MTLTransformerErrorHandlingErrorDomain" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/10/29/Mantle使用问题-MTLTransformerErrorHandlingErrorDomain/" class="article-date">
-  	<time datetime="2015-10-29T06:00:41.000Z" itemprop="datePublished">2015-10-29</time>
-</a>
-    </div>
-  
+    <article id="post-Mantle使用问题-MTLTransformerErrorHandlingErrorDomain" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
     
       <header class="article-header">
         
@@ -256,8 +215,10 @@
     </h1>
   
 
+        <a href="/2015/10/29/Mantle使用问题-MTLTransformerErrorHandlingErrorDomain/" class="archive-article-date">
+  	<time datetime="2015-10-29T06:00:41.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2015-10-29</time>
+</a>
       </header>
-      
     
     <div class="article-entry" itemprop="articleBody">
       
@@ -303,27 +264,34 @@
 <h4 id="后记">后记</h4><p>在使用Mantle的时候还是会有一些其他的坑存在，像数据类型不要用NSInteger、int,最好用NSNumer接受，如果服务器端返回的数据为nil，程序就crash掉了。issue的问题<a href="https://github.com/Mantle/Mantle/issues/595" target="_blank" rel="external">https://github.com/Mantle/Mantle/issues/595</a>，还有一些其他坑在，如：接受NSURL对象，但是URL字符串包含中文<a href="http://duxinfeng.com/2015/07/26/Mantle%E7%9A%84%E4%BD%BF%E7%94%A8" target="_blank" rel="external">http://duxinfeng.com/2015/07/26/Mantle%E7%9A%84%E4%BD%BF%E7%94%A8</a></p>
 
       
+
+      
     </div>
-    
     <div class="article-info article-info-index">
       
       
 	<div class="article-tag tagcloud">
+		<i class="icon-price-tags"></i>
 		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Mantle/">Mantle</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/iOS/">iOS</a></li></ul>
 	</div>
 
       
 	<div class="article-category tagcloud">
+	<i class="icon-book icon"></i>
 	<a class="article-category-link" href="/categories/iOS/">iOS</a>
 	</div>
 
 
       
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2015/10/29/Mantle使用问题-MTLTransformerErrorHandlingErrorDomain/">展开全文 >></a>
+        </p>
+      
+
+      
       <div class="clearfix"></div>
     </div>
-    
   </div>
-  
 </article>
 
 
@@ -332,19 +300,10 @@
 
 
 
+
   
-    <article id="post-怎么判断viewcontroller是Push还是Pop" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/10/23/怎么判断viewcontroller是Push还是Pop/" class="article-date">
-  	<time datetime="2015-10-23T07:33:35.000Z" itemprop="datePublished">2015-10-23</time>
-</a>
-    </div>
-  
+    <article id="post-怎么判断viewcontroller是Push还是Pop" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
     
       <header class="article-header">
         
@@ -354,8 +313,10 @@
     </h1>
   
 
+        <a href="/2015/10/23/怎么判断viewcontroller是Push还是Pop/" class="archive-article-date">
+  	<time datetime="2015-10-23T07:33:35.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2015-10-23</time>
+</a>
       </header>
-      
     
     <div class="article-entry" itemprop="articleBody">
       
@@ -376,27 +337,34 @@
 </code></pre><p>参考：<a href="http://stackoverflow.com/questions/16562546/how-to-check-whether-the-viewcontroller-is-popped-or-pushed-without-using-the-bo" target="_blank" rel="external">http://stackoverflow.com/questions/16562546/how-to-check-whether-the-viewcontroller-is-popped-or-pushed-without-using-the-bo</a></p>
 
       
+
+      
     </div>
-    
     <div class="article-info article-info-index">
       
       
 	<div class="article-tag tagcloud">
+		<i class="icon-price-tags"></i>
 		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Pop/">Pop</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Push/">Push</a></li></ul>
 	</div>
 
       
 	<div class="article-category tagcloud">
+	<i class="icon-book icon"></i>
 	<a class="article-category-link" href="/categories/iOS/">iOS</a>
 	</div>
 
 
       
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2015/10/23/怎么判断viewcontroller是Push还是Pop/">展开全文 >></a>
+        </p>
+      
+
+      
       <div class="clearfix"></div>
     </div>
-    
   </div>
-  
 </article>
 
 
@@ -405,19 +373,10 @@
 
 
 
+
   
-    <article id="post-为何你会一年经验用十年" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/10/18/为何你会一年经验用十年/" class="article-date">
-  	<time datetime="2015-10-18T08:13:53.000Z" itemprop="datePublished">2015-10-18</time>
-</a>
-    </div>
-  
+    <article id="post-为何你会一年经验用十年" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
     
       <header class="article-header">
         
@@ -427,8 +386,10 @@
     </h1>
   
 
+        <a href="/2015/10/18/为何你会一年经验用十年/" class="archive-article-date">
+  	<time datetime="2015-10-18T08:13:53.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2015-10-18</time>
+</a>
       </header>
-      
     
     <div class="article-entry" itemprop="articleBody">
       
@@ -437,27 +398,34 @@
 <p>为何你会一年经验用十年原文链接是<a href="http://davidzhang33.blog.51cto.com/3095817/1313940" target="_blank" rel="external">http://davidzhang33.blog.51cto.com/3095817/1313940</a>，博主在谈学习的时候写了四篇。</p>
 
       
+
+      
     </div>
-    
     <div class="article-info article-info-index">
       
       
 	<div class="article-tag tagcloud">
+		<i class="icon-price-tags"></i>
 		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/总结/">总结</a></li></ul>
 	</div>
 
       
 	<div class="article-category tagcloud">
+	<i class="icon-book icon"></i>
 	<a class="article-category-link" href="/categories/总结/">总结</a>
 	</div>
 
 
       
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2015/10/18/为何你会一年经验用十年/">展开全文 >></a>
+        </p>
+      
+
+      
       <div class="clearfix"></div>
     </div>
-    
   </div>
-  
 </article>
 
 
@@ -466,19 +434,10 @@
 
 
 
+
   
-    <article id="post-根据ip获取省份-城市的接口" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/10/12/根据ip获取省份-城市的接口/" class="article-date">
-  	<time datetime="2015-10-12T06:47:44.000Z" itemprop="datePublished">2015-10-12</time>
-</a>
-    </div>
-  
+    <article id="post-根据ip获取省份-城市的接口" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
     
       <header class="article-header">
         
@@ -488,8 +447,10 @@
     </h1>
   
 
+        <a href="/2015/10/12/根据ip获取省份-城市的接口/" class="archive-article-date">
+  	<time datetime="2015-10-12T06:47:44.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2015-10-12</time>
+</a>
       </header>
-      
     
     <div class="article-entry" itemprop="articleBody">
       
@@ -555,27 +516,34 @@
 该<span class="literal">IP</span>所在地为：中国北京市 联通
 </code></pre>
       
+
+      
     </div>
-    
     <div class="article-info article-info-index">
       
       
 	<div class="article-tag tagcloud">
+		<i class="icon-price-tags"></i>
 		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/城市/">城市</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/接口/">接口</a></li></ul>
 	</div>
 
       
 	<div class="article-category tagcloud">
+	<i class="icon-book icon"></i>
 	<a class="article-category-link" href="/categories/default/">default</a>
 	</div>
 
 
       
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2015/10/12/根据ip获取省份-城市的接口/">展开全文 >></a>
+        </p>
+      
+
+      
       <div class="clearfix"></div>
     </div>
-    
   </div>
-  
 </article>
 
 
@@ -584,19 +552,10 @@
 
 
 
+
   
-    <article id="post-科学上网" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/10/08/科学上网/" class="article-date">
-  	<time datetime="2015-10-08T05:59:57.000Z" itemprop="datePublished">2015-10-08</time>
-</a>
-    </div>
-  
+    <article id="post-科学上网" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
     
       <header class="article-header">
         
@@ -606,8 +565,10 @@
     </h1>
   
 
+        <a href="/2015/10/08/科学上网/" class="archive-article-date">
+  	<time datetime="2015-10-08T05:59:57.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2015-10-08</time>
+</a>
       </header>
-      
     
     <div class="article-entry" itemprop="articleBody">
       
@@ -637,27 +598,34 @@
 </ul>
 
       
+
+      
     </div>
-    
     <div class="article-info article-info-index">
       
       
 	<div class="article-tag tagcloud">
+		<i class="icon-price-tags"></i>
 		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Google/">Google</a></li></ul>
 	</div>
 
       
 	<div class="article-category tagcloud">
+	<i class="icon-book icon"></i>
 	<a class="article-category-link" href="/categories/工具/">工具</a>
 	</div>
 
 
       
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2015/10/08/科学上网/">展开全文 >></a>
+        </p>
+      
+
+      
       <div class="clearfix"></div>
     </div>
-    
   </div>
-  
 </article>
 
 
@@ -666,19 +634,10 @@
 
 
 
+
   
-    <article id="post-杂七杂八" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/09/24/杂七杂八/" class="article-date">
-  	<time datetime="2015-09-24T15:20:56.000Z" itemprop="datePublished">2015-09-24</time>
-</a>
-    </div>
-  
+    <article id="post-杂七杂八" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
     
       <header class="article-header">
         
@@ -688,8 +647,10 @@
     </h1>
   
 
+        <a href="/2015/09/24/杂七杂八/" class="archive-article-date">
+  	<time datetime="2015-09-24T15:20:56.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2015-09-24</time>
+</a>
       </header>
-      
     
     <div class="article-entry" itemprop="articleBody">
       
@@ -704,27 +665,34 @@
 </ul>
 
       
+
+      
     </div>
-    
     <div class="article-info article-info-index">
       
       
 	<div class="article-tag tagcloud">
+		<i class="icon-price-tags"></i>
 		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/生活/">生活</a></li></ul>
 	</div>
 
       
 	<div class="article-category tagcloud">
+	<i class="icon-book icon"></i>
 	<a class="article-category-link" href="/categories/default/">default</a>
 	</div>
 
 
       
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2015/09/24/杂七杂八/">展开全文 >></a>
+        </p>
+      
+
+      
       <div class="clearfix"></div>
     </div>
-    
   </div>
-  
 </article>
 
 
@@ -733,19 +701,10 @@
 
 
 
+
   
-    <article id="post-段子" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/09/24/段子/" class="article-date">
-  	<time datetime="2015-09-24T15:09:18.000Z" itemprop="datePublished">2015-09-24</time>
-</a>
-    </div>
-  
+    <article id="post-段子" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
     
       <header class="article-header">
         
@@ -755,8 +714,10 @@
     </h1>
   
 
+        <a href="/2015/09/24/段子/" class="archive-article-date">
+  	<time datetime="2015-09-24T15:09:18.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2015-09-24</time>
+</a>
       </header>
-      
     
     <div class="article-entry" itemprop="articleBody">
       
@@ -774,27 +735,34 @@
 </ul>
 
       
+
+      
     </div>
-    
     <div class="article-info article-info-index">
       
       
 	<div class="article-tag tagcloud">
+		<i class="icon-price-tags"></i>
 		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/生活/">生活</a></li></ul>
 	</div>
 
       
 	<div class="article-category tagcloud">
+	<i class="icon-book icon"></i>
 	<a class="article-category-link" href="/categories/default/">default</a>
 	</div>
 
 
       
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2015/09/24/段子/">展开全文 >></a>
+        </p>
+      
+
+      
       <div class="clearfix"></div>
     </div>
-    
   </div>
-  
 </article>
 
 
@@ -803,19 +771,10 @@
 
 
 
+
   
-    <article id="post-个人GitHub-Star-Repo分类" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/09/08/个人GitHub-Star-Repo分类/" class="article-date">
-  	<time datetime="2015-09-08T06:09:16.000Z" itemprop="datePublished">2015-09-08</time>
-</a>
-    </div>
-  
+    <article id="post-个人GitHub-Star-Repo分类" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
     
       <header class="article-header">
         
@@ -825,8 +784,10 @@
     </h1>
   
 
+        <a href="/2015/09/08/个人GitHub-Star-Repo分类/" class="archive-article-date">
+  	<time datetime="2015-09-08T06:09:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2015-09-08</time>
+</a>
       </header>
-      
     
     <div class="article-entry" itemprop="articleBody">
       
@@ -934,27 +895,34 @@
 </ul>
 
       
+
+      
     </div>
-    
     <div class="article-info article-info-index">
       
       
 	<div class="article-tag tagcloud">
+		<i class="icon-price-tags"></i>
 		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/GitHub/">GitHub</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Repo/">Repo</a></li></ul>
 	</div>
 
       
 	<div class="article-category tagcloud">
+	<i class="icon-book icon"></i>
 	<a class="article-category-link" href="/categories/iOS/">iOS</a>
 	</div>
 
 
       
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2015/09/08/个人GitHub-Star-Repo分类/">展开全文 >></a>
+        </p>
+      
+
+      
       <div class="clearfix"></div>
     </div>
-    
   </div>
-  
 </article>
 
 
@@ -963,19 +931,10 @@
 
 
 
+
   
-    <article id="post-symbolicatecrash-分析iOS-Crash文件" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/08/18/symbolicatecrash-分析iOS-Crash文件/" class="article-date">
-  	<time datetime="2015-08-18T05:50:04.000Z" itemprop="datePublished">2015-08-18</time>
-</a>
-    </div>
-  
+    <article id="post-symbolicatecrash-分析iOS-Crash文件" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
     
       <header class="article-header">
         
@@ -985,8 +944,10 @@
     </h1>
   
 
+        <a href="/2015/08/18/symbolicatecrash-分析iOS-Crash文件/" class="archive-article-date">
+  	<time datetime="2015-08-18T05:50:04.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2015-08-18</time>
+</a>
       </header>
-      
     
     <div class="article-entry" itemprop="articleBody">
       
@@ -995,28 +956,36 @@
 <p><a href="https://medium.com/@Mrugraj/crash-re-symbolication-5c28d3a3a883" target="_blank" rel="external">https://medium.com/@Mrugraj/crash-re-symbolication-5c28d3a3a883</a></p>
 
       
+
+      
     </div>
-    
     <div class="article-info article-info-index">
       
       
 	<div class="article-tag tagcloud">
+		<i class="icon-price-tags"></i>
 		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Crash/">Crash</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/iOS/">iOS</a></li></ul>
 	</div>
 
       
 	<div class="article-category tagcloud">
+	<i class="icon-book icon"></i>
 	<a class="article-category-link" href="/categories/iOS/">iOS</a>
 	</div>
 
 
       
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2015/08/18/symbolicatecrash-分析iOS-Crash文件/">展开全文 >></a>
+        </p>
+      
+
+      
       <div class="clearfix"></div>
     </div>
-    
   </div>
-  
 </article>
+
 
 
 
@@ -1030,7 +999,11 @@
       <a class="extend prev" rel="prev" href="/page/2/">&laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/4/">Next &raquo;</a>
     </nav>
   
-</div>
+
+
+          </div>
+        </div>
+      </div>
       <footer id="footer">
   <div class="outer">
     <div id="footer-info">
@@ -1044,52 +1017,301 @@
   </div>
 </footer>
     </div>
-    
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
-
-
-<script>
+    <script>
 	var yiliaConfig = {
-		fancybox: true,
-		mathjax: true,
-		animate: true,
+		mathjax: false,
 		isHome: true,
 		isPost: false,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
-		open_in_new: false
+		open_in_new: false,
+		root: "/",
+		innerArchive: true
 	}
 </script>
-<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js" type="text/javascript"></script>
-<script src="/js/main.js" type="text/javascript"></script>
+
+<script src="/./main.js?v=4.0.0.js" type="text/javascript"></script>
 
 
+    
+<div class="tools-col" q-class="show:isShow,hide:isShow|isFalse" q-on="click:stop(e)">
+  <div class="tools-wrap">
+    
+    	<section class="tools-section tools-section-all" q-show="innerArchive">
+        <div class="search-wrap">
+          <input class="search-ipt" q-model="search" type="text" placeholder="find something…">
+          <i class="icon-search icon" q-show="search|isEmptyStr"></i>
+          <i class="icon-close icon" q-show="search|isNotEmptyStr" q-on="click:clearChose(e)"></i>
+        </div>
+        <div class="widget tagcloud search-tag">
+          <p class="search-tag-wording">tag:</p>
+          <label class="search-switch">
+            <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
+          </label>
+          <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">Alipay</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">读书</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">苹果客服</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">Google</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">总结</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">生活</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">接口</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">城市</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">书单</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">Push</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">Pop</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">Blog</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">Xcode</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">插件</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">支付宝</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">iOS</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">GitHub</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">Repo</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">Crash</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">mac</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">工具</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">开源</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">Xcode6</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">simulator</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">UIWebView</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">Html</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">待办事项</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">计划</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">MarkDown</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">Mantle</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">Git</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">FMDB</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">打包</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">DOUAudioStreamer</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">currentTime</a>
+              </li>
+            
+            <div class="clearfix"></div>
+          </ul>
+        </div>
+        <ul class="search-ul">
+          <p q-show="jsonFail" style="padding: 20px; font-size: 12px;">
+            缺失模块。<br/>1、在博客根目录（注意不是yilia根目录）执行以下命令：<br/> npm i hexo-generator-json-content --save<br/><br/>
+            2、在根目录_config.yml里添加配置：
+<pre style="font-size: 12px;" q-show="jsonFail">
+  jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: true
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
+</pre>
+          </p>
+          <li class="search-li" q-repeat="items" q-show="isShow">
+            <a q-attr="href:path|urlformat" class="search-title"><i class="icon-quo-left icon"></i><span q-text="title"></span></a>
+            <p class="search-time">
+              <i class="icon-calendar icon"></i>
+              <span q-text="date|dateformat"></span>
+            </p>
+            <p class="search-tag">
+              <i class="icon-price-tags icon"></i>
+              <span q-repeat="tags" q-on="click:choseTag(e, name)" q-text="name|tagformat"></span>
+            </p>
+          </li>
+        </ul>
+    	</section>
+    
 
+    
 
+    
+    	<section class="tools-section tools-section-me" q-show="aboutme">
+  	  	
+  	  		<div class="aboutme-wrap" id="js-aboutme">人生苦短 及时行乐</div>
+  	  	
+    	</section>
+    
+  </div>
+  
+</div>
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
 
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-    tex2jax: {
-        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-        processEscapes: true,
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-    }
-});
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
 
-MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i=0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';                 
-    }       
-});
-</script>
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
 
+            <div class="pswp__top-bar">
 
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
   </div>
 </body>
 </html>
