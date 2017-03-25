@@ -139,91 +139,6 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-使用支付宝SDK遇到的坑" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/15/使用支付宝SDK遇到的坑/">使用支付宝SDK遇到的坑</a>
-    </h1>
-  
-
-        <a href="/2015/12/15/使用支付宝SDK遇到的坑/" class="archive-article-date">
-  	<time datetime="2015-12-15T06:20:05.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2015-12-15</time>
-</a>
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="搜索SDK坑">搜索SDK坑</h3><p>有可能是我搜索姿势不对，但是在网上看到很童鞋吐槽支付宝SDK藏得太深很不好找。</p>
-<p>和很多童鞋一样在Google/Baidu搜索框输入<code>支付宝SDK</code>,然后第一条结果<a href="https://openhome.alipay.com/doc/docIndex.htm?url=https://openhome.alipay.com/doc/viewKbDoc.htm?key=236698_261849&amp;type=info" target="_blank" rel="external">https://openhome.alipay.com/doc/docIndex.htm?url=https://openhome.alipay.com/doc/viewKbDoc.htm?key=236698_261849&amp;type=info</a>(Baidu要忽略掉前面推广部分的第一条)，然后点到SDK下载跳到：<br><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-0.png" width="80%" height="80%" alt=""></p>
-<p>纳尼？版本2.0最新更新日期2013-10-10，好歹也是大公司，不科学啊,果然下载下来的SDK也不正确。。。</p>
-<p>然后在网上扒扒扒。。。</p>
-<h3 id="找到坑的原因">找到坑的原因</h3><p>原来关键词输入错误，应该搜索<code>支付宝开放平台</code>（<a href="http://doc.open.alipay.com/doc2/alipayDocIndex.htm" target="_blank" rel="external">http://doc.open.alipay.com/doc2/alipayDocIndex.htm</a>。</p>
-<p>或者在搜索支付宝SDK出来页面的时候,点击导航栏跳转一下就好。<br><a href="!--&lt;http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-1.png">!--&lt;http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-1.png</a>—&gt;<br><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-1.png" width="80%" height="80%" alt=""></p>
-<h3 id="下载坑">下载坑</h3><p>不知道是什么原因，在网页上下载完，但是一直是这个状态,应该是解压打不开。最后用的迅雷。<br><a href="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-2.png" target="_blank" rel="external">http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-2.png</a><br><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-2.png" width="80%" height="80%" alt=""></p>
-<h3 id="支付宝支付坑">支付宝支付坑</h3><p>文档里建议：“出于安全考虑，请商户尽量把私钥保存在服务端，在服务端进行签名验签。”，所以客户单在本地拿到订单信息之后进行字符串拼接，然后给丢到支付宝SDK中,等待处理结果。</p>
-<pre><code><span class="collection">[<span class="collection">[AlipaySDK defaultService]</span> payOrder:orderString fromScheme:appScheme callback:^<span class="list">(<span class="keyword">NSDictionary</span> *resultDic)</span> <span class="collection">{
-       NSLog<span class="list">(@<span class="string">"reslut = %@"</span>,resultDic)</span><span class="comment">;</span>
-   }</span>]</span><span class="comment">;</span>
-</code></pre><h3 id="注意坑">注意坑</h3><ul>
-<li><p>如果出现6001错误（用户中途取消），请检查订单在做拼接时候是否符合规则。参数需要有“双引号”包起来，因为这个也排查好一会儿才找到错误原因。</p>
-</li>
-<li><p>运行Demo前，需要作为商户到 <a href="https://b.alipay.com" target="_blank" rel="external">https://b.alipay.com</a> 进行签约与审核，才能拿到 <code>partner</code>、<code>seller</code>、<code>privateKey</code> 信息，demo中参数配置在<code>APViewController.m</code>文件里。</p>
-</li>
-</ul>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list">
-			 
-        <li class="article-tag-list-item">
-        	<a href="javascript:void(0)" class="article-tag-list-link color4">iOS</a>
-        </li>
-       
-        <li class="article-tag-list-item">
-        	<a href="javascript:void(0)" class="article-tag-list-link color4">支付宝</a>
-        </li>
-      
-		</ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<i class="icon-book icon"></i>
-	<a class="article-category-link" href="/categories/iOS/">iOS</a>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2015/12/15/使用支付宝SDK遇到的坑/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-
-
-
-
-
-
-
-  
     <article id="post-Git忽略UserInterfaceState-xcuserstate文件" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -958,6 +873,86 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
       
         <p class="article-more-link">
           <a class="article-more-a" href="/2015/11/09/The-identity-used-to-sign-the-executable-is-no-longer-valid/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
+    <article id="post-碎碎念在11月7日" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/11/07/碎碎念在11月7日/">碎碎念在11月7日</a>
+    </h1>
+  
+
+        <a href="/2015/11/07/碎碎念在11月7日/" class="archive-article-date">
+  	<time datetime="2015-11-07T12:54:27.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2015-11-07</time>
+</a>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>“生活总是要有变化的，哪怕你今天是换了一条路线也好，不然久了真的会变得麻木！”,这是在微信订阅号<code>她在江湖漂</code>(微信号:tazaijianghupiao)里<a href="http://mp.weixin.qq.com/s?__biz=MjM5ODQxMDU0Ng==&amp;mid=400119843&amp;idx=1&amp;sn=04633a296fd5ddd279d98f9cb02a7f36&amp;scene=23&amp;srcid=11079VKox5FiixyiA60SZeft#rd" target="_blank" rel="external">试错二三事</a>一篇文章里读到的.现在生活状态工作状态混在一起，今天copy昨日，昨日copy前天。生活是需要有点变化，需要一些碎碎念的来写写流水账，所以有了这篇碎碎念，希望有个系列，每周能总结下这周遇到有趣的，对自己有益的东西，或者思考。</p>
+<h4 id="前奏">前奏</h4><p>下午在家停电了，还好电脑还有电，手机有电，充电宝。但是断电之后信号就不好了，背包里背了一个多月的书（阮一峰的《如何变得有思想》），一直没看完正好那拿出来继续看。</p>
+<p>翻开上次的书页，看了两段之后我就在想，昨天下的Parse源码要不要研究呢？衣服还没洗，要不要现在洗洗？好冷的说，今天不洗了？一会儿夜晚吃啥饭？床边还有一本书也是看了一半，瞅了瞅。就这样，当看书的时候发现又想干其他的事情，在意识到精力分散了之后，不应该这样，然后读了两页，看到一句话说的好有道理，我应该做个笔记，于是把一个笔记本拿来画画，就这样思绪在各个环节跳跃着、跳跃着。。。</p>
+<p>我知道，这是病，得治。</p>
+<p>近段时间的碎碎念。。。。</p>
+<h5 id="1、发现一个满满干活的博客http://blog-ibireme-com">1、发现一个满满干活的博客<a href="http://blog.ibireme.com" target="_blank" rel="external">http://blog.ibireme.com</a></h5><p>刷微博的时候转到一个人的博客，发现大量干货，一看就是高手，然后顺着找到他的GitHub:<a href="https://github.com/ibireme" target="_blank" rel="external">https://github.com/ibireme</a>,最近开源了一个源码YYText YYWebImage YYModel YYCache等，我发现这个的时候微博上只有少数转发，一两天之后被多人转载，作者优酷的，90后。</p>
+<h5 id="2、下周三有个分享，在做PPT">2、下周三有个分享，在做PPT</h5><p>下周三，也就是2015年11月11日按照之前的排表需要做一个分享，正好近几天在研究搭建关于个人页面的东西，然后分享就叫：给自己一个About me页面。</p>
+<h5 id="3、发现了Linux在GitHub上的源码https://github-com/torvalds/linux">3、发现了Linux在GitHub上的源码<a href="https://github.com/torvalds/linux" target="_blank" rel="external">https://github.com/torvalds/linux</a></h5><p>无意中发现了Linux在GitHub上的源码，截止目前5620有个人贡献过代码，557331次提交。虽然不会看，但是对依然点了个star表示支持。本身对Linux系统也有一定学习，感谢大学里王耀宽老师让我知道Linux，当然还有移动教研室的邱雅老师、曹蕾老师、韩璞老师。虽然忘了GCC的编译命令，忘了博创6410开发板上的挂载步骤，忘了交叉编译步骤，忘了SDL的一些移植，忘记了Mplayer的移植，但是那个过程忘不了，多次失败的尝试直至成功让我对Linux底层一些结构有了深一步了解，至今受用。</p>
+<h5 id="4、那为什么写博客？促进思考">4、那为什么写博客？促进思考</h5><p>阮一峰的《如何变得有思想》把第一辑看完了，也忘得差不多，还是很享受作者在阐述一些观点深入我心的感觉，对第二辑的文学和第三辑的历史不是太感兴趣，暂且略过。第四辑的是科技我会看看。然后跳到带后记为什么写博客。那为什么写博客？因为能促进思考。自己在码这些字的时候也是一直在不停地思考，博客的受益人是自己，读者是自己，如果能够帮助到被人，那就是意外收获。</p>
+<h5 id="5、北京下雪">5、北京下雪</h5><p>11月6日北京下雪了，貌似比往年更早一些，依然青葱的柳树却已披上银装，生平第一次见。对了，该穿秋裤了。哦，我妈还没提醒我穿秋裤。<br>还有个段子：我在北方裹着貂，你在南方露着腰。</p>
+<h5 id="6、给每天一个清单">6、给每天一个清单</h5><p>主要是想让工作更有条理些，日常琐事有序些。要知道自己要干什么，什么没有干，什么事重要要先干，什么事可以排后(PS:道理都懂，却依然过不好一生)。</p>
+<h4 id="7、我的About_me_页面">7、我的About me 页面</h4><p>经过一番折腾<a href="http://duxinfeng.com/about-me">http://duxinfeng.com/about-me</a>页面终于折腾好了，搞的别人的源码，然后改改。之前一直是Blog里面的一个静态页面<a href="http://duxinfeng.com/about">http://duxinfeng.com/about</a></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags"></i>
+		<ul class="article-tag-list">
+			 
+        <li class="article-tag-list-item">
+        	<a href="javascript:void(0)" class="article-tag-list-link color3">总结</a>
+        </li>
+       
+        <li class="article-tag-list-item">
+        	<a href="javascript:void(0)" class="article-tag-list-link color3">生活</a>
+        </li>
+      
+		</ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<i class="icon-book icon"></i>
+	<a class="article-category-link" href="/categories/总结/">总结</a>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2015/11/07/碎碎念在11月7日/">展开全文 >></a>
         </p>
       
 
