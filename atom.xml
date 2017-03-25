@@ -375,9 +375,9 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
       <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
     
     
-      <category term="iOS" scheme="http://duxinfeng.com/tags/iOS/"/>
-    
       <category term="Git" scheme="http://duxinfeng.com/tags/Git/"/>
+    
+      <category term="iOS" scheme="http://duxinfeng.com/tags/iOS/"/>
     
   </entry>
   
@@ -730,9 +730,9 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
       <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
     
     
-      <category term="Xcode" scheme="http://duxinfeng.com/tags/Xcode/"/>
-    
       <category term="iOS" scheme="http://duxinfeng.com/tags/iOS/"/>
+    
+      <category term="Xcode" scheme="http://duxinfeng.com/tags/Xcode/"/>
     
   </entry>
   
