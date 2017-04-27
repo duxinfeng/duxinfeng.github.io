@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://duxinfeng.com/"/>
-  <updated>2017-04-27T13:27:38.000Z</updated>
+  <updated>2017-04-27T13:56:37.000Z</updated>
   <id>http://duxinfeng.com/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>iadhfiwhdfiuwd</title>
+    <link href="http://duxinfeng.com/2017/04/27/iadhfiwhdfiuwd/"/>
+    <id>http://duxinfeng.com/2017/04/27/iadhfiwhdfiuwd/</id>
+    <published>2017-04-27T13:43:00.000Z</published>
+    <updated>2017-04-27T13:56:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>oifhiuwhfiuwrfwkrjfnijwrnf</p>
+<p>kwjefkjwebf</p>
+<h3 id="slkdnflkw">slkdnflkw</h3><p>skdjbfkds </p>
+<p>sljdfnjsfn </p>
+<p>spfjgjen \<br>je</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;oifhiuwhfiuwrfwkrjfnijwrnf&lt;/p&gt;
+&lt;p&gt;kwjefkjwebf&lt;/p&gt;
+&lt;h3 id=&quot;slkdnflkw&quot;&gt;slkdnflkw&lt;/h3&gt;&lt;p&gt;skdjbfkds &lt;/p&gt;
+&lt;p&gt;sljdfnjsfn &lt;/p&gt;
+&lt;p&gt;spfjgjen \&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>这是一篇hexo-admin插件的测试</title>
@@ -702,40 +729,6 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
     
     
       <category term="碎碎念" scheme="http://duxinfeng.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>The identity used to sign the executable is no longer valid</title>
-    <link href="http://duxinfeng.com/2015/11/09/The-identity-used-to-sign-the-executable-is-no-longer-valid/"/>
-    <id>http://duxinfeng.com/2015/11/09/The-identity-used-to-sign-the-executable-is-no-longer-valid/</id>
-    <published>2015-11-09T05:49:11.000Z</published>
-    <updated>2017-04-27T13:08:54.000Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="问题描述">问题描述</h3><p>公司一个账号，然后在多台设备使用。</p>
-<p>The identity used to sign the executable is no longer valid.</p>
-<p>Please verify that your device’s clock is properly set, and that your signing certificate is not expired. (0xE8008018).</p>
-<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151109-0.png" alt=""></p>
-<p>Preferences —&gt; Accounts —&gt; View Details<br>Reset和Download all 都使过，不管用。<br><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151109-1.png" alt=""></p>
-<p>包括按照参考资料2.<a href="http://pinkstone.co.uk/how-to-fix-the-identity-used-to-sign-the-executable-is-no-longer-valid-error-in-xcode/" target="_blank" rel="external">http://pinkstone.co.uk/how-to-fix-the-identity-used-to-sign-the-executable-is-no-longer-valid-error-in-xcode/</a>也无果。</p>
-<h3 id="最终解决姿势">最终解决姿势</h3><p>还是简单粗暴的从Xcode移除Apple id,然后重新登录就好了。</p>
-<p>原话:<code>Remove your apple id from Xcode preference and add it back again. Clean, rebuild and make sure coding signing is correct in project settings. That works for me.</code></p>
-<h4 id="参考资料：">参考资料：</h4><p>1.<a href="http://stackoverflow.com/questions/31717492/the-identity-used-to-sign-the-executable-is-no-longer-valid-at-xcode" target="_blank" rel="external">http://stackoverflow.com/questions/31717492/the-identity-used-to-sign-the-executable-is-no-longer-valid-at-xcode</a></p>
-<p>2.<a href="http://pinkstone.co.uk/how-to-fix-the-identity-used-to-sign-the-executable-is-no-longer-valid-error-in-xcode/" target="_blank" rel="external">http://pinkstone.co.uk/how-to-fix-the-identity-used-to-sign-the-executable-is-no-longer-valid-error-in-xcode/</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;问题描述&quot;&gt;问题描述&lt;/h3&gt;&lt;p&gt;公司一个账号，然后在多台设备使用。&lt;/p&gt;
-&lt;p&gt;The identity used to sign the executable is no longer valid.&lt;/p&gt;
-&lt;p&gt;Please verify that yo
-    
-    </summary>
-    
-      <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
-    
-    
-      <category term="Xcode" scheme="http://duxinfeng.com/tags/Xcode/"/>
     
   </entry>
   
