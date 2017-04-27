@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://duxinfeng.com/"/>
-  <updated>2016-04-11T05:45:52.000Z</updated>
+  <updated>2017-04-27T12:05:47.000Z</updated>
   <id>http://duxinfeng.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://duxinfeng.com/2016/04/11/An-error-occurred-while-processing-the-post-install-hook-of-the-Podfile/"/>
     <id>http://duxinfeng.com/2016/04/11/An-error-occurred-while-processing-the-post-install-hook-of-the-Podfile/</id>
     <published>2016-04-11T05:38:42.000Z</published>
-    <updated>2016-04-11T05:45:52.000Z</updated>
+    <updated>2017-04-27T12:05:47.000Z</updated>
     
     <content type="html"><![CDATA[<p>执行Pod install 报错：</p>
 <p>An error occurred while processing the post-install hook of the Podfile.</p>
@@ -41,6 +41,8 @@
       <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
     
     
+      <category term="CocoaPods" scheme="http://duxinfeng.com/tags/CocoaPods/"/>
+    
   </entry>
   
   <entry>
@@ -48,7 +50,7 @@
     <link href="http://duxinfeng.com/2016/03/27/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82016%E5%B9%B43%E6%9C%8827%E6%97%A5/"/>
     <id>http://duxinfeng.com/2016/03/27/碎碎念在2016年3月27日/</id>
     <published>2016-03-27T03:11:30.000Z</published>
-    <updated>2016-03-27T15:46:52.000Z</updated>
+    <updated>2017-04-27T12:04:57.000Z</updated>
     
     <content type="html"><![CDATA[<p>1、社交障碍。只能和熟悉的人侃侃，和陌生人完全无话可说，不知道聊什么话题。</p>
 <p>2、同样一句话，需要在一个特定时间和场景下才能深入内心。<br>“时光是有限的，所以不要浪费在别人的生命中。不要对信条盲从使自己活在别人的思考结果下。不要让外界意见的噪音淹没自己内心的声音。最重要的是，要有勇气去跟随你的心和直觉，知道自己真正想成为什么样的人，除此之外其他都是次要的。 — 乔布斯”</p>
@@ -65,8 +67,10 @@
     
     </summary>
     
-      <category term="default" scheme="http://duxinfeng.com/categories/default/"/>
+      <category term="生活" scheme="http://duxinfeng.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
+    
+      <category term="碎碎念" scheme="http://duxinfeng.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
   </entry>
   
@@ -75,7 +79,7 @@
     <link href="http://duxinfeng.com/2016/03/21/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82016%E5%B9%B43%E6%9C%8821%E6%97%A5/"/>
     <id>http://duxinfeng.com/2016/03/21/碎碎念在2016年3月21日/</id>
     <published>2016-03-21T13:50:05.000Z</published>
-    <updated>2016-03-28T14:46:22.000Z</updated>
+    <updated>2017-04-27T12:04:42.000Z</updated>
     
     <content type="html"><![CDATA[<p>又来写了，距离上一次碎碎念已经50天了，中间开篇过两次，不知道写啥，然后放弃了。只有当你静下心来，你才能很好的思考。</p>
 <p>1、经实验表明，21天并不能养成一个习惯，你需要一直坚持，坚持让他成为生活中不可缺少的一部分。一件事如果你一直坚持，那么他或许成为一种习惯，倘若中间持续中断几天，那么你这习惯就被破坏了。去年的时候有段时间强迫自己看书，即使有时事情，也会强迫自己去看几分钟或者看几页，大概坚持了四十多天的样子，后来断了几天，到现在就再也没看了，那段时间买了七八本书，五六本还在睡觉。</p>
@@ -100,6 +104,8 @@
       <category term="生活" scheme="http://duxinfeng.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
+      <category term="碎碎念" scheme="http://duxinfeng.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
   </entry>
   
   <entry>
@@ -107,7 +113,7 @@
     <link href="http://duxinfeng.com/2016/02/02/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82016%E5%B9%B42%E6%9C%882%E6%97%A5/"/>
     <id>http://duxinfeng.com/2016/02/02/碎碎念在2016年2月2日/</id>
     <published>2016-02-02T07:41:23.000Z</published>
-    <updated>2016-02-02T07:55:31.000Z</updated>
+    <updated>2017-04-27T12:04:16.000Z</updated>
     
     <content type="html"><![CDATA[<p>有一段时间没叨叨了，临时改变行程，决定明天回家，火车票没抢到合适的，搭坐滴滴顺风车，希望明天顺利，能当天到！</p>
 <p>因为堂弟结婚2月4日结婚，本来想着年底火车票不好买，所以不赶了，但是家里很希望我能回去，于是我就动摇了。2月3日回家。</p>
@@ -124,8 +130,10 @@
     
     </summary>
     
-      <category term="default" scheme="http://duxinfeng.com/categories/default/"/>
+      <category term="生活" scheme="http://duxinfeng.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
+    
+      <category term="碎碎念" scheme="http://duxinfeng.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
   </entry>
   
@@ -134,7 +142,7 @@
     <link href="http://duxinfeng.com/2016/01/31/DOUAudioStreamer%E8%AE%BE%E7%BD%AEcurrentTime%E6%97%A0%E6%95%88/"/>
     <id>http://duxinfeng.com/2016/01/31/DOUAudioStreamer设置currentTime无效/</id>
     <published>2016-01-30T16:43:44.000Z</published>
-    <updated>2016-01-30T16:51:54.000Z</updated>
+    <updated>2017-04-27T12:06:19.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="关于DOUAudioStreamer">关于DOUAudioStreamer</h3><p>DOUAudioStreamer是基于豆瓣团队Core Audio实现的用于iOS/Mac的开源流媒体播放引擎。代码托管地址：<a href="https://github.com/douban/DOUAudioStreamer" target="_blank" rel="external">https://github.com/douban/DOUAudioStreamer</a></p>
 <h3 id="示例Demo">示例Demo</h3><p>1、官方有个demo:<a href="https://github.com/douban/DOUAudioStreamer/tree/master/example/DOUASDemo" target="_blank" rel="external">https://github.com/douban/DOUAudioStreamer/tree/master/example/DOUASDemo</a><br>2、另一个功能比较完善的demo:<a href="https://github.com/Aufree/ESTMusicPlayer" target="_blank" rel="external">https://github.com/Aufree/ESTMusicPlayer</a></p>
@@ -174,8 +182,6 @@ _audioStreamer.<span class="keyword">currentTime</span> = <span class="number">1
     
       <category term="DOUAudioStreamer" scheme="http://duxinfeng.com/tags/DOUAudioStreamer/"/>
     
-      <category term="currentTime" scheme="http://duxinfeng.com/tags/currentTime/"/>
-    
   </entry>
   
   <entry>
@@ -183,7 +189,7 @@ _audioStreamer.<span class="keyword">currentTime</span> = <span class="number">1
     <link href="http://duxinfeng.com/2016/01/15/NSURL%E5%88%9D%E5%A7%8B%E5%8C%96%E5%A4%B1%E8%B4%A5/"/>
     <id>http://duxinfeng.com/2016/01/15/NSURL初始化失败/</id>
     <published>2016-01-14T16:36:01.000Z</published>
-    <updated>2016-01-15T01:48:36.000Z</updated>
+    <updated>2017-04-27T12:06:58.000Z</updated>
     
     <content type="html"><![CDATA[<pre><code><span class="built_in">NSString</span> *usrstring = <span class="string">@"xxxxxx"</span>;
 <span class="built_in">NSURL</span> *URL = [<span class="built_in">NSURL</span> URLWithString:usrstring];
@@ -203,10 +209,8 @@ _audioStreamer.<span class="keyword">currentTime</span> = <span class="number">1
     
       <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
     
-      <category term="NSURL" scheme="http://duxinfeng.com/categories/iOS/NSURL/"/>
     
-    
-      <category term="iOS" scheme="http://duxinfeng.com/tags/iOS/"/>
+      <category term="NSURL" scheme="http://duxinfeng.com/tags/NSURL/"/>
     
   </entry>
   
@@ -245,7 +249,7 @@ _audioStreamer.<span class="keyword">currentTime</span> = <span class="number">1
     <link href="http://duxinfeng.com/2015/12/31/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A812%E6%9C%8831%E6%97%A5/"/>
     <id>http://duxinfeng.com/2015/12/31/碎碎念在12月31日/</id>
     <published>2015-12-31T15:56:14.000Z</published>
-    <updated>2015-12-31T16:49:02.000Z</updated>
+    <updated>2017-04-27T12:03:25.000Z</updated>
     
     <content type="html"><![CDATA[<p>梦想总是要有的，万一要实现了呢？</p>
 ]]></content>
@@ -257,8 +261,10 @@ _audioStreamer.<span class="keyword">currentTime</span> = <span class="number">1
     
     </summary>
     
-      <category term="default" scheme="http://duxinfeng.com/categories/default/"/>
+      <category term="生活" scheme="http://duxinfeng.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
+    
+      <category term="碎碎念" scheme="http://duxinfeng.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
   </entry>
   
@@ -267,7 +273,7 @@ _audioStreamer.<span class="keyword">currentTime</span> = <span class="number">1
     <link href="http://duxinfeng.com/2015/12/20/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A812%E6%9C%8820%E6%97%A5/"/>
     <id>http://duxinfeng.com/2015/12/20/碎碎念在12月20日/</id>
     <published>2015-12-20T13:12:53.000Z</published>
-    <updated>2015-12-21T01:37:05.000Z</updated>
+    <updated>2017-04-27T13:15:31.000Z</updated>
     
     <content type="html"><![CDATA[<p>临近过年，琐事也多了起来。各种朋友同学亲戚结婚</p>
 <h4 id="关于介绍iOS项目结构的文章">关于介绍iOS项目结构的文章</h4><p><a href="http://limboy.me/ios/2013/09/23/build-ios-application.html" target="_blank" rel="external">http://limboy.me/ios/2013/09/23/build-ios-application.html</a></p>
@@ -286,8 +292,10 @@ _audioStreamer.<span class="keyword">currentTime</span> = <span class="number">1
     
     </summary>
     
-      <category term="default" scheme="http://duxinfeng.com/categories/default/"/>
+      <category term="生活" scheme="http://duxinfeng.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
+    
+      <category term="碎碎念" scheme="http://duxinfeng.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
   </entry>
   
@@ -296,7 +304,7 @@ _audioStreamer.<span class="keyword">currentTime</span> = <span class="number">1
     <link href="http://duxinfeng.com/2015/12/15/%E4%BD%BF%E7%94%A8%E6%94%AF%E4%BB%98%E5%AE%9DSDK%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91/"/>
     <id>http://duxinfeng.com/2015/12/15/使用支付宝SDK遇到的坑/</id>
     <published>2015-12-15T06:20:05.000Z</published>
-    <updated>2015-12-15T08:53:20.000Z</updated>
+    <updated>2017-04-27T13:10:49.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="搜索SDK坑">搜索SDK坑</h3><p>有可能是我搜索姿势不对，但是在网上看到很童鞋吐槽支付宝SDK藏得太深很不好找。</p>
 <p>和很多童鞋一样在Google/Baidu搜索框输入<code>支付宝SDK</code>,然后第一条结果<a href="https://openhome.alipay.com/doc/docIndex.htm?url=https://openhome.alipay.com/doc/viewKbDoc.htm?key=236698_261849&amp;type=info" target="_blank" rel="external">https://openhome.alipay.com/doc/docIndex.htm?url=https://openhome.alipay.com/doc/viewKbDoc.htm?key=236698_261849&amp;type=info</a>(Baidu要忽略掉前面推广部分的第一条)，然后点到SDK下载跳到：<br><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-0.png" width="80%" height="80%" alt=""></p>
@@ -327,9 +335,7 @@ _audioStreamer.<span class="keyword">currentTime</span> = <span class="number">1
       <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
     
     
-      <category term="iOS" scheme="http://duxinfeng.com/tags/iOS/"/>
-    
-      <category term="支付宝" scheme="http://duxinfeng.com/tags/%E6%94%AF%E4%BB%98%E5%AE%9D/"/>
+      <category term="Alipay" scheme="http://duxinfeng.com/tags/Alipay/"/>
     
   </entry>
   
@@ -338,7 +344,7 @@ _audioStreamer.<span class="keyword">currentTime</span> = <span class="number">1
     <link href="http://duxinfeng.com/2015/12/15/Git%E5%BF%BD%E7%95%A5UserInterfaceState-xcuserstate%E6%96%87%E4%BB%B6/"/>
     <id>http://duxinfeng.com/2015/12/15/Git忽略UserInterfaceState-xcuserstate文件/</id>
     <published>2015-12-15T03:28:52.000Z</published>
-    <updated>2015-12-15T08:06:06.000Z</updated>
+    <updated>2017-04-27T13:05:05.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="关于UserInterfaceState-xcuserstate文件">关于UserInterfaceState.xcuserstate文件</h3><p>路径：ProjectFolder.xcodeproj/project.xcworkspace/xcuserdata/myUserName.xcuserdatad/UserInterfaceState.xcuserstate</p>
 <p>每次打开工程，动一动Xcode UserInterfaceState.xcuserstate就会出现变动。</p>
@@ -356,12 +362,10 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
     
     </summary>
     
-      <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
+      <category term="工具" scheme="http://duxinfeng.com/categories/%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="Git" scheme="http://duxinfeng.com/tags/Git/"/>
-    
-      <category term="iOS" scheme="http://duxinfeng.com/tags/iOS/"/>
+      <category term="Xcode" scheme="http://duxinfeng.com/tags/Xcode/"/>
     
   </entry>
   
@@ -370,7 +374,7 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
     <link href="http://duxinfeng.com/2015/12/14/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A812%E6%9C%8814%E6%97%A5/"/>
     <id>http://duxinfeng.com/2015/12/14/碎碎念在12月14日/</id>
     <published>2015-12-14T06:48:43.000Z</published>
-    <updated>2015-12-15T08:45:39.000Z</updated>
+    <updated>2017-04-27T13:15:11.000Z</updated>
     
     <content type="html"><![CDATA[<p>因为一些不可抗拒因素，所以这一期碎碎念是后来追加的。</p>
 <p>不过发现也没那多内容拿出来叨叨了，本来也就是记一记碎事，愈发归于平淡。</p>
@@ -389,12 +393,10 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
     
     </summary>
     
-      <category term="总结" scheme="http://duxinfeng.com/categories/%E6%80%BB%E7%BB%93/"/>
+      <category term="生活" scheme="http://duxinfeng.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="总结" scheme="http://duxinfeng.com/tags/%E6%80%BB%E7%BB%93/"/>
-    
-      <category term="生活" scheme="http://duxinfeng.com/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="碎碎念" scheme="http://duxinfeng.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
   </entry>
   
@@ -462,7 +464,7 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
     <link href="http://duxinfeng.com/2015/12/11/%E6%88%91%E7%9A%84%E4%B9%A6%E5%8D%95/"/>
     <id>http://duxinfeng.com/2015/12/11/我的书单/</id>
     <published>2015-12-11T11:37:41.000Z</published>
-    <updated>2015-12-11T11:48:09.000Z</updated>
+    <updated>2017-04-27T12:10:46.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>已读</p>
@@ -516,7 +518,7 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
     
     </summary>
     
-      <category term="default" scheme="http://duxinfeng.com/categories/default/"/>
+      <category term="读书" scheme="http://duxinfeng.com/categories/%E8%AF%BB%E4%B9%A6/"/>
     
     
       <category term="书单" scheme="http://duxinfeng.com/tags/%E4%B9%A6%E5%8D%95/"/>
@@ -528,7 +530,7 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
     <link href="http://duxinfeng.com/2015/12/06/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A812%E6%9C%886%E6%97%A5/"/>
     <id>http://duxinfeng.com/2015/12/06/碎碎念在12月6日/</id>
     <published>2015-12-06T15:26:59.000Z</published>
-    <updated>2015-12-06T16:23:15.000Z</updated>
+    <updated>2017-04-27T13:15:04.000Z</updated>
     
     <content type="html"><![CDATA[<h4 id="搬家">搬家</h4><p>从去年的五月份的时候说搬家，在公司部分资助一直搬到现在，搬了一年半终于搬离天通苑北，来到公司附近，现在东西全部办过来了，找了一两个星期的房子，明天再回去交接一下，终于心里一个石头可以落下了，不过还的置办生活用品。</p>
 <h4 id="Swift开源">Swift开源</h4><p>本周最重磅的消息就是苹果兑现承诺，终于赶在年底前把Swift开源了，官网<a href="https://swift.org" target="_blank" rel="external">https://swift.org</a>,听说当天被手动DDos了，访问不到。github:<a href="https://github.com/apple/swift" target="_blank" rel="external">https://github.com/apple/swift</a>开源当天star过万，截止目前已有19010个star，170人贡献代码。也该准备准备好好学习下Swift了。</p>
@@ -562,12 +564,10 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
     
     </summary>
     
-      <category term="总结" scheme="http://duxinfeng.com/categories/%E6%80%BB%E7%BB%93/"/>
+      <category term="生活" scheme="http://duxinfeng.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="总结" scheme="http://duxinfeng.com/tags/%E6%80%BB%E7%BB%93/"/>
-    
-      <category term="生活" scheme="http://duxinfeng.com/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="碎碎念" scheme="http://duxinfeng.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
   </entry>
   
@@ -576,7 +576,7 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
     <link href="http://duxinfeng.com/2015/11/29/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A811%E6%9C%8829%E6%97%A5/"/>
     <id>http://duxinfeng.com/2015/11/29/碎碎念在11月29日/</id>
     <published>2015-11-29T15:24:50.000Z</published>
-    <updated>2015-12-01T05:12:35.000Z</updated>
+    <updated>2017-04-27T13:14:56.000Z</updated>
     
     <content type="html"><![CDATA[<h4 id="可以搜索github排名的站点">可以搜索github排名的站点</h4><p>1.<a href="http://githuber.cn" target="_blank" rel="external">http://githuber.cn</a></p>
 <p>2.<a href="http://github-awards.com" target="_blank" rel="external">http://github-awards.com</a></p>
@@ -600,12 +600,10 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
     
     </summary>
     
-      <category term="总结" scheme="http://duxinfeng.com/categories/%E6%80%BB%E7%BB%93/"/>
+      <category term="生活" scheme="http://duxinfeng.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="总结" scheme="http://duxinfeng.com/tags/%E6%80%BB%E7%BB%93/"/>
-    
-      <category term="生活" scheme="http://duxinfeng.com/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="碎碎念" scheme="http://duxinfeng.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
   </entry>
   
@@ -614,7 +612,7 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
     <link href="http://duxinfeng.com/2015/11/22/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A811%E6%9C%8822%E6%97%A5/"/>
     <id>http://duxinfeng.com/2015/11/22/碎碎念在11月22日/</id>
     <published>2015-11-22T12:01:48.000Z</published>
-    <updated>2015-11-22T16:18:15.000Z</updated>
+    <updated>2017-04-27T13:14:49.000Z</updated>
     
     <content type="html"><![CDATA[<p>写碎碎念流水账是想给自己生活记录一点什么，记住这周有趣有味的东西，不过到今天第三期明显觉得没有前两次想写的多了。也就是说这周过的很简单。不过还是要写，坚持。。。</p>
 <h4 id="#21天#读书活动">#21天#读书活动</h4><p>话说21天能养成一个习惯，因为住的地方停电的缘故，所以某一天，也就是11.9号开始读书，《人性的弱点》计划20天读完，实际用了10天，这个21天得活动是16号开始，坚持到现在11.22，有几个晚上困的不想看了，咬咬牙还是坚持了一下。11.19号开始阅读《黑客与画家》每天10页，20天读完，按照目前进度，应该能提前读完。</p>
@@ -636,12 +634,10 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
     
     </summary>
     
-      <category term="总结" scheme="http://duxinfeng.com/categories/%E6%80%BB%E7%BB%93/"/>
+      <category term="生活" scheme="http://duxinfeng.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="总结" scheme="http://duxinfeng.com/tags/%E6%80%BB%E7%BB%93/"/>
-    
-      <category term="生活" scheme="http://duxinfeng.com/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="碎碎念" scheme="http://duxinfeng.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
   </entry>
   
@@ -650,7 +646,7 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
     <link href="http://duxinfeng.com/2015/11/15/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A811%E6%9C%8815%E6%97%A5/"/>
     <id>http://duxinfeng.com/2015/11/15/碎碎念在11月15日/</id>
     <published>2015-11-15T05:08:00.000Z</published>
-    <updated>2015-11-16T14:43:11.000Z</updated>
+    <updated>2017-04-27T13:14:41.000Z</updated>
     
     <content type="html"><![CDATA[<h4 id="1、看书《人性的弱点》">1、看书《人性的弱点》</h4><p>在微信读书上每天看四十屏以上的电子书，一直在坚持。读书过程中是很容易被打断的，如果手机看书一定的是飞行模式下比较好。</p>
 <h4 id="2、看到一篇不错的博客">2、看到一篇不错的博客</h4><p><a href="http://tech.glowing.com/cn/advices-to-junior-developers/" target="_blank" rel="external">《如何提升你的能力？给年轻程序员的几条建议》</a>,博主建议很中肯，从中提取的几点：</p>
@@ -676,12 +672,10 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
     
     </summary>
     
-      <category term="总结" scheme="http://duxinfeng.com/categories/%E6%80%BB%E7%BB%93/"/>
+      <category term="生活" scheme="http://duxinfeng.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="总结" scheme="http://duxinfeng.com/tags/%E6%80%BB%E7%BB%93/"/>
-    
-      <category term="生活" scheme="http://duxinfeng.com/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="碎碎念" scheme="http://duxinfeng.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
   </entry>
   
@@ -690,7 +684,7 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
     <link href="http://duxinfeng.com/2015/11/09/The-identity-used-to-sign-the-executable-is-no-longer-valid/"/>
     <id>http://duxinfeng.com/2015/11/09/The-identity-used-to-sign-the-executable-is-no-longer-valid/</id>
     <published>2015-11-09T05:49:11.000Z</published>
-    <updated>2015-11-09T06:06:37.000Z</updated>
+    <updated>2017-04-27T13:08:54.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="问题描述">问题描述</h3><p>公司一个账号，然后在多台设备使用。</p>
 <p>The identity used to sign the executable is no longer valid.</p>
@@ -717,8 +711,6 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
     
       <category term="Xcode" scheme="http://duxinfeng.com/tags/Xcode/"/>
     
-      <category term="iOS" scheme="http://duxinfeng.com/tags/iOS/"/>
-    
   </entry>
   
   <entry>
@@ -726,7 +718,7 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
     <link href="http://duxinfeng.com/2015/11/07/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A811%E6%9C%887%E6%97%A5/"/>
     <id>http://duxinfeng.com/2015/11/07/碎碎念在11月7日/</id>
     <published>2015-11-07T12:54:27.000Z</published>
-    <updated>2015-11-22T12:02:50.000Z</updated>
+    <updated>2017-04-27T13:14:33.000Z</updated>
     
     <content type="html"><![CDATA[<p>“生活总是要有变化的，哪怕你今天是换了一条路线也好，不然久了真的会变得麻木！”,这是在微信订阅号<code>她在江湖漂</code>(微信号:tazaijianghupiao)里<a href="http://mp.weixin.qq.com/s?__biz=MjM5ODQxMDU0Ng==&amp;mid=400119843&amp;idx=1&amp;sn=04633a296fd5ddd279d98f9cb02a7f36&amp;scene=23&amp;srcid=11079VKox5FiixyiA60SZeft#rd" target="_blank" rel="external">试错二三事</a>一篇文章里读到的.现在生活状态工作状态混在一起，今天copy昨日，昨日copy前天。生活是需要有点变化，需要一些碎碎念的来写写流水账，所以有了这篇碎碎念，希望有个系列，每周能总结下这周遇到有趣的，对自己有益的东西，或者思考。</p>
 <h4 id="前奏">前奏</h4><p>下午在家停电了，还好电脑还有电，手机有电，充电宝。但是断电之后信号就不好了，背包里背了一个多月的书（阮一峰的《如何变得有思想》），一直没看完正好那拿出来继续看。</p>
@@ -748,12 +740,10 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
     
     </summary>
     
-      <category term="总结" scheme="http://duxinfeng.com/categories/%E6%80%BB%E7%BB%93/"/>
+      <category term="生活" scheme="http://duxinfeng.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="总结" scheme="http://duxinfeng.com/tags/%E6%80%BB%E7%BB%93/"/>
-    
-      <category term="生活" scheme="http://duxinfeng.com/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="碎碎念" scheme="http://duxinfeng.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
   </entry>
   
