@@ -1,938 +1,1164 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
-  <head>
+<html lang="zh">
+    <head>
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.3.3 -->
+
+    <!-- Title -->
     
-<meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <title>
+        
+        新风作浪
+    </title>
+
+    <!-- Meta & Info -->
+    <meta charset="utf-8">
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    
+    
+    
+    
+        <link rel="dns-prefetch" href="https://hm.baidu.com"/>
+    
+    
+        <link rel="dns-prefetch" href="https://www.google-analytics.com"/>
+    
+    
+
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0097A7">
+    <meta name="author" content="新风作浪">
+    <meta name="description" content="null">
+    <meta name="keywords" content="null">
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
+    <link rel="icon" sizes="192x192" href="/img/favicon.png">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
+
+    <!--iOS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-title" content="Title">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="480">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="新风作浪">
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="http://duxinfeng.com">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="新风作浪">
+    <meta property="og:description" content="null">
+    
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import CSS & jQuery -->
+    
+        <link rel="stylesheet" href="/css/material.min.css">
+        <link rel="stylesheet" href="/css/style.min.css">
+        <!-- Config CSS -->
 
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-
-
-
-
-
-
-
-
-  <link rel="alternate" href="/atom.xml" title="新风作浪">
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=2.3.x" />
-
-
-
-<link rel="canonical" href="http://duxinfeng.com/page/5/"/>
-
-
-<meta property="og:type" content="website">
-<meta property="og:title" content="新风作浪">
-<meta property="og:url" content="http://duxinfeng.com/page/5/index.html">
-<meta property="og:site_name" content="新风作浪">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="新风作浪">
-
-
-<link rel="stylesheet" type="text/css" href="/css/style.css?v=2.3.x" />
-
-
-
-  <link rel="stylesheet" type="text/css" href="/lib/fancybox/jquery.fancybox.css" />
-
-
-
-
-
-<script>
-  var CONFIG = {
-    search: true,
-    searchPath: "/search.xml",
-    fancybox: true,
-    toc: true,
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
   }
+
+  a {
+    color: #00838F;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0097A7 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0097A7 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0097A7 !important;
+  }
+
+  .toTop {
+    background: #757575 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #757575;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #757575;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #757575;
+  }
+
+  .post-toc a:hover {
+    color: #00838F;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-color: #F5F5F5;
+      }
+
+      /* blog_info bottom background */
+      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+        background-color: #fff;
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/queue.js"></script>
+    
+
+    <!-- UC Browser Compatible -->
+    <script>
+        var agent = navigator.userAgent.toLowerCase();
+        if(agent.indexOf('ucbrowser')>0) {
+            document.write("<link rel=\"stylesheet\" href=\"/css/uc.css\">");
+            alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+        }
+    </script>
+
+    
+    <!-- Baidu Analytics -->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {var hm = document.createElement('script');
+        hm.src = 'https://hm.baidu.com/hm.js?5ffec76fdd2b8750d2aeff3027650364';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    
+
+    
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-53524827-1', 'auto');ga('send', 'pageview');
+    </script>
+    
+
+
+    <!-- Bing Background -->
+    
+
+    <!-- Custom Head -->
+    
+</head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Index Module -->
+<div class="material-index mdl-grid">
+    
+    <div class="locate-thumbnail-symbol"></div>
+
+    <!-- Pin on top -->
+    
+        
+            
+                
+                    <!-- Paradox Thumbnail -->
+                    <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+        
+    
+
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2015/07/14/iOS开源App整理/"><span>[Top]</span>iOS开源App整理</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            有时候在逛Weibo、Github的时候看到一些最近开源或者持续更新的iOS项目源码，大部分都已经上线，在这篇Blog里作了整理（排名不分先后，按照发现时间排序）。
+开源中国开...
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2015/07/14/iOS开源App整理/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="新风作浪's avatar">
+            </div>
+            <div>
+                <strong>新风作浪</strong>
+                <span>7月 14, 2015</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                <a class="post_category-link" href="/categories/iOS/">iOS</a>
+            </span>
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+                
+                
+            
+        
+    
+
+    <!-- Normal Post -->
+    
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+        
+    
+
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2015/06/21/Xcode-快捷键/">Xcode 快捷键</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            Xcode Keyboard Shortcuts
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2015/06/21/Xcode-快捷键/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="新风作浪's avatar">
+            </div>
+            <div>
+                <strong>新风作浪</strong>
+                <span>6月 21, 2015</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                <a class="post_category-link" href="/categories/iOS/">iOS</a>
+            </span>
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+            
+        
+    
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+        
+    
+
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2015/06/05/MarkDown使用小记/">MarkDown使用小记</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            显示图片形式
+格式一
+
+![image_name](image_url)
+举个栗子
+
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2015/06/05/MarkDown使用小记/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="新风作浪's avatar">
+            </div>
+            <div>
+                <strong>新风作浪</strong>
+                <span>6月 05, 2015</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                <a class="post_category-link" href="/categories/default/">default</a>
+            </span>
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+            
+        
+    
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+        
+    
+
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2015/05/06/Xcode-6删除模拟器上所有app/">Xcode 6删除模拟器上所有app</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            在终端上执行如下命令xcrun simctl list | grep -oh '[A-Z0-9
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2015/05/06/Xcode-6删除模拟器上所有app/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="新风作浪's avatar">
+            </div>
+            <div>
+                <strong>新风作浪</strong>
+                <span>5月 06, 2015</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                <a class="post_category-link" href="/categories/iOS/">iOS</a>
+            </span>
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+            
+        
+    
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+        
+    
+
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2015/05/03/UIWebView加载Html/">UIWebView加载Html</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            UIWebView加载html分两种方式
+1、UIWebView加载本地html123NSString *htmlFile = [[NSBundle mainBundle] pathForResource:@&quot;xxx&quot; ofType:@&quot;html&quot;];NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];[webView loadHTMLString:htmlString baseURL:nil];
+本地加载可以修改html显示的文本大小和字体
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2015/05/03/UIWebView加载Html/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="新风作浪's avatar">
+            </div>
+            <div>
+                <strong>新风作浪</strong>
+                <span>5月 03, 2015</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                <a class="post_category-link" href="/categories/iOS/">iOS</a>
+            </span>
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+            
+        
+    
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+        
+    
+
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2015/05/01/基于Github和Hexo搭建Blog/">基于Github和Hexo搭建Blog</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            步骤还是不写了，下面这些Blog写的都很详细。
+
+安装
+
+
+
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2015/05/01/基于Github和Hexo搭建Blog/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="新风作浪's avatar">
+            </div>
+            <div>
+                <strong>新风作浪</strong>
+                <span>5月 01, 2015</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                <a class="post_category-link" href="/categories/Hexo/">Hexo</a>
+            </span>
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+            
+        
+    
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+        
+    
+
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2015/05/01/To-Do-List/">To Do List</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            一些代办的事项和学习计划！
+想学Python，找了一些教程h...
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2015/05/01/To-Do-List/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="新风作浪's avatar">
+            </div>
+            <div>
+                <strong>新风作浪</strong>
+                <span>5月 01, 2015</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                <a class="post_category-link" href="/categories/todolist/">todolist</a>
+            </span>
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+            
+        
+    
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+        
+    
+
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2015/05/01/关于这个Blog/">关于这个Blog</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+               曾经多次折腾，想在GitHub上基于Jeyll搭建一个自己的Blog,多次因为环境配置问题惨遭失败，主要还是ruby版本的问题，终于在2014年8月份折腾成功，不幸的是同年12月份电脑坏了，换了一个硬盘，结果发现是硬盘线出问题，当然环境都没有，再次配置环境依然各种错误，无果，在15年五一假期再次折腾，此次试验Hexo 搭建，果然配置比Jekyll简单多，于是有了这个Blog。   希望这个Blog能伴随、见证我职业道路的成长！
+曾经坚持写Blog一点体会：
+写Blog最大的受益人不是别人，而是自己，只是在帮助自己的同时顺便帮助了别人。那是我大学期间成长最快，成长最多的一段时间。
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2015/05/01/关于这个Blog/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="新风作浪's avatar">
+            </div>
+            <div>
+                <strong>新风作浪</strong>
+                <span>5月 01, 2015</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                <a class="post_category-link" href="/categories/default/">default</a>
+            </span>
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+            
+        
+    
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+        
+    
+
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2015/05/01/hello-world/">Hello World</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            Welcome to Hexo! This is your very first post. Check ...
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2015/05/01/hello-world/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="新风作浪's avatar">
+            </div>
+            <div>
+                <strong>新风作浪</strong>
+                <span>5月 01, 2015</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                
+            </span>
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+            
+        
+    
+
+    
+    <!-- Index nav -->
+        <nav class="material-nav mdl-cell mdl-cell--12-col">
+            <a class="extend prev" rel="prev" href="/page/4/"><button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"><i class="material-icons" role="presentation">arrow_back</i></button></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span>
+        </nav>
+    
+
+    
+        <script>
+    var randomNum;
+
+    var locatePost = $('.locate-thumbnail-symbol').next();
+    for(var i = 0; i < 10; i++) {
+        randomNum = Math.floor(Math.random() * 19 + 1);
+
+        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
+        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+
+        locatePost = locatePost.next();
+    }
+</script>
+
+    
+</div>
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/avatar.png" alt="新风作浪's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        duxinfeng99@email.com
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="duxinfeng99@gmail.com" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/" target="_self">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    归档
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2016/04/">四月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/03/">三月 2016<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/02/">二月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/01/">一月 2016<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/12/">十二月 2015<span class="sidebar_archives-count">8</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/11/">十一月 2015<span class="sidebar_archives-count">6</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/10/">十月 2015<span class="sidebar_archives-count">5</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/09/">九月 2015<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/08/">八月 2015<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/07/">七月 2015<span class="sidebar_archives-count">9</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/06/">六月 2015<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/05/">五月 2015<span class="sidebar_archives-count">6</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="/tags" title="标签">
+                
+                    <i class="material-icons sidebar-material-icons">bookmark</i>
+                
+                标签
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/about" title="关于">
+                
+                    <i class="material-icons sidebar-material-icons">person</i>
+                
+                关于
+            </a>
+        </li>
+        
+    
+
+    <!-- Article Number  -->
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+    <div class="sidebar-divider"></div>
+
+
+<!-- Theme Material -->
+
+    <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+            主题 - Material
+            <span class="sidebar-badge badge-circle">i</span>
+        </div>
+    </a>
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+        <a href="https://twitter.com/iduxinfeng" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-twitter.svg);">
+                <span class="visuallyhidden">Twitter</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Facebook -->
+    
+
+    <!-- Google + -->
+    
+
+    <!-- Weibo -->
+    
+        <a href="http://www.weibo.com/duxinfeng" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-weibo.svg);">
+                <span class="visuallyhidden">Weibo</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+        <a href="https://github.com/duxinfeng" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-github.svg);">
+                <span class="visuallyhidden">Github</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+
+    <!-- Telegram -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©&nbsp;
+            <script type="text/javascript">
+                var fd = new Date();
+                document.write(fd.getFullYear());
+            </script>
+            &nbsp;新风作浪
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import File -->
+
+    <script src="/js/lazyload.min.js"></script>
+    <script src="/js/js.min.js"></script>
+
+
+
+    <script src="/js/nprogress.js"></script>
+
+
+<script type="text/javascript">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
 </script>
 
 
 
 
-  
 
 
 
-    <title> 新风作浪 </title>
-  </head>
 
-  <body><div id="mobile-navbar" class="mobile-navbar">
-  <div class="mobile-header-logo">
-    <a href="/." class="logo">新风作浪</a>
-  </div>
-  <div class="mobile-navbar-icon">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-</div>
 
-<nav id="mobile-menu" class="mobile-menu slideout-menu">
-  <ul class="mobile-menu-list">
-    
-      <a href="/">
-        <li class="mobile-menu-item">
-          
-          
-            Home
-          
-        </li>
-      </a>
-    
-      <a href="/archives/">
-        <li class="mobile-menu-item">
-          
-          
-            Archives
-          
-        </li>
-      </a>
-    
-      <a href="/tags">
-        <li class="mobile-menu-item">
-          
-          
-            Tags
-          
-        </li>
-      </a>
-    
-      <a href="/categories">
-        <li class="mobile-menu-item">
-          
-          
-            Categories
-          
-        </li>
-      </a>
-    
-      <a href="/about">
-        <li class="mobile-menu-item">
-          
-          
-            About
-          
-        </li>
-      </a>
-    
-  </ul>
-</nav>
-
-    <div class="container" id="mobile-panel">
-      <header id="header" class="header"><div class="logo-wrapper">
-  <a href="/." class="logo">新风作浪</a>
-</div>
-
-<nav class="site-navbar">
-  
-    <ul id="menu" class="menu">
-      
-        <li class="menu-item">
-          <a class="menu-item-link" href="/">
-            
-            
-              首页
-            
-          </a>
-        </li>
-      
-        <li class="menu-item">
-          <a class="menu-item-link" href="/archives/">
-            
-            
-              归档
-            
-          </a>
-        </li>
-      
-        <li class="menu-item">
-          <a class="menu-item-link" href="/tags">
-            
-            
-              标签
-            
-          </a>
-        </li>
-      
-        <li class="menu-item">
-          <a class="menu-item-link" href="/categories">
-            
-            
-              分类
-            
-          </a>
-        </li>
-      
-        <li class="menu-item">
-          <a class="menu-item-link" href="/about">
-            
-            
-              关于
-            
-          </a>
-        </li>
-      
-      
-        <li class="menu-search">
-          <form>
-            <i class="iconfont icon-search" id="open-search"></i>
-            <input type="text" class="search-input" id="search-input" />
-            <i class="iconfont icon-close" id="close-search"></i>
-          </form>
-        </li>
-      
-    </ul>
-  
-</nav>
-
-      </header>
-
-      <main id="main" class="main">
-        <div class="content-wrapper">
-          <div id="content" class="content">
-            
-  <section id="posts" class="posts">
-    
-      
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          Xcode 快捷键
-        
-      </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
-          2015年6月21日
-        </span>
-      </div>
-    </header>
-
-    
-    
-
-    <div class="post-content">
-      
-        <h2 id="Xcode_Keyboard_Shortcuts">Xcode Keyboard Shortcuts</h2><p><img src="http://7xjic7.com1.z0.glb.clouddn.com/QQ201506211.png" alt=""><br><a id="more"></a><br><img src="http://7xjic7.com1.z0.glb.clouddn.com/QQ201506212.png" alt=""></p>
-<p>原地址：<a href="http://swifteducation.github.io/assets/pdfs/XcodeKeyboardShortcuts.pdf" target="_blank" rel="external">http://swifteducation.github.io/assets/pdfs/XcodeKeyboardShortcuts.pdf</a></p>
-
-      
-    </div>
-
-    
-      
-      
-
-
-
-      
-      
-    
-
-    
-      <footer class="post-footer">
-        
-          <div class="post-tags">
-            
-              <a href="/tags/Xcode/">Xcode</a>
-            
-          </div>
-        
-        
-        
-  <nav class="pagination">
-    
-      <a class="prev" href="/page/4/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    
-    
-  </nav>
-
-      </footer>
-    
-
-  </article>
-
-    
-      
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          MarkDown使用小记
-        
-      </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
-          2015年6月5日
-        </span>
-      </div>
-    </header>
-
-    
-    
-
-    <div class="post-content">
-      
-        <h2 id="显示图片形式">显示图片形式</h2><blockquote>
-<p>格式一</p>
-</blockquote>
-<pre><code>![<span class="link_label">image_name</span>](<span class="link_url">image_url</span>)
-</code></pre><p>举个栗子</p>
-<p><img src="http://img0.bdstatic.com/img/image/2043d07892fc42f2350bebb36c4b72ce1409212020.jpg" alt="范爷"><br><a id="more"></a></p>
-<blockquote>
-<p>格式二</p>
-</blockquote>
-<pre><code>&lt;<span class="tag">img</span> src=<span class="string">"xx.jpg"</span> <span class="attribute">width</span>=<span class="string">"50%"</span> <span class="attribute">height</span>=<span class="string">"50%"</span>&gt;
-&lt;<span class="tag">img</span> src=<span class="string">"xx.jpg"</span> <span class="attribute">width</span>=<span class="string">"100"</span> <span class="attribute">height</span>=<span class="string">"200"</span>&gt;
-</code></pre><p>举个栗子</p>
-<pre><code>&lt;img <span class="variable">src=</span><span class="string">"http://img0.bdstatic.com/img/image/2043d07892fc42f2350bebb36c4b72ce1409212020.jpg"</span> <span class="variable">width=</span><span class="string">"50%"</span> <span class="variable">height=</span><span class="string">"50%"</span> <span class="variable">alt=</span><span class="string">"范爷"</span>/&gt;
-</code></pre><p><img src="http://img0.bdstatic.com/img/image/2043d07892fc42f2350bebb36c4b72ce1409212020.jpg" width="50%" height="50%" alt="范爷"></p>
-<p>居中显示</p>
-<pre><code>&lt;<span class="tag">div</span> align=center&gt;
-&lt;<span class="tag">img</span> src=<span class="string">"http://img0.bdstatic.com/img/image/2043d07892fc42f2350bebb36c4b72ce1409212020.jpg"</span> <span class="attribute">width</span>=<span class="string">"50%"</span> <span class="attribute">height</span>=<span class="string">"50%"</span> alt=<span class="string">"范爷"</span>/&gt;
-&lt;/div&gt;
-</code></pre><div align="center"><br><img src="http://img0.bdstatic.com/img/image/2043d07892fc42f2350bebb36c4b72ce1409212020.jpg" width="50%" height="50%" alt="范爷"><br></div>
-      
-    </div>
-
-    
-      
-      
-
-
-
-      
-      
-    
-
-    
-      <footer class="post-footer">
-        
-          <div class="post-tags">
-            
-              <a href="/tags/MarkDown/">MarkDown</a>
-            
-          </div>
-        
-        
-        
-  <nav class="pagination">
-    
-      <a class="prev" href="/page/4/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    
-    
-  </nav>
-
-      </footer>
-    
-
-  </article>
-
-    
-      
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          Xcode 6删除模拟器上所有app
-        
-      </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
-          2015年5月6日
-        </span>
-      </div>
-    </header>
-
-    
-    
-
-    <div class="post-content">
-      
-        <h3 id="在终端上执行如下命令">在终端上执行如下命令</h3><pre><code>xcrun simctl list | grep -oh '<span class="special">[</span>A-Z0-9<span class="special">]</span><span class="command">\{</span>8<span class="command">\}</span>-<span class="special">[</span>A-Z0-9<span class="special">]</span><span class="command">\{</span>4<span class="command">\}</span>-<span class="special">[</span>A-Z0-9<span class="special">]</span><span class="command">\{</span>4<span class="command">\}</span>-<span class="special">[</span>A-Z0-9<span class="special">]</span><span class="command">\{</span>4<span class="command">\}</span>-<span class="special">[</span>A-Z0-9<span class="special">]</span><span class="command">\{</span>12<span class="command">\}</span>' | xargs -I<span class="special">{</span><span class="special">}</span> xcrun simctl erase <span class="special">{</span><span class="special">}</span>
-</code></pre><p>这样所有模拟器里的数据被会被还原出事状态，又可以清理很多空间！</p>
-<p>参考链接：<a href="http://stackoverflow.com/questions/692064/cleaning-up-the-iphone-simulator" target="_blank" rel="external">http://stackoverflow.com/questions/692064/cleaning-up-the-iphone-simulator</a></p>
-
-      
-    </div>
-
-    
-      
-      
-
-
-
-      
-      
-    
-
-    
-      <footer class="post-footer">
-        
-          <div class="post-tags">
-            
-              <a href="/tags/Xcode6/">Xcode6</a>
-            
-              <a href="/tags/simulator/">simulator</a>
-            
-          </div>
-        
-        
-        
-  <nav class="pagination">
-    
-      <a class="prev" href="/page/4/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    
-    
-  </nav>
-
-      </footer>
-    
-
-  </article>
-
-    
-      
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          UIWebView加载Html
-        
-      </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
-          2015年5月3日
-        </span>
-      </div>
-    </header>
-
-    
-    
-
-    <div class="post-content">
-      
-        <p>UIWebView加载html分两种方式</p>
-<h2 id="1、UIWebView加载本地html">1、UIWebView加载本地html</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">NSString *htmlFile = [[NSBundle mainBundle] pathForResource:@&quot;xxx&quot; ofType:@&quot;html&quot;];</div><div class="line">NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];</div><div class="line">[webView loadHTMLString:htmlString baseURL:nil];</div></pre></td></tr></table></figure>
-<p>本地加载可以修改html显示的文本大小和字体</p>
-<a id="more"></a>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">NSString* formatString = [NSString stringWithFormat:</div><div class="line">     @&quot;&lt;html&gt;&quot;</div><div class="line">     &quot;&lt;style type=\&quot;text/css\&quot;&gt;&quot;</div><div class="line">     &quot;body &#123;background-color:transparent; font-family:helvetica; font-size:%@; color:%@;&#125;&quot;</div><div class="line">     &quot;&lt;/style&gt;&quot;</div><div class="line">     &quot;&lt;body&gt;&quot;</div><div class="line">     &quot;&lt;p&gt;%@&lt;/p&gt;&quot;</div><div class="line">     &quot;&lt;/body&gt;&lt;/html&gt;&quot;,@&quot;24&quot;,@&quot;#000000&quot;, html];</div><div class="line">  [webView loadHTMLString:formatString baseURL:nil];</div></pre></td></tr></table></figure>
-<ul>
-<li>background-color:transparent; 背景颜色(透明)</li>
-<li>font-family:helvetica; 字体</li>
-<li>font-size:24; 字体大小</li>
-<li>color:#000fff; 字体的颜色</li>
-</ul>
-<hr>
-<ul>
-<li>如果发现本地html在UIWebView加载不出来，请检查html代码编码格式，一般来说都采用的时UTF8编码格式。</li>
-</ul>
-<hr>
-<h2 id="2、UIWebView加载一个在线的URL">2、UIWebView加载一个在线的URL</h2><pre><code><span class="built_in">NSURL</span> *url = [<span class="built_in">NSURLV</span> URLWithString:<span class="string">@"http://duxinfeng.com"</span>];
-<span class="built_in">NSURLRequest</span> *req = [<span class="built_in">NSURLRequest</span> requestWithURL:url];
-[webView loadRequest:req];
-</code></pre><hr>
-<p>如果对html排版有特殊要求，则需要自己或前端写好css文件，可以放本地，也可以加到html文件里面，如果放到本地需要注意路径，当我把css文件放在和xx.xcodeproj 一个目录时是这样的</p>
-<pre><code>[webView loadHTMLString:htmlString baseURL:[NSURL fileURLWithPath:<span class="string">[[NSBundle mainBundle] bundlePath]]</span>];
-</code></pre><hr>
-<p>如果是放到html里面可以参考网易新闻开源组件(<code>view-source:http://m.163.com/special/newsclient/ios_libraries.html</code>)  chrome打开，或者直接访问查看<a href="http://m.163.com/special/newsclient/ios_libraries.html" target="_blank" rel="external">hmtl源码</a></p>
-<h2 id="3、UIWebView_高亮显示问题">3、UIWebView 高亮显示问题</h2><p>UIWebView 是可以监测html里的数字、电话号码、url链接，然后高亮显示，可以通过设置他的<code>dataDetectorTypes</code>属性来改变</p>
-<pre><code><span class="keyword">self</span><span class="variable">.webView</span><span class="variable">.dataDetectorTypes</span> = <span class="built_in">UIDataDetectorTypeNone</span>;
-</code></pre>
-      
-    </div>
-
-    
-      
-      
-
-
-
-      
-      
-    
-
-    
-      <footer class="post-footer">
-        
-          <div class="post-tags">
-            
-              <a href="/tags/UIWebView/">UIWebView</a>
-            
-              <a href="/tags/Html/">Html</a>
-            
-          </div>
-        
-        
-        
-  <nav class="pagination">
-    
-      <a class="prev" href="/page/4/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    
-    
-  </nav>
-
-      </footer>
-    
-
-  </article>
-
-    
-      
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          基于Github和Hexo搭建Blog
-        
-      </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
-          2015年5月1日
-        </span>
-      </div>
-    </header>
-
-    
-    
-
-    <div class="post-content">
-      
-        <p>步骤还是不写了，下面这些Blog写的都很详细。</p>
-<blockquote>
-<p>安装</p>
-</blockquote>
-<ul>
-<li><a href="http://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank" rel="external">http://ibruce.info/2013/11/22/hexo-your-blog/</a></li>
-<li><a href="http://ijiaober.github.io/categories/hexo/" target="_blank" rel="external">http://ijiaober.github.io/categories/hexo/</a></li>
-<li><a href="http://andrewliu.tk" target="_blank" rel="external">http://andrewliu.tk</a></li>
-<li><a href="http://lsq.me/2014/10/29/hexo-playground/" target="_blank" rel="external">http://lsq.me/2014/10/29/hexo-playground/</a></li>
-</ul>
-<blockquote>
-<p>安装过程中遇到一些问题解决方案</p>
-</blockquote>
-<ul>
-<li><a href="http://xuanwo.org/2014/08/14/hexo-usual-problem/" target="_blank" rel="external">http://xuanwo.org/2014/08/14/hexo-usual-problem/</a></li>
-<li><a href="https://www.v2ex.com/t/175940" target="_blank" rel="external">https://www.v2ex.com/t/175940</a></li>
-</ul>
-
-      
-    </div>
-
-    
-      
-      
-
-
-
-      
-      
-    
 
-    
-      <footer class="post-footer">
-        
-          <div class="post-tags">
-            
-              <a href="/tags/Blog/">Blog</a>
-            
-          </div>
-        
-        
-        
-  <nav class="pagination">
-    
-      <a class="prev" href="/page/4/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    
-    
-  </nav>
-
-      </footer>
-    
-
-  </article>
-
-    
-      
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          To Do List
-        
-      </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
-          2015年5月1日
-        </span>
-      </div>
-    </header>
-
-    
-    
-
-    <div class="post-content">
-      
-        <p>一些代办的事项和学习计划！</p>
-<p>想学Python，找了一些教程<br><a href="http://cuiqingcai.com/1052.html" target="_blank" rel="external">http://cuiqingcai.com/1052.html</a></p>
-<p>看到数据类型和变量<br><a href="http://www.liaoxuefeng.com" target="_blank" rel="external">http://www.liaoxuefeng.com</a><br><a href="http://zipperary.com/categories/python/" target="_blank" rel="external">http://zipperary.com/categories/python/</a></p>
-
-      
-    </div>
-
-    
-      
-      
-
-
-
-      
-      
-    
-
-    
-      <footer class="post-footer">
-        
-          <div class="post-tags">
-            
-              <a href="/tags/待办事项/">待办事项</a>
-            
-              <a href="/tags/计划/">计划</a>
-            
-          </div>
-        
-        
-        
-  <nav class="pagination">
-    
-      <a class="prev" href="/page/4/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    
-    
-  </nav>
-
-      </footer>
-    
-
-  </article>
-
-    
-      
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          关于这个Blog
-        
-      </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
-          2015年5月1日
-        </span>
-      </div>
-    </header>
-
-    
-    
-
-    <div class="post-content">
-      
-        <p>   曾经多次折腾，想在GitHub上基于Jeyll搭建一个自己的Blog,多次因为环境配置问题惨遭失败，主要还是ruby版本的问题，终于在2014年8月份折腾成功，不幸的是同年12月份电脑坏了，换了一个硬盘，结果发现是硬盘线出问题，当然环境都没有，再次配置环境依然各种错误，无果，在15年五一假期再次折腾，此次试验Hexo 搭建，果然配置比Jekyll简单多，于是有了这个Blog。<br>   希望这个Blog能伴随、见证我职业道路的成长！</p>
-<p>曾经坚持写Blog一点体会：</p>
-<p>写Blog最大的受益人不是别人，而是自己，只是在帮助自己的同时顺便帮助了别人。那是我大学期间成长最快，成长最多的一段时间。<br><a id="more"></a></p>
-<p>2012年五月份在CSDN上写了我的第一篇Blog,也并非原创，只是对当时不是很理解的东西做了一番查阅学习之后有所理解了，然后梳理自己所认为一个思路写之，就这样连续坚持一个年多。在13年暑假之后开始实习，一直到现在就很少更新了。14年7月是在上面留得最后一篇，也因为工作，迟迟没有做更新。</p>
-<p>2015.6.6 补写。</p>
-
-      
-    </div>
-
-    
-      
-      
-
-
-
-      
-      
-    
-
-    
-      <footer class="post-footer">
-        
-          <div class="post-tags">
-            
-              <a href="/tags/生活/">生活</a>
-            
-          </div>
-        
-        
-        
-  <nav class="pagination">
-    
-      <a class="prev" href="/page/4/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    
-    
-  </nav>
-
-      </footer>
-    
-
-  </article>
-
-    
-      
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          Hello World
-        
-      </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
-          2015年5月1日
-        </span>
-      </div>
-    </header>
-
-    
-    
-
-    <div class="post-content">
-      
-        <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-
-    
-      
-      
-
-
-
-      
-      
-    
-
-    
-      <footer class="post-footer">
-        
-        
-        
-  <nav class="pagination">
-    
-      <a class="prev" href="/page/4/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    
-    
-  </nav>
-
-      </footer>
-    
-
-  </article>
-
-    
-  </section>
-
-  
-  <nav class="pagination">
-    
-      <a class="prev" href="/page/4/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    
-    
-  </nav>
-
-
-          </div>
-          
-        </div>  
-      </main>
-
-      <footer id="footer" class="footer">
 
-  <div class="social-links">
-    
-      
-        
-          <a href="mailto:duxinfeng99@email.com" class="iconfont icon-email" title="email"></a>
-        
-      
-    
-      
-    
-      
-        
-          <a href="https://twitter.com/iduxinfeng" class="iconfont icon-twitter" title="twitter"></a>
-        
-      
-    
-      
-    
-      
-    
-      
-    
-      
-        
-          <a href="https://github.com/duxinfeng" class="iconfont icon-github" title="github"></a>
-        
-      
-    
-      
-        
-          <a href="http://www.weibo.com/duxinfeng" class="iconfont icon-weibo" title="weibo"></a>
-        
-      
-    
-      
-    
-      
-    
-    
-    
-  </div>
-
 
-<div class="copyright">
-  <span class="power-by">
-    由 <a class="hexo-link" href="https://hexo.io/">Hexo</a> 强力驱动
-  </span>
-  
-  <span class="theme-info">
-    主题 - 
-    <a class="theme-link" href="https://github.com/ahonn/hexo-theme-even">Even</a>
-  </span>
 
-  <span class="copyright-year">
-    
-    &copy; 
-     
-      2015 - 
-    
-    2017
-
-    <span class="heart">
-      <i class="iconfont icon-heart"></i>
-    </span>
-    <span class="author">新风作浪</span>
-  </span>
-</div>
-      </footer>
-
-      <div class="back-to-top" id="back-to-top">
-        <i class="iconfont icon-up"></i>
-      </div>
-    </div>
-
-    
-  
-  
-
 
 
-    
-  
-
-
 
+<!-- Window Load-->
+<script>
+    $(window).load(function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+</script>
 
+<!-- MathJax Load-->
 
-  
-    <script type="text/javascript" src="/lib/jquery/jquery-3.1.1.min.js"></script>
-  
+<script>
+    <!-- Offer LazyLoad -->
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
 
-  
-    <script type="text/javascript" src="/lib/slideout/slideout.js"></script>
-  
+    <!-- Start Queue -->
+    $(document).ready(function(){
+        setTimeout(function(){
+            setInterval(function(){
+                queue.execNext();
+            },200);
+        },3000);
+    });
+</script>
 
-  
-    <script type="text/javascript" src="/lib/fancybox/jquery.fancybox.pack.js"></script>
-  
-
-
-    <script type="text/javascript" src="/js/src/even.js?v=2.3.x"></script>
-<script type="text/javascript" src="/js/src/bootstrap.js?v=2.3.x"></script>
-
+                </main>
+            </div>
+        </body>
     
-  <script type="text/html" id="search-result">
-    <article class="post">
-      <header class="post-header">
-        <h1 class="post-title">
-          <a href="$url$" class="post-link">
-            $title$
-          </a>
-        </h1>
-      </header>
-      <div class="post-content">
-        $content$
-        <div class="read-more">
-          <a href="$url$" class="read-more-link">
-            阅读更多
-          </a>
-        </div>
-      </div>
-    </article>
-  </script>
-  <script type="text/html" id="no-search-result">
-    <div class="no-result">
-      <h2>No result found!</h2>
-    </div>
-  </script>
-  <script type="text/javascript" src="/js/src/search.js?v=2.3.x"></script>
-
-  </body>
 </html>

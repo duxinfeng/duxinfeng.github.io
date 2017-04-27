@@ -1,1214 +1,1281 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
-  <head>
+<html lang="zh">
+    <head>
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.3.3 -->
+
+    <!-- Title -->
     
-<meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <title>
+        
+        新风作浪
+    </title>
+
+    <!-- Meta & Info -->
+    <meta charset="utf-8">
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    
+    
+    
+    
+        <link rel="dns-prefetch" href="https://hm.baidu.com"/>
+    
+    
+        <link rel="dns-prefetch" href="https://www.google-analytics.com"/>
+    
+    
+
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0097A7">
+    <meta name="author" content="新风作浪">
+    <meta name="description" content="null">
+    <meta name="keywords" content="null">
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
+    <link rel="icon" sizes="192x192" href="/img/favicon.png">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
+
+    <!--iOS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-title" content="Title">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="480">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="新风作浪">
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="http://duxinfeng.com">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="新风作浪">
+    <meta property="og:description" content="null">
+    
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import CSS & jQuery -->
+    
+        <link rel="stylesheet" href="/css/material.min.css">
+        <link rel="stylesheet" href="/css/style.min.css">
+        <!-- Config CSS -->
 
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-
-
-
-
-
-
-
-
-  <link rel="alternate" href="/atom.xml" title="新风作浪">
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=2.3.x" />
-
-
-
-<link rel="canonical" href="http://duxinfeng.com/page/2/"/>
-
-
-<meta property="og:type" content="website">
-<meta property="og:title" content="新风作浪">
-<meta property="og:url" content="http://duxinfeng.com/page/2/index.html">
-<meta property="og:site_name" content="新风作浪">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="新风作浪">
-
-
-<link rel="stylesheet" type="text/css" href="/css/style.css?v=2.3.x" />
-
-
-
-  <link rel="stylesheet" type="text/css" href="/lib/fancybox/jquery.fancybox.css" />
-
-
-
-
-
-<script>
-  var CONFIG = {
-    search: true,
-    searchPath: "/search.xml",
-    fancybox: true,
-    toc: true,
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
   }
+
+  a {
+    color: #00838F;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0097A7 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0097A7 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0097A7 !important;
+  }
+
+  .toTop {
+    background: #757575 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #757575;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #757575;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #757575;
+  }
+
+  .post-toc a:hover {
+    color: #00838F;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-color: #F5F5F5;
+      }
+
+      /* blog_info bottom background */
+      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+        background-color: #fff;
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/queue.js"></script>
+    
+
+    <!-- UC Browser Compatible -->
+    <script>
+        var agent = navigator.userAgent.toLowerCase();
+        if(agent.indexOf('ucbrowser')>0) {
+            document.write("<link rel=\"stylesheet\" href=\"/css/uc.css\">");
+            alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+        }
+    </script>
+
+    
+    <!-- Baidu Analytics -->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {var hm = document.createElement('script');
+        hm.src = 'https://hm.baidu.com/hm.js?5ffec76fdd2b8750d2aeff3027650364';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    
+
+    
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-53524827-1', 'auto');ga('send', 'pageview');
+    </script>
+    
+
+
+    <!-- Bing Background -->
+    
+
+    <!-- Custom Head -->
+    
+</head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Index Module -->
+<div class="material-index mdl-grid">
+    
+    <div class="locate-thumbnail-symbol"></div>
+
+    <!-- Pin on top -->
+    
+        
+            
+                
+                    <!-- Paradox Thumbnail -->
+                    <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+        
+    
+
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2015/07/14/iOS开源App整理/"><span>[Top]</span>iOS开源App整理</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            有时候在逛Weibo、Github的时候看到一些最近开源或者持续更新的iOS项目源码，大部分都已经上线，在这篇Blog里作了整理（排名不分先后，按照发现时间排序）。
+开源中国开...
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2015/07/14/iOS开源App整理/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="新风作浪's avatar">
+            </div>
+            <div>
+                <strong>新风作浪</strong>
+                <span>7月 14, 2015</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                <a class="post_category-link" href="/categories/iOS/">iOS</a>
+            </span>
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+                
+                
+            
+        
+    
+
+    <!-- Normal Post -->
+    
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+        
+    
+
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2015/12/15/Git忽略UserInterfaceState-xcuserstate文件/">Git忽略UserInterfaceState.xcuserstate文件</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            关于UserInterfaceState.xcuserstate文件路径：ProjectFolder.xcodeproj/proj...
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2015/12/15/Git忽略UserInterfaceState-xcuserstate文件/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="新风作浪's avatar">
+            </div>
+            <div>
+                <strong>新风作浪</strong>
+                <span>12月 15, 2015</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                <a class="post_category-link" href="/categories/iOS/">iOS</a>
+            </span>
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+            
+        
+    
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+        
+    
+
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2015/12/14/碎碎念在12月14日/">碎碎念在12月14日</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            因为一些不可抗拒因素，所以这一期碎碎念是后来追加的。
+不过发现也没那多内容拿出来叨叨了，本来也就是记一记碎事，愈发归于平淡。
+发现一个不错repo关于...
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2015/12/14/碎碎念在12月14日/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="新风作浪's avatar">
+            </div>
+            <div>
+                <strong>新风作浪</strong>
+                <span>12月 14, 2015</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                <a class="post_category-link" href="/categories/总结/">总结</a>
+            </span>
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+            
+        
+    
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+        
+    
+
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2015/12/11/《人性的弱点读书》读书笔记/">《人性的弱点读书》读书笔记</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            书摘摘录部分是我在读书的时候做的笔记，也有一些对特立观点的，无法描述，但是作者说出了我想说的话，或者说来的好有道理，我竟无言以对。
+为什么我会摘抄这一点呢？或多或少某一点打动了，说...
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2015/12/11/《人性的弱点读书》读书笔记/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="新风作浪's avatar">
+            </div>
+            <div>
+                <strong>新风作浪</strong>
+                <span>12月 11, 2015</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                <a class="post_category-link" href="/categories/生活/">生活</a>
+            </span>
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+            
+        
+    
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+        
+    
+
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2015/12/11/我的书单/">我的书单</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            
+已读
+
+
+人性的弱点（2015.11-2015.11）
+
+黑客与画家（2015.11-2015.12）
+
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2015/12/11/我的书单/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="新风作浪's avatar">
+            </div>
+            <div>
+                <strong>新风作浪</strong>
+                <span>12月 11, 2015</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                <a class="post_category-link" href="/categories/default/">default</a>
+            </span>
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+            
+        
+    
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+        
+    
+
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2015/12/06/碎碎念在12月6日/">碎碎念在12月6日</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            搬家从去年的五月份的时候说搬家，在公司部分资助一直搬到现在，搬了一年半终于搬离天通苑北，来到公司附近，现在东西全部办过来了，找了一两个星期的房子，明天再回去交接一下，终于心里一个石头可以落下了，...
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2015/12/06/碎碎念在12月6日/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="新风作浪's avatar">
+            </div>
+            <div>
+                <strong>新风作浪</strong>
+                <span>12月 06, 2015</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                <a class="post_category-link" href="/categories/总结/">总结</a>
+            </span>
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+            
+        
+    
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+        
+    
+
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2015/11/29/碎碎念在11月29日/">碎碎念在11月29日</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            可以搜索github排名的站点1.http://...
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2015/11/29/碎碎念在11月29日/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="新风作浪's avatar">
+            </div>
+            <div>
+                <strong>新风作浪</strong>
+                <span>11月 29, 2015</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                <a class="post_category-link" href="/categories/总结/">总结</a>
+            </span>
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+            
+        
+    
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+        
+    
+
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2015/11/22/碎碎念在11月22日/">碎碎念在11月22日</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            写碎碎念流水账是想给自己生活记录一点什么，记住这周有趣有味的东西，不过到今天第三期明显觉得没有前两次想写的多了。也就是说这周过的很简单。不过还是要写，坚持。。。
+#21天#读书活动
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2015/11/22/碎碎念在11月22日/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="新风作浪's avatar">
+            </div>
+            <div>
+                <strong>新风作浪</strong>
+                <span>11月 22, 2015</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                <a class="post_category-link" href="/categories/总结/">总结</a>
+            </span>
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+            
+        
+    
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+        
+    
+
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2015/11/15/碎碎念在11月15日/">碎碎念在11月15日</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            1、看书《人性的弱点》在微信读书上每天看四十屏以上的电子书，一直在坚持。读书过程中是很容易被打断的，如果手机看书一定的是飞行模式下比较好。
+
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2015/11/15/碎碎念在11月15日/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="新风作浪's avatar">
+            </div>
+            <div>
+                <strong>新风作浪</strong>
+                <span>11月 15, 2015</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                <a class="post_category-link" href="/categories/总结/">总结</a>
+            </span>
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+            
+        
+    
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+        
+    
+
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2015/11/09/The-identity-used-to-sign-the-executable-is-no-longer-valid/">The identity used to sign the executable is no longer valid</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            问题描述公司一个账号，然后在多台设备使用。
+The identity used to sign the executable is no longer valid.
+
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2015/11/09/The-identity-used-to-sign-the-executable-is-no-longer-valid/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="新风作浪's avatar">
+            </div>
+            <div>
+                <strong>新风作浪</strong>
+                <span>11月 09, 2015</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                <a class="post_category-link" href="/categories/iOS/">iOS</a>
+            </span>
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+            
+        
+    
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+        
+    
+
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2015/11/07/碎碎念在11月7日/">碎碎念在11月7日</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            “生活总是要有变化的，哪怕你今天是换了一条路线也好，不然久了真的会变得麻木！”,这是在微信订阅号她在江湖漂(微信号:tazaijianghupiao)里
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2015/11/07/碎碎念在11月7日/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="新风作浪's avatar">
+            </div>
+            <div>
+                <strong>新风作浪</strong>
+                <span>11月 07, 2015</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+            <!-- Category -->
+            <span class="post_entry-category">
+                <a class="post_category-link" href="/categories/总结/">总结</a>
+            </span>
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+            
+        
+    
+
+    
+    <!-- Index nav -->
+        <nav class="material-nav mdl-cell mdl-cell--12-col">
+            <a class="extend prev" rel="prev" href="/"><button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"><i class="material-icons" role="presentation">arrow_back</i></button></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/3/"><button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"><i class="material-icons" role="presentation">arrow_forward</i></button></a>
+        </nav>
+    
+
+    
+        <script>
+    var randomNum;
+
+    var locatePost = $('.locate-thumbnail-symbol').next();
+    for(var i = 0; i < 10; i++) {
+        randomNum = Math.floor(Math.random() * 19 + 1);
+
+        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
+        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+
+        locatePost = locatePost.next();
+    }
+</script>
+
+    
+</div>
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/avatar.png" alt="新风作浪's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        duxinfeng99@email.com
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="duxinfeng99@gmail.com" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/" target="_self">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    归档
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2016/04/">四月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/03/">三月 2016<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/02/">二月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/01/">一月 2016<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/12/">十二月 2015<span class="sidebar_archives-count">8</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/11/">十一月 2015<span class="sidebar_archives-count">6</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/10/">十月 2015<span class="sidebar_archives-count">5</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/09/">九月 2015<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/08/">八月 2015<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/07/">七月 2015<span class="sidebar_archives-count">9</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/06/">六月 2015<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/05/">五月 2015<span class="sidebar_archives-count">6</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="/tags" title="标签">
+                
+                    <i class="material-icons sidebar-material-icons">bookmark</i>
+                
+                标签
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/about" title="关于">
+                
+                    <i class="material-icons sidebar-material-icons">person</i>
+                
+                关于
+            </a>
+        </li>
+        
+    
+
+    <!-- Article Number  -->
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+    <div class="sidebar-divider"></div>
+
+
+<!-- Theme Material -->
+
+    <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+            主题 - Material
+            <span class="sidebar-badge badge-circle">i</span>
+        </div>
+    </a>
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+        <a href="https://twitter.com/iduxinfeng" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-twitter.svg);">
+                <span class="visuallyhidden">Twitter</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Facebook -->
+    
+
+    <!-- Google + -->
+    
+
+    <!-- Weibo -->
+    
+        <a href="http://www.weibo.com/duxinfeng" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-weibo.svg);">
+                <span class="visuallyhidden">Weibo</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+        <a href="https://github.com/duxinfeng" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-github.svg);">
+                <span class="visuallyhidden">Github</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+
+    <!-- Telegram -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©&nbsp;
+            <script type="text/javascript">
+                var fd = new Date();
+                document.write(fd.getFullYear());
+            </script>
+            &nbsp;新风作浪
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import File -->
+
+    <script src="/js/lazyload.min.js"></script>
+    <script src="/js/js.min.js"></script>
+
+
+
+    <script src="/js/nprogress.js"></script>
+
+
+<script type="text/javascript">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
 </script>
 
 
 
 
-  
 
 
 
-    <title> 新风作浪 </title>
-  </head>
 
-  <body><div id="mobile-navbar" class="mobile-navbar">
-  <div class="mobile-header-logo">
-    <a href="/." class="logo">新风作浪</a>
-  </div>
-  <div class="mobile-navbar-icon">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-</div>
 
-<nav id="mobile-menu" class="mobile-menu slideout-menu">
-  <ul class="mobile-menu-list">
-    
-      <a href="/">
-        <li class="mobile-menu-item">
-          
-          
-            Home
-          
-        </li>
-      </a>
-    
-      <a href="/archives/">
-        <li class="mobile-menu-item">
-          
-          
-            Archives
-          
-        </li>
-      </a>
-    
-      <a href="/tags">
-        <li class="mobile-menu-item">
-          
-          
-            Tags
-          
-        </li>
-      </a>
-    
-      <a href="/categories">
-        <li class="mobile-menu-item">
-          
-          
-            Categories
-          
-        </li>
-      </a>
-    
-      <a href="/about">
-        <li class="mobile-menu-item">
-          
-          
-            About
-          
-        </li>
-      </a>
-    
-  </ul>
-</nav>
-
-    <div class="container" id="mobile-panel">
-      <header id="header" class="header"><div class="logo-wrapper">
-  <a href="/." class="logo">新风作浪</a>
-</div>
-
-<nav class="site-navbar">
-  
-    <ul id="menu" class="menu">
-      
-        <li class="menu-item">
-          <a class="menu-item-link" href="/">
-            
-            
-              首页
-            
-          </a>
-        </li>
-      
-        <li class="menu-item">
-          <a class="menu-item-link" href="/archives/">
-            
-            
-              归档
-            
-          </a>
-        </li>
-      
-        <li class="menu-item">
-          <a class="menu-item-link" href="/tags">
-            
-            
-              标签
-            
-          </a>
-        </li>
-      
-        <li class="menu-item">
-          <a class="menu-item-link" href="/categories">
-            
-            
-              分类
-            
-          </a>
-        </li>
-      
-        <li class="menu-item">
-          <a class="menu-item-link" href="/about">
-            
-            
-              关于
-            
-          </a>
-        </li>
-      
-      
-        <li class="menu-search">
-          <form>
-            <i class="iconfont icon-search" id="open-search"></i>
-            <input type="text" class="search-input" id="search-input" />
-            <i class="iconfont icon-close" id="close-search"></i>
-          </form>
-        </li>
-      
-    </ul>
-  
-</nav>
-
-      </header>
-
-      <main id="main" class="main">
-        <div class="content-wrapper">
-          <div id="content" class="content">
-            
-  <section id="posts" class="posts">
-    
-      
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          Git忽略UserInterfaceState.xcuserstate文件
-        
-      </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
-          2015年12月15日
-        </span>
-      </div>
-    </header>
-
-    
-    
-
-    <div class="post-content">
-      
-        <h3 id="关于UserInterfaceState-xcuserstate文件">关于UserInterfaceState.xcuserstate文件</h3><p>路径：ProjectFolder.xcodeproj/project.xcworkspace/xcuserdata/myUserName.xcuserdatad/UserInterfaceState.xcuserstate</p>
-<p>每次打开工程，动一动Xcode UserInterfaceState.xcuserstate就会出现变动。</p>
-<h3 id="解决办法">解决办法</h3><p>因为我们团队使用SourceTree进行代码管理，选中UserInterfaceState.xcuserstate右键出现菜单，然后选中<code>停止追踪</code>，然后进行commit。如果是对人协作开发，团队其他人员也需要执行相同操作。</p>
-<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151215-3.png" width="80%" height="80%" alt=""></p>
-<h3 id="还有其他解决方案，原理一样">还有其他解决方案，原理一样</h3><pre><code>git rm --cached ProjectFolder.xcodeproj<span class="regexp">/project.xcworkspace/</span>xcuserdata<span class="regexp">/myUserName.xcuserdatad/U</span>serInterfaceState.xcuserstate
-
-git commit -m <span class="string">"Removed file that shouldn't be tracked"</span>
-</code></pre><p>原地址：<a href="http://stackoverflow.com/questions/6564257/cant-ignore-userinterfacestate-xcuserstate" target="_blank" rel="external">http://stackoverflow.com/questions/6564257/cant-ignore-userinterfacestate-xcuserstate</a></p>
-
-      
-    </div>
-
-    
-      
-      
-
-
-
-      
-      
-    
-
-    
-      <footer class="post-footer">
-        
-          <div class="post-tags">
-            
-              <a href="/tags/Git/">Git</a>
-            
-              <a href="/tags/iOS/">iOS</a>
-            
-          </div>
-        
-        
-        
-  <nav class="pagination">
-    
-      <a class="prev" href="/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    
-    
-      <a class="next" href="/page/3/">
-        <span class="next-text">下一页</span>
-        <i class="iconfont icon-right"></i>
-      </a>
-    
-  </nav>
-
-      </footer>
-    
-
-  </article>
-
-    
-      
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          碎碎念在12月14日
-        
-      </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
-          2015年12月14日
-        </span>
-      </div>
-    </header>
-
-    
-    
-
-    <div class="post-content">
-      
-        <p>因为一些不可抗拒因素，所以这一期碎碎念是后来追加的。</p>
-<p>不过发现也没那多内容拿出来叨叨了，本来也就是记一记碎事，愈发归于平淡。</p>
-<h4 id="发现一个不错repo">发现一个不错repo</h4><p>关于创业，关于如何做好产品的一些优秀文章个人收集：<a href="https://github.com/voff12/awesome-product-thought" target="_blank" rel="external">https://github.com/voff12/awesome-product-thought</a></p>
-<p>很值得一读，不过目前我看了<code>雷军在联想的内部分享</code>这一篇，<code>信仰</code>、<code>超出预期</code>、<code>口碑</code>是看完这篇文章时候比较兴趣的词汇。（此时我在绞尽脑汁想写一段读后感，无奈词穷，还欠思考，还是多读书多看报。）</p>
-<h4 id="接力GoAgent翻墙工具">接力GoAgent翻墙工具</h4><p>并未尝试能不能用，有需要可以尝试尝试。</p>
-<p>Github：<a href="https://github.com/XX-net/XX-Net" target="_blank" rel="external">https://github.com/XX-net/XX-Net</a></p>
-<h4 id="PHPHub_iOS开源客户端">PHPHub iOS开源客户端</h4><p>又一社区开源了iOS客户单源码。之前看到这个源码客户端的时候拉不到数据，于是提了一个issue，然后这周作者回复了我可以用了。<br>GitHub:<a href="https://github.com/Aufree/phphub-ios" target="_blank" rel="external">https://github.com/Aufree/phphub-ios</a></p>
-
-      
-    </div>
-
-    
-      
-      
-
-
-
-      
-      
-    
-
-    
-      <footer class="post-footer">
-        
-          <div class="post-tags">
-            
-              <a href="/tags/总结/">总结</a>
-            
-              <a href="/tags/生活/">生活</a>
-            
-          </div>
-        
-        
-        
-  <nav class="pagination">
-    
-      <a class="prev" href="/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    
-    
-      <a class="next" href="/page/3/">
-        <span class="next-text">下一页</span>
-        <i class="iconfont icon-right"></i>
-      </a>
-    
-  </nav>
-
-      </footer>
-    
-
-  </article>
-
-    
-      
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          《人性的弱点读书》读书笔记
-        
-      </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
-          2015年12月11日
-        </span>
-      </div>
-    </header>
-
-    
-    
-
-    <div class="post-content">
-      
-        <p>（半成品，先隐藏，完整后在放出来）</p>
-<h3 id="为什么读这本书？">为什么读这本书？</h3><p>在一个伸手</p>
-<h3 id="书摘">书摘</h3><p>摘录部分是我在读书的时候做的笔记，也有一些对特立观点的，无法描述，但是作者说出了我想说的话，或者说来的好有道理，我竟无言以对。</p>
-<p>为什么我会摘抄这一点呢？或多或少某一点打动了，说出了我心里表达不出来的，<br>1、xxxx</p>
-<p>个人的成功只要百分之十五院子专业能力，另外的百分之八十五则来自“人类工程学”，即人格特质和领导能力。</p>
-<p>无论是工程、会计、建筑还是其他需要技术能力的行业，专业的人才只要有过硬的技术就能找到工作。但想要拿高薪，他们必须在专业技能之外还具备表达能力、领导能力和激发他人的工作热情的能力。</p>
-<p>人际交往能力决定了我们的受欢迎程度、我的幸福感和自我价值。</p>
-<p>每当你需要解决管教孩子、说服家人或者安抚客户等具体问题时，请不要听任自己的本能反应，因为第一反应往往是错的。</p>
-<!--[我的理解：不要误解作者说的第一反应就是错的，而是作者前提条件的时候，“管教孩子”“舒服家人”“解决、安抚客户问题”，其实我想说的应该是说在你冲动的时候，告诉你要冷静思考]-->
-<p>批评是无用的，她激起抵触，让人急于辩白；批评是危险的，它会伤害自尊，甚至让人萌生恨意。</p>
-<p>责备所引发的怨恨不仅无益，更会大几家人、朋友和员工的积极性。</p>
-<p>对性和成功的欲望是人类永恒的动机。<br><!--为什么不是永恒的动力，翻译问题？--></p>
-<p>人性的根源深处，强烈渴求他人的欣赏。</p>
-<p>一些精神分裂患者确实在疯癫中得到了现实世界中无法获得的被重视感。</p>
-<p>人们如此渴望他们的认同，甚至不惜以发疯为代价。</p>
-<p>真心实意地感谢他人、赞美他人</p>
-<p>3、xxx<br>2、xxxx</p>
-<p>我个人非常喜欢草莓和奶油，不过我惊奇发现，鱼类居然对人间美味不感兴趣，只喜欢吃虫子。所以每次去钓鱼的时候，我不会考虑自己想要什么，而是考虑鱼想要什么。<br><!--对考虑用户的需求，用户想要什么，不能我们自己坐在那意淫用户想要什么，当然有的用户也不知自己想要什么，那我们就要去意淫他们的需求，发现他们还需要什么--></p>
-<p>说服别人的首要途径，是引发对方强烈的欲求。</p>
-<p>人们只有真心热爱自己做的事，才有可能取得成功。</p>
-<p>哪怕你不习惯微笑，也请努力试看。独自一个人的时候，假装很开心—这些举动真的会让你开心起来。<br><!--科学解释：人们往往认为感觉先于行动，但实际上，感觉与行动是同步的。相较于情绪，只有调整行为，才能够调整间接的调整兴趣--><br><!--想要找回丢失的快乐，就偷偷的坐直身体，愉快的谈天做事，感觉快乐已经回到你的身边，这是通往快乐的最佳方式。--></p>
-<p>无论对于任何人，无论以何种语言，自己的名字都是世界是哪个最甜蜜的词汇</p>
-<p>专注倾听，鼓励他人谈论自己。</p>
-<p>发自肺腑的赞美所产生的力量。</p>
-<p>如果能得到他人的重视，很多人得生活会因此改变。</p>
-<p>每个人在内心深处都渴望被重视。<br><!--在学校里渴望被老师重视，在工作中渴望被上司老板重视。就像上一句说的，如果能得到他人的重视，很多人的生活会因此改变--></p>
-<p>4、xxx</p>
-<p>争辩、抱怨和反驳或许会带来暂时的胜利，但是你永远无法通过这表面的胜利赢得对方的尊敬—本杰明 富兰克林。</p>
-<p>要比所有人聪明，但是不要告诉他们这一点。</p>
-<p>如果你想了解为人处世知道，提升个人魅力，不妨读一读本杰明·富兰克林的自传。<br><!--所以在看这本书的时候，我又买了一儿半女富兰克林自传--></p>
-<p>尊重他人的观点，绝不要说“你错了”。</p>
-<p>不经意地抛出系那个发，引起他的兴趣，让他自行揣摩。<br><!--这个好像是是说服上级或建议或拍马屁什么的时候处理方式--></p>
-<p>同理心是为人处世的制胜之道。</p>
-<p>若想让交流变得流畅，请像重视自己感受一样重视对方。</p>
-<p>同情所产生的化学作用能够平息怨气。</p>
-<p>激发对方内心深处的高尚情操</p>
-
-      
-    </div>
-
-    
-      
-      
-
-
-
-      
-      
-    
-
-    
-      <footer class="post-footer">
-        
-        
-        
-  <nav class="pagination">
-    
-      <a class="prev" href="/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    
-    
-      <a class="next" href="/page/3/">
-        <span class="next-text">下一页</span>
-        <i class="iconfont icon-right"></i>
-      </a>
-    
-  </nav>
-
-      </footer>
-    
-
-  </article>
-
-    
-      
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          我的书单
-        
-      </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
-          2015年12月11日
-        </span>
-      </div>
-    </header>
-
-    
-    
-
-    <div class="post-content">
-      
-        <blockquote>
-<p>已读</p>
-</blockquote>
-<ul>
-<li><p>人性的弱点（2015.11-2015.11）</p>
-</li>
-<li><p>黑客与画家（2015.11-2015.12）</p>
-</li>
-</ul>
-<blockquote>
-<p>在读</p>
-</blockquote>
-<ul>
-<li><p>如何变得有思想 （2015.9-xx.xx）</p>
-</li>
-<li><p>穷查理宝典    （2015.12-xx.xx）</p>
-</li>
-<li><p>富兰克林自传  （2015.12-xx.xx）</p>
-</li>
-</ul>
-<blockquote>
-<p>待读</p>
-</blockquote>
-<ul>
-<li><p>增长黑客</p>
-</li>
-<li><p>解忧杂货铺</p>
-</li>
-<li><p>岛上书店</p>
-</li>
-<li><p>只为了好玩 Linux之父林纳斯自传</p>
-</li>
-<li><p>小狗钱钱的爸爸教你实现财务自由</p>
-</li>
-</ul>
-
-      
-    </div>
-
-    
-      
-      
-
-
-
-      
-      
-    
-
-    
-      <footer class="post-footer">
-        
-          <div class="post-tags">
-            
-              <a href="/tags/书单/">书单</a>
-            
-          </div>
-        
-        
-        
-  <nav class="pagination">
-    
-      <a class="prev" href="/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    
-    
-      <a class="next" href="/page/3/">
-        <span class="next-text">下一页</span>
-        <i class="iconfont icon-right"></i>
-      </a>
-    
-  </nav>
-
-      </footer>
-    
-
-  </article>
-
-    
-      
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          碎碎念在12月6日
-        
-      </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
-          2015年12月6日
-        </span>
-      </div>
-    </header>
-
-    
-    
-
-    <div class="post-content">
-      
-        <h4 id="搬家">搬家</h4><p>从去年的五月份的时候说搬家，在公司部分资助一直搬到现在，搬了一年半终于搬离天通苑北，来到公司附近，现在东西全部办过来了，找了一两个星期的房子，明天再回去交接一下，终于心里一个石头可以落下了，不过还的置办生活用品。</p>
-<h4 id="Swift开源">Swift开源</h4><p>本周最重磅的消息就是苹果兑现承诺，终于赶在年底前把Swift开源了，官网<a href="https://swift.org" target="_blank" rel="external">https://swift.org</a>,听说当天被手动DDos了，访问不到。github:<a href="https://github.com/apple/swift" target="_blank" rel="external">https://github.com/apple/swift</a>开源当天star过万，截止目前已有19010个star，170人贡献代码。也该准备准备好好学习下Swift了。</p>
-<h4 id="关于ASO">关于ASO</h4><p>周六app被拒，因为在做ASO的时候标题写的有点过，大概五月份苹果就开始严查副标题，虽然可以写255个字，如果你的副标题太长还是会被拒，然后建议你写到关键词或者描述里面，关于ASO标题、副标题、关键词等一些权值在八月份的时候学习了一段时候，然后做了一次分享，PPT:<a href="https://docs.google.com/presentation/d/19Jp49NY07U25GQ_PUAQSH7VzChgTboJ5LvZvX4HMuhY/edit?usp=sharing" target="_blank" rel="external">https://docs.google.com/presentation/d/19Jp49NY07U25GQ_PUAQSH7VzChgTboJ5LvZvX4HMuhY/edit?usp=sharing</a>.<br>因为关键词限制255个字符，偶然得知，关键词可以不隔开，所有的词连在一起，这样被拆分后的关键词覆盖可以超过1200+，不过也有缺点，就是会产生较多的无用关键词，总体来说还是好的。</p>
-<h4 id="线上读书活动完成">线上读书活动完成</h4><p>三周前我参加了一个<a href="http://www.yiqixxx.com/e/iODU2NQ==/" target="_blank" rel="external">21天挑战——每天读书半小时第一期</a>的活动，今天正好结束，502人参加，156人挑战失败，第一天的时候超过40人挑战失败，然后挑战完成不仅可以拿回自己的本金，还可以平分失败人得本金，能多得45.22.</p>
-<p>从理财角度上分析，我用100元，12天后我得到145.22，这个投资回报率超过45%。不过从收获方面来看自己学到的东西属于自己，谁也拿不走,这样就转的更多了。</p>
-<p>谈一点体会：</p>
-<p>这21天里我读了《人性的弱点》（100%）、《黑客与画家》（90%），因为书中有的章节自己现在这个水平和精力读起来还是难以理解，所以会显得枯燥，然后读了之后没有任何感觉，这个时候最好的办法的就是换一本容易理解的书去读，比如人物传记。因为每天夜晚到家晚，所以为了完成读书任务，在读起来的时候明显觉得有点赶，不能静心来去体会，也会造成效率差。</p>
-<p>从中最大收获就是，发现自己读的书太少，也就是你读的书越多，就会发现自己读的越少，很矛盾，但是那是你的真是体会。在读一本书的时候，你能从这本书中找到下一本或下下本要读的书，就是这么神奇。</p>
-<p>当然，书读完完了，还差读后感，需要补上。</p>
-<h4 id="朋友圈刷了两条鸡汤">朋友圈刷了两条鸡汤</h4><p>每个大人，曾经都是孩子，只是后来他们忘记了！</p>
-<p>你学过的每一样东西，你遭受的每一次苦难，都会在你一生中的某个时候派上用场。</p>
-<h4 id="微博上刷了几个段子">微博上刷了几个段子</h4><p>假如生活欺骗了，<br>不要悲伤，不要心急，<br>多被骗几次记好了！</p>
-<p>比你优秀的人还在努力，<br>那你努力还有个屁用！</p>
-<p>上帝为你关上一扇门的同时，<br>还会顺带夹一下你的脑袋！</p>
-<p>长得丑就是病，<br>不然整形医院为什么叫医院！</p>
-<p>咸鱼翻了身，<br>还是咸鱼！</p>
-<p>丑小鸭会变成白天鹅，<br>不是因为它努力了，<br>而是因为它父母本来就是白天鹅！</p>
-<p>胖子瘦下来了，<br>不一定就漂亮！</p>
-<p>不要以为全世界都抛弃了你，<br>世界根本没空搭理你！</p>
-<p>如果你特别迷恋一个人，<br>那一定是你配不上他！</p>
-<p>墙角的瓜不甜，<br>但是有瓜吃啊！</p>
-<p>没有外表，<br>谁TM看你内心啊！</p>
-<p>世界上99%的事情，<br>都能用钱来解决！</p>
-
-      
-    </div>
-
-    
-      
-      
-
-
-
-      
-      
-    
-
-    
-      <footer class="post-footer">
-        
-          <div class="post-tags">
-            
-              <a href="/tags/总结/">总结</a>
-            
-              <a href="/tags/生活/">生活</a>
-            
-          </div>
-        
-        
-        
-  <nav class="pagination">
-    
-      <a class="prev" href="/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    
-    
-      <a class="next" href="/page/3/">
-        <span class="next-text">下一页</span>
-        <i class="iconfont icon-right"></i>
-      </a>
-    
-  </nav>
-
-      </footer>
-    
-
-  </article>
-
-    
-      
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          碎碎念在11月29日
-        
-      </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
-          2015年11月29日
-        </span>
-      </div>
-    </header>
-
-    
-    
-
-    <div class="post-content">
-      
-        <h4 id="可以搜索github排名的站点">可以搜索github排名的站点</h4><p>1.<a href="http://githuber.cn" target="_blank" rel="external">http://githuber.cn</a></p>
-<p>2.<a href="http://github-awards.com" target="_blank" rel="external">http://github-awards.com</a></p>
-<p>你可以搜索某一个语言里排名靠前的大神，或者以一些互联网公司的开源项目，关注他们，向他们学习。（PS：排名标准不一样）</p>
-<h4 id="值得现在去反思的一段话">值得现在去反思的一段话</h4><p>很多时候我在看到一篇能让自己反思的文章的时候，发现已经晚了，如果早几年，或者早几个月看到就好了，那样的话也许今天就不会这样。</p>
-<p>就像这篇文章的思考<a href="http://weibo.com/p/1001603889179808392224?sudaref=passport.weibo.com" target="_blank" rel="external">也说程序员30岁转型危机问题</a>,我很庆幸现在能看到它，而且我现在还没到30岁，我还有三四年的时候去努力和改变，能将我自己变得更好，能在30岁的时候有个完美的蜕变。</p>
-<h4 id="Git正确姿势">Git正确姿势</h4><p>虽然接触Git相对来说也不晚，在项目中也经常提倡别人使用Git，但是依然比较初级，只是在一个master分支上处理，最近看到一篇文章非常清晰:<a href="http://livoras.com/post/28" target="_blank" rel="external">使用git和github进行协同开发流程</a>，所以我决定给自己挖一个坑，不出意外必然会出现一些问题，但是，倘若我不去尝试，又怎能进步和提升呢？</p>
-<h4 id="专访_YYKit_作者_Ibireme">专访 YYKit 作者 Ibireme</h4><p>因为作者的一些开源库在段时间内引起不少的称赞，而且全部是业余时间完成，因为这些代码，作者也收到facebook、Uber这样公司的工程师关注，而且这些公司向他发出工作邀请。也有段子这么说“怎么样快速得到 Facebook 和 Uber 的工作邀请？请看《专访YYKit作者郭曜源 @ibireme ：开源大牛是怎样炼成的》”.原文:<a href="http://blog.devtang.com/blog/2015/11/26/yykit-auther-interview/" target="_blank" rel="external">专访 YYKit 作者 Ibireme: 开源大牛是怎样炼成的</a>。</p>
-<p>同是90后做iOS的，被别人秒了几十条街。希望自己能潜下心来学习一两个开源项目源码。</p>
-<h4 id="找房子的事情">找房子的事情</h4><p>找房子确实是一件很痛苦的事情，特别是天秤座的我，极度选择恐惧症，加上我又反应迟钝墨迹，这两天也算折磨死我，在选择之中，左右为难死。从中也感觉到自己得失心太重，所以也总是心里暗示自己知足常乐。</p>
-<p>因为是在自如上租的房子，刚好赶到11月有活动，可以用微信玩自如点的游戏，也就是5秒之类你点击一个H5上的一个金币，然后产生钱，点的越快越多，能减免的也越多。</p>
-<p>最开始别人告诉我淘宝上100块钱可以刷满2000，他们前几天（一周左右）自如上找的房子，然后我在淘宝上搜了，果真有。但是一问，多数刷不了，因为现在加了限制，每次刷的时候还需要手机号，而且每个手机号只能刷4个，当然也需要微信登陆，所以有一家要800，感觉这太贵就没有刷。下午的时候问了另外一家收600，但是夜晚回复延迟，开始要600时候问能不能便宜点，他有问我能接受多少，我说四百，然后有很久才回复我，所以就没换，第二天在问的时候涨到1000了，我说我已经招人刷了两百能便宜点吗？她说980，去你大爷，我就没理他。然后找那个前一天800的了，然后人家直接说刷不了，此时我也开始着急了，于是我纠结还是自己招人刷一吧。因为开始后只有48小时，所以我开始一个个找同事、朋友、同学帮我刷。</p>
-<p>最感动的是有两位不仅自己帮我刷了，而且也发动他的朋友帮我刷。因为这确实是一件很麻烦人的事情，既要微信授权登陆，还要手机验证码验证，所以我很怕麻烦人家，也不喜欢欠人家。当然有的也主动给人发了一个对折的红包 哈哈哈哈哈~</p>
-<p>最终筹集378，然后昨天签约了一套房子用了。但是由于一个很无奈的事情把房子退了，所以这个自如点活动我也不能用了。现在还在找。差一点就花钱刷了，我这选择恐惧症+墨迹好不好呢？</p>
-
-      
-    </div>
-
-    
-      
-      
-
-
-
-      
-      
-    
-
-    
-      <footer class="post-footer">
-        
-          <div class="post-tags">
-            
-              <a href="/tags/总结/">总结</a>
-            
-              <a href="/tags/生活/">生活</a>
-            
-          </div>
-        
-        
-        
-  <nav class="pagination">
-    
-      <a class="prev" href="/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    
-    
-      <a class="next" href="/page/3/">
-        <span class="next-text">下一页</span>
-        <i class="iconfont icon-right"></i>
-      </a>
-    
-  </nav>
-
-      </footer>
-    
-
-  </article>
-
-    
-      
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          碎碎念在11月22日
-        
-      </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
-          2015年11月22日
-        </span>
-      </div>
-    </header>
-
-    
-    
-
-    <div class="post-content">
-      
-        <p>写碎碎念流水账是想给自己生活记录一点什么，记住这周有趣有味的东西，不过到今天第三期明显觉得没有前两次想写的多了。也就是说这周过的很简单。不过还是要写，坚持。。。</p>
-<h4 id="#21天#读书活动">#21天#读书活动</h4><p>话说21天能养成一个习惯，因为住的地方停电的缘故，所以某一天，也就是11.9号开始读书，《人性的弱点》计划20天读完，实际用了10天，这个21天得活动是16号开始，坚持到现在11.22，有几个晚上困的不想看了，咬咬牙还是坚持了一下。11.19号开始阅读《黑客与画家》每天10页，20天读完，按照目前进度，应该能提前读完。</p>
-<h4 id="见王老师">见王老师</h4><p>大学的老师，对我来说很重要的一个老师。工作狂，技术牛人，也是对很多同学有重要影响的老师， 来北京出差，11.21（周六）夜晚九点半的车，下午赶过去见了一面吃了一顿饭，饭毕，合影：（总共10人，还有几个未入境，哈哈哈哈哈哈）</p>
-<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_0200.JPG" width="80%" height="80%" alt="与老王"></p>
-<h4 id="为自己喜欢的事情早起一个小时">为自己喜欢的事情早起一个小时</h4><p>为自己喜欢的事情早起一个小时，这完全是属于你自己的一个小时。</p>
-<p>“世界还没有苏醒，先生和孩子还在熟睡，工作伙伴还不能接受短讯，你不用与任何人交流，你不需要和任何事情协商，你也不用对谁有任何亏欠，心安理得的，享受这，属于自己的一个小时。</p>
-<p>写字，插花，跑步，画画，任何事，哪怕只是去看花园里的一片叶子。”（作者声音也很好听）</p>
-<p>原文：<a href="http://mp.weixin.qq.com/s?__biz=MjM5ODg5NTk1OQ==&amp;mid=401219861&amp;idx=1&amp;sn=6f009a9ed31663fe35372a5251bcc1f4&amp;scene=23&amp;srcid=1119owUsnhgj4GzemnB6CVfC#rd" target="_blank" rel="external">http://mp.weixin.qq.com/s?__biz=MjM5ODg5NTk1OQ==&amp;mid=401219861&amp;idx=1&amp;sn=6f009a9ed31663fe35372a5251bcc1f4&amp;scene=23&amp;srcid=1119owUsnhgj4GzemnB6CVfC#rd</a></p>
-<p>后话：现在的习惯可不好，因为公司不用打卡，所以都是晚睡晚起，明明知道这个习惯不好，却还是不愿意去改，即使很困，依然不愿睡去。以前会定闹钟，后来就麻木了，即使闹钟闹醒了，依然睡着。索性现在一觉睡到自然醒也来这舒服。工作一年多，体质明显比前年在学校差很多。貌似就缺一个为之改变的动力，等待，等待，等待。。。</p>
-<p>等到躺在医院？等在每天喝着中药？</p>
-<p>早起一小时会不会主动早睡一个小时？试试吧。。。</p>
-
-      
-    </div>
-
-    
-      
-      
-
-
-
-      
-      
-    
-
-    
-      <footer class="post-footer">
-        
-          <div class="post-tags">
-            
-              <a href="/tags/总结/">总结</a>
-            
-              <a href="/tags/生活/">生活</a>
-            
-          </div>
-        
-        
-        
-  <nav class="pagination">
-    
-      <a class="prev" href="/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    
-    
-      <a class="next" href="/page/3/">
-        <span class="next-text">下一页</span>
-        <i class="iconfont icon-right"></i>
-      </a>
-    
-  </nav>
-
-      </footer>
-    
-
-  </article>
-
-    
-      
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          碎碎念在11月15日
-        
-      </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
-          2015年11月15日
-        </span>
-      </div>
-    </header>
-
-    
-    
-
-    <div class="post-content">
-      
-        <h4 id="1、看书《人性的弱点》">1、看书《人性的弱点》</h4><p>在微信读书上每天看四十屏以上的电子书，一直在坚持。读书过程中是很容易被打断的，如果手机看书一定的是飞行模式下比较好。</p>
-<h4 id="2、看到一篇不错的博客">2、看到一篇不错的博客</h4><p><a href="http://tech.glowing.com/cn/advices-to-junior-developers/" target="_blank" rel="external">《如何提升你的能力？给年轻程序员的几条建议》</a>,博主建议很中肯，从中提取的几点：</p>
-<ul>
-<li>每个程序员都应该经营一款自己的产品，它可以是一款app，一个网站或是一个开源软件。</li>
-<li>我觉得每个人都需要一个职场导师，他可以是你第一份工作的导师或是Manager，也可以是你认识的其他前辈。你们需要维系一个非常长期的关系，不止于一家公司，最好贯穿你的整个职业生涯。每当你遇到疑惑时，都可以询求他的建议，我觉得这将是你最宝贵的一笔人脉财富。</li>
-<li>在面试一家公司的时候，你要意识到面试是双向的，公司在面试你的同时，你也在面试这家公司。</li>
-</ul>
-<p>第一条我正做，第二条比较幸运，冥冥之中存在着那么一个Manager，第三条是我读完之后才能意识到，或者是表达除了我们在面试的时候想法。</p>
-<h4 id="3、公司团建">3、公司团建</h4><p>周三公司组织了团建，学会了两个卡牌游戏，德国心脏病、巫髅（wlow?）忘记怎么拼得了。玩的蛮开心，那天幸运数字3竟然没有帮到我，没有得奖。拿了个参与奖暖宝宝.</p>
-<h4 id="4、本周五的分享">4、本周五的分享</h4><p>主题是做一个关于About me的页面，PPT地址：<a href="https://docs.google.com/presentation/d/1dz-_7-FwTtsOS-7Qiw9uGLqDhkMlDs8B1z7RLaE3IRw/edit#slide=id.p" target="_blank" rel="external">https://docs.google.com/presentation/d/1dz-_7-FwTtsOS-7Qiw9uGLqDhkMlDs8B1z7RLaE3IRw/edit#slide=id.p</a>,虽然也有准备但是还是遇到一些问题，效果不是很好。</p>
-<h4 id="5、参加了一个线上读书活动">5、参加了一个线上读书活动</h4><p>周六在朋友圈看到一个活动，<a href="http://www.yiqixxx.com/e/iODU2NQ==/" target="_blank" rel="external">21天挑战——每天读书半小时第一期</a>，活动参加人数还蛮多的，13日开始截至目前有五百人参加。对监督读书这个需求还是蛮大的。希望用21天培养一下习惯，能坚持下去,阅读计划<a href="http://www.yiqixxx.com/g/viewQuan/70167" target="_blank" rel="external">http://www.yiqixxx.com/g/viewQuan/70167</a></p>
-<h4 id="6、一个让我热泪盈眶的视频">6、一个让我热泪盈眶的视频</h4><p>看了好几遍，跳的真是很好，特别是双膝跪地移动简直帅到爆。。。。</p>
-<p>高潮部分：<a href="http://video.weibo.com/show?fid=1034:7d1eddb4af5100aa66c3c593140ce42f" target="_blank" rel="external">http://video.weibo.com/show?fid=1034:7d1eddb4af5100aa66c3c593140ce42f</a></p>
-<p>完整版：<a href="http://v.qq.com/cover/z/z71t4kv4sm70nct.html" target="_blank" rel="external">http://v.qq.com/cover/z/z71t4kv4sm70nct.html</a></p>
-<p>背景音乐：Dance To The Death </p>
-
-      
-    </div>
-
-    
-      
-      
-
-
-
-      
-      
-    
-
-    
-      <footer class="post-footer">
-        
-          <div class="post-tags">
-            
-              <a href="/tags/总结/">总结</a>
-            
-              <a href="/tags/生活/">生活</a>
-            
-          </div>
-        
-        
-        
-  <nav class="pagination">
-    
-      <a class="prev" href="/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    
-    
-      <a class="next" href="/page/3/">
-        <span class="next-text">下一页</span>
-        <i class="iconfont icon-right"></i>
-      </a>
-    
-  </nav>
-
-      </footer>
-    
-
-  </article>
-
-    
-      
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          The identity used to sign the executable is no longer valid
-        
-      </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
-          2015年11月9日
-        </span>
-      </div>
-    </header>
-
-    
-    
-
-    <div class="post-content">
-      
-        <h3 id="问题描述">问题描述</h3><p>公司一个账号，然后在多台设备使用。</p>
-<p>The identity used to sign the executable is no longer valid.</p>
-<p>Please verify that your device’s clock is properly set, and that your signing certificate is not expired. (0xE8008018).</p>
-<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151109-0.png" alt=""></p>
-<p>Preferences —&gt; Accounts —&gt; View Details<br>Reset和Download all 都使过，不管用。<br><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151109-1.png" alt=""></p>
-<p>包括按照参考资料2.<a href="http://pinkstone.co.uk/how-to-fix-the-identity-used-to-sign-the-executable-is-no-longer-valid-error-in-xcode/" target="_blank" rel="external">http://pinkstone.co.uk/how-to-fix-the-identity-used-to-sign-the-executable-is-no-longer-valid-error-in-xcode/</a>也无果。</p>
-<h3 id="最终解决姿势">最终解决姿势</h3><p>还是简单粗暴的从Xcode移除Apple id,然后重新登录就好了。</p>
-<p>原话:<code>Remove your apple id from Xcode preference and add it back again. Clean, rebuild and make sure coding signing is correct in project settings. That works for me.</code></p>
-<h4 id="参考资料：">参考资料：</h4><p>1.<a href="http://stackoverflow.com/questions/31717492/the-identity-used-to-sign-the-executable-is-no-longer-valid-at-xcode" target="_blank" rel="external">http://stackoverflow.com/questions/31717492/the-identity-used-to-sign-the-executable-is-no-longer-valid-at-xcode</a></p>
-<p>2.<a href="http://pinkstone.co.uk/how-to-fix-the-identity-used-to-sign-the-executable-is-no-longer-valid-error-in-xcode/" target="_blank" rel="external">http://pinkstone.co.uk/how-to-fix-the-identity-used-to-sign-the-executable-is-no-longer-valid-error-in-xcode/</a></p>
-
-      
-    </div>
-
-    
-      
-      
-
-
-
-      
-      
-    
-
-    
-      <footer class="post-footer">
-        
-          <div class="post-tags">
-            
-              <a href="/tags/iOS/">iOS</a>
-            
-              <a href="/tags/Xcode/">Xcode</a>
-            
-          </div>
-        
-        
-        
-  <nav class="pagination">
-    
-      <a class="prev" href="/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    
-    
-      <a class="next" href="/page/3/">
-        <span class="next-text">下一页</span>
-        <i class="iconfont icon-right"></i>
-      </a>
-    
-  </nav>
-
-      </footer>
-    
-
-  </article>
-
-    
-      
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          碎碎念在11月7日
-        
-      </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
-          2015年11月7日
-        </span>
-      </div>
-    </header>
-
-    
-    
-
-    <div class="post-content">
-      
-        <p>“生活总是要有变化的，哪怕你今天是换了一条路线也好，不然久了真的会变得麻木！”,这是在微信订阅号<code>她在江湖漂</code>(微信号:tazaijianghupiao)里<a href="http://mp.weixin.qq.com/s?__biz=MjM5ODQxMDU0Ng==&amp;mid=400119843&amp;idx=1&amp;sn=04633a296fd5ddd279d98f9cb02a7f36&amp;scene=23&amp;srcid=11079VKox5FiixyiA60SZeft#rd" target="_blank" rel="external">试错二三事</a>一篇文章里读到的.现在生活状态工作状态混在一起，今天copy昨日，昨日copy前天。生活是需要有点变化，需要一些碎碎念的来写写流水账，所以有了这篇碎碎念，希望有个系列，每周能总结下这周遇到有趣的，对自己有益的东西，或者思考。</p>
-<h4 id="前奏">前奏</h4><p>下午在家停电了，还好电脑还有电，手机有电，充电宝。但是断电之后信号就不好了，背包里背了一个多月的书（阮一峰的《如何变得有思想》），一直没看完正好那拿出来继续看。</p>
-<p>翻开上次的书页，看了两段之后我就在想，昨天下的Parse源码要不要研究呢？衣服还没洗，要不要现在洗洗？好冷的说，今天不洗了？一会儿夜晚吃啥饭？床边还有一本书也是看了一半，瞅了瞅。就这样，当看书的时候发现又想干其他的事情，在意识到精力分散了之后，不应该这样，然后读了两页，看到一句话说的好有道理，我应该做个笔记，于是把一个笔记本拿来画画，就这样思绪在各个环节跳跃着、跳跃着。。。</p>
-<p>我知道，这是病，得治。</p>
-<p>近段时间的碎碎念。。。。</p>
-<h5 id="1、发现一个满满干活的博客http://blog-ibireme-com">1、发现一个满满干活的博客<a href="http://blog.ibireme.com" target="_blank" rel="external">http://blog.ibireme.com</a></h5><p>刷微博的时候转到一个人的博客，发现大量干货，一看就是高手，然后顺着找到他的GitHub:<a href="https://github.com/ibireme" target="_blank" rel="external">https://github.com/ibireme</a>,最近开源了一个源码YYText YYWebImage YYModel YYCache等，我发现这个的时候微博上只有少数转发，一两天之后被多人转载，作者优酷的，90后。</p>
-<h5 id="2、下周三有个分享，在做PPT">2、下周三有个分享，在做PPT</h5><p>下周三，也就是2015年11月11日按照之前的排表需要做一个分享，正好近几天在研究搭建关于个人页面的东西，然后分享就叫：给自己一个About me页面。</p>
-<h5 id="3、发现了Linux在GitHub上的源码https://github-com/torvalds/linux">3、发现了Linux在GitHub上的源码<a href="https://github.com/torvalds/linux" target="_blank" rel="external">https://github.com/torvalds/linux</a></h5><p>无意中发现了Linux在GitHub上的源码，截止目前5620有个人贡献过代码，557331次提交。虽然不会看，但是对依然点了个star表示支持。本身对Linux系统也有一定学习，感谢大学里王耀宽老师让我知道Linux，当然还有移动教研室的邱雅老师、曹蕾老师、韩璞老师。虽然忘了GCC的编译命令，忘了博创6410开发板上的挂载步骤，忘了交叉编译步骤，忘了SDL的一些移植，忘记了Mplayer的移植，但是那个过程忘不了，多次失败的尝试直至成功让我对Linux底层一些结构有了深一步了解，至今受用。</p>
-<h5 id="4、那为什么写博客？促进思考">4、那为什么写博客？促进思考</h5><p>阮一峰的《如何变得有思想》把第一辑看完了，也忘得差不多，还是很享受作者在阐述一些观点深入我心的感觉，对第二辑的文学和第三辑的历史不是太感兴趣，暂且略过。第四辑的是科技我会看看。然后跳到带后记为什么写博客。那为什么写博客？因为能促进思考。自己在码这些字的时候也是一直在不停地思考，博客的受益人是自己，读者是自己，如果能够帮助到被人，那就是意外收获。</p>
-<h5 id="5、北京下雪">5、北京下雪</h5><p>11月6日北京下雪了，貌似比往年更早一些，依然青葱的柳树却已披上银装，生平第一次见。对了，该穿秋裤了。哦，我妈还没提醒我穿秋裤。<br>还有个段子：我在北方裹着貂，你在南方露着腰。</p>
-<h5 id="6、给每天一个清单">6、给每天一个清单</h5><p>主要是想让工作更有条理些，日常琐事有序些。要知道自己要干什么，什么没有干，什么事重要要先干，什么事可以排后(PS:道理都懂，却依然过不好一生)。</p>
-<h4 id="7、我的About_me_页面">7、我的About me 页面</h4><p>经过一番折腾<a href="http://duxinfeng.com/about-me">http://duxinfeng.com/about-me</a>页面终于折腾好了，搞的别人的源码，然后改改。之前一直是Blog里面的一个静态页面<a href="http://duxinfeng.com/about">http://duxinfeng.com/about</a></p>
-
-      
-    </div>
-
-    
-      
-      
-
-
-
-      
-      
-    
-
-    
-      <footer class="post-footer">
-        
-          <div class="post-tags">
-            
-              <a href="/tags/总结/">总结</a>
-            
-              <a href="/tags/生活/">生活</a>
-            
-          </div>
-        
-        
-        
-  <nav class="pagination">
-    
-      <a class="prev" href="/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    
-    
-      <a class="next" href="/page/3/">
-        <span class="next-text">下一页</span>
-        <i class="iconfont icon-right"></i>
-      </a>
-    
-  </nav>
-
-      </footer>
-    
-
-  </article>
-
-    
-  </section>
 
-  
-  <nav class="pagination">
-    
-      <a class="prev" href="/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text">上一页</span>
-      </a>
-    
-    
-      <a class="next" href="/page/3/">
-        <span class="next-text">下一页</span>
-        <i class="iconfont icon-right"></i>
-      </a>
-    
-  </nav>
-
-
-          </div>
-          
-        </div>  
-      </main>
-
-      <footer id="footer" class="footer">
-
-  <div class="social-links">
-    
-      
-        
-          <a href="mailto:duxinfeng99@email.com" class="iconfont icon-email" title="email"></a>
-        
-      
-    
-      
-    
-      
-        
-          <a href="https://twitter.com/iduxinfeng" class="iconfont icon-twitter" title="twitter"></a>
-        
-      
-    
-      
-    
-      
-    
-      
-    
-      
-        
-          <a href="https://github.com/duxinfeng" class="iconfont icon-github" title="github"></a>
-        
-      
-    
-      
-        
-          <a href="http://www.weibo.com/duxinfeng" class="iconfont icon-weibo" title="weibo"></a>
-        
-      
-    
-      
-    
-      
-    
-    
-    
-  </div>
-
-
-<div class="copyright">
-  <span class="power-by">
-    由 <a class="hexo-link" href="https://hexo.io/">Hexo</a> 强力驱动
-  </span>
-  
-  <span class="theme-info">
-    主题 - 
-    <a class="theme-link" href="https://github.com/ahonn/hexo-theme-even">Even</a>
-  </span>
-
-  <span class="copyright-year">
-    
-    &copy; 
-     
-      2015 - 
-    
-    2017
 
-    <span class="heart">
-      <i class="iconfont icon-heart"></i>
-    </span>
-    <span class="author">新风作浪</span>
-  </span>
-</div>
-      </footer>
 
-      <div class="back-to-top" id="back-to-top">
-        <i class="iconfont icon-up"></i>
-      </div>
-    </div>
 
-    
-  
-  
-
-
-
-    
-  
-
 
 
 
+<!-- Window Load-->
+<script>
+    $(window).load(function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+</script>
 
-  
-    <script type="text/javascript" src="/lib/jquery/jquery-3.1.1.min.js"></script>
-  
+<!-- MathJax Load-->
 
-  
-    <script type="text/javascript" src="/lib/slideout/slideout.js"></script>
-  
+<script>
+    <!-- Offer LazyLoad -->
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
 
-  
-    <script type="text/javascript" src="/lib/fancybox/jquery.fancybox.pack.js"></script>
-  
+    <!-- Start Queue -->
+    $(document).ready(function(){
+        setTimeout(function(){
+            setInterval(function(){
+                queue.execNext();
+            },200);
+        },3000);
+    });
+</script>
 
-
-    <script type="text/javascript" src="/js/src/even.js?v=2.3.x"></script>
-<script type="text/javascript" src="/js/src/bootstrap.js?v=2.3.x"></script>
-
+                </main>
+            </div>
+        </body>
     
-  <script type="text/html" id="search-result">
-    <article class="post">
-      <header class="post-header">
-        <h1 class="post-title">
-          <a href="$url$" class="post-link">
-            $title$
-          </a>
-        </h1>
-      </header>
-      <div class="post-content">
-        $content$
-        <div class="read-more">
-          <a href="$url$" class="read-more-link">
-            阅读更多
-          </a>
-        </div>
-      </div>
-    </article>
-  </script>
-  <script type="text/html" id="no-search-result">
-    <div class="no-result">
-      <h2>No result found!</h2>
-    </div>
-  </script>
-  <script type="text/javascript" src="/js/src/search.js?v=2.3.x"></script>
-
-  </body>
 </html>

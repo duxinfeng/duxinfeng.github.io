@@ -215,7 +215,7 @@ _audioStreamer.<span class="keyword">currentTime</span> = <span class="number">1
     <link href="http://duxinfeng.com/2016/01/04/%E9%9B%86%E6%88%90%E6%94%AF%E4%BB%98%E5%AE%9D%E5%87%BA%E7%8E%B0%E7%9A%84%E4%B8%80%E5%A0%86warning-AlipaySDK4Standard-AlipaySDK-Library-UTDID-framework/"/>
     <id>http://duxinfeng.com/2016/01/04/集成支付宝出现的一堆warning-AlipaySDK4Standard-AlipaySDK-Library-UTDID-framework/</id>
     <published>2016-01-04T08:08:19.000Z</published>
-    <updated>2016-01-30T16:44:39.000Z</updated>
+    <updated>2017-04-27T09:58:09.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="警告信息">警告信息</h3><p><strong> warning: (i386) /Users/scmbuild/workspace/standard-pay/IOS/cp_record_client_release_515040/1212/mspc_iphone_msdk/AlipaySDK4Standard/AlipaySDK/Library/UTDID.framework/UTDID(UTDIDBaseUtils.o) unable to open object file: No such file or directory </strong></p>
 <h3 id="解决办法">解决办法</h3><p>1) Go to Build Settings -&gt; Build Options -&gt; Debug Information Format</p>
@@ -403,11 +403,9 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
     <link href="http://duxinfeng.com/2015/12/11/%E3%80%8A%E4%BA%BA%E6%80%A7%E7%9A%84%E5%BC%B1%E7%82%B9%E8%AF%BB%E4%B9%A6%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     <id>http://duxinfeng.com/2015/12/11/《人性的弱点读书》读书笔记/</id>
     <published>2015-12-11T11:49:16.000Z</published>
-    <updated>2015-12-15T08:43:03.000Z</updated>
+    <updated>2017-04-27T10:00:26.000Z</updated>
     
-    <content type="html"><![CDATA[<p>（半成品，先隐藏，完整后在放出来）</p>
-<h3 id="为什么读这本书？">为什么读这本书？</h3><p>在一个伸手</p>
-<h3 id="书摘">书摘</h3><p>摘录部分是我在读书的时候做的笔记，也有一些对特立观点的，无法描述，但是作者说出了我想说的话，或者说来的好有道理，我竟无言以对。</p>
+    <content type="html"><![CDATA[<h3 id="书摘">书摘</h3><p>摘录部分是我在读书的时候做的笔记，也有一些对特立观点的，无法描述，但是作者说出了我想说的话，或者说来的好有道理，我竟无言以对。</p>
 <p>为什么我会摘抄这一点呢？或多或少某一点打动了，说出了我心里表达不出来的，<br>1、xxxx</p>
 <p>个人的成功只要百分之十五院子专业能力，另外的百分之八十五则来自“人类工程学”，即人格特质和领导能力。</p>
 <p>无论是工程、会计、建筑还是其他需要技术能力的行业，专业的人才只要有过硬的技术就能找到工作。但想要拿高薪，他们必须在专业技能之外还具备表达能力、领导能力和激发他人的工作热情的能力。</p>
@@ -445,14 +443,17 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
     
     <summary type="html">
     
-      &lt;p&gt;（半成品，先隐藏，完整后在放出来）&lt;/p&gt;
-&lt;h3 id=&quot;为什么读这本书？&quot;&gt;为什么读这本书？&lt;/h3&gt;&lt;p&gt;在一个伸手&lt;/p&gt;
-&lt;h3 id=&quot;书摘&quot;&gt;书摘&lt;/h3&gt;&lt;p&gt;摘录部分是我在读书的时候做的笔记，也有一些对特立观点的，无法描述，但是作者说出了我想说的话，或者说
+      &lt;h3 id=&quot;书摘&quot;&gt;书摘&lt;/h3&gt;&lt;p&gt;摘录部分是我在读书的时候做的笔记，也有一些对特立观点的，无法描述，但是作者说出了我想说的话，或者说来的好有道理，我竟无言以对。&lt;/p&gt;
+&lt;p&gt;为什么我会摘抄这一点呢？或多或少某一点打动了，说出了我心里表达不出来的，&lt;br&gt;1、xxxx&lt;
     
     </summary>
     
-      <category term="default" scheme="http://duxinfeng.com/categories/default/"/>
+      <category term="生活" scheme="http://duxinfeng.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
+    
+      <category term="读书" scheme="http://duxinfeng.com/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="笔记" scheme="http://duxinfeng.com/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -714,9 +715,9 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
       <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
     
     
-      <category term="iOS" scheme="http://duxinfeng.com/tags/iOS/"/>
-    
       <category term="Xcode" scheme="http://duxinfeng.com/tags/Xcode/"/>
+    
+      <category term="iOS" scheme="http://duxinfeng.com/tags/iOS/"/>
     
   </entry>
   

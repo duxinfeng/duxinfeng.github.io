@@ -2,30 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://duxinfeng.com/categories/index.html</loc>
+    <loc>http://duxinfeng.com/about/index.html</loc>
     
-    <lastmod>2017-03-25T07:52:36.000Z</lastmod>
+    <lastmod>2017-04-27T10:13:01.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://duxinfeng.com/tags/index.html</loc>
+    <loc>http://duxinfeng.com/2015/12/11/%E3%80%8A%E4%BA%BA%E6%80%A7%E7%9A%84%E5%BC%B1%E7%82%B9%E8%AF%BB%E4%B9%A6%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
     
-    <lastmod>2017-03-25T07:52:14.000Z</lastmod>
+    <lastmod>2017-04-27T10:00:26.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://duxinfeng.com/2015/07/01/%E8%8B%B9%E6%9E%9C%E5%AE%A2%E6%9C%8D%E7%94%B5%E8%AF%9D/</loc>
     
-    <lastmod>2016-04-22T02:17:58.000Z</lastmod>
+    <lastmod>2017-04-27T09:58:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://duxinfeng.com/2016/01/04/%E9%9B%86%E6%88%90%E6%94%AF%E4%BB%98%E5%AE%9D%E5%87%BA%E7%8E%B0%E7%9A%84%E4%B8%80%E5%A0%86warning-AlipaySDK4Standard-AlipaySDK-Library-UTDID-framework/</loc>
+    
+    <lastmod>2017-04-27T09:58:09.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://duxinfeng.com/2015/07/14/iOS%E5%BC%80%E6%BA%90App%E6%95%B4%E7%90%86/</loc>
     
-    <lastmod>2016-04-12T03:05:56.000Z</lastmod>
+    <lastmod>2017-04-27T09:40:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://duxinfeng.com/tags/index.html</loc>
+    
+    <lastmod>2017-04-27T05:38:55.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://duxinfeng.com/categories/index.html</loc>
+    
+    <lastmod>2017-03-25T07:52:36.000Z</lastmod>
     
   </url>
   
@@ -65,13 +86,6 @@
   </url>
   
   <url>
-    <loc>http://duxinfeng.com/2016/01/04/%E9%9B%86%E6%88%90%E6%94%AF%E4%BB%98%E5%AE%9D%E5%87%BA%E7%8E%B0%E7%9A%84%E4%B8%80%E5%A0%86warning-AlipaySDK4Standard-AlipaySDK-Library-UTDID-framework/</loc>
-    
-    <lastmod>2016-01-30T16:44:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://duxinfeng.com/2016/01/15/NSURL%E5%88%9D%E5%A7%8B%E5%8C%96%E5%A4%B1%E8%B4%A5/</loc>
     
     <lastmod>2016-01-15T01:48:36.000Z</lastmod>
@@ -103,13 +117,6 @@
     <loc>http://duxinfeng.com/2015/12/14/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A812%E6%9C%8814%E6%97%A5/</loc>
     
     <lastmod>2015-12-15T08:45:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://duxinfeng.com/2015/12/11/%E3%80%8A%E4%BA%BA%E6%80%A7%E7%9A%84%E5%BC%B1%E7%82%B9%E8%AF%BB%E4%B9%A6%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
-    
-    <lastmod>2015-12-15T08:43:03.000Z</lastmod>
     
   </url>
   
@@ -159,13 +166,6 @@
     <loc>http://duxinfeng.com/2015/11/15/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A811%E6%9C%8815%E6%97%A5/</loc>
     
     <lastmod>2015-11-16T14:43:11.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://duxinfeng.com/about/index.html</loc>
-    
-    <lastmod>2015-11-15T05:44:00.000Z</lastmod>
     
   </url>
   
