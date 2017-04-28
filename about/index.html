@@ -393,7 +393,7 @@
     
         <a href="!--([关于](http://duxinfeng.github.io/about-me))--">!--([关于](http://duxinfeng.github.io/about-me))--</a>
 <h3 id="联系方式">联系方式</h3><ul>
-<li>Email: <a href="&#109;&#x61;&#x69;&#x6c;&#116;&#x6f;&#x3a;&#x64;&#117;&#120;&#x69;&#110;&#102;&#x65;&#110;&#x67;&#57;&#x39;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#x64;&#117;&#120;&#x69;&#110;&#102;&#x65;&#110;&#x67;&#57;&#x39;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></li>
+<li>Email: <a href="&#109;&#x61;&#x69;&#108;&#116;&#x6f;&#58;&#100;&#x75;&#120;&#105;&#x6e;&#102;&#101;&#110;&#x67;&#x39;&#57;&#64;&#103;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#x6d;">&#100;&#x75;&#120;&#105;&#x6e;&#102;&#101;&#110;&#x67;&#x39;&#57;&#64;&#103;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#x6d;</a></li>
 </ul>
 <ul>
 <li>Weibo: <a href="http://weibo.com/duxinfeng" target="_blank" rel="external">http://weibo.com/duxinfeng</a></li>
@@ -462,24 +462,90 @@ Objective-C、Swift、C、C++、JS、Python
 
 
 
-    <!-- 使用 DISQUS -->
+
+
+    <!-- 使用 DISQUS_CLICK -->
     <div id="disqus-comment">
         <div id="disqus_thread"></div>
+
+<!-- add animation -->
+<style>
+        .ripple-container {
+        }
+        .ripple-container .ripple{
+            background-color: rgba(255,255,255,0.4);
+            animation: ripple 2s forwards cubic-bezier(0, 0, 0.2, 1);
+        }
+        @keyframes ripple {
+            0% {
+                transform: scale(0);
+                opacity: 1;
+            }
+            80% {
+                transform: scale(1);
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+	.disqus_click_btn {
+            line-height: 30px;
+            margin: 0;
+            min-width: 50px;
+            padding: 0 14px;
+            display: inline-block;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            overflow: hidden;
+            will-change: box-shadow;
+            transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
+            outline: 0;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            vertical-align: middle;
+            border: 0;
+            background: rgba(158, 158, 158, .2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            color: #fff;
+            background-color: #757575;
+            text-shadow: 0
+        }
+</style>
+	
+<!-- add data-ripple attribute -->
+<div class="btn_click_load"> 
+    <button class="disqus_click_btn">阅读评论 「请确保 disq.us &amp; disquscdn.com &amp; disqus.com 可以正常加载」</button>
+</div>
+	
+<script>
+    // add effect to elements
+    Array.prototype.forEach.call(document.querySelectorAll('[data-ripple]'), function(element){
+        // find all elements and attach effect
+        new RippleEffect(element); // element is instance of javascript element node
+    });
+</script>
+
 <script>
     var disqus_config = function () {
         this.page.url = 'http://duxinfeng.com/about/index.html';  // Replace PAGE_URL with your page's canonical URL variable
         this.page.identifier = 'http://duxinfeng.com/about/index.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
-    queue.offer(function() {
-            (function() { // DON'T EDIT BELOW THIS LINE
-                var d = document;
-                var s = d.createElement('script');
-                s.src = '//duxinfeng.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', + new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        });
+    $('.btn_click_load').click(function() {  //click to load comments
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//duxinfeng.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        $('.btn_click_load').css('display','none');
+    });
 </script>
+  	
 
     </div>
     <style>
@@ -488,8 +554,6 @@ Objective-C、Swift、C、C++、JS、Python
             padding: 2pc;
         }
     </style>
-
-
 
 
                 
@@ -822,9 +886,6 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 
-
-    <!-- 使用 DISQUS js 代码 -->
-    <script id="dsq-count-scr" src="//duxinfeng.disqus.com/count.js" async></script>
 
 
 
