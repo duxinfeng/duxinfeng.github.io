@@ -405,7 +405,7 @@
     
         <a href="!--([关于](http://duxinfeng.github.io/about-me))--">!--([关于](http://duxinfeng.github.io/about-me))--</a>
 <h3 id="联系方式">联系方式</h3><ul>
-<li>Email: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#x3a;&#100;&#x75;&#x78;&#105;&#x6e;&#102;&#x65;&#110;&#x67;&#x39;&#x39;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#100;&#x75;&#x78;&#105;&#x6e;&#102;&#x65;&#110;&#x67;&#x39;&#x39;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></li>
+<li>Email: <a href="&#109;&#x61;&#x69;&#x6c;&#116;&#111;&#58;&#100;&#117;&#x78;&#x69;&#x6e;&#102;&#101;&#110;&#103;&#57;&#57;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#x6d;">&#100;&#117;&#x78;&#x69;&#x6e;&#102;&#101;&#110;&#103;&#57;&#57;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#x6d;</a></li>
 </ul>
 <ul>
 <li>Weibo: <a href="http://weibo.com/duxinfeng" target="_blank" rel="external">http://weibo.com/duxinfeng</a></li>
@@ -470,36 +470,33 @@ Objective-C、Swift、C、C++、JS、Python
                 <!-- Post Comments -->
                 
                     
-
-
-
-
-    <!-- 使用 DISQUS -->
-    <div id="disqus-comment">
-        <div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-        this.page.url = 'http://duxinfeng.com/about/index.html';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'http://duxinfeng.com/about/index.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-   
-            (function() { // DON'T EDIT BELOW THIS LINE
-                var d = document;
-                var s = d.createElement('script');
-                s.src = '//duxinfeng.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', + new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        
-</script>
-
+    <!-- 使用多说评论 -->
+    <link rel="stylesheet" href="/css/duoshuo.min.css">
+<style>
+    #ds-thread #ds-reset .ds-post-button{
+        background-color: #0097A7 !important;
+    }
+    #ds-wrapper #ds-reset .ds-icons-32{
+        background-color: #0097A7 !important;
+    }
+    #ds-reset .ds-highlight {
+        color: #0097A7 !important;
+    }
+</style>
+<div id="comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread"
+        data-thread-key="about/index.html"
+        data-url="http://duxinfeng.com/about/index.html"
+        data-title="about">
     </div>
-    <style>
-        #disqus-comment{
-            background-color: #eee;
-            padding: 2pc;
-        }
-    </style>
+    <!-- 多说评论框 end -->
+</div>
+
+
+
+
+
 
 
 
@@ -917,11 +914,27 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 
+    <!-- 多说公共 js 代码 start -->
+    <script type="text/javascript">
+        queue.offer(function(){
+            window.duoshuoQuery = {
+                short_name: 'duxinfeng'
+            };
+            (function() {
+                var ds = document.createElement('script');
+                ds.type = 'text/javascript';
+                ds.async = true;
+                ds.src = 'https://static.duoshuo.com/embed.js';
+                ds.charset = 'UTF-8';
+                (document.getElementsByTagName('head')[0]
+                 || document.getElementsByTagName('body')[0]).appendChild(ds);
+            })();
+        });
+    </script>
+    <!-- 多说公共 js 代码 end -->
 
 
 
-    <!-- 使用 DISQUS js 代码 -->
-    <script id="dsq-count-scr" src="//duxinfeng.disqus.com/count.js" async></script>
 
 
 
