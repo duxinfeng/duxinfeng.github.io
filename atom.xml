@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://duxinfeng.com/"/>
-  <updated>2017-05-26T09:05:19.000Z</updated>
+  <updated>2017-05-26T10:22:04.000Z</updated>
   <id>http://duxinfeng.com/</id>
   
   <author>
@@ -14,24 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>SDWebImage源码学习</title>
-    <link href="http://duxinfeng.com/2017/07/26/SDWebImage%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/"/>
-    <id>http://duxinfeng.com/2017/07/26/SDWebImage源码学习/</id>
-    <published>2017-07-26T14:01:56.000Z</published>
-    <updated>2017-05-26T09:05:19.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
-    
-    
-      <category term="SDWebImage" scheme="http://duxinfeng.com/tags/SDWebImage/"/>
-    
-  </entry>
   
   <entry>
     <title>ERROR ITMS-90086 +  ERROR ITMS-90203</title>
@@ -157,9 +139,15 @@
     <link href="http://duxinfeng.com/2016/09/06/AFNetworking%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/"/>
     <id>http://duxinfeng.com/2016/09/06/AFNetworking源码学习/</id>
     <published>2016-09-06T04:02:27.000Z</published>
-    <updated>2017-05-26T09:05:16.000Z</updated>
+    <updated>2017-05-26T10:24:09.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>待续。。。</p>
+]]></content>
     
     <summary type="html">
+    
+      &lt;p&gt;待续。。。&lt;/p&gt;
+
     
     </summary>
     
@@ -167,6 +155,30 @@
     
     
       <category term="AFNetworking" scheme="http://duxinfeng.com/tags/AFNetworking/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SDWebImage源码学习</title>
+    <link href="http://duxinfeng.com/2016/07/26/SDWebImage%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://duxinfeng.com/2016/07/26/SDWebImage源码学习/</id>
+    <published>2016-07-26T14:01:56.000Z</published>
+    <updated>2017-05-26T10:23:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>待续。。。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;待续。。。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
+    
+    
+      <category term="SDWebImage" scheme="http://duxinfeng.com/tags/SDWebImage/"/>
     
   </entry>
   

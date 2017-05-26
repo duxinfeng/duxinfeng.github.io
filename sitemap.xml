@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://duxinfeng.com/2016/09/06/AFNetworking%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/</loc>
+    
+    <lastmod>2017-05-26T10:24:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://duxinfeng.com/2016/07/26/SDWebImage%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/</loc>
+    
+    <lastmod>2017-05-26T10:23:59.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://duxinfeng.com/2017/05/22/ERROR-ITMS-90086-ERROR-ITMS-90203/</loc>
     
     <lastmod>2017-05-26T10:22:04.000Z</lastmod>
@@ -12,20 +26,6 @@
     <loc>http://duxinfeng.com/2017/01/02/%E8%B2%8C%E4%BC%BC%E5%BE%88%E6%9C%89%E9%81%93%E7%90%86/</loc>
     
     <lastmod>2017-05-26T09:37:55.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://duxinfeng.com/2017/07/26/SDWebImage%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/</loc>
-    
-    <lastmod>2017-05-26T09:05:19.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://duxinfeng.com/2016/09/06/AFNetworking%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/</loc>
-    
-    <lastmod>2017-05-26T09:05:16.000Z</lastmod>
     
   </url>
   
