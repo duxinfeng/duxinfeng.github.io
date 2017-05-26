@@ -440,9 +440,10 @@
     
         <p>打包app提交到审核的时候报错：<br>1、ERROR ITMS-90086: “Missing 64-bit support.<br>2、ERROR ITMS-90203: “Invalid architecture: Apps that include an app extension and framework must support arm64.</p>
 <p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/ERROR-ITMS-90086.png" alt=""></p>
-<p>提示app不支持64-bit（也有可能第三方SDK、第三方库不支持造成）,一般出现这种问题需要检查工程配合情况： TARGETS -&gt; Build Settings中的Architectures中<br><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20170526-181451.png" alt=""></p>
-<p>在这个版本优化推送通知的时候加入了iOS10的一些新特性,添加了iOS10的Extension和Service，检查了一下竟然没有armv64的支持，手动加上即可。</p>
-<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20170526-180557.png" alt=""><br><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20170526-181107.png" alt=""></p>
+<p>提示app不支持64-bit（也有可能第三方SDK、第三方库不支持造成）,一般出现这种问题需要检查工程配合情况： TARGETS -&gt; Build Settings中的Architectures中</p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20170526-181451.png" alt=""></p>
+<p>在这个版本优化推送通知的时候加入了iOS10的一些新特性,添加了iOS10的Extension和Service，检查了一下竟然没有armv64的支持，手动加上即可。<br><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20170526-181038.png" alt=""></p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20170526-181107.png" alt=""></p>
 
     
 
