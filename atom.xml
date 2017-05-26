@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://duxinfeng.com/"/>
-  <updated>2017-05-02T01:24:07.000Z</updated>
+  <updated>2017-05-26T08:36:06.000Z</updated>
   <id>http://duxinfeng.com/</id>
   
   <author>
@@ -14,6 +14,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>微信实验室</title>
+    <link href="http://duxinfeng.com/2017/05/18/%E5%BE%AE%E4%BF%A1%E5%AE%9E%E9%AA%8C%E5%AE%A4/"/>
+    <id>http://duxinfeng.com/2017/05/18/微信实验室/</id>
+    <published>2017-05-18T03:18:20.000Z</published>
+    <updated>2017-05-26T08:36:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>微信v6.5.8推出一项实验室新功能，目前包括搜一搜和看一看，更新最新版本.<code>我</code>-&gt; <code>设置</code> -&gt; <code>实验室</code> 进入<code>看一看</code>和<code>搜一搜</code>把启用开关打开，返回<code>发现</code>页即可看到</p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_1703.JPG" alt=""></p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_1704.JPG" alt=""></p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_1705.JPG" alt=""></p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_1702.JPG" alt=""></p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_1708.JPG" alt=""></p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_1706.JPG" alt=""></p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_1700.JPG" alt=""></p>
+<p>网上看到比较有意思的一张图片</p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_1707.JPG" alt=""></p>
+<p>发朋友圈可以同步到Facebook和Twitter了。</p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_1709.JPG" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;微信v6.5.8推出一项实验室新功能，目前包括搜一搜和看一看，更新最新版本.&lt;code&gt;我&lt;/code&gt;-&amp;gt; &lt;code&gt;设置&lt;/code&gt; -&amp;gt; &lt;code&gt;实验室&lt;/code&gt; 进入&lt;code&gt;看一看&lt;/code&gt;和&lt;code&gt;搜一搜&lt;/code&gt;把启用开关
+    
+    </summary>
+    
+      <category term="工具" scheme="http://duxinfeng.com/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="微信" scheme="http://duxinfeng.com/tags/%E5%BE%AE%E4%BF%A1/"/>
+    
+  </entry>
   
   <entry>
     <title>修复小BUG的时候修出一个大BUG</title>
@@ -41,6 +75,49 @@
     
     
       <category term="总结" scheme="http://duxinfeng.com/tags/%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>iOS多线程备忘</title>
+    <link href="http://duxinfeng.com/2016/05/26/iOS%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%87%E5%BF%98/"/>
+    <id>http://duxinfeng.com/2016/05/26/iOS多线程备忘/</id>
+    <published>2016-05-26T05:48:23.000Z</published>
+    <updated>2017-05-26T08:11:13.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="NSThread">NSThread</h3><p>开启一个线程进行任务处理</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">[NSThread detachNewThreadSelector:@selector(dosomething) toTarget:self withObject:nil];</div><div class="line">[NSThread detachNewThreadWithBlock:^&#123;</div><div class="line">        [self dosomething];</div><div class="line">    &#125;];</div><div class="line">NSThread *thread = [[NSThread alloc] initWithTarget:self selector:@selector(dosomething) object:nil];</div><div class="line">    [thread start];</div></pre></td></tr></table></figure>
+<p>NSObject类拓展直接使用</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">[self performSelectorInBackground:@selector(dosomething) withObject:nil];</div><div class="line">[self performSelectorOnMainThread:@selector(dosomething) withObject:nil waitUntilDone:NO];</div><div class="line">[self performSelector:@selector(dosomething) withObject:nil];</div></pre></td></tr></table></figure>
+<p>创建一个异步任务在后台执行，然后在主线程更新UI操作</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">[self performSelectorInBackground:@selector(requestData:) withObject:@&quot;https://xxx.png&quot;];</div><div class="line"></div><div class="line"></div><div class="line">- (void)requestData:(NSString *)urlString</div><div class="line">&#123;</div><div class="line">    NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:urlString]];</div><div class="line">    [self performSelectorOnMainThread:@selector(updateUI:) withObject:data waitUntilDone:NO];</div><div class="line">&#125;</div><div class="line"></div><div class="line">- (void)updateUI:(NSData *)data</div><div class="line">&#123;</div><div class="line">    // 拿到data，跟新UI</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="NSOperation、NSOperationQueue">NSOperation、NSOperationQueue</h3><h3 id="Grand_Centeral_Dispatch">Grand Centeral Dispatch</h3><h4 id="并行与串行">并行与串行</h4><p>dispatch_get_global_queue 全局并行队列<br>dispatch_get_main_queue 主线程串行队列</p>
+<p>dispatch_sync(xxx, ^{ }) 同步线程<br>dispatch_async(xxx, ^{ }) 异步线程</p>
+<p>搭配使用   </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^&#123;</div><div class="line">        // 子线程中耗时操作</div><div class="line">        dispatch_async(dispatch_get_main_queue(), ^&#123;</div><div class="line">            // 主线程中更新页面</div><div class="line">        &#125;);</div><div class="line">    &#125;);</div></pre></td></tr></table></figure>
+<h4 id="GCD单例">GCD单例</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">static dispatch_once_t onceToken;</div><div class="line">dispatch_once(&amp;onceToken, ^&#123;</div><div class="line">        </div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<p>执行一次，常用来写单例方法</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">+ (id)sharedManager &#123;</div><div class="line">    </div><div class="line">    static dispatch_once_t once;</div><div class="line">    </div><div class="line">    static id instance;</div><div class="line">    </div><div class="line">    dispatch_once(&amp;once, ^&#123;</div><div class="line">        </div><div class="line">        instance = [[self alloc] init];</div><div class="line">        </div><div class="line">    &#125;);</div><div class="line">    </div><div class="line">    return instance;</div><div class="line">    </div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h4 id="GCD定时器">GCD定时器</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line">__block int timeout = 3;</div><div class="line">dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);</div><div class="line">dispatch_source_t timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0,queue);</div><div class="line">dispatch_source_set_timer(timer,dispatch_walltime(NULL, 0),1.0*NSEC_PER_SEC, 0); //每秒执行</div><div class="line">dispatch_source_set_event_handler(timer, ^&#123;</div><div class="line">    if(timeout&lt;=0)&#123; //倒计时结束，关闭</div><div class="line">                </div><div class="line">        dispatch_async(dispatch_get_main_queue(), ^&#123;</div><div class="line">                           </div><div class="line">        &#125;);</div><div class="line">     &#125;else&#123;</div><div class="line">        </div><div class="line">        dispatch_async(dispatch_get_main_queue(), ^&#123;           </div><div class="line">                    </div><div class="line">        &#125;);</div><div class="line">        timeout--;</div><div class="line">     &#125;</div><div class="line">    &#125;);</div><div class="line"> dispatch_resume(timer);</div></pre></td></tr></table></figure>
+<h4 id="dispatch_after延后执行">dispatch_after延后执行</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">double delayInSeconds = 2.0;</div><div class="line">dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t) (delayInSeconds * NSEC_PER_SEC));</div><div class="line">dispatch_after(popTime, dispatch_get_main_queue(), ^(void)&#123;</div><div class="line">    // 两秒后执行</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<h4 id="Dispatch_Group">Dispatch Group</h4><p>有时候一个页面需要发多个请求，待所以请求完毕，再去更新数据</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">dispatch_queue_t queue = dispatch_queue_create(DISPATCH_QUEUE_PRIORITY_DEFAULT,0);</div><div class="line">dispatch_group_t group = dispatch_group_create();</div><div class="line">dispatch_group_async(group, queue, ^&#123;</div><div class="line">    NSLog(@&quot;111&quot;);</div><div class="line">&#125;);</div><div class="line"></div><div class="line">dispatch_group_async(group, queue, ^&#123;</div><div class="line">    NSLog(@&quot;222&quot;);</div><div class="line">&#125;);</div><div class="line">   </div><div class="line">dispatch_group_async(group, queue, ^&#123;</div><div class="line">    NSLog(@&quot;333&quot;);</div><div class="line">&#125;);</div><div class="line">   </div><div class="line">dispatch_group_notify(group, dispatch_get_main_queue(), ^&#123;</div><div class="line">    NSLog(@&quot;done&quot;);</div><div class="line">&#125;);</div><div class="line">   </div><div class="line">/* dispatch_group_notify 也可以换成下面dispatch_group_wait 等待上面执行完毕再往下执行*/</div><div class="line">//dispatch_group_wait(group, DISPATCH_TIME_FOREVER);</div><div class="line">//NSLog(@&quot;done&quot;);</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;NSThread&quot;&gt;NSThread&lt;/h3&gt;&lt;p&gt;开启一个线程进行任务处理&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/d
+    
+    </summary>
+    
+      <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
+    
+    
+      <category term="NSThread" scheme="http://duxinfeng.com/tags/NSThread/"/>
+    
+      <category term="NSOperation" scheme="http://duxinfeng.com/tags/NSOperation/"/>
+    
+      <category term="Grand Centeral Dispatch" scheme="http://duxinfeng.com/tags/Grand-Centeral-Dispatch/"/>
     
   </entry>
   
@@ -670,78 +747,6 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
     
     
       <category term="碎碎念" scheme="http://duxinfeng.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>碎碎念在11月15日</title>
-    <link href="http://duxinfeng.com/2015/11/15/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A811%E6%9C%8815%E6%97%A5/"/>
-    <id>http://duxinfeng.com/2015/11/15/碎碎念在11月15日/</id>
-    <published>2015-11-15T05:08:00.000Z</published>
-    <updated>2017-04-27T13:14:41.000Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="1、看书《人性的弱点》">1、看书《人性的弱点》</h4><p>在微信读书上每天看四十屏以上的电子书，一直在坚持。读书过程中是很容易被打断的，如果手机看书一定的是飞行模式下比较好。</p>
-<h4 id="2、看到一篇不错的博客">2、看到一篇不错的博客</h4><p><a href="http://tech.glowing.com/cn/advices-to-junior-developers/" target="_blank" rel="external">《如何提升你的能力？给年轻程序员的几条建议》</a>,博主建议很中肯，从中提取的几点：</p>
-<ul>
-<li>每个程序员都应该经营一款自己的产品，它可以是一款app，一个网站或是一个开源软件。</li>
-<li>我觉得每个人都需要一个职场导师，他可以是你第一份工作的导师或是Manager，也可以是你认识的其他前辈。你们需要维系一个非常长期的关系，不止于一家公司，最好贯穿你的整个职业生涯。每当你遇到疑惑时，都可以询求他的建议，我觉得这将是你最宝贵的一笔人脉财富。</li>
-<li>在面试一家公司的时候，你要意识到面试是双向的，公司在面试你的同时，你也在面试这家公司。</li>
-</ul>
-<p>第一条我正做，第二条比较幸运，冥冥之中存在着那么一个Manager，第三条是我读完之后才能意识到，或者是表达除了我们在面试的时候想法。</p>
-<h4 id="3、公司团建">3、公司团建</h4><p>周三公司组织了团建，学会了两个卡牌游戏，德国心脏病、巫髅（wlow?）忘记怎么拼得了。玩的蛮开心，那天幸运数字3竟然没有帮到我，没有得奖。拿了个参与奖暖宝宝.</p>
-<h4 id="4、本周五的分享">4、本周五的分享</h4><p>主题是做一个关于About me的页面，PPT地址：<a href="https://docs.google.com/presentation/d/1dz-_7-FwTtsOS-7Qiw9uGLqDhkMlDs8B1z7RLaE3IRw/edit#slide=id.p" target="_blank" rel="external">https://docs.google.com/presentation/d/1dz-_7-FwTtsOS-7Qiw9uGLqDhkMlDs8B1z7RLaE3IRw/edit#slide=id.p</a>,虽然也有准备但是还是遇到一些问题，效果不是很好。</p>
-<h4 id="5、参加了一个线上读书活动">5、参加了一个线上读书活动</h4><p>周六在朋友圈看到一个活动，<a href="http://www.yiqixxx.com/e/iODU2NQ==/" target="_blank" rel="external">21天挑战——每天读书半小时第一期</a>，活动参加人数还蛮多的，13日开始截至目前有五百人参加。对监督读书这个需求还是蛮大的。希望用21天培养一下习惯，能坚持下去,阅读计划<a href="http://www.yiqixxx.com/g/viewQuan/70167" target="_blank" rel="external">http://www.yiqixxx.com/g/viewQuan/70167</a></p>
-<h4 id="6、一个让我热泪盈眶的视频">6、一个让我热泪盈眶的视频</h4><p>看了好几遍，跳的真是很好，特别是双膝跪地移动简直帅到爆。。。。</p>
-<p>高潮部分：<a href="http://video.weibo.com/show?fid=1034:7d1eddb4af5100aa66c3c593140ce42f" target="_blank" rel="external">http://video.weibo.com/show?fid=1034:7d1eddb4af5100aa66c3c593140ce42f</a></p>
-<p>完整版：<a href="http://v.qq.com/cover/z/z71t4kv4sm70nct.html" target="_blank" rel="external">http://v.qq.com/cover/z/z71t4kv4sm70nct.html</a></p>
-<p>背景音乐：Dance To The Death </p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h4 id=&quot;1、看书《人性的弱点》&quot;&gt;1、看书《人性的弱点》&lt;/h4&gt;&lt;p&gt;在微信读书上每天看四十屏以上的电子书，一直在坚持。读书过程中是很容易被打断的，如果手机看书一定的是飞行模式下比较好。&lt;/p&gt;
-&lt;h4 id=&quot;2、看到一篇不错的博客&quot;&gt;2、看到一篇不错的博客&lt;/h4&gt;
-    
-    </summary>
-    
-      <category term="生活" scheme="http://duxinfeng.com/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-      <category term="碎碎念" scheme="http://duxinfeng.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>The identity used to sign the executable is no longer valid</title>
-    <link href="http://duxinfeng.com/2015/11/09/The-identity-used-to-sign-the-executable-is-no-longer-valid/"/>
-    <id>http://duxinfeng.com/2015/11/09/The-identity-used-to-sign-the-executable-is-no-longer-valid/</id>
-    <published>2015-11-09T05:49:11.000Z</published>
-    <updated>2017-04-27T13:08:54.000Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="问题描述">问题描述</h3><p>公司一个账号，然后在多台设备使用。</p>
-<p>The identity used to sign the executable is no longer valid.</p>
-<p>Please verify that your device’s clock is properly set, and that your signing certificate is not expired. (0xE8008018).</p>
-<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151109-0.png" alt=""></p>
-<p>Preferences —&gt; Accounts —&gt; View Details<br>Reset和Download all 都使过，不管用。<br><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20151109-1.png" alt=""></p>
-<p>包括按照参考资料2.<a href="http://pinkstone.co.uk/how-to-fix-the-identity-used-to-sign-the-executable-is-no-longer-valid-error-in-xcode/" target="_blank" rel="external">http://pinkstone.co.uk/how-to-fix-the-identity-used-to-sign-the-executable-is-no-longer-valid-error-in-xcode/</a>也无果。</p>
-<h3 id="最终解决姿势">最终解决姿势</h3><p>还是简单粗暴的从Xcode移除Apple id,然后重新登录就好了。</p>
-<p>原话:<code>Remove your apple id from Xcode preference and add it back again. Clean, rebuild and make sure coding signing is correct in project settings. That works for me.</code></p>
-<h4 id="参考资料：">参考资料：</h4><p>1.<a href="http://stackoverflow.com/questions/31717492/the-identity-used-to-sign-the-executable-is-no-longer-valid-at-xcode" target="_blank" rel="external">http://stackoverflow.com/questions/31717492/the-identity-used-to-sign-the-executable-is-no-longer-valid-at-xcode</a></p>
-<p>2.<a href="http://pinkstone.co.uk/how-to-fix-the-identity-used-to-sign-the-executable-is-no-longer-valid-error-in-xcode/" target="_blank" rel="external">http://pinkstone.co.uk/how-to-fix-the-identity-used-to-sign-the-executable-is-no-longer-valid-error-in-xcode/</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;问题描述&quot;&gt;问题描述&lt;/h3&gt;&lt;p&gt;公司一个账号，然后在多台设备使用。&lt;/p&gt;
-&lt;p&gt;The identity used to sign the executable is no longer valid.&lt;/p&gt;
-&lt;p&gt;Please verify that yo
-    
-    </summary>
-    
-      <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
-    
-    
-      <category term="Xcode" scheme="http://duxinfeng.com/tags/Xcode/"/>
     
   </entry>
   
