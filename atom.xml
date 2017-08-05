@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://duxinfeng.com/"/>
-  <updated>2017-06-16T07:44:50.000Z</updated>
+  <updated>2017-08-05T03:24:30.000Z</updated>
   <id>http://duxinfeng.com/</id>
   
   <author>
@@ -14,6 +14,58 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>error: lipo: can&#39;t write to output file</title>
+    <link href="http://duxinfeng.com/2017/08/05/error-lipo-can-t-write-to-output-file/"/>
+    <id>http://duxinfeng.com/2017/08/05/error-lipo-can-t-write-to-output-file/</id>
+    <published>2017-08-05T03:13:50.000Z</published>
+    <updated>2017-08-05T03:24:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>对于128G 空间也是够了，随着配置各种开发环境的增多，经常编译打包的时候提示数据不能写入。<br>有时候报如下错：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">error: lipo: can&apos;t write to output file: /Users/用户名/Library/Developer/Xcode/DerivedData/project-fljetreqmwyqxwgsfkrfzxkxrfkm/Build/Intermediates/ArchiveIntermediates/project/BuildProductsPath/Release-iphoneos/project.app.dSYM/Contents/Resources/DWARF/project.lipo (Undefined error: 0)</div></pre></td></tr></table></figure>
+<p>1、检查是不是硬盘空间不够了，清理空间<br>2、清空<code>Library/Developer/Xcode/DerivedData/</code>文件下内容，能腾出不少空间来</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;对于128G 空间也是够了，随着配置各种开发环境的增多，经常编译打包的时候提示数据不能写入。&lt;br&gt;有时候报如下错：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div cl
+    
+    </summary>
+    
+      <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
+    
+    
+      <category term="打包" scheme="http://duxinfeng.com/tags/%E6%89%93%E5%8C%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于ASO的一点理解</title>
+    <link href="http://duxinfeng.com/2017/06/29/%E5%85%B3%E4%BA%8EASO%E7%9A%84%E4%B8%80%E7%82%B9%E7%90%86%E8%A7%A3/"/>
+    <id>http://duxinfeng.com/2017/06/29/关于ASO的一点理解/</id>
+    <published>2017-06-29T03:04:21.000Z</published>
+    <updated>2017-06-29T03:15:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="什么是ASO">什么是ASO</h3><p>ASO是“应用商店优化”的简称。ASO(App Store Optimization)就是提升你APP在各类APP苹果电子市场排行榜和搜索结果排名的过程。类似网站的SEO.ASO优化就是利用App Store的搜索规则和排名规则让APP更容易被用户搜索或看到。通常我们说的ASO就是App Store中的关键词优化排名。重点在于关键词搜索排名优化。</p>
+<p><a href="https://www.zhihu.com/question/23027114" target="_blank" rel="external">https://www.zhihu.com/question/23027114</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;什么是ASO&quot;&gt;什么是ASO&lt;/h3&gt;&lt;p&gt;ASO是“应用商店优化”的简称。ASO(App Store Optimization)就是提升你APP在各类APP苹果电子市场排行榜和搜索结果排名的过程。类似网站的SEO.ASO优化就是利用App Store的搜索规则和
+    
+    </summary>
+    
+      <category term="categorie1" scheme="http://duxinfeng.com/categories/categorie1/"/>
+    
+    
+      <category term="tag1" scheme="http://duxinfeng.com/tags/tag1/"/>
+    
+      <category term="tag2" scheme="http://duxinfeng.com/tags/tag2/"/>
+    
+  </entry>
   
   <entry>
     <title>开放平台汇总</title>
@@ -221,9 +273,12 @@
     <link href="http://duxinfeng.com/2016/05/26/iOS%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%87%E5%BF%98/"/>
     <id>http://duxinfeng.com/2016/05/26/iOS多线程备忘/</id>
     <published>2016-05-26T05:48:23.000Z</published>
-    <updated>2017-05-26T08:11:13.000Z</updated>
+    <updated>2017-06-22T06:25:09.000Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="NSThread">NSThread</h3><p>开启一个线程进行任务处理</p>
+    <content type="html"><![CDATA[<h3 id="进程与线程">进程与线程</h3><p>进程: 启动Chrome浏览器，就是启动一个进程</p>
+<p>线程：使用Chrome一遍下载一遍浏览网页，这个时候有多个线程，下载的线程和加载网页的线程. </p>
+<p>一个进程至少有一个线程，线程在进程中执行。线程中串行执行任务，同一时间只能执行一个任务。</p>
+<h3 id="NSThread">NSThread</h3><p>开启一个线程进行任务处理</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">[NSThread detachNewThreadSelector:@selector(dosomething) toTarget:self withObject:nil];</div><div class="line">[NSThread detachNewThreadWithBlock:^&#123;</div><div class="line">        [self dosomething];</div><div class="line">    &#125;];</div><div class="line">NSThread *thread = [[NSThread alloc] initWithTarget:self selector:@selector(dosomething) object:nil];</div><div class="line">    [thread start];</div></pre></td></tr></table></figure>
 <p>NSObject类拓展直接使用</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">[self performSelectorInBackground:@selector(dosomething) withObject:nil];</div><div class="line">[self performSelectorOnMainThread:@selector(dosomething) withObject:nil waitUntilDone:NO];</div><div class="line">[self performSelector:@selector(dosomething) withObject:nil];</div></pre></td></tr></table></figure>
@@ -243,8 +298,9 @@
     
     <summary type="html">
     
-      &lt;h3 id=&quot;NSThread&quot;&gt;NSThread&lt;/h3&gt;&lt;p&gt;开启一个线程进行任务处理&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/d
+      &lt;h3 id=&quot;进程与线程&quot;&gt;进程与线程&lt;/h3&gt;&lt;p&gt;进程: 启动Chrome浏览器，就是启动一个进程&lt;/p&gt;
+&lt;p&gt;线程：使用Chrome一遍下载一遍浏览网页，这个时候有多个线程，下载的线程和加载网页的线程. &lt;/p&gt;
+&lt;p&gt;一个进程至少有一个线程，线程在进程中执行。线程中串
     
     </summary>
     
@@ -466,7 +522,7 @@ _audioStreamer.<span class="keyword">currentTime</span> = <span class="number">1
     <link href="http://duxinfeng.com/2016/01/04/%E9%9B%86%E6%88%90%E6%94%AF%E4%BB%98%E5%AE%9D%E5%87%BA%E7%8E%B0%E7%9A%84%E4%B8%80%E5%A0%86warning-AlipaySDK4Standard-AlipaySDK-Library-UTDID-framework/"/>
     <id>http://duxinfeng.com/2016/01/04/集成支付宝出现的一堆warning-AlipaySDK4Standard-AlipaySDK-Library-UTDID-framework/</id>
     <published>2016-01-04T08:08:19.000Z</published>
-    <updated>2017-04-27T09:58:09.000Z</updated>
+    <updated>2017-08-05T03:07:54.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="警告信息">警告信息</h3><p><strong> warning: (i386) /Users/scmbuild/workspace/standard-pay/IOS/cp_record_client_release_515040/1212/mspc_iphone_msdk/AlipaySDK4Standard/AlipaySDK/Library/UTDID.framework/UTDID(UTDIDBaseUtils.o) unable to open object file: No such file or directory </strong></p>
 <h3 id="解决办法">解决办法</h3><p>1) Go to Build Settings -&gt; Build Options -&gt; Debug Information Format</p>
@@ -476,6 +532,10 @@ _audioStreamer.<span class="keyword">currentTime</span> = <span class="number">1
 <p>如图：</p>
 <p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20160104-0.png" alt=""></p>
 <p>参考原文：<a href="http://www.cocoachina.com/bbs/3g/read.php?tid=332174" target="_blank" rel="external">http://www.cocoachina.com/bbs/3g/read.php?tid=332174</a></p>
+<p>===================</p>
+<h3 id="2017-8-5更新">2017.8.5更新</h3><p>现在打包的时候又出现这样的警告:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">warning: (armv7) /Users/tommy/Desktop/Project/AliPay/SourceTree/ios-msdk-git/AlipaySDK4Standard/AlipaySDK/Library/UTDID.framework/UTDID(UTDevice.o) unable to open object file: No such file or directory</div><div class="line"></div><div class="line">warning: (armv64) /Users/tommy/Desktop/Project/AliPay/SourceTree/ios-msdk-git/AlipaySDK4Standard/AlipaySDK/Library/UTDID.framework/UTDID(UTDevice.o) unable to open object file: No such file or directory</div></pre></td></tr></table></figure>
+<p>解决办法: Change the Release setting from “DWARF with dSYM File” to “DWARF”</p>
 ]]></content>
     
     <summary type="html">
@@ -644,130 +704,6 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
     
     
       <category term="碎碎念" scheme="http://duxinfeng.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>《人性的弱点读书》读书笔记</title>
-    <link href="http://duxinfeng.com/2015/12/11/%E3%80%8A%E4%BA%BA%E6%80%A7%E7%9A%84%E5%BC%B1%E7%82%B9%E8%AF%BB%E4%B9%A6%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    <id>http://duxinfeng.com/2015/12/11/《人性的弱点读书》读书笔记/</id>
-    <published>2015-12-11T11:49:16.000Z</published>
-    <updated>2017-04-27T10:00:26.000Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="书摘">书摘</h3><p>摘录部分是我在读书的时候做的笔记，也有一些对特立观点的，无法描述，但是作者说出了我想说的话，或者说来的好有道理，我竟无言以对。</p>
-<p>为什么我会摘抄这一点呢？或多或少某一点打动了，说出了我心里表达不出来的，<br>1、xxxx</p>
-<p>个人的成功只要百分之十五院子专业能力，另外的百分之八十五则来自“人类工程学”，即人格特质和领导能力。</p>
-<p>无论是工程、会计、建筑还是其他需要技术能力的行业，专业的人才只要有过硬的技术就能找到工作。但想要拿高薪，他们必须在专业技能之外还具备表达能力、领导能力和激发他人的工作热情的能力。</p>
-<p>人际交往能力决定了我们的受欢迎程度、我的幸福感和自我价值。</p>
-<p>每当你需要解决管教孩子、说服家人或者安抚客户等具体问题时，请不要听任自己的本能反应，因为第一反应往往是错的。</p>
-<!--[我的理解：不要误解作者说的第一反应就是错的，而是作者前提条件的时候，“管教孩子”“舒服家人”“解决、安抚客户问题”，其实我想说的应该是说在你冲动的时候，告诉你要冷静思考]-->
-<p>批评是无用的，她激起抵触，让人急于辩白；批评是危险的，它会伤害自尊，甚至让人萌生恨意。</p>
-<p>责备所引发的怨恨不仅无益，更会大几家人、朋友和员工的积极性。</p>
-<p>对性和成功的欲望是人类永恒的动机。<br><!--为什么不是永恒的动力，翻译问题？--></p>
-<p>人性的根源深处，强烈渴求他人的欣赏。</p>
-<p>一些精神分裂患者确实在疯癫中得到了现实世界中无法获得的被重视感。</p>
-<p>人们如此渴望他们的认同，甚至不惜以发疯为代价。</p>
-<p>真心实意地感谢他人、赞美他人</p>
-<p>3、xxx<br>2、xxxx</p>
-<p>我个人非常喜欢草莓和奶油，不过我惊奇发现，鱼类居然对人间美味不感兴趣，只喜欢吃虫子。所以每次去钓鱼的时候，我不会考虑自己想要什么，而是考虑鱼想要什么。<br><!--对考虑用户的需求，用户想要什么，不能我们自己坐在那意淫用户想要什么，当然有的用户也不知自己想要什么，那我们就要去意淫他们的需求，发现他们还需要什么--></p>
-<p>说服别人的首要途径，是引发对方强烈的欲求。</p>
-<p>人们只有真心热爱自己做的事，才有可能取得成功。</p>
-<p>哪怕你不习惯微笑，也请努力试看。独自一个人的时候，假装很开心—这些举动真的会让你开心起来。<br><!--科学解释：人们往往认为感觉先于行动，但实际上，感觉与行动是同步的。相较于情绪，只有调整行为，才能够调整间接的调整兴趣--><br><!--想要找回丢失的快乐，就偷偷的坐直身体，愉快的谈天做事，感觉快乐已经回到你的身边，这是通往快乐的最佳方式。--></p>
-<p>无论对于任何人，无论以何种语言，自己的名字都是世界是哪个最甜蜜的词汇</p>
-<p>专注倾听，鼓励他人谈论自己。</p>
-<p>发自肺腑的赞美所产生的力量。</p>
-<p>如果能得到他人的重视，很多人得生活会因此改变。</p>
-<p>每个人在内心深处都渴望被重视。<br><!--在学校里渴望被老师重视，在工作中渴望被上司老板重视。就像上一句说的，如果能得到他人的重视，很多人的生活会因此改变--></p>
-<p>4、xxx</p>
-<p>争辩、抱怨和反驳或许会带来暂时的胜利，但是你永远无法通过这表面的胜利赢得对方的尊敬—本杰明 富兰克林。</p>
-<p>要比所有人聪明，但是不要告诉他们这一点。</p>
-<p>如果你想了解为人处世知道，提升个人魅力，不妨读一读本杰明·富兰克林的自传。<br><!--所以在看这本书的时候，我又买了一儿半女富兰克林自传--></p>
-<p>尊重他人的观点，绝不要说“你错了”。</p>
-<p>不经意地抛出系那个发，引起他的兴趣，让他自行揣摩。<br><!--这个好像是是说服上级或建议或拍马屁什么的时候处理方式--></p>
-<p>同理心是为人处世的制胜之道。</p>
-<p>若想让交流变得流畅，请像重视自己感受一样重视对方。</p>
-<p>同情所产生的化学作用能够平息怨气。</p>
-<p>激发对方内心深处的高尚情操</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;书摘&quot;&gt;书摘&lt;/h3&gt;&lt;p&gt;摘录部分是我在读书的时候做的笔记，也有一些对特立观点的，无法描述，但是作者说出了我想说的话，或者说来的好有道理，我竟无言以对。&lt;/p&gt;
-&lt;p&gt;为什么我会摘抄这一点呢？或多或少某一点打动了，说出了我心里表达不出来的，&lt;br&gt;1、xxxx&lt;
-    
-    </summary>
-    
-      <category term="生活" scheme="http://duxinfeng.com/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-      <category term="读书" scheme="http://duxinfeng.com/tags/%E8%AF%BB%E4%B9%A6/"/>
-    
-      <category term="笔记" scheme="http://duxinfeng.com/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我的书单</title>
-    <link href="http://duxinfeng.com/2015/12/11/%E6%88%91%E7%9A%84%E4%B9%A6%E5%8D%95/"/>
-    <id>http://duxinfeng.com/2015/12/11/我的书单/</id>
-    <published>2015-12-11T11:37:41.000Z</published>
-    <updated>2017-05-26T08:51:45.000Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote>
-<p>已读</p>
-</blockquote>
-<ul>
-<li><p>人性的弱点（2015.11-2015.11）</p>
-</li>
-<li><p>黑客与画家（2015.11-2015.12）</p>
-</li>
-<li><p>如何变得有思想（2015.9-xx.xx）</p>
-</li>
-<li><p>只为了好玩 Linux 之父林纳斯自传</p>
-</li>
-<li><p>腾讯转</p>
-</li>
-</ul>
-<blockquote>
-<p>在读</p>
-</blockquote>
-<ul>
-<li><p>穷查理宝典（2015.12-xx.xx）</p>
-</li>
-<li><p>富兰克林自传（2015.12-xx.xx）</p>
-</li>
-</ul>
-<blockquote>
-<p>待读</p>
-</blockquote>
-<ul>
-<li><p>增长黑客</p>
-</li>
-<li><p>解忧杂货铺</p>
-</li>
-<li><p>岛上书店</p>
-</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;已读&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;人性的弱点（2015.11-2015.11）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;黑客与画家（2015.11-2015.12）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;如何变得有思想（201
-    
-    </summary>
-    
-      <category term="读书" scheme="http://duxinfeng.com/categories/%E8%AF%BB%E4%B9%A6/"/>
-    
-    
-      <category term="书单" scheme="http://duxinfeng.com/tags/%E4%B9%A6%E5%8D%95/"/>
     
   </entry>
   
