@@ -76,7 +76,7 @@
 
     
         <meta property="article:published_time" content="1月 04, 2016" />
-        <meta property="article:modified_time" content="8月 05, 2017" />
+        <meta property="article:modified_time" content="8月 24, 2017" />
     
 
     <!-- The Twitter Card protocol -->
@@ -117,7 +117,7 @@
     "headline": "集成支付宝出现的一堆warning:AlipaySDK4Standard/AlipaySDK/Library/UTDID.framework",
     "url": "http://duxinfeng.com/2016/01/04/集成支付宝出现的一堆warning-AlipaySDK4Standard-AlipaySDK-Library-UTDID-framework/index.html",
     "datePublished": "1月 04, 2016",
-    "dateModified": "8月 05, 2017",
+    "dateModified": "8月 24, 2017",
     "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
@@ -346,7 +346,7 @@
 
     
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#警告信息"><span class="post-toc-number">1.</span> <span class="post-toc-text">警告信息</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#解决办法"><span class="post-toc-number">2.</span> <span class="post-toc-text">解决办法</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#2017-8-5更新"><span class="post-toc-number">3.</span> <span class="post-toc-text">2017.8.5更新</span></a></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#警告信息"><span class="post-toc-number">1.</span> <span class="post-toc-text">警告信息</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#解决办法"><span class="post-toc-number">2.</span> <span class="post-toc-text">解决办法</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#2017-8-5更新"><span class="post-toc-number">3.</span> <span class="post-toc-text">2017.8.5更新</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#2017-8-24更新"><span class="post-toc-number">4.</span> <span class="post-toc-text">2017.8.24更新</span></a></li></ol>
         <!--
         <li class="mdl-menu__item">
             Some Action
@@ -527,6 +527,9 @@
 <h3 id="2017-8-5更新">2017.8.5更新</h3><p>现在打包的时候又出现这样的警告:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">warning: (armv7) /Users/tommy/Desktop/Project/AliPay/SourceTree/ios-msdk-git/AlipaySDK4Standard/AlipaySDK/Library/UTDID.framework/UTDID(UTDevice.o) unable to open object file: No such file or directory</div><div class="line"></div><div class="line">warning: (armv64) /Users/tommy/Desktop/Project/AliPay/SourceTree/ios-msdk-git/AlipaySDK4Standard/AlipaySDK/Library/UTDID.framework/UTDID(UTDevice.o) unable to open object file: No such file or directory</div></pre></td></tr></table></figure>
 <p>解决办法: Change the Release setting from “DWARF with dSYM File” to “DWARF”</p>
+<h3 id="2017-8-24更新">2017.8.24更新</h3><p>使用2017.8.5更新里的方案是有些问题的，Debug Information Format的release 模式改为DWARF后，在打包的时候不会生成.dSYM文件，这就造成了你无法追踪定位线上BUG</p>
+<p>所以目前只能先忍受这些警告了</p>
+<p>参考原文：<a href="https://stackoverflow.com/questions/35159244/xcode-there-are-no-dsyms-available-for-download" target="_blank" rel="external">https://stackoverflow.com/questions/35159244/xcode-there-are-no-dsyms-available-for-download</a></p>
 
     
 
