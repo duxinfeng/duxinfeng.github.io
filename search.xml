@@ -26,6 +26,64 @@
     </entry>
     
     <entry>
+      <title><![CDATA[DTCoreText使用总结]]></title>
+      <url>/2017/08/02/DTCoreText%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/</url>
+      <content type="html"><![CDATA[<h3 id="介绍">介绍</h3><p>GitHub 地址: <a href="https://github.com/Cocoanetics/DTCoreText" target="_blank" rel="external">https://github.com/Cocoanetics/DTCoreText</a></p>
+<p>官方文档: <a href="https://docs.cocoanetics.com/DTCoreText" target="_blank" rel="external">https://docs.cocoanetics.com/DTCoreText</a></p>
+<p>这里有一篇文章介绍DTCoreText、WKWebView、UIWebView 性能上的一些对比<a href="http://www.jianshu.com/p/9f5ac4d47ef4" target="_blank" rel="external">http://www.jianshu.com/p/9f5ac4d47ef4</a></p>
+<p>最终结果：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">运行期的内存占用： DTCoreText &lt; WKWebView &lt; UIWebView</div><div class="line"></div><div class="line">运行结束后的内存占用：WKWebView &lt; DTCoreText &lt; UIWebView</div></pre></td></tr></table></figure>
+<p>深入学习这里有两篇Blog:</p>
+<p>1、iOS富文本组件的实现—DTCoreText源码解析 数据篇: <a href="http://blog.cnbang.net/tech/2630/" target="_blank" rel="external">http://blog.cnbang.net/tech/2630/</a></p>
+<p>2、iOS富文本组件的实现—DTCoreText源码解析 渲染篇: <a href="http://blog.cnbang.net/tech/2729/" target="_blank" rel="external">http://blog.cnbang.net/tech/2729/</a></p>
+<h3 id="运行Demo">运行Demo</h3><p>直接下载下的DTCoreText是不能直接运行的，会报一些头文件找不到的错’import <dtfoundation dtweaksupport.h=""> file not found.’。在本地新建一个文件DTCoreText，打开终端进入这个这个文件下</dtfoundation></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">git clone git@github.com:Cocoanetics/DTCoreText.git</div><div class="line"></div><div class="line">git submodule init</div><div class="line"></div><div class="line">git submodule update</div></pre></td></tr></table></figure>
+<p>然后运行DTCoreText.xcodeproj,在使用的时候建议使用<code>pod &#39;DTCoreText</code> 来安装。</p>
+<p>或者直接：git clone —recursive <a href="https://github.com/Cocoanetics/DTCoreText.git" target="_blank" rel="external">https://github.com/Cocoanetics/DTCoreText.git</a> Externals/DTCoreText</p>
+<p>安装文档：<a href="https://docs.cocoanetics.com/DTCoreText/docs/Setup%20Guide.html" target="_blank" rel="external">https://docs.cocoanetics.com/DTCoreText/docs/Setup%20Guide.html</a></p>
+<h3 id="图文混排">图文混排</h3><p>准备工作:</p>
+<p>因为需要做一html的代码测试，百度开源了一个富文本编辑器UEditor <a href="http://ueditor.baidu.com/website/onlinedemo.html" target="_blank" rel="external">http://ueditor.baidu.com/website/onlinedemo.html</a>可以在里面进行编辑富文本，然后点击左上角的html按钮得到html代码来进行测试。</p>
+<p>假设我们拿到一段html</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">NSDictionary* options = @&#123; NSTextSizeMultiplierDocumentOption: [NSNumber numberWithFloat: 1.0],</div><div class="line">                            DTDefaultFontFamily: @&quot;Helvetica Neue&quot;,</div><div class="line">                        &#125;;</div><div class="line"></div><div class="line">NSString *html = @&quot;&lt;p&gt;Some Text&lt;/p&gt;&quot;;</div><div class="line">NSData* descriptionData = [html dataUsingEncoding:NSUTF8StringEncoding];</div><div class="line">NSAttributedString* attributedDescription = [[NSAttributedString alloc] initWithHTMLData:descriptionData options:options documentAttributes:NULL];</div></pre></td></tr></table></figure>
+<p>这一步我们已完成html的解析和渲染操作</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">NSAttributedString *attributedString = ...</div><div class="line">DTCoreTextLayouter *layouter = [[DTCoreTextLayouter alloc] initWithAttributedString:attributedString];</div><div class="line">CGRect maxRect = CGRectMake(10, 20, CGFLOAT_WIDTH_UNKNOWN, CGFLOAT_HEIGHT_UNKNOWN);</div><div class="line">NSRange entireString = NSMakeRange(0, [attributedString length]);</div><div class="line">DTCoreTextLayoutFrame *layoutFrame = [layouter layoutFrameWithRect:maxRect range:entireString];</div><div class="line"></div><div class="line">CGSize sizeNeeded = [layoutFrame frame].size;</div></pre></td></tr></table></figure>
+<p>通过转换后的NSAttributedString 获取这段文本的宽高。</p>
+<p>对于纯文本上面已经足够好的展示到UI上，通常情况我们也不会仅仅展示纯文本。如果是一个本地html文件，里面的图片也是本地，那也展示的没问题，如果远程图片这个时候需要更多一些操作了。在解析到<img>标签的时候插入一个占位符，然后在代理方法里面解析获取，通过封装的DTLazyImageView图片来显示</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div></pre></td><td class="code"><pre><div class="line">- (UIView *)attributedTextContentView:(DTAttributedTextContentView *)attributedTextContentView viewForAttachment:(DTTextAttachment *)attachment frame:(CGRect)frame</div><div class="line">&#123;</div><div class="line">    if([attachment isKindOfClass:[DTImageTextAttachment class]])</div><div class="line">     &#123;</div><div class="line">        DTLazyImageView *imageView = [[DTLazyImageView alloc] initWithFrame:frame];</div><div class="line">        imageView.delegate = self;</div><div class="line"></div><div class="line">        // url for deferred loading</div><div class="line">        imageView.url = attachment.contentURL;</div><div class="line">        return imageView;</div><div class="line">    &#125;</div><div class="line">    return nil;</div><div class="line">&#125;</div><div class="line"></div><div class="line">- (void)lazyImageView:(DTLazyImageView *)lazyImageView didChangeImageSize:(CGSize)size </div><div class="line">&#123;</div><div class="line">    NSURL *url = lazyImageView.url;</div><div class="line">    NSPredicate *pred = [NSPredicate predicateWithFormat:@&quot;contentURL == %@&quot;, url];</div><div class="line"></div><div class="line">    // update all attachments that matching this URL</div><div class="line">    for (DTTextAttachment *oneAttachment in [self.attributedTextContentView.layoutFrame textAttachmentsWithPredicate:pred]) </div><div class="line">     &#123;</div><div class="line">        oneAttachment.originalSize = size;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // need to reset the layouter because otherwise we get the old framesetter or cached layout frames</div><div class="line">    self.attributedTextContentView.layouter = nil;</div><div class="line"></div><div class="line">    // here we&apos;re layouting the entire string,</div><div class="line">    // might be more efficient to only relayout the paragraphs that contain these attachments</div><div class="line">    [self.attributedTextContentView relayoutText];</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h4 id="显示远程Gif图">显示远程Gif图</h4><p>获取到<code>img</code>标签的url,通过判断url链接里面是否包含<code>gif</code>来判断是否是一张gif图，然后进行赋值</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">NSString *imageURL = [NSString stringWithFormat:@&quot;%@&quot;, attachment.contentURL];</div><div class="line">if ([imageURL containsString:@&quot;gif&quot;]) &#123;</div><div class="line">           NSData *gifData = [NSData dataWithContentsOfURL:attachment.contentURL];</div><div class="line">           UIImage *gifImage = DTAnimatedGIFFromData(gifData);</div><div class="line">           imageView.image = gifImage;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="显示自定义标签">显示自定义标签</h3><p>目前主要涉及到两个文本框和公式，在UEditor里面并未找到，这里给出两个他们的的大概形式。</p>
+<p>DTCoreText目前并不支持公式，需要我们通过自定义html标签，在解析的时候插入占位符，在代理方法里面拿到这个占位符位置，然后获取到公式内容进行自定义展示。目前采用了iosMath <a href="https://github.com/kostub/iosMath" target="_blank" rel="external">https://github.com/kostub/iosMath</a>这个库来展示。</p>
+<p>目前还存在一些问题：</p>
+<p>遇到一些问题：</p>
+<ol>
+<li>设置行间距与段间距</li>
+<li>图片不显示，Gif 动图不动</li>
+<li>显示数学公式</li>
+<li>​</li>
+<li>显示一些自定义控件</li>
+</ol>
+<p>1、iosMath 多个公式展示出错，一些特殊字符也是不能显示的。<br>2、img 标签不返回去width height 属性，图片不会显示<br>3、多公式的时候标签替换</p>
+]]></content>
+      
+        <categories>
+            
+            <category> iOS </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> DTCoreText </tag>
+            
+            <tag> 富文本 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[开放平台汇总]]></title>
       <url>/2017/06/16/%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0%E6%B1%87%E6%80%BB/</url>
       <content type="html"><![CDATA[<h3 id="开放平台">开放平台</h3><p>优酷开放平台：<a href="http://open.youku.com" target="_blank" rel="external">http://open.youku.com</a></p>
@@ -945,9 +1003,9 @@ git commit -m <span class="string">"Removed file that shouldn't be tracked"</spa
         
         <tags>
             
-            <tag> 打包 </tag>
-            
             <tag> Xcode </tag>
+            
+            <tag> 打包 </tag>
             
         </tags>
         
