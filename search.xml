@@ -3,6 +3,32 @@
   
     
     <entry>
+      <title><![CDATA[工具备忘]]></title>
+      <url>/2017/09/16/%E5%B7%A5%E5%85%B7%E5%A4%87%E5%BF%98/</url>
+      <content type="html"><![CDATA[<blockquote>
+<p>有时候去查一些东西的时候无意中能遇到一些好玩的工具，有意思的网站，比较小众，等想起来的时候发现又找不到了，然后就整理在这里。</p>
+</blockquote>
+<h4 id="Material-Design图标：https-material-io-icons"><a href="#Material-Design图标：https-material-io-icons" class="headerlink" title="Material Design图标：https://material.io/icons"></a>Material Design图标：<a href="https://material.io/icons" target="_blank" rel="external">https://material.io/icons</a></h4><blockquote>
+<p>博客使用的<a href="https://github.com/viosey/hexo-theme-material" target="_blank" rel="external">material</a>主题，在自定义侧边栏图标时想换中，但是主题并没有实例图标名字的示例，无意中发现在这里，图标对于名字。 </p>
+</blockquote>
+<h4 id="开源图标：https-feathericons-com"><a href="#开源图标：https-feathericons-com" class="headerlink" title="开源图标：https://feathericons.com"></a>开源图标：<a href="https://feathericons.com" target="_blank" rel="external">https://feathericons.com</a></h4><h4 id="编写文档工具Docsify-https-docsify-js-org"><a href="#编写文档工具Docsify-https-docsify-js-org" class="headerlink" title="编写文档工具Docsify:https://docsify.js.org"></a>编写文档工具Docsify:<a href="https://docsify.js.org" target="_blank" rel="external">https://docsify.js.org</a></h4>]]></content>
+      
+        <categories>
+            
+            <category> 工具 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 备忘 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[error: lipo: can't write to output file]]></title>
       <url>/2017/08/05/error-lipo-can-t-write-to-output-file/</url>
       <content type="html"><![CDATA[<p>对于128G 空间也是够了，随着配置各种开发环境的增多，经常编译打包的时候提示数据不能写入。<br>有时候报如下错：</p>
@@ -1994,22 +2020,26 @@ NSURLRequest *req = [NSURLRequest requestWithURL:url];
     </entry>
     
     <entry>
-      <title><![CDATA[基于Github和Hexo搭建Blog]]></title>
+      <title><![CDATA[Mac上GitHub Pages + Hexo 搭建Blog]]></title>
       <url>/2015/05/01/%E5%9F%BA%E4%BA%8EGithub%E5%92%8CHexo%E6%90%AD%E5%BB%BABlog/</url>
-      <content type="html"><![CDATA[<p>步骤还是不写了，下面这些Blog写的都很详细。</p>
-<blockquote>
-<p>安装</p>
-</blockquote>
-<ul>
+      <content type="html"><![CDATA[<h3 id="环境安装"><a href="#环境安装" class="headerlink" title="环境安装"></a>环境安装</h3><ol>
+<li>安装Node.js:官方<a href="https://nodejs.org/" target="_blank" rel="external">https://nodejs.org/</a>下载pkg安装包</li>
+<li>执行 <code>npm install hexo-cli -g</code></li>
+<li>新建blog文件进，终端<code>cd blog</code>进入到这个文件夹,<code>hexo init</code></li>
+<li><code>hexo s</code>如果没报错，基本服务安装完成</li>
+</ol>
+<h3 id="配置-config-yml文件"><a href="#配置-config-yml文件" class="headerlink" title="配置_config.yml文件"></a>配置_config.yml文件</h3><p><code>_config.yml</code>有两个，一个博客根目录下<code>_config.yml</code>基本文件，一个主题的<code>_config.yml</code>文件</p>
+<h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><ol>
+<li>hexo new ‘Hello Word’ 创建一个一片文章模板，到/source/_post 目录下找到<code>Hello Word.md</code>的文件进行编辑 (hexo n ‘Hello Word’)</li>
+<li>hexo generate #生成静态页面至public目录 (hexo g)</li>
+<li>hexo server #开启预览访问端口（默认端口4000，’ctrl + c’关闭server） (hexo s)</li>
+<li>hexo deploy #将.deploy目录部署到GitHub(hexo d)</li>
+</ol>
+<h3 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h3><ul>
 <li><a href="http://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank" rel="external">http://ibruce.info/2013/11/22/hexo-your-blog/</a></li>
 <li><a href="http://ijiaober.github.io/categories/hexo/" target="_blank" rel="external">http://ijiaober.github.io/categories/hexo/</a></li>
 <li><a href="http://andrewliu.tk" target="_blank" rel="external">http://andrewliu.tk</a></li>
 <li><a href="http://lsq.me/2014/10/29/hexo-playground/" target="_blank" rel="external">http://lsq.me/2014/10/29/hexo-playground/</a></li>
-</ul>
-<blockquote>
-<p>安装过程中遇到一些问题解决方案</p>
-</blockquote>
-<ul>
 <li><a href="http://xuanwo.org/2014/08/14/hexo-usual-problem/" target="_blank" rel="external">http://xuanwo.org/2014/08/14/hexo-usual-problem/</a></li>
 <li><a href="https://www.v2ex.com/t/175940" target="_blank" rel="external">https://www.v2ex.com/t/175940</a></li>
 </ul>
