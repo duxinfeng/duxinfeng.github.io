@@ -240,7 +240,7 @@
 
     
         <meta property="article:published_time" content="Wed Aug 02 2017 13:14:31 GMT+0800" />
-        <meta property="article:modified_time" content="Thu Sep 14 2017 18:00:15 GMT+0800" />
+        <meta property="article:modified_time" content="Thu Oct 12 2017 14:46:35 GMT+0800" />
     
 
     <!-- The Twitter Card protocol -->
@@ -267,7 +267,7 @@
     "mainEntityOfPage": "http://duxinfeng.com/2017/08/02/DTCoreText使用总结/index.html",
     "headline": "DTCoreText使用总结",
     "datePublished": "Wed Aug 02 2017 13:14:31 GMT+0800",
-    "dateModified": "Thu Sep 14 2017 18:00:15 GMT+0800",
+    "dateModified": "Thu Oct 12 2017 14:46:35 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "新风作浪",
@@ -532,7 +532,11 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>GitHub 地址: <a href="https://github.com/Cocoanetics/DTCoreText" target="_blank" rel="external">https://github.com/Cocoanetics/DTCoreText</a></p>
+        <blockquote>
+<p>总结在项目中使用DTCoreText时，遇到一些问题和解决方法。</p>
+</blockquote>
+<p>下载源码直接运行工程的时候会报错，提示’import <dtfoundation dtweaksupport.h=""> file not found.’，原因是DTCoreText依赖第DTFoundation这个库，所以需要执行一些操作安装DTFoundation库，直接下载zip文件解压后的DTCoreText-master是没有<code>.git</code>这个git管理文件的。因为工程<code>.gitmodules</code>配置问题，你必须在一些特殊配置所以下载源码运行demo的推荐方案是   比较推荐的方法是 方Cocoapods进行集成<code>pod &#39;DTCoreText&#39;</code>。</dtfoundation></p>
+<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>GitHub 地址: <a href="https://github.com/Cocoanetics/DTCoreText" target="_blank" rel="external">https://github.com/Cocoanetics/DTCoreText</a></p>
 <p>官方文档: <a href="https://docs.cocoanetics.com/DTCoreText" target="_blank" rel="external">https://docs.cocoanetics.com/DTCoreText</a></p>
 <p>这里有一篇文章介绍DTCoreText、WKWebView、UIWebView 性能上的一些对比<a href="http://www.jianshu.com/p/9f5ac4d47ef4" target="_blank" rel="external">http://www.jianshu.com/p/9f5ac4d47ef4</a></p>
 <p>最终结果：</p>
@@ -568,6 +572,16 @@
 <li>显示一些自定义控件</li>
 </ol>
 <p>1、iosMath 多个公式展示出错，一些特殊字符也是不能显示的。<br>2、img 标签不返回去width height 属性，图片不会显示<br>3、多公式的时候标签替换</p>
+<p>参考资料：</p>
+<ol>
+<li><a href="https://docs.cocoanetics.com/DTCoreText" target="_blank" rel="external">https://docs.cocoanetics.com/DTCoreText</a></li>
+<li><a href="http://blog.cnbang.net/tech/2630" target="_blank" rel="external">http://blog.cnbang.net/tech/2630</a></li>
+<li><a href="http://blog.cnbang.net/tech/2729" target="_blank" rel="external">http://blog.cnbang.net/tech/2729</a></li>
+<li><a href="http://www.jianshu.com/p/9f5ac4d47ef4" target="_blank" rel="external">http://www.jianshu.com/p/9f5ac4d47ef4</a></li>
+</ol>
+<blockquote>
+<p> 当你获得的越多，你就会越温柔，不会为一点失去就气得暴跳如雷，也不会因为别人的否定就变得愤怒又消极。好的成长，就该是让人变得越来越温柔。</p>
+</blockquote>
 
         
     
@@ -723,7 +737,7 @@
             </a>
             <ul class="dropdown-menu">
             <li>
-                <a class="sidebar_archives-link" href="/archives/2017/09/">九月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/08/">八月 2017<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/06/">六月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/05/">五月 2017<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/01/">一月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/05/">五月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/04/">四月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/03/">三月 2016<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/02/">二月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/01/">一月 2016<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/12/">十二月 2015<span class="sidebar_archives-count">8</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/11/">十一月 2015<span class="sidebar_archives-count">6</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/10/">十月 2015<span class="sidebar_archives-count">5</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/09/">九月 2015<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/08/">八月 2015<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/07/">七月 2015<span class="sidebar_archives-count">9</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/06/">六月 2015<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/05/">五月 2015<span class="sidebar_archives-count">5</span></a>
+                <a class="sidebar_archives-link" href="/archives/2017/10/">十月 2017<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/09/">九月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/08/">八月 2017<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/06/">六月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/05/">五月 2017<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/01/">一月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/05/">五月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/04/">四月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/03/">三月 2016<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/02/">二月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/01/">一月 2016<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/12/">十二月 2015<span class="sidebar_archives-count">8</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/11/">十一月 2015<span class="sidebar_archives-count">6</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/10/">十月 2015<span class="sidebar_archives-count">5</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/09/">九月 2015<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/08/">八月 2015<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/07/">七月 2015<span class="sidebar_archives-count">9</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/06/">六月 2015<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/05/">五月 2015<span class="sidebar_archives-count">5</span></a>
             </ul>
         </li>
         
@@ -741,7 +755,7 @@
             </a>
             <ul class="dropdown-menu">
                 <li>
-                <a class="sidebar_archives-link" href="/categories/Hexo/">Hexo<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/iOS/">iOS<span class="sidebar_archives-count">23</span></a></li><li><a class="sidebar_archives-link" href="/categories/iOS/源码学习/">源码学习<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/备忘/">备忘<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/工具/">工具<span class="sidebar_archives-count">9</span></a></li><li><a class="sidebar_archives-link" href="/categories/生活/">生活<span class="sidebar_archives-count">18</span></a></li><li><a class="sidebar_archives-link" href="/categories/读书/">读书<span class="sidebar_archives-count">2</span></a>
+                <a class="sidebar_archives-link" href="/categories/Hexo/">Hexo<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/iOS/">iOS<span class="sidebar_archives-count">25</span></a></li><li><a class="sidebar_archives-link" href="/categories/iOS/源码学习/">源码学习<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/备忘/">备忘<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/工具/">工具<span class="sidebar_archives-count">9</span></a></li><li><a class="sidebar_archives-link" href="/categories/生活/">生活<span class="sidebar_archives-count">18</span></a></li><li><a class="sidebar_archives-link" href="/categories/读书/">读书<span class="sidebar_archives-count">2</span></a>
             </ul>
         </li>
         
