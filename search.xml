@@ -1127,9 +1127,9 @@ git commit -m &quot;Removed file that shouldn&apos;t be tracked&quot;
         
         <tags>
             
-            <tag> 打包 </tag>
-            
             <tag> Xcode </tag>
+            
+            <tag> 打包 </tag>
             
         </tags>
         
@@ -1548,6 +1548,35 @@ else {
             <tag> 源码 </tag>
             
             <tag> GitHub </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[iOS键盘通知]]></title>
+      <url>/2015/08/21/iOS%E9%94%AE%E7%9B%98%E9%80%9A%E7%9F%A5/</url>
+      <content type="html"><![CDATA[<h3 id="iOS系统键盘通知"><a href="#iOS系统键盘通知" class="headerlink" title="iOS系统键盘通知"></a>iOS系统键盘通知</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">UIKeyboardWillShowNotification      // 键盘将要出现</div><div class="line">UIKeyboardDidShowNotification       // 键盘已经出现</div><div class="line">UIKeyboardWillHideNotification      // 键盘将要消失</div><div class="line">UIKeyboardDidHideNotification       // 键盘已经消失</div><div class="line">UIKeyboardWillChangeFrameNotification   // 键盘frame将要修改</div><div class="line">UIKeyboardDidChangeFrameNotification    // 键盘frame已经修改</div></pre></td></tr></table></figure>
+<h3 id="键盘通知事件里获取userInfo-key"><a href="#键盘通知事件里获取userInfo-key" class="headerlink" title="键盘通知事件里获取userInfo key"></a>键盘通知事件里获取userInfo key</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">UIKeyboardFrameBeginUserInfoKey         // 开始时的键盘位置</div><div class="line">UIKeyboardFrameEndUserInfoKey           // 结束时的键盘位置</div><div class="line">UIKeyboardAnimationCurveUserInfoKey     // 动画类型</div><div class="line">UIKeyboardAnimationDurationUserInfoKey  // 动画持续事件</div><div class="line">UIKeyboardIsLocalUserInfoKey            // 是否为本地用户键盘</div><div class="line">UIKeyboardCenterBeginUserInfoKey        // 开始时的键盘中心</div><div class="line">UIKeyboardCenterEndUserInfoKey          // 结束时的键盘中心</div><div class="line">UIKeyboardBoundsUserInfoKey             // 键盘边界</div></pre></td></tr></table></figure>
+<h3 id="关于iPad浮动键盘"><a href="#关于iPad浮动键盘" class="headerlink" title="关于iPad浮动键盘"></a>关于iPad浮动键盘</h3><p>在iPad上键盘可以拆分和浮动，在拆分和浮动情况下 <code>UIKeyboardWillShowNotification</code> 、 <code>UIKeyboardWillHideNotification</code> 两个通知并会触发，需要通过监听<code>UIKeyboardWillChangeFrameNotification</code>或者<code>UIKeyboardDidChangeFrameNotification</code>获取键盘的一些变化。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">[[NSNotificationCenter defaultCenter] addObserverForName:UIKeyboardDidChangeFrameNotification object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification * notification) &#123;</div><div class="line">            CGRect keyboardEndFrame = [[notification.userInfo objectForKey:UIKeyboardFrameEndUserInfoKey] CGRectValue];</div><div class="line">            CGRect screenRect = [[UIScreen mainScreen] bounds];</div><div class="line">            if (CGRectIntersectsRect(keyboardEndFrame, screenRect)) &#123;</div><div class="line">                // 键盘显示</div><div class="line">            &#125; else &#123;</div><div class="line">                // 键盘隐藏</div><div class="line">            &#125;</div><div class="line">        &#125;];</div></pre></td></tr></table></figure>
+<p><img src="" alt="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_0830.PNG"></p>
+<p><img src="" alt="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_0832.PNG"></p>
+<p><img src="" alt="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_0831.PNG"></p>
+]]></content>
+      
+        <categories>
+            
+            <category> iOS </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 键盘 </tag>
+            
+            <tag> 通知 </tag>
             
         </tags>
         
