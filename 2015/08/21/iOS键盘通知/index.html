@@ -240,7 +240,7 @@
 
     
         <meta property="article:published_time" content="Fri Aug 21 2015 17:32:55 GMT+0800" />
-        <meta property="article:modified_time" content="Sat Oct 21 2017 17:53:21 GMT+0800" />
+        <meta property="article:modified_time" content="Sat Oct 21 2017 17:57:07 GMT+0800" />
     
 
     <!-- The Twitter Card protocol -->
@@ -267,7 +267,7 @@
     "mainEntityOfPage": "http://duxinfeng.com/2015/08/21/iOS键盘通知/index.html",
     "headline": "iOS键盘通知",
     "datePublished": "Fri Aug 21 2015 17:32:55 GMT+0800",
-    "dateModified": "Sat Oct 21 2017 17:53:21 GMT+0800",
+    "dateModified": "Sat Oct 21 2017 17:57:07 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "新风作浪",
@@ -387,17 +387,8 @@
                 
     <!-- Paradox Post Header -->
     
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-            <script type="text/ls-javascript" id="post-thumbnail-script">
-    var randomNum = Math.floor(Math.random() * 19 + 1);
-
-    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
-    $('.post_thumbnail-random').addClass('lazy');
-</script>
-
-        
+        <!-- Custom Thumbnail -->
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(http://7xj2sw.com1.z0.glb.clouddn.com/IMG_0832.PNG)">
     
             <p class="article-headline-p">
                 iOS键盘通知
@@ -536,9 +527,9 @@
 <h3 id="键盘通知事件里获取userInfo-key"><a href="#键盘通知事件里获取userInfo-key" class="headerlink" title="键盘通知事件里获取userInfo key"></a>键盘通知事件里获取userInfo key</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">UIKeyboardFrameBeginUserInfoKey         // 开始时的键盘位置</div><div class="line">UIKeyboardFrameEndUserInfoKey           // 结束时的键盘位置</div><div class="line">UIKeyboardAnimationCurveUserInfoKey     // 动画类型</div><div class="line">UIKeyboardAnimationDurationUserInfoKey  // 动画持续事件</div><div class="line">UIKeyboardIsLocalUserInfoKey            // 是否为本地用户键盘</div><div class="line">UIKeyboardCenterBeginUserInfoKey        // 开始时的键盘中心</div><div class="line">UIKeyboardCenterEndUserInfoKey          // 结束时的键盘中心</div><div class="line">UIKeyboardBoundsUserInfoKey             // 键盘边界</div></pre></td></tr></table></figure>
 <h3 id="关于iPad浮动键盘"><a href="#关于iPad浮动键盘" class="headerlink" title="关于iPad浮动键盘"></a>关于iPad浮动键盘</h3><p>在iPad上键盘可以拆分和浮动，在拆分和浮动情况下 <code>UIKeyboardWillShowNotification</code> 、 <code>UIKeyboardWillHideNotification</code> 两个通知并会触发，需要通过监听<code>UIKeyboardWillChangeFrameNotification</code>或者<code>UIKeyboardDidChangeFrameNotification</code>获取键盘的一些变化。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">[[NSNotificationCenter defaultCenter] addObserverForName:UIKeyboardDidChangeFrameNotification object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification * notification) &#123;</div><div class="line">            CGRect keyboardEndFrame = [[notification.userInfo objectForKey:UIKeyboardFrameEndUserInfoKey] CGRectValue];</div><div class="line">            CGRect screenRect = [[UIScreen mainScreen] bounds];</div><div class="line">            if (CGRectIntersectsRect(keyboardEndFrame, screenRect)) &#123;</div><div class="line">                // 键盘显示</div><div class="line">            &#125; else &#123;</div><div class="line">                // 键盘隐藏</div><div class="line">            &#125;</div><div class="line">        &#125;];</div></pre></td></tr></table></figure>
-<p><img src="" alt="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_0830.PNG"></p>
-<p><img src="" alt="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_0832.PNG"></p>
-<p><img src="" alt="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_0831.PNG"></p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_0832.PNG" alt=""></p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_0830.PNG" alt=""></p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_0831.PNG" alt=""></p>
 
         
     
