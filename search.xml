@@ -3,6 +3,94 @@
   
     
     <entry>
+      <title><![CDATA[碎碎念在2018年1月10日]]></title>
+      <url>/2018/01/10/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%8810%E6%97%A5/</url>
+      <content type="html"><![CDATA[<p>最近几个同事在讨论区块链的事情，讨论一块买着玩玩试试水。早上页看到一QQ群里讨论徐小平对区块链看法的截图被外传的事，该图是徐小平在所投企业CEO群里发的，他明确表示不要外传，但还是有人传出去，也有人觉得这是炒作，找韭菜。</p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2849.JPG" alt=""></p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2850.JPG" alt=""></p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2851.JPG" alt=""></p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2854.PNG" alt=""></p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2853.PNG" alt=""></p>
+<p>13年的时候开始听路哥说比特币的事，当时在淘宝买了矿机开始挖币，那个时候已经很难挖了。那一年ripple币给Github用户送ripple币，凡是在2013年5月1日前注册的Github账号且有仓库代码的用户可获得2020个rippl币，当时价值70块,收到两封邮件想70块钱收，也不是很多钱我就先留着了，现在想起来去看邮件的时候钱包链接失效，账户名和密码也都忘了找不回，哎，这都是命吧。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 生活 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 区块链 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[app极速建站]]></title>
+      <url>/2018/01/09/app%E6%9E%81%E9%80%9F%E5%BB%BA%E7%AB%99/</url>
+      <content type="html"><![CDATA[<h3 id="icon-生成工具"><a href="#icon-生成工具" class="headerlink" title="icon 生成工具"></a>icon 生成工具</h3><p>地址：<a href="">http://makeappicon.com</a></p>
+<p>上传一张1024*1024像素的icon图，给你生成iOS和Android 全套icon,可用下载下来的文件与工程里icon配置文件夹直接替换</p>
+<h3 id="手机模板"><a href="#手机模板" class="headerlink" title="手机模板"></a>手机模板</h3><p>地址：<a href="">https://mockuphone.com</a> ，也可以在线上传一张图进行与看效果 <a href="">https://mockuphone.com/instant_iphonex</a></p>
+<p>包含iOS和Android主流机型，可以在模拟器上截图，然后上传图片生成带模型的手机截图</p>
+<h3 id="appstore-商店模板"><a href="#appstore-商店模板" class="headerlink" title="appstore 商店模板"></a>appstore 商店模板</h3><p><a href="">https://app.shotbot.io</a></p>
+<p>上传app截图，生成一套不同场景下使用应用的商店模板图（）</p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/WX20180110-184608.png" alt=""></p>
+<h3 id="App站点生成工具"><a href="#App站点生成工具" class="headerlink" title="App站点生成工具"></a>App站点生成工具</h3><p>地址：<a href="https://appsite.skygear.io" target="_blank" rel="external">https://appsite.skygear.io</a> </p>
+<p>1、输入app名字，根据输入框下面搜索结果选择你的app，选择下一步</p>
+<p>2、根据app自动从App Store上上自动获取app的信息，然后生成一个简介模板，可以对模板里面信息进行编辑和模板选择，进行下一步</p>
+<p>3、进行预览，进行下一步下载网页源码</p>
+<p>点击Download HTML按钮生成网页源码，解压源码包把里面文件上传到你的github仓库上(假设你的github用户名叫xxx,新建的网页仓库叫xxxapp)，再新建一个xxx.github.io，这个时候直接访问<a href="https://xxx.github.io/appsite就可以，也可以把源码直接上传xxx.github.io仓库，直接访问https://xxx.github.io即可" target="_blank" rel="external">https://xxx.github.io/appsite就可以，也可以把源码直接上传xxx.github.io仓库，直接访问https://xxx.github.io即可</a></p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/WX20180110-184905.png" alt=""></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 工具 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> AppStore </tag>
+            
+            <tag> app </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[碎碎念在2018年1月9日]]></title>
+      <url>/2018/01/09/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%889%E6%97%A5/</url>
+      <content type="html"><![CDATA[<p>在<a href="">https://atjason.com</a>中看到作者<code>每天写一点</code>从2015年11月18日坚持到现在已有两年多，然后又想起记流水账了。</p>
+<p>长时间不写不知道怎么开头，偶尔有零碎的想法，放在了备忘录上想等着哪天有时间、空闲了、无聊的时候捡起来整理一下，到后真的有那么一天，却一点兴趣也没有，或者草草的复制粘贴一些片段丢进去。</p>
+<p>写文字是需要有内容输入的，否则就是吃老本了，每天地铁上下班基本都是在刷微信订阅号和微信看一看，偶尔知乎、小密圈和微博基本上就是过下脑子，真的看到有用的东西，基本过两天都不记得了。写文字可以帮你思考，有些有用的东西能记得更久一些吧，当某一天再回看的时候又是什么样的体验？</p>
+<blockquote>
+<p>愿你出走半生，归来仍是少年。</p>
+</blockquote>
+]]></content>
+      
+        <categories>
+            
+            <category> 生活 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 碎碎念 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[fastlane安装与使用]]></title>
       <url>/2017/12/04/fastlane%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/</url>
       <content type="html"><![CDATA[<p>最终效果：在终端上输入<code>bundle exec fastlane beta</code> ,自动打包(ad-hoc)ipa并上传到<a href="https://www.pgyer.com" target="_blank" rel="external">https://www.pgyer.com</a></p>
@@ -1201,9 +1289,9 @@ git commit -m &quot;Removed file that shouldn&apos;t be tracked&quot;
         
         <tags>
             
-            <tag> Xcode </tag>
-            
             <tag> 打包 </tag>
+            
+            <tag> Xcode </tag>
             
         </tags>
         
