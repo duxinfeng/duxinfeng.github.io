@@ -3,6 +3,33 @@
   
     
     <entry>
+      <title><![CDATA[碎碎念在2018年1月11日]]></title>
+      <url>/2018/01/11/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%8811%E6%97%A5/</url>
+      <content type="html"><![CDATA[<p>新版本昨天上线，首页改版后造成版本崩溃率到达2%。原本三周的开发周期提前一周完成开发并上线，到正式上线中间被拒两次，一次是app第三方Web登录闪退，另一次是误开了Apple Pay设置，但是项目中并未使用Apple Pay，然而在Capabilities中打开了这一项，这个在很早的时候已经打开了，但是在这次审核的时候却不让过了。就在这前一个版本已经因为这个问题被拒了一次，因为最新的Xcode 9.2有个BUG,打包的ipa在iOS 8.2系统设备上用Assets.xcassets管理的本地图片裂开，Xcode 9.1就没问题，所以这一次在另外一个同事电脑上打包提交，合并代码的时候不知道这个设置开关怎么又被打开了，好气。</p>
+<p>这样前前后后时间算起来还是三周了，依然会在成这样事故，有些功能单纯靠测试人员手动测试很难复现出来。接下来准备从四个方面着手解决：</p>
+<p>1、集成BuglyHotfix SDK使用热修复功能。BuglyHotfix依然依赖JSPatch，只提供脚本下发功能，如故想通过审核需要对于工程里的JSPatch做混淆。文档地址<a href="">https://bugly.qq.com/docs/user-guide/instruction-manual-ios-hotfix/?v=20171123163535</a></p>
+<p>2、使用TestFlight进行beta版本测试，让更多的用户一起参与进来。TestFlight功能可邀请2000个用户，只需提供邮箱，但是仍需一天左右的版本审核，才能进行下载安装。</p>
+<p>TestFlight官方文档 <a href="">https://help.apple.com/itunes-connect/developer/#/devdc42b26b8</a></p>
+<p>3、让测试人员搞自动化测试。</p>
+<p>4、引入测试框架，写单元测试。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 碎碎念 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> BUG </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[碎碎念在2018年1月10日]]></title>
       <url>/2018/01/10/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%8810%E6%97%A5/</url>
       <content type="html"><![CDATA[<p>最近几个同事在讨论区块链的事情，讨论一块买着玩玩试试水。早上页看到一QQ群里讨论徐小平对区块链看法的截图被外传的事，该图是徐小平在所投企业CEO群里发的，他明确表示不要外传，但还是有人传出去，也有人觉得这是炒作，找韭菜。</p>
@@ -40,8 +67,8 @@
 <p>包含iOS和Android主流机型，可以在模拟器上截图，然后上传图片生成带模型的手机截图</p>
 <h3 id="App-Store-商店模板"><a href="#App-Store-商店模板" class="headerlink" title="App Store 商店模板"></a>App Store 商店模板</h3><p>地址：<a href="">https://app.shotbot.io</a> （目前有五套模板）</p>
 <p>上传app截图，生成一套不同场景下使用应用的商店模板图，如下</p>
-<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/WX20180110-184608.png" alt=""></p>
-<h3 id="App站点生成工具"><a href="#App站点生成工具" class="headerlink" title="App站点生成工具"></a>App站点生成工具</h3><p>地址：<a href="https://appsite.skygear.io" target="_blank" rel="external">https://appsite.skygear.io</a> （目前有五套模板）</p>
+<p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/WX20180110-184608.png" alt=""><br>[### App站点生成工具</p>
+<p>地址：<a href="https://appsite.skygear.io](" target="_blank" rel="external">https://appsite.skygear.io](</a>) （目前有五套模板）</p>
 <p>1、输入app名字，根据输入框下面搜索结果选择你的app，选择下一步</p>
 <p>2、根据app自动从App Store上上自动获取app的信息，然后生成一个简介模板，可以对模板里面信息进行编辑和模板选择，进行下一步</p>
 <p>3、进行预览，进行下一步下载网页源码</p>
@@ -267,7 +294,7 @@
 <h4 id="开源图标：https-feathericons-com"><a href="#开源图标：https-feathericons-com" class="headerlink" title="开源图标：https://feathericons.com"></a>开源图标：<a href="https://feathericons.com" target="_blank" rel="external">https://feathericons.com</a></h4><h4 id="编写文档工具Docsify-https-docsify-js-org"><a href="#编写文档工具Docsify-https-docsify-js-org" class="headerlink" title="编写文档工具Docsify:https://docsify.js.org"></a>编写文档工具Docsify:<a href="https://docsify.js.org" target="_blank" rel="external">https://docsify.js.org</a></h4><h4 id="https-www-appsight-io"><a href="#https-www-appsight-io" class="headerlink" title="https://www.appsight.io"></a><a href="https://www.appsight.io" target="_blank" rel="external">https://www.appsight.io</a></h4><blockquote>
 <p>查找第三方SDK被哪些app使用，或者某个app都使用了哪些第三方库（目前一些不知名的app查不到）</p>
 </blockquote>
-]]></content>
+<h3 id="icon-生成工具-http-makeappicon-com"><a href="#icon-生成工具-http-makeappicon-com" class="headerlink" title="icon 生成工具 http://makeappicon.com"></a>icon 生成工具 <a href="">http://makeappicon.com</a></h3><h3 id="手机模板-https-mockuphone-com"><a href="#手机模板-https-mockuphone-com" class="headerlink" title="手机模板 https://mockuphone.com"></a>手机模板 <a href="">https://mockuphone.com</a></h3><h3 id="App-Store-商店模板-https-app-shotbot-io"><a href="#App-Store-商店模板-https-app-shotbot-io" class="headerlink" title="App Store 商店模板 https://app.shotbot.io"></a>App Store 商店模板 <a href="">https://app.shotbot.io</a></h3><h3 id="App站点生成工具-https-appsite-skygear-io"><a href="#App站点生成工具-https-appsite-skygear-io" class="headerlink" title="App站点生成工具 https://appsite.skygear.io"></a>App站点生成工具 <a href="">https://appsite.skygear.io</a></h3>]]></content>
       
         <categories>
             
@@ -1291,9 +1318,9 @@ git commit -m &quot;Removed file that shouldn&apos;t be tracked&quot;
         
         <tags>
             
-            <tag> Xcode </tag>
-            
             <tag> 打包 </tag>
+            
+            <tag> Xcode </tag>
             
         </tags>
         
