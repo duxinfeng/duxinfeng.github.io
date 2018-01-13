@@ -30,9 +30,9 @@
       <url>/2018/01/11/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%8811%E6%97%A5/</url>
       <content type="html"><![CDATA[<p>新版本昨天上线，首页改版后造成版本崩溃率到达2%。原本三周的开发周期提前一周完成开发并上线，到正式上线中间被拒两次，一次是app第三方Web登录闪退，另一次是误开了Apple Pay设置，但是项目中并未使用Apple Pay，然而在Capabilities中打开了这一项，这个在很早的时候已经打开了，但是在这次审核的时候却不让过了。就在这前一个版本已经因为这个问题被拒了一次，因为最新的Xcode 9.2有个BUG,打包的ipa在iOS 8.2系统设备上用Assets.xcassets管理的本地图片裂开，Xcode 9.1就没问题，所以这一次在另外一个同事电脑上打包提交，合并代码的时候不知道这个设置开关怎么又被打开了，好气。</p>
 <p>这样前前后后时间算起来还是三周了，依然会在成这样事故，有些功能单纯靠测试人员手动测试很难复现出来。接下来准备从四个方面着手解决：</p>
-<p>1、集成BuglyHotfix SDK(v2.1.0)使用热修复功能。BuglyHotfix依然依赖JSPatch，只提供脚本下发功能，如故想通过审核需要对于工程里的JSPatch做混淆。文档地址<a href="">https://bugly.qq.com/docs/user-guide/instruction-manual-ios-hotfix/?v=20171123163535</a></p>
+<p>1、集成BuglyHotfix SDK(v2.1.0)使用热修复功能。BuglyHotfix依然依赖JSPatch，只提供脚本下发功能，如故想通过审核需要对于工程里的JSPatch做混淆。文档地址<a href="https://bugly.qq.com/docs/user-guide/instruction-manual-ios-hotfix/?v=20171123163535" target="_blank" rel="external">https://bugly.qq.com/docs/user-guide/instruction-manual-ios-hotfix/?v=20171123163535</a></p>
 <p>2、使用TestFlight进行beta版本测试，让更多的用户一起参与进来。TestFlight功能可邀请2000个用户，只需提供邮箱，但是仍需一天左右的版本审核，才能进行下载安装。</p>
-<p>TestFlight官方文档 <a href="">https://help.apple.com/itunes-connect/developer/#/devdc42b26b8</a></p>
+<p>TestFlight官方文档 <a href="https://help.apple.com/itunes-connect/developer/#/devdc42b26b8" target="_blank" rel="external">https://help.apple.com/itunes-connect/developer/#/devdc42b26b8</a></p>
 <p>3、让测试人员搞自动化测试。</p>
 <p>4、引入测试框架，写单元测试。</p>
 ]]></content>
@@ -84,18 +84,18 @@
     <entry>
       <title><![CDATA[app极速建站]]></title>
       <url>/2018/01/09/app%E6%9E%81%E9%80%9F%E5%BB%BA%E7%AB%99/</url>
-      <content type="html"><![CDATA[<h3 id="icon-生成工具"><a href="#icon-生成工具" class="headerlink" title="icon 生成工具"></a>icon 生成工具</h3><p>地址：<a href="">http://makeappicon.com</a></p>
+      <content type="html"><![CDATA[<h3 id="icon-生成工具"><a href="#icon-生成工具" class="headerlink" title="icon 生成工具"></a>icon 生成工具</h3><p>地址：<a href="http://makeappicon.com" target="_blank" rel="external">http://makeappicon.com</a></p>
 <p>上传一张1024*1024像素的icon图，给你生成iOS和Android 全套icon,可用下载下来的文件与工程里icon配置文件夹直接替换</p>
-<h3 id="手机模板"><a href="#手机模板" class="headerlink" title="手机模板"></a>手机模板</h3><p>地址：<a href="">https://mockuphone.com</a> ，也可以在线上传一张图进行与看效果 <a href="">https://mockuphone.com/instant_iphonex</a></p>
+<h3 id="手机模板"><a href="#手机模板" class="headerlink" title="手机模板"></a>手机模板</h3><p>地址：<a href="https://mockuphone.com" target="_blank" rel="external">https://mockuphone.com</a> ，也可以在线上传一张图进行与看效果 <a href="https://mockuphone.com/instant_iphonex" target="_blank" rel="external">https://mockuphone.com/instant_iphonex</a></p>
 <p>包含iOS和Android主流机型，可以在模拟器上截图，然后上传图片生成带模型的手机截图</p>
-<h3 id="App-Store-商店模板"><a href="#App-Store-商店模板" class="headerlink" title="App Store 商店模板"></a>App Store 商店模板</h3><p>地址：<a href="">https://app.shotbot.io</a> （目前有五套模板）</p>
+<h3 id="App-Store-商店模板"><a href="#App-Store-商店模板" class="headerlink" title="App Store 商店模板"></a>App Store 商店模板</h3><p>地址：<a href="https://app.shotbot.io" target="_blank" rel="external">https://app.shotbot.io</a> （目前有五套模板）</p>
 <p>上传app截图，生成一套不同场景下使用应用的商店模板图，如下</p>
 <p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/WX20180110-184608.png" alt=""><br>[### App站点生成工具</p>
 <p>地址：<a href="https://appsite.skygear.io](" target="_blank" rel="external">https://appsite.skygear.io](</a>) （目前有五套模板）</p>
 <p>1、输入app名字，根据输入框下面搜索结果选择你的app，选择下一步</p>
 <p>2、根据app自动从App Store上上自动获取app的信息，然后生成一个简介模板，可以对模板里面信息进行编辑和模板选择，进行下一步</p>
 <p>3、进行预览，进行下一步下载网页源码</p>
-<p>点击Download HTML按钮生成网页源码，解压源码包把里面文件上传到你的github仓库上(假设你的github用户名叫xxx,新建的网页仓库叫xxxapp)，再新建一个xxx.github.io，这个时候直接访问<a href="">https://xxx.github.io/appsite</a> 就可以，也可以把源码直接上传xxx.github.io仓库，直接访问<a href="">https://xxx.github.io</a>即可，效果如下：</p>
+<p>点击Download HTML按钮生成网页源码，解压源码包把里面文件上传到你的github仓库上(假设你的github用户名叫xxx,新建的网页仓库叫xxxapp)，再新建一个xxx.github.io，这个时候直接访问<code>https://xxx.github.io/appsite</code> 就可以，也可以把源码直接上传xxx.github.io仓库，直接访问<code>https://xxx.github.io</code>即可，效果如下：</p>
 <p><img src="http://7xj2sw.com1.z0.glb.clouddn.com/WX20180110-184905.png" alt=""></p>
 ]]></content>
       
@@ -119,7 +119,7 @@
     <entry>
       <title><![CDATA[碎碎念在2018年1月9日]]></title>
       <url>/2018/01/09/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%889%E6%97%A5/</url>
-      <content type="html"><![CDATA[<p>在<a href="">https://atjason.com</a>中看到作者<code>每天写一点</code>从2015年11月18日坚持到现在已有两年多，然后又想起记流水账了。</p>
+      <content type="html"><![CDATA[<p>在<a href="https://atjason.com" target="_blank" rel="external">https://atjason.com</a>中看到作者<code>每天写一点</code>从2015年11月18日坚持到现在已有两年多，然后又想起记流水账了。</p>
 <p>长时间不写不知道怎么开头，偶尔有零碎的想法，放在了备忘录上想等着哪天有时间、空闲了、无聊的时候捡起来整理一下，到后真的有那么一天，却一点兴趣也没有，或者草草的复制粘贴一些片段丢进去。</p>
 <p>写文字是需要有内容输入的，否则就是吃老本了，每天地铁上下班基本都是在刷微信订阅号和微信看一看，偶尔知乎、小密圈和微博基本上就是过下脑子，真的看到有用的东西，基本过两天都不记得了。写文字可以帮你思考，有些有用的东西能记得更久一些吧，当某一天再回看的时候又是什么样的体验？</p>
 <blockquote>
@@ -317,7 +317,7 @@
 <h4 id="开源图标：https-feathericons-com"><a href="#开源图标：https-feathericons-com" class="headerlink" title="开源图标：https://feathericons.com"></a>开源图标：<a href="https://feathericons.com" target="_blank" rel="external">https://feathericons.com</a></h4><h4 id="编写文档工具Docsify-https-docsify-js-org"><a href="#编写文档工具Docsify-https-docsify-js-org" class="headerlink" title="编写文档工具Docsify:https://docsify.js.org"></a>编写文档工具Docsify:<a href="https://docsify.js.org" target="_blank" rel="external">https://docsify.js.org</a></h4><h4 id="https-www-appsight-io"><a href="#https-www-appsight-io" class="headerlink" title="https://www.appsight.io"></a><a href="https://www.appsight.io" target="_blank" rel="external">https://www.appsight.io</a></h4><blockquote>
 <p>查找第三方SDK被哪些app使用，或者某个app都使用了哪些第三方库（目前一些不知名的app查不到）</p>
 </blockquote>
-<h3 id="icon-生成工具-http-makeappicon-com"><a href="#icon-生成工具-http-makeappicon-com" class="headerlink" title="icon 生成工具 http://makeappicon.com"></a>icon 生成工具 <a href="">http://makeappicon.com</a></h3><h3 id="手机模板-https-mockuphone-com"><a href="#手机模板-https-mockuphone-com" class="headerlink" title="手机模板 https://mockuphone.com"></a>手机模板 <a href="">https://mockuphone.com</a></h3><h3 id="App-Store-商店模板-https-app-shotbot-io"><a href="#App-Store-商店模板-https-app-shotbot-io" class="headerlink" title="App Store 商店模板 https://app.shotbot.io"></a>App Store 商店模板 <a href="">https://app.shotbot.io</a></h3><h3 id="App站点生成工具-https-appsite-skygear-io"><a href="#App站点生成工具-https-appsite-skygear-io" class="headerlink" title="App站点生成工具 https://appsite.skygear.io"></a>App站点生成工具 <a href="">https://appsite.skygear.io</a></h3>]]></content>
+<h3 id="icon-生成工具-http-makeappicon-com"><a href="#icon-生成工具-http-makeappicon-com" class="headerlink" title="icon 生成工具 http://makeappicon.com"></a>icon 生成工具 <a href="http://makeappicon.com" target="_blank" rel="external">http://makeappicon.com</a></h3><h3 id="手机模板-https-mockuphone-com"><a href="#手机模板-https-mockuphone-com" class="headerlink" title="手机模板 https://mockuphone.com"></a>手机模板 <a href="https://mockuphone.com" target="_blank" rel="external">https://mockuphone.com</a></h3><h3 id="App-Store-商店模板-https-app-shotbot-io"><a href="#App-Store-商店模板-https-app-shotbot-io" class="headerlink" title="App Store 商店模板 https://app.shotbot.io"></a>App Store 商店模板 <a href="https://app.shotbot.io" target="_blank" rel="external">https://app.shotbot.io</a></h3><h3 id="App站点生成工具-https-appsite-skygear-io"><a href="#App站点生成工具-https-appsite-skygear-io" class="headerlink" title="App站点生成工具 https://appsite.skygear.io"></a>App站点生成工具 <a href="https://appsite.skygear.io" target="_blank" rel="external">https://appsite.skygear.io</a></h3>]]></content>
       
         <categories>
             
@@ -1799,9 +1799,18 @@ else {
     <entry>
       <title><![CDATA[symbolicatecrash 分析iOS Crash文件]]></title>
       <url>/2015/08/18/symbolicatecrash-%E5%88%86%E6%9E%90iOS-Crash%E6%96%87%E4%BB%B6/</url>
-      <content type="html"><![CDATA[<p>其实网上介绍symbolicatecrash分析也有不少，Xcode6的 symbolicatecrash 路径变了，<br>/Applications/Xcode.app/Contents/SharedFrameworks/DTDeviceKitBase.framework/Versions/A/Resources</p>
-<p>Xcode 6之前的路径是<br>Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/PrivateFrameworks/DTDeviceKit.framework/Versions/A/Resources</p>
-<p><a href="https://medium.com/@Mrugraj/crash-re-symbolication-5c28d3a3a883" target="_blank" rel="external">https://medium.com/@Mrugraj/crash-re-symbolication-5c28d3a3a883</a></p>
+      <content type="html"><![CDATA[<p>2018.1.13更新：</p>
+<p>审核的时候如果是因为崩溃被拒，审核人员会在回复的邮件中附上crash信息(txt文件格式),下载这个文件开始对它进行分析，查看源码崩溃的具体位置。</p>
+<p>新建Crash文件夹,把分析工具<code>symbolicatecrash</code>、崩溃日志<code>crash.txt</code>和<code>.dSYM</code>文件放到这个文件下，打开中断进入个目录，执行</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">./symbolicatecrash ./crash.txt ./MyAppName.app.dSYM &gt; crash.log</div></pre></td></tr></table></figure>
+<p>在crash.log中查看崩溃的具体信息。</p>
+<p>获取<code>symbolicatecrash</code>文件：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">find /Applications/Xcode.app -name symbolicatecrash -type f</div></pre></td></tr></table></figure>
+<p>结果：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/Library/PrivateFrameworks/DVTFoundation.framework/symbolicatecrash</div><div class="line">/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/Library/PrivateFrameworks/DVTFoundation.framework/symbolicatecrash</div><div class="line">/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/DVTFoundation.framework/symbolicatecrash</div><div class="line">/Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework/Versions/A/Resources/symbolicatecrash</div></pre></td></tr></table></figure></p>
+<p>把下面目录下的<code>symbolicatecrash</code>复制过来<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework/Versions/A/Resources/symbolicatecrash</div></pre></td></tr></table></figure></p>
+<p>如果报错<figure class="highlight plain"><figcaption><span>"DEVELOPER_DIR" is not defined at ./symbolicatecrash line 69.```,回到终端上执行</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div></pre></td></tr></table></figure></p>
+<p>export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer/</p>
+<p>```</p>
 ]]></content>
       
         <categories>
