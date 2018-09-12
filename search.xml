@@ -3,6 +3,139 @@
   
     
     <entry>
+      <title><![CDATA[关于UINavigationController与UITabBarController的一些使用]]></title>
+      <url>/2018/03/28/%E5%85%B3%E4%BA%8EUINavigationController%E4%B8%8EUITabBarController%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8/</url>
+      <content type="html"></content>
+      
+        <categories>
+            
+            <category> categorie1 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> tag1 </tag>
+            
+            <tag> tag2 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[UINavigationController、UITabBarController]]></title>
+      <url>/2018/03/28/UINavigationController%E3%80%81UITabBarController/</url>
+      <content type="html"><![CDATA[<p>UITabBarController加几个UINavigationController是一个app常见的UI框架，设置一些细节上会有很一些坑。</p>
+<p>自定义</p>
+<p>全局配置 </p>
+<p> /<em> 全局设置 </em>/</p>
+<pre><code>NSDictionary *normalTitleAttributes = @{NSForegroundColorAttributeName:[UIColor colorWithHexString:@&quot;#bcc9d8&quot;],NSFontAttributeName:[UIFont systemFontOfSize:10]};
+NSDictionary *selectedTitleAttributes = @{NSForegroundColorAttributeName:[UIColor colorWithHexString:@&quot;#367ee8&quot;],NSFontAttributeName:[UIFont systemFontOfSize:10]};
+[[UITabBarItem appearance] setTitleTextAttributes:normalTitleAttributes forState:UIControlStateNormal];
+[[UITabBarItem appearance] setTitleTextAttributes:selectedTitleAttributes forState:UIControlStateSelected];
+[[UITabBar appearance] setBarTintColor:[UIColor whiteColor]];
+[[UITabBar appearance] setShadowImage:[[UIImage alloc]init]];
+[[UITabBar appearance] setBackgroundImage:[UIImage imageWithColor:[UIColor whiteColor]]];
+[[UITabBar appearance] setTranslucent:NO];
+
+// 标题颜色
+// 如果需要设置字体就在字典中加入 [UIFont fontWithName:@&quot;Hiragino Sans GB&quot; size:14]
+[[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:XXBBlackColor}];
+[[UINavigationBar appearance] setBarTintColor:[UIColor whiteColor]]; // 导航栏背景颜色
+[[UINavigationBar appearance] setTintColor:XXBBlueColor]; // 导航栏返回按钮、自定义UIBarButtonItem颜色
+[[UINavigationBar appearance]  setBackgroundImage:[UIImage imageWithColor:[UIColor whiteColor]] forBarPosition:UIBarPositionAny barMetrics:UIBarMetricsDefault];
+[[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];
+[[UINavigationBar appearance] setTranslucent:NO];
+</code></pre><p> translucent属性</p>
+<p> iOS 7 开始采用了扁平化设计，UINavigationBar和UITabBar附带了半透明效果，translucent属性能决定UITabBar/UINavigationBar是否为半透明的效果，默认为YES，即默认情况下为半透明效果</p>
+]]></content>
+      
+        <categories>
+            
+            <category> categorie1 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> tag1 </tag>
+            
+            <tag> tag2 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[SDWebImage源码阅读:NSData+ImageContentType]]></title>
+      <url>/2018/01/23/SDWebImage%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB-NSData-ImageContentType/</url>
+      <content type="html"></content>
+      
+        <categories>
+            
+            <category> categorie1 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> tag1 </tag>
+            
+            <tag> tag2 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[NS_OPTIONS与NS_ENUM]]></title>
+      <url>/2018/01/23/NS-OPTIONS%E4%B8%8ENS-ENUM/</url>
+      <content type="html"></content>
+      
+        <categories>
+            
+            <category> categorie1 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> tag1 </tag>
+            
+            <tag> tag2 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[碎碎念在2018年1月13日]]></title>
+      <url>/2018/01/13/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%8813%E6%97%A5/</url>
+      <content type="html"></content>
+      
+        <categories>
+            
+            <category> categorie1 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> tag1 </tag>
+            
+            <tag> tag2 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[碎碎念在2018年1月12日]]></title>
       <url>/2018/01/12/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%8812%E6%97%A5/</url>
       <content type="html"><![CDATA[<p>安好</p>
@@ -1341,9 +1474,9 @@ git commit -m &quot;Removed file that shouldn&apos;t be tracked&quot;
         
         <tags>
             
-            <tag> Xcode </tag>
-            
             <tag> 打包 </tag>
+            
+            <tag> Xcode </tag>
             
         </tags>
         
@@ -1799,13 +1932,11 @@ else {
     <entry>
       <title><![CDATA[symbolicatecrash 分析iOS Crash文件]]></title>
       <url>/2015/08/18/symbolicatecrash-%E5%88%86%E6%9E%90iOS-Crash%E6%96%87%E4%BB%B6/</url>
-      <content type="html"><![CDATA[<p>2018.1.13更新：</p>
-<p>审核的时候如果是因为崩溃被拒，审核人员会在回复的邮件中附上crash信息(txt文件格式),下载这个文件开始对它进行分析，查看源码崩溃的具体位置。</p>
+      <content type="html"><![CDATA[<h4 id="2018-1-13更新："><a href="#2018-1-13更新：" class="headerlink" title="2018.1.13更新："></a>2018.1.13更新：</h4><p>审核的时候如果是因为崩溃被拒，审核人员会在回复的邮件中附上crash信息(txt文件格式),下载这个文件开始对它进行分析，查看源码崩溃的具体位置。</p>
 <p>新建Crash文件夹,把分析工具<code>symbolicatecrash</code>、崩溃日志<code>crash.txt</code>和<code>.dSYM</code>文件放到这个文件下，打开中断进入个目录，执行</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">./symbolicatecrash ./crash.txt ./MyAppName.app.dSYM &gt; crash.log</div></pre></td></tr></table></figure>
 <p>在crash.log中查看崩溃的具体信息。</p>
-<p>获取<code>symbolicatecrash</code>文件：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">find /Applications/Xcode.app -name symbolicatecrash -type f</div></pre></td></tr></table></figure>
+<h4 id="获取symbolicatecrash文件："><a href="#获取symbolicatecrash文件：" class="headerlink" title="获取symbolicatecrash文件："></a>获取<code>symbolicatecrash</code>文件：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">find /Applications/Xcode.app -name symbolicatecrash -type f</div></pre></td></tr></table></figure>
 <p>结果：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/Library/PrivateFrameworks/DVTFoundation.framework/symbolicatecrash</div><div class="line">/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/Library/PrivateFrameworks/DVTFoundation.framework/symbolicatecrash</div><div class="line">/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/DVTFoundation.framework/symbolicatecrash</div><div class="line">/Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework/Versions/A/Resources/symbolicatecrash</div></pre></td></tr></table></figure>
 <p>在<code>/Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework/Versions/A/Resources/symbolicatecrash</code>中找到<code>symbolicatecrash</code>复制过来</p>
@@ -2161,6 +2292,8 @@ else {
 </ul>
 <h3 id="世界各地的电话："><a href="#世界各地的电话：" class="headerlink" title="世界各地的电话："></a>世界各地的电话：</h3><p><a href="https://developer.apple.com/contact/phone" target="_blank" rel="external">https://developer.apple.com/contact/phone</a></p>
 <h3 id="审核加急地址"><a href="#审核加急地址" class="headerlink" title="审核加急地址"></a>审核加急地址</h3><p><a href="https://developer.apple.com/appstore/contact/appreviewteam/index.html" target="_blank" rel="external">https://developer.apple.com/appstore/contact/appreviewteam/index.html</a></p>
+<p>2018.8.1更新</p>
+<p>400-670-1855 已经没有客服人员了，让到 <a href="https://developer.apple.com/contact/" target="_blank" rel="external">https://developer.apple.com/contact/</a> 上解决</p>
 ]]></content>
       
         <categories>
