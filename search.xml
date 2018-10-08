@@ -981,6 +981,10 @@ NSURL *URL = [NSURL fileURLWithPath:mp3Path];
 <h3 id="2017-8-24更新"><a href="#2017-8-24更新" class="headerlink" title="2017.8.24更新"></a>2017.8.24更新</h3><p>使用2017.8.5更新里的方案是有些问题的，Debug Information Format的release 模式改为DWARF后，在打包的时候不会生成.dSYM文件，这就造成了你无法追踪定位线上BUG</p>
 <p>所以目前只能先忍受这些警告了</p>
 <p>参考原文：<a href="https://stackoverflow.com/questions/35159244/xcode-there-are-no-dsyms-available-for-download" target="_blank" rel="external">https://stackoverflow.com/questions/35159244/xcode-there-are-no-dsyms-available-for-download</a></p>
+<h3 id="2018-10-8更新"><a href="#2018-10-8更新" class="headerlink" title="2018.10.8更新"></a>2018.10.8更新</h3><p>今天更新支付宝SDK又看了下支付宝的Demo工程里设置情况</p>
+<p>Debug 模式下设置成<code>DWARF</code></p>
+<p>Release 模式下设置成 <code>DWARF with dSYM File</code></p>
+<p>可解决上面遇到的问题<br>Demo SDK 下载地址 <a href="https://docs.open.alipay.com/54/104509/" target="_blank" rel="external">https://docs.open.alipay.com/54/104509/</a></p>
 ]]></content>
       
         <categories>
@@ -1474,9 +1478,9 @@ git commit -m &quot;Removed file that shouldn&apos;t be tracked&quot;
         
         <tags>
             
-            <tag> 打包 </tag>
-            
             <tag> Xcode </tag>
+            
+            <tag> 打包 </tag>
             
         </tags>
         
