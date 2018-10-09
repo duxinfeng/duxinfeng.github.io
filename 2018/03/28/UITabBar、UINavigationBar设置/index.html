@@ -240,7 +240,7 @@
 
     
         <meta property="article:published_time" content="Wed Mar 28 2018 17:20:49 GMT+0800" />
-        <meta property="article:modified_time" content="Tue Oct 09 2018 15:17:10 GMT+0800" />
+        <meta property="article:modified_time" content="Tue Oct 09 2018 16:11:56 GMT+0800" />
     
 
     <!-- The Twitter Card protocol -->
@@ -267,7 +267,7 @@
     "mainEntityOfPage": "http://duxinfeng.com/2018/03/28/UITabBar、UINavigationBar设置/index.html",
     "headline": "UITabBar、UINavigationBar设置",
     "datePublished": "Wed Mar 28 2018 17:20:49 GMT+0800",
-    "dateModified": "Tue Oct 09 2018 15:17:10 GMT+0800",
+    "dateModified": "Tue Oct 09 2018 16:11:56 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "新风作浪",
@@ -361,15 +361,6 @@
 
     <!-- Left aligned menu below button -->
     
-    
-    <button id="post-toc-trigger-btn"
-        class="mdl-button mdl-js-button mdl-button--icon">
-        <i class="material-icons">format_list_numbered</i>
-    </button>
-
-    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#UITabBar"><span class="post-toc-number">1.</span> <span class="post-toc-text">UITabBar</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#UINavigationBar"><span class="post-toc-number">2.</span> <span class="post-toc-text">UINavigationBar</span></a></li></ol>
-    </ul>
     
 
 
@@ -532,16 +523,34 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <h3 id="UITabBar"><a href="#UITabBar" class="headerlink" title="UITabBar"></a>UITabBar</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">NSDictionary *normalTitleAttributes = @&#123;NSForegroundColorAttributeName:[UIColor colorWithHexString:@&quot;#bcc9d8&quot;],NSFontAttributeName:[UIFont systemFontOfSize:10]&#125;;</div><div class="line"> NSDictionary *selectedTitleAttributes = @&#123;NSForegroundColorAttributeName:[UIColor colorWithHexString:@&quot;#367ee8&quot;],NSFontAttributeName:[UIFont systemFontOfSize:10]&#125;;</div><div class="line"> [[UITabBarItem appearance] setTitleTextAttributes:normalTitleAttributes forState:UIControlStateNormal];</div><div class="line"> [[UITabBarItem appearance] setTitleTextAttributes:selectedTitleAttributes forState:UIControlStateSelected];</div><div class="line"> [[UITabBar appearance] setBarTintColor:[UIColor whiteColor]];</div><div class="line"> [[UITabBar appearance] setShadowImage:[[UIImage alloc]init]];</div><div class="line"> [[UITabBar appearance] setBackgroundImage:[UIImage imageWithColor:[UIColor whiteColor]]];</div><div class="line"> [[UITabBar appearance] setTranslucent:NO];</div></pre></td></tr></table></figure>
-<h3 id="UINavigationBar"><a href="#UINavigationBar" class="headerlink" title="UINavigationBar"></a>UINavigationBar</h3><pre><code>// 如果需要设置字体就在字典中加入 [UIFont fontWithName:@&quot;Hiragino Sans GB&quot; size:14]
-[[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor blackColor]}];
-[[UINavigationBar appearance] setBarTintColor:[UIColor whiteColor]]; // 导航栏背景颜色
-[[UINavigationBar appearance] setTintColor:[UIColor blueColor]]; // 导航栏返回按钮、自定义UIBarButtonItem颜色
-[[UINavigationBar appearance]  setBackgroundImage:[UIImage imageWithColor:[UIColor whiteColor]] forBarPosition:UIBarPositionAny barMetrics:UIBarMetricsDefault];
-[[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]]; // 去除自带分割线
-[[UINavigationBar appearance] setTranslucent:NO];
-</code></pre><p>translucent属性</p>
-<p>iOS 7 开始采用了扁平化设计，UINavigationBar和UITabBar附带了半透明效果，translucent属性能决定UITabBar/UINavigationBar是否为半透明的效果，默认为YES，即默认情况下为半透明效果</p>
+        <p><strong>UITabBar</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">NSDictionary *normalTitleAttributes = @&#123;NSForegroundColorAttributeName:[UIColor colorWithHexString:@&quot;#bcc9d8&quot;],NSFontAttributeName:[UIFont systemFontOfSize:10]&#125;;</div><div class="line"> NSDictionary *selectedTitleAttributes = @&#123;NSForegroundColorAttributeName:[UIColor colorWithHexString:@&quot;#367ee8&quot;],NSFontAttributeName:[UIFont systemFontOfSize:10]&#125;;</div><div class="line"> [[UITabBarItem appearance] setTitleTextAttributes:normalTitleAttributes forState:UIControlStateNormal];</div><div class="line"> [[UITabBarItem appearance] setTitleTextAttributes:selectedTitleAttributes forState:UIControlStateSelected];</div><div class="line"> [[UITabBar appearance] setBarTintColor:[UIColor whiteColor]];</div><div class="line"> [[UITabBar appearance] setShadowImage:[[UIImage alloc]init]];</div><div class="line"> [[UITabBar appearance] setBackgroundImage:[UIImage imageWithColor:[UIColor whiteColor]]];</div><div class="line"> [[UITabBar appearance] setTranslucent:NO];</div></pre></td></tr></table></figure></p>
+<p> <strong>UINavigationBar </strong><br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">    // 如果需要设置字体就在字典中加入 [UIFont fontWithName:@&quot;Hiragino Sans GB&quot; size:14]</div><div class="line">    [[UINavigationBar appearance] setTitleTextAttributes:@&#123;NSForegroundColorAttributeName:[UIColor blackColor]&#125;];</div><div class="line">    [[UINavigationBar appearance] setBarTintColor:[UIColor whiteColor]]; // 导航栏背景颜色</div><div class="line">    [[UINavigationBar appearance] setTintColor:[UIColor blueColor]]; // 导航栏返回按钮、自定义UIBarButtonItem颜色</div><div class="line">    [[UINavigationBar appearance]  setBackgroundImage:[UIImage imageWithColor:[UIColor whiteColor]] forBarPosition:UIBarPositionAny barMetrics:UIBarMetricsDefault];</div><div class="line">    [[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]]; // 去除自带分割线</div><div class="line">    [[UINavigationBar appearance] setTranslucent:NO];</div><div class="line"> ```  </div><div class="line"> </div><div class="line">  </div><div class="line">**translucent属性** </div><div class="line"></div><div class="line">iOS 7 开始采用了扁平化设计，UINavigationBar和UITabBar附带了半透明效果，translucent属性能决定UITabBar/UINavigationBar是否为半透明的效果，默认为YES，即默认情况下为半透明效果</div><div class="line"> </div><div class="line">**设置title属性**</div></pre></td></tr></table></figure></p>
+<p>  self.navigationItem.title = @”my title”; //sets navigation bar title.<br>  self.tabBarItem.title = @”my title”; // sets tab bar title.<br>  self.title = @”my title”; // sets both of these.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">    </div><div class="line">**UITabBar、UINavigationBar icon图标渲染问题**</div></pre></td></tr></table></figure></p>
+<p>UIImage *leftBarButtonImage = [[UIImage imageNamed:@”navbar_back_normal”] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];</p>
+<p>self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:leftBarButtonImage style:UIBarButtonItemStylePlain target:self action:@selector(dismiss)];</p>
+<p>  vc.tabBarItem.title = title;<br>  vc.tabBarItem.image = [[UIImage imageNamed:image] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];<br>  vc.tabBarItem.selectedImage = [[UIImage imageNamed:selectedImage] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"> </div><div class="line">**UIBarButtonItem 间距偏移问题**</div></pre></td></tr></table></figure>
+<pre><code>UIImage *leftBarButtonImage = [[UIImage imageNamed:@&quot;navbar_back_normal&quot;] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+
+if (@available(iOS 11.0, *)) {
+    UIButton *leftButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    leftButton.frame = CGRectMake(0, 0, 44, 44);
+    [leftButton setImage:leftBarButtonImage forState:UIControlStateNormal];
+    [leftButton setImage:leftBarButtonImage forState:UIControlStateHighlighted];
+    leftButton.contentEdgeInsets =UIEdgeInsetsMake(0, -20,0, 0);
+    leftButton.imageEdgeInsets =UIEdgeInsetsMake(0, -15,0, 0);
+    [leftButton addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:leftButton];
+    self.navigationItem.leftBarButtonItems=@[leftBarButtonItem];
+
+}else{
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:leftBarButtonImage style:UIBarButtonItemStylePlain target:self action:@selector(back)];
+    UIBarButtonItem *spacer = [[UIBarButtonItem alloc] initWithBarButtonSystemItem: UIBarButtonSystemItemFixedSpace target:self action:@selector(back)];
+    spacer.width = -8;
+    self.navigationItem.leftBarButtonItems = @[spacer, self.navigationItem.leftBarButtonItem];
+}
+</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">**UIBarButtonItem frame**</div><div class="line"></div><div class="line">获取self.navigationItem.leftBarButtonItem的frame,因为UIBarButtonItem继承UIView,所以要获取View对象然后在操作</div></pre></td></tr></table></figure>
+<p>  UIView *view = [self.navigationItem.leftBarButtonItem valueForKey:@”view”];<br>```</p>
 
         
     
@@ -590,6 +599,14 @@
             <!-- Post Prev & Next Nav -->
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
+    
+        <a href="/2018/04/09/获取Images-xcassets启动图、Images-xcassets-Icon/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
     
 
     <!-- Section Spacer -->
@@ -689,7 +706,7 @@
             </a>
             <ul class="dropdown-menu">
             <li>
-                <a class="sidebar_archives-link" href="/archives/2018/03/">三月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/01/">一月 2018<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/12/">十二月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/11/">十一月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/10/">十月 2017<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/09/">九月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/08/">八月 2017<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/06/">六月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/05/">五月 2017<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/01/">一月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/05/">五月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/04/">四月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/03/">三月 2016<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/02/">二月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/01/">一月 2016<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/12/">十二月 2015<span class="sidebar_archives-count">8</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/11/">十一月 2015<span class="sidebar_archives-count">6</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/10/">十月 2015<span class="sidebar_archives-count">5</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/09/">九月 2015<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/08/">八月 2015<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/07/">七月 2015<span class="sidebar_archives-count">9</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/06/">六月 2015<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/05/">五月 2015<span class="sidebar_archives-count">5</span></a>
+                <a class="sidebar_archives-link" href="/archives/2018/05/">五月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/04/">四月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/03/">三月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/01/">一月 2018<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/12/">十二月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/11/">十一月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/10/">十月 2017<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/09/">九月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/08/">八月 2017<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/06/">六月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/05/">五月 2017<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/01/">一月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/05/">五月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/04/">四月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/03/">三月 2016<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/02/">二月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/01/">一月 2016<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/12/">十二月 2015<span class="sidebar_archives-count">8</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/11/">十一月 2015<span class="sidebar_archives-count">6</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/10/">十月 2015<span class="sidebar_archives-count">5</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/09/">九月 2015<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/08/">八月 2015<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/07/">七月 2015<span class="sidebar_archives-count">9</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/06/">六月 2015<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/05/">五月 2015<span class="sidebar_archives-count">5</span></a>
             </ul>
         </li>
         
@@ -707,7 +724,7 @@
             </a>
             <ul class="dropdown-menu">
                 <li>
-                <a class="sidebar_archives-link" href="/categories/Hexo/">Hexo<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/iOS/">iOS<span class="sidebar_archives-count">27</span></a></li><li><a class="sidebar_archives-link" href="/categories/iOS/源码学习/">源码学习<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/备忘/">备忘<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/工具/">工具<span class="sidebar_archives-count">12</span></a></li><li><a class="sidebar_archives-link" href="/categories/生活/">生活<span class="sidebar_archives-count">20</span></a></li><li><a class="sidebar_archives-link" href="/categories/碎碎念/">碎碎念<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/读书/">读书<span class="sidebar_archives-count">2</span></a>
+                <a class="sidebar_archives-link" href="/categories/Hexo/">Hexo<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/iOS/">iOS<span class="sidebar_archives-count">29</span></a></li><li><a class="sidebar_archives-link" href="/categories/iOS/源码学习/">源码学习<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/备忘/">备忘<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/工具/">工具<span class="sidebar_archives-count">12</span></a></li><li><a class="sidebar_archives-link" href="/categories/生活/">生活<span class="sidebar_archives-count">20</span></a></li><li><a class="sidebar_archives-link" href="/categories/碎碎念/">碎碎念<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/读书/">读书<span class="sidebar_archives-count">2</span></a>
             </ul>
         </li>
         
