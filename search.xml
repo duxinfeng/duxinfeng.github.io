@@ -932,6 +932,7 @@ NSURL *URL = [NSURL fileURLWithPath:mp3Path];
 <p>Debug 模式下设置成<code>DWARF</code></p>
 <p>Release 模式下设置成 <code>DWARF with dSYM File</code></p>
 <p>可解决上面遇到的警告问题</p>
+<p><img src="../images/2018/WX20181008-193510.png" alt=""></p>
 ]]></content>
       
         <categories>
@@ -1482,9 +1483,9 @@ git commit -m &quot;Removed file that shouldn&apos;t be tracked&quot;
         
         <tags>
             
-            <tag> Xcode </tag>
-            
             <tag> 打包 </tag>
+            
+            <tag> Xcode </tag>
             
         </tags>
         
