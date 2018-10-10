@@ -50,9 +50,7 @@
     <meta name="format-detection" content="telephone=no"/>
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="新风作浪">
-    <meta name="description" itemprop="description" content="UIWebView加载html分两种方式
-##1、UIWebView加载本地html123NSString *htmlFile = [[NSBundle mainBundle] pathForResource:@&amp;quot;xxx&amp;quot; ofType:@&amp;quot;html&amp;quot;];NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];[webView loadHTMLString:htmlString baseURL:nil];
-本地加载可以修改html显示的文本大小和字体">
+    <meta name="description" itemprop="description" content="">
     <meta name="keywords" content=",UIWebView,Html">
 
     <!-- Import lsloader -->
@@ -237,21 +235,17 @@
     <meta property="og:type" content="blog">
     <meta property="og:title" content="UIWebView加载Html | 新风作浪">
     <meta property="og:image" content="http://duxinfeng.com/img/favicon.png" />
-    <meta property="og:description" content="UIWebView加载html分两种方式
-##1、UIWebView加载本地html123NSString *htmlFile = [[NSBundle mainBundle] pathForResource:@&amp;quot;xxx&amp;quot; ofType:@&amp;quot;html&amp;quot;];NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];[webView loadHTMLString:htmlString baseURL:nil];
-本地加载可以修改html显示的文本大小和字体">
+    <meta property="og:description" content="">
     <meta property="og:article:tag" content="UIWebView"> <meta property="og:article:tag" content="Html"> 
 
     
         <meta property="article:published_time" content="Sun May 03 2015 20:52:01 GMT+0800" />
-        <meta property="article:modified_time" content="Thu Apr 27 2017 20:11:40 GMT+0800" />
+        <meta property="article:modified_time" content="Wed Oct 10 2018 19:08:44 GMT+0800" />
     
 
     <!-- The Twitter Card protocol -->
     <meta name="twitter:title" content="UIWebView加载Html | 新风作浪">
-    <meta name="twitter:description" content="UIWebView加载html分两种方式
-##1、UIWebView加载本地html123NSString *htmlFile = [[NSBundle mainBundle] pathForResource:@&amp;quot;xxx&amp;quot; ofType:@&amp;quot;html&amp;quot;];NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];[webView loadHTMLString:htmlString baseURL:nil];
-本地加载可以修改html显示的文本大小和字体">
+    <meta name="twitter:description" content="">
     <meta name="twitter:image" content="http://duxinfeng.com/img/favicon.png">
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content="http://duxinfeng.com" />
@@ -273,7 +267,7 @@
     "mainEntityOfPage": "http://duxinfeng.com/2015/05/03/UIWebView加载Html/index.html",
     "headline": "UIWebView加载Html",
     "datePublished": "Sun May 03 2015 20:52:01 GMT+0800",
-    "dateModified": "Thu Apr 27 2017 20:11:40 GMT+0800",
+    "dateModified": "Wed Oct 10 2018 19:08:44 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "新风作浪",
@@ -292,9 +286,7 @@
         }
     },
     "keywords": ",UIWebView,Html",
-    "description": "UIWebView加载html分两种方式
-##1、UIWebView加载本地html123NSString *htmlFile = [[NSBundle mainBundle] pathForResource:@&amp;quot;xxx&amp;quot; ofType:@&amp;quot;html&amp;quot;];NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];[webView loadHTMLString:htmlString baseURL:nil];
-本地加载可以修改html显示的文本大小和字体",
+    "description": "",
 }
 </script>
 
@@ -369,6 +361,15 @@
 
     <!-- Left aligned menu below button -->
     
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#加载本地html"><span class="post-toc-number">1.</span> <span class="post-toc-text">加载本地html</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#加载一个网页"><span class="post-toc-number">2.</span> <span class="post-toc-text">加载一个网页</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#UIWebView-高亮显示问题"><span class="post-toc-number">3.</span> <span class="post-toc-text">UIWebView 高亮显示问题</span></a></li></ol>
+    </ul>
     
 
 
@@ -531,10 +532,11 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>UIWebView加载html分两种方式</p>
-<p>##1、UIWebView加载本地html<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">NSString *htmlFile = [[NSBundle mainBundle] pathForResource:@&quot;xxx&quot; ofType:@&quot;html&quot;];</div><div class="line">NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];</div><div class="line">[webView loadHTMLString:htmlString baseURL:nil];</div></pre></td></tr></table></figure></p>
+        <blockquote>
+<p>UIWebView加载html分两种方式</p>
+</blockquote>
+<h3 id="加载本地html"><a href="#加载本地html" class="headerlink" title="加载本地html"></a>加载本地html</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">NSString *htmlFile = [[NSBundle mainBundle] pathForResource:@&quot;xxx&quot; ofType:@&quot;html&quot;];</div><div class="line">NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];</div><div class="line">[webView loadHTMLString:htmlString baseURL:nil];</div></pre></td></tr></table></figure>
 <p>本地加载可以修改html显示的文本大小和字体</p>
-<a id="more"></a>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">NSString* formatString = [NSString stringWithFormat:</div><div class="line">     @&quot;&lt;html&gt;&quot;</div><div class="line">     &quot;&lt;style type=\&quot;text/css\&quot;&gt;&quot;</div><div class="line">     &quot;body &#123;background-color:transparent; font-family:helvetica; font-size:%@; color:%@;&#125;&quot;</div><div class="line">     &quot;&lt;/style&gt;&quot;</div><div class="line">     &quot;&lt;body&gt;&quot;</div><div class="line">     &quot;&lt;p&gt;%@&lt;/p&gt;&quot;</div><div class="line">     &quot;&lt;/body&gt;&lt;/html&gt;&quot;,@&quot;24&quot;,@&quot;#000000&quot;, html];</div><div class="line">  [webView loadHTMLString:formatString baseURL:nil];</div></pre></td></tr></table></figure>
 <ul>
 <li>background-color:transparent; 背景颜色(透明)</li>
@@ -542,22 +544,16 @@
 <li>font-size:24; 字体大小</li>
 <li>color:#000fff; 字体的颜色</li>
 </ul>
-<hr>
-<ul>
-<li>如果发现本地html在UIWebView加载不出来，请检查html代码编码格式，一般来说都采用的时UTF8编码格式。</li>
-</ul>
-<hr>
-<p>##2、UIWebView加载一个在线的URL</p>
-<pre><code>NSURL *url = [NSURLV URLWithString:@&quot;http://duxinfeng.com&quot;];
+<blockquote>
+<p>如果发现本地html在UIWebView加载不出来，请检查html代码编码格式，一般来说都采用的时UTF8编码格式。</p>
+</blockquote>
+<h3 id="加载一个网页"><a href="#加载一个网页" class="headerlink" title="加载一个网页"></a>加载一个网页</h3><pre><code>NSURL *url = [NSURLV URLWithString:@&quot;http://duxinfeng.com&quot;];
 NSURLRequest *req = [NSURLRequest requestWithURL:url];
 [webView loadRequest:req];
-</code></pre><hr>
-<p>如果对html排版有特殊要求，则需要自己或前端写好css文件，可以放本地，也可以加到html文件里面，如果放到本地需要注意路径，当我把css文件放在和xx.xcodeproj 一个目录时是这样的</p>
+</code></pre><p>如果对html排版有特殊要求，则需要自己或前端写好css文件，可以放本地，也可以加到html文件里面，如果放到本地需要注意路径，当我把css文件放在和xx.xcodeproj 一个目录时是这样的</p>
 <pre><code>[webView loadHTMLString:htmlString baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]];
-</code></pre><hr>
-<p>如果是放到html里面可以参考网易新闻开源组件(<code>view-source:http://m.163.com/special/newsclient/ios_libraries.html</code>)  chrome打开，或者直接访问查看<a href="http://m.163.com/special/newsclient/ios_libraries.html" target="_blank" rel="external">hmtl源码</a></p>
-<p>##3、UIWebView 高亮显示问题</p>
-<p>UIWebView 是可以监测html里的数字、电话号码、url链接，然后高亮显示，可以通过设置他的<code>dataDetectorTypes</code>属性来改变</p>
+</code></pre><p>如果是放到html里面可以参考网易新闻开源组件(<code>view-source:http://m.163.com/special/newsclient/ios_libraries.html</code>)  chrome打开，或者直接访问查看<a href="http://m.163.com/special/newsclient/ios_libraries.html" target="_blank" rel="external">源码</a></p>
+<h3 id="UIWebView-高亮显示问题"><a href="#UIWebView-高亮显示问题" class="headerlink" title="UIWebView 高亮显示问题"></a>UIWebView 高亮显示问题</h3><p>UIWebView 是可以监测html里的数字、电话号码、url链接，然后高亮显示，可以通过设置他的<code>dataDetectorTypes</code>属性来改变</p>
 <pre><code>self.webView.dataDetectorTypes = UIDataDetectorTypeNone;
 </code></pre>
         
@@ -714,7 +710,7 @@ NSURLRequest *req = [NSURLRequest requestWithURL:url];
             </a>
             <ul class="dropdown-menu">
             <li>
-                <a class="sidebar_archives-link" href="/archives/2018/05/">五月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/04/">四月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/03/">三月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/01/">一月 2018<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/12/">十二月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/11/">十一月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/10/">十月 2017<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/09/">九月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/08/">八月 2017<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/06/">六月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/05/">五月 2017<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/01/">一月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/05/">五月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/04/">四月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/03/">三月 2016<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/02/">二月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/01/">一月 2016<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/12/">十二月 2015<span class="sidebar_archives-count">8</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/11/">十一月 2015<span class="sidebar_archives-count">6</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/10/">十月 2015<span class="sidebar_archives-count">5</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/09/">九月 2015<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/08/">八月 2015<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/07/">七月 2015<span class="sidebar_archives-count">9</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/06/">六月 2015<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/05/">五月 2015<span class="sidebar_archives-count">5</span></a>
+                <a class="sidebar_archives-link" href="/archives/2018/05/">五月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/04/">四月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/03/">三月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/01/">一月 2018<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/12/">十二月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/11/">十一月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/10/">十月 2017<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/09/">九月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/08/">八月 2017<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/06/">六月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/05/">五月 2017<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/04/">四月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/01/">一月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/05/">五月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/04/">四月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/03/">三月 2016<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/02/">二月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/01/">一月 2016<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/12/">十二月 2015<span class="sidebar_archives-count">8</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/11/">十一月 2015<span class="sidebar_archives-count">6</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/10/">十月 2015<span class="sidebar_archives-count">5</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/09/">九月 2015<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/08/">八月 2015<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/07/">七月 2015<span class="sidebar_archives-count">9</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/06/">六月 2015<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/05/">五月 2015<span class="sidebar_archives-count">5</span></a>
             </ul>
         </li>
         
@@ -732,7 +728,7 @@ NSURLRequest *req = [NSURLRequest requestWithURL:url];
             </a>
             <ul class="dropdown-menu">
                 <li>
-                <a class="sidebar_archives-link" href="/categories/Hexo/">Hexo<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/iOS/">iOS<span class="sidebar_archives-count">29</span></a></li><li><a class="sidebar_archives-link" href="/categories/iOS/源码学习/">源码学习<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/备忘/">备忘<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/工具/">工具<span class="sidebar_archives-count">12</span></a></li><li><a class="sidebar_archives-link" href="/categories/生活/">生活<span class="sidebar_archives-count">20</span></a></li><li><a class="sidebar_archives-link" href="/categories/碎碎念/">碎碎念<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/读书/">读书<span class="sidebar_archives-count">2</span></a>
+                <a class="sidebar_archives-link" href="/categories/Hexo/">Hexo<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/iOS/">iOS<span class="sidebar_archives-count">30</span></a></li><li><a class="sidebar_archives-link" href="/categories/iOS/源码学习/">源码学习<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/备忘/">备忘<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/工具/">工具<span class="sidebar_archives-count">12</span></a></li><li><a class="sidebar_archives-link" href="/categories/生活/">生活<span class="sidebar_archives-count">20</span></a></li><li><a class="sidebar_archives-link" href="/categories/碎碎念/">碎碎念<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/读书/">读书<span class="sidebar_archives-count">2</span></a>
             </ul>
         </li>
         

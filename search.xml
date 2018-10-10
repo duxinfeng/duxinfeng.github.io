@@ -661,6 +661,30 @@ if (@available(iOS 11.0, *)) {
     </entry>
     
     <entry>
+      <title><![CDATA[WKWebView加载html]]></title>
+      <url>/2017/04/10/WKWebView%E5%8A%A0%E8%BD%BDhtml/</url>
+      <content type="html"><![CDATA[<h3 id="加载本地html"><a href="#加载本地html" class="headerlink" title="加载本地html"></a>加载本地html</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">WKWebViewConfiguration *configuration = [[WKWebViewConfiguration alloc] init];</div><div class="line">   WKWebView *wkWebView = [[WKWebView alloc] initWithFrame:self.view.frame configuration:configuration];</div><div class="line">   wkWebView.backgroundColor = [UIColor whiteColor];</div><div class="line">   wkWebView.scrollView.showsVerticalScrollIndicator = NO;</div><div class="line">   [wkWebView.scrollView setContentInset:UIEdgeInsetsMake(0, 0, 44, 0)];</div><div class="line">   NSString *filePath = [[NSBundle mainBundle] pathForResource:@&quot;abc&quot; ofType:@&quot;html&quot;];</div><div class="line">   NSURL *baseURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]];</div><div class="line">   NSError *error;</div><div class="line">   NSString *html = [NSString stringWithContentsOfFile:filePath</div><div class="line">                                              encoding:NSUTF8StringEncoding</div><div class="line">                                                 error:&amp;error];</div><div class="line">   [wkWebView loadHTMLString:html baseURL:baseURL];</div><div class="line">   [self.view addSubview:wkWebView];</div></pre></td></tr></table></figure>
+<h3 id="加载一个网页"><a href="#加载一个网页" class="headerlink" title="加载一个网页"></a>加载一个网页</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">WKWebViewConfiguration *configuration = [[WKWebViewConfiguration alloc] init];</div><div class="line">   WKWebView *wkWebView = [[WKWebView alloc] initWithFrame:self.view.bounds configuration:configuration];</div><div class="line">   wkWebView.backgroundColor = [UIColor whiteColor];</div><div class="line">   wkWebView.scrollView.showsVerticalScrollIndicator = NO;</div><div class="line">   NSURL *url = [[NSURL alloc]initWithString:@&quot;http://www.baidu.com&quot;];</div><div class="line">   [wkWebView loadRequest:[NSURLRequest requestWithURL:url]];</div><div class="line">   [self.view addSubview:wkWebView];</div></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> iOS </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> WKWebView </tag>
+            
+            <tag> html </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[貌似很有道理]]></title>
       <url>/2017/01/02/%E8%B2%8C%E4%BC%BC%E5%BE%88%E6%9C%89%E9%81%93%E7%90%86/</url>
       <content type="html"><![CDATA[<p>1、如果有一天： 你不再寻找爱情，只是去爱；你不再渴望成功，只是去做； 你不再追求成长，只是去修；一切才真正开始！ </p>
@@ -1483,9 +1507,9 @@ git commit -m &quot;Removed file that shouldn&apos;t be tracked&quot;
         
         <tags>
             
-            <tag> 打包 </tag>
-            
             <tag> Xcode </tag>
+            
+            <tag> 打包 </tag>
             
         </tags>
         
@@ -2464,10 +2488,11 @@ else {
     <entry>
       <title><![CDATA[UIWebView加载Html]]></title>
       <url>/2015/05/03/UIWebView%E5%8A%A0%E8%BD%BDHtml/</url>
-      <content type="html"><![CDATA[<p>UIWebView加载html分两种方式</p>
-<p>##1、UIWebView加载本地html<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">NSString *htmlFile = [[NSBundle mainBundle] pathForResource:@&quot;xxx&quot; ofType:@&quot;html&quot;];</div><div class="line">NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];</div><div class="line">[webView loadHTMLString:htmlString baseURL:nil];</div></pre></td></tr></table></figure></p>
+      <content type="html"><![CDATA[<blockquote>
+<p>UIWebView加载html分两种方式</p>
+</blockquote>
+<h3 id="加载本地html"><a href="#加载本地html" class="headerlink" title="加载本地html"></a>加载本地html</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">NSString *htmlFile = [[NSBundle mainBundle] pathForResource:@&quot;xxx&quot; ofType:@&quot;html&quot;];</div><div class="line">NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];</div><div class="line">[webView loadHTMLString:htmlString baseURL:nil];</div></pre></td></tr></table></figure>
 <p>本地加载可以修改html显示的文本大小和字体</p>
-<a id="more"></a>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">NSString* formatString = [NSString stringWithFormat:</div><div class="line">     @&quot;&lt;html&gt;&quot;</div><div class="line">     &quot;&lt;style type=\&quot;text/css\&quot;&gt;&quot;</div><div class="line">     &quot;body &#123;background-color:transparent; font-family:helvetica; font-size:%@; color:%@;&#125;&quot;</div><div class="line">     &quot;&lt;/style&gt;&quot;</div><div class="line">     &quot;&lt;body&gt;&quot;</div><div class="line">     &quot;&lt;p&gt;%@&lt;/p&gt;&quot;</div><div class="line">     &quot;&lt;/body&gt;&lt;/html&gt;&quot;,@&quot;24&quot;,@&quot;#000000&quot;, html];</div><div class="line">  [webView loadHTMLString:formatString baseURL:nil];</div></pre></td></tr></table></figure>
 <ul>
 <li>background-color:transparent; 背景颜色(透明)</li>
@@ -2475,22 +2500,16 @@ else {
 <li>font-size:24; 字体大小</li>
 <li>color:#000fff; 字体的颜色</li>
 </ul>
-<hr>
-<ul>
-<li>如果发现本地html在UIWebView加载不出来，请检查html代码编码格式，一般来说都采用的时UTF8编码格式。</li>
-</ul>
-<hr>
-<p>##2、UIWebView加载一个在线的URL</p>
-<pre><code>NSURL *url = [NSURLV URLWithString:@&quot;http://duxinfeng.com&quot;];
+<blockquote>
+<p>如果发现本地html在UIWebView加载不出来，请检查html代码编码格式，一般来说都采用的时UTF8编码格式。</p>
+</blockquote>
+<h3 id="加载一个网页"><a href="#加载一个网页" class="headerlink" title="加载一个网页"></a>加载一个网页</h3><pre><code>NSURL *url = [NSURLV URLWithString:@&quot;http://duxinfeng.com&quot;];
 NSURLRequest *req = [NSURLRequest requestWithURL:url];
 [webView loadRequest:req];
-</code></pre><hr>
-<p>如果对html排版有特殊要求，则需要自己或前端写好css文件，可以放本地，也可以加到html文件里面，如果放到本地需要注意路径，当我把css文件放在和xx.xcodeproj 一个目录时是这样的</p>
+</code></pre><p>如果对html排版有特殊要求，则需要自己或前端写好css文件，可以放本地，也可以加到html文件里面，如果放到本地需要注意路径，当我把css文件放在和xx.xcodeproj 一个目录时是这样的</p>
 <pre><code>[webView loadHTMLString:htmlString baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]];
-</code></pre><hr>
-<p>如果是放到html里面可以参考网易新闻开源组件(<code>view-source:http://m.163.com/special/newsclient/ios_libraries.html</code>)  chrome打开，或者直接访问查看<a href="http://m.163.com/special/newsclient/ios_libraries.html" target="_blank" rel="external">hmtl源码</a></p>
-<p>##3、UIWebView 高亮显示问题</p>
-<p>UIWebView 是可以监测html里的数字、电话号码、url链接，然后高亮显示，可以通过设置他的<code>dataDetectorTypes</code>属性来改变</p>
+</code></pre><p>如果是放到html里面可以参考网易新闻开源组件(<code>view-source:http://m.163.com/special/newsclient/ios_libraries.html</code>)  chrome打开，或者直接访问查看<a href="http://m.163.com/special/newsclient/ios_libraries.html" target="_blank" rel="external">源码</a></p>
+<h3 id="UIWebView-高亮显示问题"><a href="#UIWebView-高亮显示问题" class="headerlink" title="UIWebView 高亮显示问题"></a>UIWebView 高亮显示问题</h3><p>UIWebView 是可以监测html里的数字、电话号码、url链接，然后高亮显示，可以通过设置他的<code>dataDetectorTypes</code>属性来改变</p>
 <pre><code>self.webView.dataDetectorTypes = UIDataDetectorTypeNone;
 </code></pre>]]></content>
       
