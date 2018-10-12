@@ -24,7 +24,7 @@ Xcode 10 路径`/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.pl
 模拟器拷贝tdb库到
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib/
 
-对应库下载地址:https://github.com/Kila2/libstdc-.6.0.9.tbd,iPhoneOS文件下的库对应真机目录下的库，iPhoneSimulator目录下的库对应模拟器下的库
+对应库下载地址: https://github.com/Kila2/libstdc-.6.0.9.tbd ,iPhoneOS文件下的库对应真机目录下的库，iPhoneSimulator目录下的库对应模拟器下的库
 </code></pre></li>
 </ol>
 <h3 id="自己业务"><a href="#自己业务" class="headerlink" title="自己业务"></a>自己业务</h3><p>如果自己业务中使用<code>libstdc++</code>直接换成<code>libc++</code></p>
@@ -1584,9 +1584,9 @@ git commit -m &quot;Removed file that shouldn&apos;t be tracked&quot;
         
         <tags>
             
-            <tag> 打包 </tag>
-            
             <tag> Xcode </tag>
+            
+            <tag> 打包 </tag>
             
         </tags>
         
