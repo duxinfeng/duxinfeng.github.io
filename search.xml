@@ -3,6 +3,39 @@
   
     
     <entry>
+      <title><![CDATA[支付宝和微H5支付]]></title>
+      <url>/2019/02/23/%E6%94%AF%E4%BB%98%E5%AE%9D%E5%92%8C%E5%BE%AEH5%E6%94%AF%E4%BB%98/</url>
+      <content type="html"><![CDATA[<p>因业务需要，移除项目中支付宝支付SDK和微信支付的SDK,改为网页支付。通过H5网页调起微信和支付宝的客户端进行支付，支付完成返回客户端，做到调用SDK一样的体验。</p>
+<p>支付宝和微信建议以App的方式集成， 都不建议在app内部使用网页来支付，但也没有不允许，目前可行，不过也说不好以后会不会禁止这种方式。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line">- (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler &#123;</div><div class="line"></div><div class="line">    NSString* url = navigationAction.request.URL.absoluteString;</div><div class="line"></div><div class="line">    if ([url hasPrefix:@&quot;alipays://&quot;] || [url hasPrefix:@&quot;alipay://&quot;]) &#123;</div><div class="line"></div><div class="line">        BOOL success = [[UIApplication sharedApplication]openURL:navigationAction.request.URL];</div><div class="line">        if (success) &#123;</div><div class="line"></div><div class="line">        &#125;</div><div class="line"></div><div class="line">    &#125;</div><div class="line"></div><div class="line">    if ([url hasPrefix:@&quot;weixin://wap/pay&quot;]) &#123;</div><div class="line"></div><div class="line">        BOOL success = [[UIApplication sharedApplication]openURL:navigationAction.request.URL];</div><div class="line"></div><div class="line">        if (success) &#123;</div><div class="line"></div><div class="line">	    &#125;</div><div class="line"></div><div class="line">    &#125;</div><div class="line"></div><div class="line">    decisionHandler(WKNavigationActionPolicyAllow);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>微信支付回调问题</p>
+<p>TARGETS → Info →  URL Types 增加一项 URL Schemes 填写回调的url <code>www.xxx.com</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:self.urlstring]];</div><div class="line">NSDictionary *headers = [request allHTTPHeaderFields];</div><div class="line">BOOL hasReferer = [headers objectForKey:@&quot;Referer&quot;] != nil;</div><div class="line">if (!hasReferer) &#123;</div><div class="line">       [request setValue:@&quot;www.xxx.com://&quot; forHTTPHeaderField: @&quot;Referer&quot;];</div><div class="line">  &#125;</div><div class="line">[self.webView loadRequest:request];</div></pre></td></tr></table></figure>
+<p>参考链接：</p>
+<p><a href="https://docs.open.alipay.com/203/107091/" target="_blank" rel="external">https://docs.open.alipay.com/203/107091/</a></p>
+<p><a href="https://nearwmy.github.io/2017/12/04/%E5%BE%AE%E4%BF%A1H5%E6%94%AF%E4%BB%98%E4%B9%8B%E5%9B%9E%E8%B7%B3%20safari%20%E6%B5%8F%E8%A7%88%E5%99%A8/" target="_blank" rel="external">https://nearwmy.github.io/2017/12/04/%E5%BE%AE%E4%BF%A1H5%E6%94%AF%E4%BB%98%E4%B9%8B%E5%9B%9E%E8%B7%B3%20safari%20%E6%B5%8F%E8%A7%88%E5%99%A8/</a></p>
+<p><a href="https://github.com/mjl123iOS/iOS_WXh5" target="_blank" rel="external">https://github.com/mjl123iOS/iOS_WXh5</a></p>
+<p><a href="https://github.com/cheenbee/cheenbee.github.io/issues/1" target="_blank" rel="external">https://github.com/cheenbee/cheenbee.github.io/issues/1</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> iOS </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 微信支付 </tag>
+            
+            <tag> 支付宝支付 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[佛祖保佑,永无BUG]]></title>
       <url>/2018/10/15/%E4%BD%9B%E7%A5%96%E4%BF%9D%E4%BD%91-%E6%B0%B8%E6%97%A0BUG/</url>
       <content type="html"><![CDATA[<p>收藏几个有趣的代码注释</p>
@@ -41,16 +74,14 @@
       
         <categories>
             
-            <category> categorie1 </category>
+            <category> 碎碎念 </category>
             
         </categories>
         
         
         <tags>
             
-            <tag> tag1 </tag>
-            
-            <tag> tag2 </tag>
+            <tag> 租房 </tag>
             
         </tags>
         
@@ -166,7 +197,8 @@ Xcode 10 路径`/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.pl
       <content type="html"><![CDATA[<h3 id="获取Images-xcassets-Icon文件"><a href="#获取Images-xcassets-Icon文件" class="headerlink" title="获取Images.xcassets Icon文件"></a>获取Images.xcassets Icon文件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">NSDictionary *infoPlist = [[NSBundle mainBundle] infoDictionary];</div><div class="line">NSString *icon = [[infoPlist valueForKeyPath:@&quot;CFBundleIcons.CFBundlePrimaryIcon.CFBundleIconFiles&quot;]lastObject];</div><div class="line">UIImage *image = [UIImage imageNamed:icon];</div></pre></td></tr></table></figure>
 <h3 id="获取Images-xcassets启动图"><a href="#获取Images-xcassets启动图" class="headerlink" title="获取Images.xcassets启动图"></a>获取Images.xcassets启动图</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">+ (NSString *)fetchLunchImageName</div><div class="line">&#123;</div><div class="line">    CGSize winSize = [UIScreen mainScreen].bounds.size;</div><div class="line">    NSArray* imagesDict = [[[NSBundle mainBundle] infoDictionary] valueForKey:@&quot;UILaunchImages&quot;];</div><div class="line">    for (NSDictionary* dict in imagesDict) &#123;</div><div class="line">        if(CGSizeEqualToSize(CGSizeFromString(dict[@&quot;UILaunchImageSize&quot;]),winSize))</div><div class="line">        &#123;</div><div class="line">            return dict[@&quot;UILaunchImageName&quot;];</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">    return nil;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <h3 id="App-version"><a href="#App-version" class="headerlink" title="App version"></a>App version</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@&quot;CFBundleShortVersionString&quot;];</div></pre></td></tr></table></figure>
-<h3 id="Bundleid"><a href="#Bundleid" class="headerlink" title="Bundleid"></a>Bundleid</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">NSString *bundleid = [[[NSBundle mainBundle] infoDictionary] objectForKey:@&quot;CFBundleIdentifier&quot;];</div></pre></td></tr></table></figure>]]></content>
+<h3 id="Bundleid"><a href="#Bundleid" class="headerlink" title="Bundleid"></a>Bundleid</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">NSString *bundleid = [[[NSBundle mainBundle] infoDictionary] objectForKey:@&quot;CFBundleIdentifier&quot;];</div></pre></td></tr></table></figure>
+]]></content>
       
         <categories>
             
@@ -232,6 +264,95 @@ if (@available(iOS 11.0, *)) {
             <tag> UITabBar </tag>
             
             <tag> UINavigationBar </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[SDWebImage源码阅读:NSData+ImageContentType]]></title>
+      <url>/2018/01/23/todo/SDWebImage%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB-NSData-ImageContentType/</url>
+      <content type="html"></content>
+      
+        <categories>
+            
+            <category> categorie1 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> tag1 </tag>
+            
+            <tag> tag2 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[NS_OPTIONS与NS_ENUM]]></title>
+      <url>/2018/01/23/todo/NS-OPTIONS%E4%B8%8ENS-ENUM/</url>
+      <content type="html"></content>
+      
+        <categories>
+            
+            <category> categorie1 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> tag1 </tag>
+            
+            <tag> tag2 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[碎碎念在2018年1月13日]]></title>
+      <url>/2018/01/13/todo/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%8813%E6%97%A5/</url>
+      <content type="html"></content>
+      
+        <categories>
+            
+            <category> categorie1 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> tag1 </tag>
+            
+            <tag> tag2 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[碎碎念在2018年1月12日]]></title>
+      <url>/2018/01/12/todo/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%8812%E6%97%A5/</url>
+      <content type="html"><![CDATA[<p>安好</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 生活 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> tag1 </tag>
+            
+            <tag> tag2 </tag>
             
         </tags>
         
