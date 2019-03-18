@@ -3,16 +3,22 @@
   
     
     <entry>
-      <title><![CDATA[支付宝和微H5支付]]></title>
-      <url>/2019/02/23/%E6%94%AF%E4%BB%98%E5%AE%9D%E5%92%8C%E5%BE%AEH5%E6%94%AF%E4%BB%98/</url>
+      <title><![CDATA[支付宝和微信H5支付]]></title>
+      <url>/2019/02/23/%E6%94%AF%E4%BB%98%E5%AE%9D%E5%92%8C%E5%BE%AE%E4%BF%A1H5%E6%94%AF%E4%BB%98/</url>
       <content type="html"><![CDATA[<p>因业务需要，移除项目中支付宝支付SDK和微信支付的SDK,改为网页支付。通过H5网页调起微信和支付宝的客户端进行支付，支付完成返回客户端，做到调用SDK一样的体验。</p>
 <p>支付宝和微信建议以App的方式集成， 都不建议在app内部使用网页来支付，但也没有不允许，目前可行，不过也说不好以后会不会禁止这种方式。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line">- (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler &#123;</div><div class="line"></div><div class="line">    NSString* url = navigationAction.request.URL.absoluteString;</div><div class="line"></div><div class="line">    if ([url hasPrefix:@&quot;alipays://&quot;] || [url hasPrefix:@&quot;alipay://&quot;]) &#123;</div><div class="line"></div><div class="line">        BOOL success = [[UIApplication sharedApplication]openURL:navigationAction.request.URL];</div><div class="line">        if (success) &#123;</div><div class="line"></div><div class="line">        &#125;</div><div class="line"></div><div class="line">    &#125;</div><div class="line"></div><div class="line">    if ([url hasPrefix:@&quot;weixin://wap/pay&quot;]) &#123;</div><div class="line"></div><div class="line">        BOOL success = [[UIApplication sharedApplication]openURL:navigationAction.request.URL];</div><div class="line"></div><div class="line">        if (success) &#123;</div><div class="line"></div><div class="line">	    &#125;</div><div class="line"></div><div class="line">    &#125;</div><div class="line"></div><div class="line">    decisionHandler(WKNavigationActionPolicyAllow);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>微信支付回调问题</p>
 <p>TARGETS → Info →  URL Types 增加一项 URL Schemes 填写回调的url <code>www.xxx.com</code></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:self.urlstring]];</div><div class="line">NSDictionary *headers = [request allHTTPHeaderFields];</div><div class="line">BOOL hasReferer = [headers objectForKey:@&quot;Referer&quot;] != nil;</div><div class="line">if (!hasReferer) &#123;</div><div class="line">       [request setValue:@&quot;www.xxx.com://&quot; forHTTPHeaderField: @&quot;Referer&quot;];</div><div class="line">  &#125;</div><div class="line">[self.webView loadRequest:request];</div></pre></td></tr></table></figure>
+<p>注意：</p>
+<ol>
+<li>在iOS系统中，唤起支付宝App支付完成后，不会自动回到浏览器或商户App。用户可手工切回到浏览器或商户App。</li>
+<li>审核过程中，除了隐藏入口，代码和注释里面一些包含 支付宝支付 alipay 微信支付 weixinpay weichatpay 类似这样的字段要屏蔽掉，否则在审核期间扫描代码的时候因为隐藏功能而拒审核，最好还是老老实实接苹果支付。</li>
+</ol>
 <p>参考链接：</p>
 <p><a href="https://docs.open.alipay.com/203/107091/" target="_blank" rel="external">https://docs.open.alipay.com/203/107091/</a></p>
+<p><a href="https://docs.open.alipay.com/203" target="_blank" rel="external">https://docs.open.alipay.com/203</a></p>
 <p><a href="https://nearwmy.github.io/2017/12/04/%E5%BE%AE%E4%BF%A1H5%E6%94%AF%E4%BB%98%E4%B9%8B%E5%9B%9E%E8%B7%B3%20safari%20%E6%B5%8F%E8%A7%88%E5%99%A8/" target="_blank" rel="external">https://nearwmy.github.io/2017/12/04/%E5%BE%AE%E4%BF%A1H5%E6%94%AF%E4%BB%98%E4%B9%8B%E5%9B%9E%E8%B7%B3%20safari%20%E6%B5%8F%E8%A7%88%E5%99%A8/</a></p>
 <p><a href="https://github.com/mjl123iOS/iOS_WXh5" target="_blank" rel="external">https://github.com/mjl123iOS/iOS_WXh5</a></p>
 <p><a href="https://github.com/cheenbee/cheenbee.github.io/issues/1" target="_blank" rel="external">https://github.com/cheenbee/cheenbee.github.io/issues/1</a></p>
