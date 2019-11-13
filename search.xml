@@ -3,6 +3,35 @@
   
     
     <entry>
+      <title><![CDATA[ERROR ITMS-90474： iPad Multitasking support requires these orientations]]></title>
+      <url>/2019/10/18/ERROR-ITMS-90474%EF%BC%9A-iPad-Multitasking-support-requires-these-orientations/</url>
+      <content type="html"><![CDATA[<p> 上传AppStore时候发现ERROR ITMS-90474错误</p>
+<blockquote>
+<p> ERROR ITMS-90474: “Invalid Bundle. iPad Multitasking support requires these orientations: ‘UIInterfaceOrientationPortrait,UIInterfaceOrientationPortraitUpsideDown,UIInterfaceOrientationLandscapeLeft,UIInterfaceOrientationLandscapeRight’. Found ‘UIInterfaceOrientationLandscapeLeft,UIInterfaceOrientationLandscapeRight</p>
+</blockquote>
+<p>大概意思是: 无效的安装包，iPad 多任务功能需要 App 支持所有方向。</p>
+<p>因为 iOS9 后 App 默认开启多任务功能，而多任务功能需要 App 支持所有方向，如果我们 App 是有需要支持多任务，则需要开启 App 对各个方向（上、下、左、右）的支持。如果 App 不需要开启多任务，则只需要将如下示意图的 requires full screen 勾选上就 OK，具体做法如下图:</p>
+<p><img src="images/2019/WX20191018-163517@2x.png" alt="WX20191018-163517@2x"></p>
+]]></content>
+      
+        <categories>
+            
+            <category> iOS </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> APP </tag>
+            
+            <tag> ERROR </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[支付宝和微信H5支付]]></title>
       <url>/2019/02/23/%E6%94%AF%E4%BB%98%E5%AE%9D%E5%92%8C%E5%BE%AE%E4%BF%A1H5%E6%94%AF%E4%BB%98/</url>
       <content type="html"><![CDATA[<p>因业务需要，移除项目中支付宝支付SDK和微信支付的SDK,改为网页支付。通过H5网页调起微信和支付宝的客户端进行支付，支付完成返回客户端，做到调用SDK一样的体验。</p>
@@ -1765,9 +1794,9 @@ git commit -m &quot;Removed file that shouldn&apos;t be tracked&quot;
         
         <tags>
             
-            <tag> Xcode </tag>
-            
             <tag> 打包 </tag>
+            
+            <tag> Xcode </tag>
             
         </tags>
         
