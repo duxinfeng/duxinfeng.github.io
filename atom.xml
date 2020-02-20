@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>新风作浪</title>
+  
+  <subtitle>生命不息，折腾不止</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://duxinfeng.com/"/>
+  <updated>2019-11-28T11:21:46.844Z</updated>
+  <id>http://duxinfeng.com/</id>
+  
+  <author>
+    <name>新风作浪</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>碎碎念在2019年11月</title>
+    <link href="http://duxinfeng.com/2019/11/28/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82019%E5%B9%B411%E6%9C%88/"/>
+    <id>http://duxinfeng.com/2019/11/28/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82019%E5%B9%B411%E6%9C%88/</id>
+    <published>2019-11-28T11:11:40.000Z</published>
+    <updated>2019-11-28T11:21:46.844Z</updated>
+    
+    <content type="html"><![CDATA[<p>周一妈妈生日，请了两天假去南京给她过生，做了两件事。</p><ol><li>去鼓楼医院给他们做了一个体检，大概计划了两三年的，终于在威逼利诱下，他们同意休一天</li><li>带我妈去看牙</li></ol><p>体检的时候有个阴超，医生给她说子宫脱落。大概在生我的时候s出现的问题，那个时候家里穷，</p><p>路上，妈妈感叹年轻的来南京打工的时候，牙疼的不得了，脸都肿了，去药店买点药吃，买点喷雾，疼的时候去刷牙，却从没想过去医院挂个口腔科。</p><p>去年的时候牙齿有些问题，也还能看，到今年牙齿没法看了，掉了很多了，对于51岁的人来说，牙齿掉的太快，只能带活动牙。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;周一妈妈生日，请了两天假去南京给她过生，做了两件事。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;去鼓楼医院给他们做了一个体检，大概计划了两三年的，终于在威逼利诱下，他们同意休一天&lt;/li&gt;
+&lt;li&gt;带我妈去看牙&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;体检的时候有个阴超，医生给她说子宫脱落。大概在生我
+      
+    
+    </summary>
+    
+    
+      <category term="categorie1" scheme="http://duxinfeng.com/categories/categorie1/"/>
+    
+    
+      <category term="tag1" scheme="http://duxinfeng.com/tags/tag1/"/>
+    
+      <category term="tag2" scheme="http://duxinfeng.com/tags/tag2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ERROR ITMS-90474： iPad Multitasking support requires these orientations</title>
+    <link href="http://duxinfeng.com/2019/10/18/ERROR-ITMS-90474%EF%BC%9A-iPad-Multitasking-support-requires-these-orientations/"/>
+    <id>http://duxinfeng.com/2019/10/18/ERROR-ITMS-90474%EF%BC%9A-iPad-Multitasking-support-requires-these-orientations/</id>
+    <published>2019-10-18T08:14:21.000Z</published>
+    <updated>2019-10-18T08:50:35.175Z</updated>
+    
+    <content type="html"><![CDATA[<p> 上传AppStore时候发现ERROR ITMS-90474错误</p><blockquote><p> ERROR ITMS-90474: “Invalid Bundle. iPad Multitasking support requires these orientations: ‘UIInterfaceOrientationPortrait,UIInterfaceOrientationPortraitUpsideDown,UIInterfaceOrientationLandscapeLeft,UIInterfaceOrientationLandscapeRight’. Found ‘UIInterfaceOrientationLandscapeLeft,UIInterfaceOrientationLandscapeRight</p></blockquote><p>大概意思是: 无效的安装包，iPad 多任务功能需要 App 支持所有方向。</p><p>因为 iOS9 后 App 默认开启多任务功能，而多任务功能需要 App 支持所有方向，如果我们 App 是有需要支持多任务，则需要开启 App 对各个方向（上、下、左、右）的支持。如果 App 不需要开启多任务，则只需要将如下示意图的 requires full screen 勾选上就 OK，具体做法如下图:</p><p><a href="images/2019/WX20191018-163517@2x.png" data-fancybox="group" data-caption="WX20191018-163517@2x" class="fancybox"><img alt="WX20191018-163517@2x" data-src="images/2019/WX20191018-163517@2x.png" class="lazyload" title="WX20191018-163517@2x"></a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt; 上传AppStore时候发现ERROR ITMS-90474错误&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt; ERROR ITMS-90474: “Invalid Bundle. iPad Multitasking support requires these orient
+      
+    
+    </summary>
+    
+    
+      <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
+    
+    
+      <category term="APP" scheme="http://duxinfeng.com/tags/APP/"/>
+    
+      <category term="ERROR" scheme="http://duxinfeng.com/tags/ERROR/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>支付宝和微信H5支付</title>
+    <link href="http://duxinfeng.com/2019/02/23/%E6%94%AF%E4%BB%98%E5%AE%9D%E5%92%8C%E5%BE%AE%E4%BF%A1H5%E6%94%AF%E4%BB%98/"/>
+    <id>http://duxinfeng.com/2019/02/23/%E6%94%AF%E4%BB%98%E5%AE%9D%E5%92%8C%E5%BE%AE%E4%BF%A1H5%E6%94%AF%E4%BB%98/</id>
+    <published>2019-02-23T05:22:54.000Z</published>
+    <updated>2019-03-18T05:49:11.848Z</updated>
+    
+    <content type="html"><![CDATA[<p>因业务需要，移除项目中支付宝支付SDK和微信支付的SDK,改为网页支付。通过H5网页调起微信和支付宝的客户端进行支付，支付完成返回客户端，做到调用SDK一样的体验。</p><p>支付宝和微信建议以App的方式集成， 都不建议在app内部使用网页来支付，但也没有不允许，目前可行，不过也说不好以后会不会禁止这种方式。</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">- (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler &#123;</span><br><span class="line"></span><br><span class="line">    NSString* url &#x3D; navigationAction.request.URL.absoluteString;</span><br><span class="line"></span><br><span class="line">    if ([url hasPrefix:@&quot;alipays:&#x2F;&#x2F;&quot;] || [url hasPrefix:@&quot;alipay:&#x2F;&#x2F;&quot;]) &#123;</span><br><span class="line"></span><br><span class="line">        BOOL success &#x3D; [[UIApplication sharedApplication]openURL:navigationAction.request.URL];</span><br><span class="line">        if (success) &#123;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    if ([url hasPrefix:@&quot;weixin:&#x2F;&#x2F;wap&#x2F;pay&quot;]) &#123;</span><br><span class="line"></span><br><span class="line">        BOOL success &#x3D; [[UIApplication sharedApplication]openURL:navigationAction.request.URL];</span><br><span class="line"></span><br><span class="line">        if (success) &#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    decisionHandler(WKNavigationActionPolicyAllow);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><p>微信支付回调问题</p><p>TARGETS → Info →  URL Types 增加一项 URL Schemes 填写回调的url <code>www.xxx.com</code></p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">NSMutableURLRequest *request &#x3D; [NSMutableURLRequest requestWithURL:[NSURL URLWithString:self.urlstring]];</span><br><span class="line">NSDictionary *headers &#x3D; [request allHTTPHeaderFields];</span><br><span class="line">BOOL hasReferer &#x3D; [headers objectForKey:@&quot;Referer&quot;] !&#x3D; nil;</span><br><span class="line">if (!hasReferer) &#123;</span><br><span class="line">       [request setValue:@&quot;www.xxx.com:&#x2F;&#x2F;&quot; forHTTPHeaderField: @&quot;Referer&quot;];</span><br><span class="line">  &#125;</span><br><span class="line">[self.webView loadRequest:request];</span><br></pre></td></tr></table></figure></div><p>注意：</p><ol><li>在iOS系统中，唤起支付宝App支付完成后，不会自动回到浏览器或商户App。用户可手工切回到浏览器或商户App。</li><li>审核过程中，除了隐藏入口，代码和注释里面一些包含 支付宝支付 alipay 微信支付 weixinpay weichatpay 类似这样的字段要屏蔽掉，否则在审核期间扫描代码的时候因为隐藏功能而拒审核，最好还是老老实实接苹果支付。</li></ol><p>参考链接：</p><p><a href="https://docs.open.alipay.com/203/107091/" target="_blank" rel="noopener">https://docs.open.alipay.com/203/107091/</a></p><p><a href="https://docs.open.alipay.com/203" target="_blank" rel="noopener">https://docs.open.alipay.com/203</a></p><p><a href="https://nearwmy.github.io/2017/12/04/%E5%BE%AE%E4%BF%A1H5%E6%94%AF%E4%BB%98%E4%B9%8B%E5%9B%9E%E8%B7%B3%20safari%20%E6%B5%8F%E8%A7%88%E5%99%A8/" target="_blank" rel="noopener">https://nearwmy.github.io/2017/12/04/%E5%BE%AE%E4%BF%A1H5%E6%94%AF%E4%BB%98%E4%B9%8B%E5%9B%9E%E8%B7%B3%20safari%20%E6%B5%8F%E8%A7%88%E5%99%A8/</a></p><p><a href="https://github.com/mjl123iOS/iOS_WXh5" target="_blank" rel="noopener">https://github.com/mjl123iOS/iOS_WXh5</a></p><p><a href="https://github.com/cheenbee/cheenbee.github.io/issues/1" target="_blank" rel="noopener">https://github.com/cheenbee/cheenbee.github.io/issues/1</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;因业务需要，移除项目中支付宝支付SDK和微信支付的SDK,改为网页支付。通过H5网页调起微信和支付宝的客户端进行支付，支付完成返回客户端，做到调用SDK一样的体验。&lt;/p&gt;
+&lt;p&gt;支付宝和微信建议以App的方式集成， 都不建议在app内部使用网页来支付，但也没有不允许，目前
+      
+    
+    </summary>
+    
+    
+      <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
+    
+    
+      <category term="微信支付" scheme="http://duxinfeng.com/tags/%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98/"/>
+    
+      <category term="支付宝支付" scheme="http://duxinfeng.com/tags/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%94%AF%E4%BB%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>佛祖保佑,永无BUG</title>
+    <link href="http://duxinfeng.com/2018/10/15/%E4%BD%9B%E7%A5%96%E4%BF%9D%E4%BD%91-%E6%B0%B8%E6%97%A0BUG/"/>
+    <id>http://duxinfeng.com/2018/10/15/%E4%BD%9B%E7%A5%96%E4%BF%9D%E4%BD%91-%E6%B0%B8%E6%97%A0BUG/</id>
+    <published>2018-10-15T07:23:34.000Z</published>
+    <updated>2018-10-15T07:57:00.011Z</updated>
+    
+    <content type="html"><![CDATA[<p>收藏几个有趣的代码注释</p><h3 id="一"><a href="#一" class="headerlink" title="一"></a>一</h3><p><a href="images/2018/WX20181015-152803.png" data-fancybox="group" data-caption class="fancybox"><img alt data-src="images/2018/WX20181015-152803.png" class="lazyload" title></a></p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;*</span><br><span class="line"> *                   _ooOoo_</span><br><span class="line"> *                  o8888888o</span><br><span class="line"> *                  88&quot; . &quot;88</span><br><span class="line"> *                  (| -_- |)</span><br><span class="line"> *                  O\  &#x3D;  &#x2F;O</span><br><span class="line"> *               ____&#x2F;&#96;---&#39;\____</span><br><span class="line"> *             .&#39;  \\|     |&#x2F;&#x2F;  &#96;.</span><br><span class="line"> *            &#x2F;  \\|||  :  |||&#x2F;&#x2F;  \</span><br><span class="line"> *           &#x2F;  _||||| -:- |||||-  \</span><br><span class="line"> *           |   | \\\  -  &#x2F;&#x2F;&#x2F; |   |</span><br><span class="line"> *           | \_|  &#39;&#39;\---&#x2F;&#39;&#39;  |   |</span><br><span class="line"> *           \  .-\__  &#96;-&#96;  ___&#x2F;-. &#x2F;</span><br><span class="line"> *         ___&#96;. .&#39;  &#x2F;--.--\  &#96;. . __</span><br><span class="line"> *      .&quot;&quot; &#39;&lt;  &#96;.___\_&lt;|&gt;_&#x2F;___.&#39;  &gt;&#39;&quot;&quot;.</span><br><span class="line"> *     | | :  &#96;- \&#96;.;&#96;\ _ &#x2F;&#96;;.&#96;&#x2F; - &#96; : | |</span><br><span class="line"> *     \  \ &#96;-.   \_ __\ &#x2F;__ _&#x2F;   .-&#96; &#x2F;  &#x2F;</span><br><span class="line"> *&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#96;-.____&#96;-.___\_____&#x2F;___.-&#96;____.-&#39;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</span><br><span class="line"> *                   &#96;&#x3D;---&#x3D;&#39;</span><br><span class="line"> *.............................................</span><br><span class="line"> *         佛祖保佑            永无BUG</span><br><span class="line"> *         佛曰:</span><br><span class="line"> *         写字楼里写字间，写字间里程序员；</span><br><span class="line"> *         程序人员写程序，又拿程序换酒钱。</span><br><span class="line"> *         酒醒只在网上坐，酒醉还来网下眠；</span><br><span class="line"> *         酒醉酒醒日复日，网上网下年复年。</span><br><span class="line"> *         但愿老死电脑间，不愿鞠躬老板前</span><br><span class="line"> *         奔驰宝马贵者趣，公交自行程序员。</span><br><span class="line"> *         别人笑我忒疯癫，我笑自己命太贱；</span><br><span class="line"> *         不见满街漂亮妹，哪个归得程序员？</span><br><span class="line"> *&#x2F;</span><br></pre></td></tr></table></figure></div><h3 id="二"><a href="#二" class="headerlink" title="二"></a>二</h3><p><a href="images/2018/WX20181015-152817.png" data-fancybox="group" data-caption class="fancybox"><img alt data-src="images/2018/WX20181015-152817.png" class="lazyload" title></a></p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;* Code is far away from bug with the god animal protecting</span><br><span class="line"> *</span><br><span class="line"> *    ┏┓   ┏┓</span><br><span class="line"> *   ┏┛┻━━━┛┻┓</span><br><span class="line"> *   ┃       ┃</span><br><span class="line"> *   ┃       ┃</span><br><span class="line"> *   ┃ ┳┛ ┗┳ ┃</span><br><span class="line"> *   ┃       ┃</span><br><span class="line"> *   ┃   ┻   ┃</span><br><span class="line"> *   ┃       ┃</span><br><span class="line"> *   ┗━┓   ┏━┛</span><br><span class="line"> *     ┃   ┃</span><br><span class="line"> *     ┃   ┃</span><br><span class="line"> *    ┏┛    ┗━━━┓</span><br><span class="line"> *    ┃        ┣┓</span><br><span class="line"> *    ┃        ┏┛</span><br><span class="line"> *    ┗┓┓┏━┳┓┏━┛</span><br><span class="line"> *     ┃┫┫ ┃┫┫</span><br><span class="line"> *     ┗┻┛ ┗┻┛</span><br><span class="line"> *&#x2F;</span><br></pre></td></tr></table></figure></div><h3 id="三"><a href="#三" class="headerlink" title="三"></a>三</h3><p><a href="images/2018/WX20181015-152843.png" data-fancybox="group" data-caption class="fancybox"><img alt data-src="images/2018/WX20181015-152843.png" class="lazyload" title></a></p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&#x2F;**</span><br><span class="line"> *               ii.                                         ;9ABH,</span><br><span class="line"> *              SA391,                                    .r9GG35&amp;G</span><br><span class="line"> *              &amp;#ii13Gh;                               i3X31i;:,rB1</span><br><span class="line"> *              iMs,:,i5895,                         .5G91:,:;:s1:8A</span><br><span class="line"> *               33::::,,;5G5,                     ,58Si,,:::,sHX;iH1</span><br><span class="line"> *                Sr.,:;rs13BBX35hh11511h5Shhh5S3GAXS:.,,::,,1AG3i,GG</span><br><span class="line"> *                .G51S511sr;;iiiishS8G89Shsrrsh59S;.,,,,,..5A85Si,h8</span><br><span class="line"> *               :SB9s:,............................,,,.,,,SASh53h,1G.</span><br><span class="line"> *            .r18S;..,,,,,,,,,,,,,,,,,,,,,,,,,,,,,....,,.1H315199,rX,</span><br><span class="line"> *          ;S89s,..,,,,,,,,,,,,,,,,,,,,,,,....,,.......,,,;r1ShS8,;Xi</span><br><span class="line"> *        i55s:.........,,,,,,,,,,,,,,,,.,,,......,.....,,....r9&amp;5.:X1</span><br><span class="line"> *       59;.....,.     .,,,,,,,,,,,...        .............,..:1;.:&amp;s</span><br><span class="line"> *      s8,..;53S5S3s.   .,,,,,,,.,..      i15S5h1:.........,,,..,,:99</span><br><span class="line"> *      93.:39s:rSGB@A;  ..,,,,.....    .SG3hhh9G&amp;BGi..,,,,,,,,,,,,.,83</span><br><span class="line"> *      G5.G8  9#@@@@@X. .,,,,,,.....  iA9,.S&amp;B###@@Mr...,,,,,,,,..,.;Xh</span><br><span class="line"> *      Gs.X8 S@@@@@@@B:..,,,,,,,,,,. rA1 ,A@@@@@@@@@H:........,,,,,,.iX:</span><br><span class="line"> *     ;9. ,8A#@@@@@@#5,.,,,,,,,,,... 9A. 8@@@@@@@@@@M;    ....,,,,,,,,S8</span><br><span class="line"> *     X3    iS8XAHH8s.,,,,,,,,,,...,..58hH@@@@@@@@@Hs       ...,,,,,,,:Gs</span><br><span class="line"> *    r8,        ,,,...,,,,,,,,,,.....  ,h8XABMMHX3r.          .,,,,,,,.rX:</span><br><span class="line"> *   :9, .    .:,..,:;;;::,.,,,,,..          .,,.               ..,,,,,,.59</span><br><span class="line"> *  .Si      ,:.i8HBMMMMMB&amp;5,....                    .            .,,,,,.sMr</span><br><span class="line"> *  SS       :: h@@@@@@@@@@#; .                     ...  .         ..,,,,iM5</span><br><span class="line"> *  91  .    ;:.,1&amp;@@@@@@MXs.                            .          .,,:,:&amp;S</span><br><span class="line"> *  hS ....  .:;,,,i3MMS1;..,..... .  .     ...                     ..,:,.99</span><br><span class="line"> *  ,8; ..... .,:,..,8Ms:;,,,...                                     .,::.83</span><br><span class="line"> *   s&amp;: ....  .sS553B@@HX3s;,.    .,;13h.                            .:::&amp;1</span><br><span class="line"> *    SXr  .  ...;s3G99XA&amp;X88Shss11155hi.                             ,;:h&amp;,</span><br><span class="line"> *     iH8:  . ..   ,;iiii;,::,,,,,.                                 .;irHA</span><br><span class="line"> *      ,8X5;   .     .......                                       ,;iihS8Gi</span><br><span class="line"> *         1831,                                                 .,;irrrrrs&amp;@</span><br><span class="line"> *           ;5A8r.                                            .:;iiiiirrss1H</span><br><span class="line"> *             :X@H3s.......                                .,:;iii;iiiiirsrh</span><br><span class="line"> *              r#h:;,...,,.. .,,:;;;;;:::,...              .:;;;;;;iiiirrss1</span><br><span class="line"> *             ,M8 ..,....,.....,,::::::,,...         .     .,;;;iiiiiirss11h</span><br><span class="line"> *             8B;.,,,,,,,.,.....          .           ..   .:;;;;iirrsss111h</span><br><span class="line"> *            i@5,:::,,,,,,,,.... .                   . .:::;;;;;irrrss111111</span><br><span class="line"> *            9Bi,:,,,,......                        ..r91;;;;;iirrsss1ss1111</span><br><span class="line"> *&#x2F;</span><br></pre></td></tr></table></figure></div><h3 id="四"><a href="#四" class="headerlink" title="四"></a>四</h3><p><a href="images/2018/WX20181015-152916.png" data-fancybox="group" data-caption class="fancybox"><img alt data-src="images/2018/WX20181015-152916.png" class="lazyload" title></a></p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;**</span><br><span class="line"> *                                         ,s555SB@@&amp;</span><br><span class="line"> *                                      :9H####@@@@@Xi</span><br><span class="line"> *                                     1@@@@@@@@@@@@@@8</span><br><span class="line"> *                                   ,8@@@@@@@@@B@@@@@@8</span><br><span class="line"> *                                  :B@@@@X3hi8Bs;B@@@@@Ah,</span><br><span class="line"> *             ,8i                  r@@@B:     1S ,M@@@@@@#8;</span><br><span class="line"> *            1AB35.i:               X@@8 .   SGhr ,A@@@@@@@@S</span><br><span class="line"> *            1@h31MX8                18Hhh3i .i3r ,A@@@@@@@@@5</span><br><span class="line"> *            ;@&amp;i,58r5                 rGSS:     :B@@@@@@@@@@A</span><br><span class="line"> *             1#i  . 9i                 hX.  .: .5@@@@@@@@@@@1</span><br><span class="line"> *              sG1,  ,G53s.              9#Xi;hS5 3B@@@@@@@B1</span><br><span class="line"> *               .h8h.,A@@@MXSs,           #@H1:    3ssSSX@1</span><br><span class="line"> *               s ,@@@@@@@@@@@@Xhi,       r#@@X1s9M8    .GA981</span><br><span class="line"> *               ,. rS8H#@@@@@@@@@@#HG51;.  .h31i;9@r    .8@@@@BS;i;</span><br><span class="line"> *                .19AXXXAB@@@@@@@@@@@@@@#MHXG893hrX#XGGXM@@@@@@@@@@MS</span><br><span class="line"> *                s@@MM@@@hsX#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;,</span><br><span class="line"> *              :GB@#3G@@Brs ,1GM@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@B,</span><br><span class="line"> *            .hM@@@#@@#MX 51  r;iSGAM@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@8</span><br><span class="line"> *          :3B@@@@@@@@@@@&amp;9@h :Gs   .;sSXH@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:</span><br><span class="line"> *      s&amp;HA#@@@@@@@@@@@@@@M89A;.8S.       ,r3@@@@@@@@@@@@@@@@@@@@@@@@@@@r</span><br><span class="line"> *   ,13B@@@@@@@@@@@@@@@@@@@5 5B3 ;.         ;@@@@@@@@@@@@@@@@@@@@@@@@@@@i</span><br><span class="line"> *  5#@@#&amp;@@@@@@@@@@@@@@@@@@9  .39:          ;@@@@@@@@@@@@@@@@@@@@@@@@@@@;</span><br><span class="line"> *  9@@@X:MM@@@@@@@@@@@@@@@#;    ;31.         H@@@@@@@@@@@@@@@@@@@@@@@@@@:</span><br><span class="line"> *   SH#@B9.rM@@@@@@@@@@@@@B       :.         3@@@@@@@@@@@@@@@@@@@@@@@@@@5</span><br><span class="line"> *     ,:.   9@@@@@@@@@@@#HB5                 .M@@@@@@@@@@@@@@@@@@@@@@@@@B</span><br><span class="line"> *           ,ssirhSM@&amp;1;i19911i,.             s@@@@@@@@@@@@@@@@@@@@@@@@@@S</span><br><span class="line"> *              ,,,rHAri1h1rh&amp;@#353Sh:          8@@@@@@@@@@@@@@@@@@@@@@@@@#:</span><br><span class="line"> *            .A3hH@#5S553&amp;@@#h   i:i9S          #@@@@@@@@@@@@@@@@@@@@@@@@@A.</span><br><span class="line"> *</span><br><span class="line"> *</span><br><span class="line"> *</span><br><span class="line"> *&#x2F;</span><br></pre></td></tr></table></figure></div><h3 id="五"><a href="#五" class="headerlink" title="五"></a>五</h3><p><a href="images/2018/WX20181015-152725.png" data-fancybox="group" data-caption class="fancybox"><img alt data-src="images/2018/WX20181015-152725.png" class="lazyload" title></a></p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;**</span><br><span class="line"> **************************************************************</span><br><span class="line"> *                                                            *</span><br><span class="line"> *   .&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-.       *</span><br><span class="line"> *    |                     ______                     |      *</span><br><span class="line"> *    |                  .-&quot;      &quot;-.                  |      *</span><br><span class="line"> *    |                 &#x2F;            \                 |      *</span><br><span class="line"> *    |     _          |              |          _     |      *</span><br><span class="line"> *    |    ( \         |,  .-.  .-.  ,|         &#x2F; )    |      *</span><br><span class="line"> *    |     &gt; &quot;&#x3D;._     | )(__&#x2F;  \__)( |     _.&#x3D;&quot; &lt;     |      *</span><br><span class="line"> *    |    (_&#x2F;&quot;&#x3D;._&quot;&#x3D;._ |&#x2F;     &#x2F;\     \| _.&#x3D;&quot;_.&#x3D;&quot;\_)    |      *</span><br><span class="line"> *    |           &quot;&#x3D;._&quot;(_     ^^     _)&quot;_.&#x3D;&quot;           |      *</span><br><span class="line"> *    |               &quot;&#x3D;\__|IIIIII|__&#x2F;&#x3D;&quot;               |      *</span><br><span class="line"> *    |              _.&#x3D;&quot;| \IIIIII&#x2F; |&quot;&#x3D;._              |      *</span><br><span class="line"> *    |    _     _.&#x3D;&quot;_.&#x3D;&quot;\          &#x2F;&quot;&#x3D;._&quot;&#x3D;._     _    |      *</span><br><span class="line"> *    |   ( \_.&#x3D;&quot;_.&#x3D;&quot;     &#96;--------&#96;     &quot;&#x3D;._&quot;&#x3D;._&#x2F; )   |      *</span><br><span class="line"> *    |    &gt; _.&#x3D;&quot;                            &quot;&#x3D;._ &lt;    |      *</span><br><span class="line"> *    |   (_&#x2F;                                    \_)   |      *</span><br><span class="line"> *    |                                                |      *</span><br><span class="line"> *    &#39;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;&#39;      *</span><br><span class="line"> *                                                            *</span><br><span class="line"> *           LASCIATE OGNI SPERANZA, VOI CH&#39;ENTRATE           *</span><br><span class="line"> **************************************************************</span><br><span class="line"> *&#x2F;</span><br></pre></td></tr></table></figure></div><h3 id="六"><a href="#六" class="headerlink" title="六"></a>六</h3><p><a href="images/2018/WX20181015-152741.png" data-fancybox="group" data-caption class="fancybox"><img alt data-src="images/2018/WX20181015-152741.png" class="lazyload" title></a></p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&#x2F;**</span><br><span class="line"> *                    .::::.</span><br><span class="line"> *                  .::::::::.</span><br><span class="line"> *                 :::::::::::  FUCK YOU</span><br><span class="line"> *             ..:::::::::::&#39;</span><br><span class="line"> *           &#39;::::::::::::&#39;</span><br><span class="line"> *             .::::::::::</span><br><span class="line"> *        &#39;::::::::::::::..</span><br><span class="line"> *             ..::::::::::::.</span><br><span class="line"> *           &#96;&#96;::::::::::::::::</span><br><span class="line"> *            ::::&#96;&#96;:::::::::&#39;        .:::.</span><br><span class="line"> *           ::::&#39;   &#39;:::::&#39;       .::::::::.</span><br><span class="line"> *         .::::&#39;      ::::     .:::::::&#39;::::.</span><br><span class="line"> *        .:::&#39;       :::::  .:::::::::&#39; &#39;:::::.</span><br><span class="line"> *       .::&#39;        :::::.:::::::::&#39;      &#39;:::::.</span><br><span class="line"> *      .::&#39;         ::::::::::::::&#39;         &#96;&#96;::::.</span><br><span class="line"> *  ...:::           ::::::::::::&#39;              &#96;&#96;::.</span><br><span class="line"> * &#96;&#96;&#96;&#96; &#39;:.          &#39;:::::::::&#39;                  ::::..</span><br><span class="line"> *                    &#39;.:::::&#39;                    &#39;:&#39;&#96;&#96;&#96;&#96;..</span><br><span class="line"> *&#x2F;</span><br></pre></td></tr></table></figure></div>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;收藏几个有趣的代码注释&lt;/p&gt;
+&lt;h3 id=&quot;一&quot;&gt;&lt;a href=&quot;#一&quot; class=&quot;headerlink&quot; title=&quot;一&quot;&gt;&lt;/a&gt;一&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;images/2018/WX20181015-152803.png&quot; data-fancyb
+      
+    
+    </summary>
+    
+    
+      <category term="备忘" scheme="http://duxinfeng.com/categories/%E5%A4%87%E5%BF%98/"/>
+    
+    
+      <category term="注释" scheme="http://duxinfeng.com/tags/%E6%B3%A8%E9%87%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在纠结什么?</title>
+    <link href="http://duxinfeng.com/2018/10/15/%E5%9C%A8%E7%BA%A0%E7%BB%93%E4%BB%80%E4%B9%88/"/>
+    <id>http://duxinfeng.com/2018/10/15/%E5%9C%A8%E7%BA%A0%E7%BB%93%E4%BB%80%E4%B9%88/</id>
+    <published>2018-10-15T07:22:07.000Z</published>
+    <updated>2018-10-15T07:59:44.782Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="碎碎念" scheme="http://duxinfeng.com/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+      <category term="租房" scheme="http://duxinfeng.com/tags/%E7%A7%9F%E6%88%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Xcode 10 library not found for -lstdc++.6.0.9</title>
+    <link href="http://duxinfeng.com/2018/10/08/Xcode-10-library-not-found-for-lstdc-6-0-9/"/>
+    <id>http://duxinfeng.com/2018/10/08/Xcode-10-library-not-found-for-lstdc-6-0-9/</id>
+    <published>2018-10-08T08:08:33.000Z</published>
+    <updated>2018-10-12T03:08:30.271Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="错误原因："><a href="#错误原因：" class="headerlink" title="错误原因："></a>错误原因：</h3><p><code>libstdc++</code>库五年前已经废弃，已经在iOS 12模拟器中删除，也不支持(tvOS和watchOS)平台。苹果建议大家使用经过了 <code>llvm</code> 优化过并且全面支持C++11的 <code>libc++</code> 库，<code>libc++</code> 为 <code>llvm</code> 项目重新编写的库，简化了代码，速度也有加快。</p><h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案:"></a>解决方案:</h3><ol><li><p><code>Target -&gt; Build Phases -&gt; Link Binary With Libraries</code>里把<code>libstdc++.6.0.9.tbd</code>替换成<code>libc++.tbd</code>。然后Xcode 导航菜单栏，<code>File -&gt; Workspace Setting</code> 然后把上面的<code>Build System</code>设置成<code>Legacy Build System</code>，下面的<code>Build System</code>设置为<code>Use Shared Setting</code>(或者上面的<code>Build System</code>默认<code>New Build System (Default)</code>,下面<code>Build System</code>设置成<code>Legacy Build System</code>好像都可以)。</p></li><li><p>手动将 Xcode 9 中的库 <code>libstdc++.6.0.9.tbd</code> 复制到 Xcode 10 目录下（未验证）</p><pre><code>Xcode 9 路径`/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib`Xcode 10 路径`/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib`目录下具体操作：真机拷贝tdb库到/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/模拟器拷贝dylib库到/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/模拟器拷贝tdb库到/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib/对应库下载地址: https://github.com/Kila2/libstdc-.6.0.9.tbd ,iPhoneOS文件下的库对应真机目录下的库，iPhoneSimulator目录下的库对应模拟器下的库</code></pre></li></ol><h3 id="自己业务"><a href="#自己业务" class="headerlink" title="自己业务"></a>自己业务</h3><p>如果自己业务中使用<code>libstdc++</code>直接换成<code>libc++</code></p><p>如果使用cocoapods集成的第三方SDK中包含<code>libstdc++</code>，则需要第三方服务升级支持，或者改用手动集成，然后把<code>libstdc++</code>换成<code>libc++</code></p><p>参考：<br><a href="https://awhisper.github.io/2018/06/08/libstdc-inxcode10ios12" target="_blank" rel="noopener">https://awhisper.github.io/2018/06/08/libstdc-inxcode10ios12</a><br><a href="https://github.com/Kila2/libstdc-.6.0.9.tbd" target="_blank" rel="noopener">https://github.com/Kila2/libstdc-.6.0.9.tbd</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;错误原因：&quot;&gt;&lt;a href=&quot;#错误原因：&quot; class=&quot;headerlink&quot; title=&quot;错误原因：&quot;&gt;&lt;/a&gt;错误原因：&lt;/h3&gt;&lt;p&gt;&lt;code&gt;libstdc++&lt;/code&gt;库五年前已经废弃，已经在iOS 12模拟器中删除，也不支持(tvOS和w
+      
+    
+    </summary>
+    
+    
+      <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
+    
+    
+      <category term="Xcode10" scheme="http://duxinfeng.com/tags/Xcode10/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Xcode 10  Multiple commands produce 错误</title>
+    <link href="http://duxinfeng.com/2018/10/08/Xcode-10-Multiple-commands-produce-%E9%94%99%E8%AF%AF/"/>
+    <id>http://duxinfeng.com/2018/10/08/Xcode-10-Multiple-commands-produce-%E9%94%99%E8%AF%AF/</id>
+    <published>2018-10-08T07:03:49.000Z</published>
+    <updated>2018-10-12T03:06:09.104Z</updated>
+    
+    <content type="html"><![CDATA[<p>部分旧的工程用Xcode 10打开打开的时候报如下错：</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Build system information</span><br><span class="line">error: Multiple commands produce &#39;&#x2F;Users&#x2F;xxx&#x2F;Library&#x2F;Developer&#x2F;Xcode&#x2F;DerivedData&#x2F;app-xxx&#x2F;Build&#x2F;Products&#x2F;Debug-iphoneos&#x2F;app.app&#39;:</span><br><span class="line">1) Target &#39;app&#39; has create directory command with output &#39;&#x2F;Users&#x2F;xxx&#x2F;Library&#x2F;Developer&#x2F;Xcode&#x2F;DerivedData&#x2F;app-xxx&#x2F;Build&#x2F;Products&#x2F;Debug-iphoneos&#x2F;app.app&#39;</span><br><span class="line">2) That command depends on command in Target &#39;app&#39;: script phase “[CP] Copy Pods Resources”</span><br></pre></td></tr></table></figure></div><p>解决方案：</p><ol><li><p><code>pod --version</code>检查Cocoapods版本是否是最新的1.5.3，如果不是,终端执行进<code>sudo gem install cocoapods</code>行升级<br>然后到到工程Podfile目录下执行<code>pod install</code>即可解决</p></li><li><p><code>Target -&gt; Build Phases -&gt; Copy Bundle Resources</code> 删除里面的<code>info.plist</code> </p></li></ol><p>参考：<br><a href>https://stackoverflow.com/questions/52382667/xcode-10-error-multiple-commands-produce-for-app-and-appex</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;部分旧的工程用Xcode 10打开打开的时候报如下错：&lt;/p&gt;
+&lt;div class=&quot;code-area-wrap&quot;&gt;&lt;div class=&quot;highlight-tools&quot;&gt;&lt;i class=&quot;fa fa-angle-down code-expand&quot; aria-hid
+      
+    
+    </summary>
+    
+    
+      <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
+    
+    
+      <category term="Xcode10" scheme="http://duxinfeng.com/tags/Xcode10/"/>
+    
+      <category term="Error" scheme="http://duxinfeng.com/tags/Error/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WKWebView与WebViewJavascriptBridge踩到的坑</title>
+    <link href="http://duxinfeng.com/2018/05/03/WKWebView%E4%B8%8EWebViewJavascriptBridge%E8%B8%A9%E5%88%B0%E7%9A%84%E5%9D%91/"/>
+    <id>http://duxinfeng.com/2018/05/03/WKWebView%E4%B8%8EWebViewJavascriptBridge%E8%B8%A9%E5%88%B0%E7%9A%84%E5%9D%91/</id>
+    <published>2018-05-03T02:03:57.000Z</published>
+    <updated>2018-10-09T08:29:41.589Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>WKWebview Delegate 不执行</strong></p><p>需要设置 [self.bridge setWebViewDelegate:self];</p><p><strong>调试时网页端alert()无法弹出</strong></p><p>需要手动去WKUIDelegate三个方法中实现</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">#pragma mark -- WKUIDelegate</span><br><span class="line">&#x2F;&#x2F; 显示一个按钮。点击后调用completionHandler回调</span><br><span class="line">- (void)webView:(WKWebView *)webView runJavaScriptAlertPanelWithMessage:(NSString *)message initiatedByFrame:(WKFrameInfo *)frame completionHandler:(void (^)(void))completionHandler&#123;</span><br><span class="line">    </span><br><span class="line">    UIAlertController *alertController &#x3D; [UIAlertController alertControllerWithTitle:message message:nil preferredStyle:UIAlertControllerStyleAlert];</span><br><span class="line">    [alertController addAction:[UIAlertAction actionWithTitle:@&quot;确定&quot; style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) &#123;</span><br><span class="line">        </span><br><span class="line">        completionHandler();</span><br><span class="line">    &#125;]];</span><br><span class="line">    [self presentViewController:alertController animated:YES completion:nil];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 显示两个按钮，通过completionHandler回调判断用户点击的确定还是取消按钮</span><br><span class="line">- (void)webView:(WKWebView *)webView runJavaScriptConfirmPanelWithMessage:(NSString *)message initiatedByFrame:(WKFrameInfo *)frame completionHandler:(void (^)(BOOL))completionHandler&#123;</span><br><span class="line">    </span><br><span class="line">    UIAlertController *alertController &#x3D; [UIAlertController alertControllerWithTitle:message message:nil preferredStyle:UIAlertControllerStyleAlert];</span><br><span class="line">    [alertController addAction:[UIAlertAction actionWithTitle:@&quot;确定&quot; style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) &#123;</span><br><span class="line">        </span><br><span class="line">        completionHandler(YES);</span><br><span class="line">    &#125;]];</span><br><span class="line">    [alertController addAction:[UIAlertAction actionWithTitle:@&quot;取消&quot; style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) &#123;</span><br><span class="line">        </span><br><span class="line">        completionHandler(NO);</span><br><span class="line">    &#125;]];</span><br><span class="line">    [self presentViewController:alertController animated:YES completion:nil];</span><br><span class="line">    </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 显示一个带有输入框和一个确定按钮的，通过completionHandler回调用户输入的内容</span><br><span class="line">- (void)webView:(WKWebView *)webView runJavaScriptTextInputPanelWithPrompt:(NSString *)prompt defaultText:(NSString *)defaultText initiatedByFrame:(WKFrameInfo *)frame completionHandler:(void (^)(NSString * _Nullable))completionHandler&#123;</span><br><span class="line">    </span><br><span class="line">    UIAlertController *alertController &#x3D; [UIAlertController alertControllerWithTitle:@&quot;&quot; message:nil preferredStyle:UIAlertControllerStyleAlert];</span><br><span class="line">    [alertController addTextFieldWithConfigurationHandler:^(UITextField * _Nonnull textField) &#123;</span><br><span class="line">        </span><br><span class="line">    &#125;];</span><br><span class="line">    [alertController addAction:[UIAlertAction actionWithTitle:@&quot;确定&quot; style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) &#123;</span><br><span class="line">        </span><br><span class="line">        completionHandler(alertController.textFields.lastObject.text);</span><br><span class="line">    &#125;]];</span><br><span class="line">    [self presentViewController:alertController animated:YES completion:nil];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;WKWebview Delegate 不执行&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;需要设置 [self.bridge setWebViewDelegate:self];&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;调试时网页端alert()无法弹出&lt;/strong&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
+    
+    
+      <category term="WKWebView" scheme="http://duxinfeng.com/tags/WKWebView/"/>
+    
+      <category term="WebViewJavascriptBridge" scheme="http://duxinfeng.com/tags/WebViewJavascriptBridge/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>获取Images.xcassets启动图、Images.xcassets Icon</title>
+    <link href="http://duxinfeng.com/2018/04/09/%E8%8E%B7%E5%8F%96Images-xcassets%E5%90%AF%E5%8A%A8%E5%9B%BE%E3%80%81Images-xcassets-Icon/"/>
+    <id>http://duxinfeng.com/2018/04/09/%E8%8E%B7%E5%8F%96Images-xcassets%E5%90%AF%E5%8A%A8%E5%9B%BE%E3%80%81Images-xcassets-Icon/</id>
+    <published>2018-04-09T08:15:35.000Z</published>
+    <updated>2018-12-04T06:48:17.678Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="获取Images-xcassets-Icon文件"><a href="#获取Images-xcassets-Icon文件" class="headerlink" title="获取Images.xcassets Icon文件"></a>获取Images.xcassets Icon文件</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">NSDictionary *infoPlist &#x3D; [[NSBundle mainBundle] infoDictionary];</span><br><span class="line">NSString *icon &#x3D; [[infoPlist valueForKeyPath:@&quot;CFBundleIcons.CFBundlePrimaryIcon.CFBundleIconFiles&quot;]lastObject];</span><br><span class="line">UIImage *image &#x3D; [UIImage imageNamed:icon];</span><br></pre></td></tr></table></figure></div><h3 id="获取Images-xcassets启动图"><a href="#获取Images-xcassets启动图" class="headerlink" title="获取Images.xcassets启动图"></a>获取Images.xcassets启动图</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">+ (NSString *)fetchLunchImageName</span><br><span class="line">&#123;</span><br><span class="line">    CGSize winSize &#x3D; [UIScreen mainScreen].bounds.size;</span><br><span class="line">    NSArray* imagesDict &#x3D; [[[NSBundle mainBundle] infoDictionary] valueForKey:@&quot;UILaunchImages&quot;];</span><br><span class="line">    for (NSDictionary* dict in imagesDict) &#123;</span><br><span class="line">        if(CGSizeEqualToSize(CGSizeFromString(dict[@&quot;UILaunchImageSize&quot;]),winSize))</span><br><span class="line">        &#123;</span><br><span class="line">            return dict[@&quot;UILaunchImageName&quot;];</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    return nil;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><h3 id="App-version"><a href="#App-version" class="headerlink" title="App version"></a>App version</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">NSString *version &#x3D; [[[NSBundle mainBundle] infoDictionary] objectForKey:@&quot;CFBundleShortVersionString&quot;];</span><br></pre></td></tr></table></figure></div><h3 id="Bundleid"><a href="#Bundleid" class="headerlink" title="Bundleid"></a>Bundleid</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">NSString *bundleid &#x3D; [[[NSBundle mainBundle] infoDictionary] objectForKey:@&quot;CFBundleIdentifier&quot;];</span><br></pre></td></tr></table></figure></div>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;获取Images-xcassets-Icon文件&quot;&gt;&lt;a href=&quot;#获取Images-xcassets-Icon文件&quot; class=&quot;headerlink&quot; title=&quot;获取Images.xcassets Icon文件&quot;&gt;&lt;/a&gt;获取Images.xcass
+      
+    
+    </summary>
+    
+    
+      <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
+    
+    
+      <category term="Images.xcassets" scheme="http://duxinfeng.com/tags/Images-xcassets/"/>
+    
+      <category term="启动图" scheme="http://duxinfeng.com/tags/%E5%90%AF%E5%8A%A8%E5%9B%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>UITabBar、UINavigationBar设置</title>
+    <link href="http://duxinfeng.com/2018/03/28/UITabBar%E3%80%81UINavigationBar%E8%AE%BE%E7%BD%AE/"/>
+    <id>http://duxinfeng.com/2018/03/28/UITabBar%E3%80%81UINavigationBar%E8%AE%BE%E7%BD%AE/</id>
+    <published>2018-03-28T09:20:49.000Z</published>
+    <updated>2019-11-13T11:57:30.592Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>UITabBar</strong></p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">        NSDictionary *normalTitleAttributes &#x3D; @&#123;NSForegroundColorAttributeName:[UIColor grayColor],NSFontAttributeName:[UIFont systemFontOfSize:10]&#125;;</span><br><span class="line">    NSDictionary *selectedTitleAttributes &#x3D; @&#123;NSForegroundColorAttributeName:[UIColor redColor],NSFontAttributeName:[UIFont systemFontOfSize:10]&#125;;</span><br><span class="line">    [[UITabBarItem appearance] setTitleTextAttributes:normalTitleAttributes forState:UIControlStateNormal];</span><br><span class="line">    [[UITabBarItem appearance] setTitleTextAttributes:selectedTitleAttributes forState:UIControlStateSelected];</span><br><span class="line">  </span><br><span class="line">#if __IPHONE_OS_VERSION_MAX_ALLOWED &gt;&#x3D; 130000</span><br><span class="line">  </span><br><span class="line">    if (@available(iOS 13.0, *)) &#123;</span><br><span class="line">       </span><br><span class="line">        UITabBarAppearance* appearance &#x3D;  self.tabBar.standardAppearance.copy;</span><br><span class="line">        appearance.backgroundImage &#x3D; [UIImage imageWithColor:[UIColor whiteColor]];</span><br><span class="line">        appearance.shadowImage &#x3D; [UIImage new];</span><br><span class="line">        appearance.shadowColor &#x3D; [UIColor clearColor];</span><br><span class="line">        UITabBarItemAppearance *inlineLayoutAppearance &#x3D; [[UITabBarItemAppearance alloc] init];</span><br><span class="line">        [inlineLayoutAppearance.normal setTitleTextAttributes:normalTitleAttributes];</span><br><span class="line">        [inlineLayoutAppearance.selected setTitleTextAttributes:selectedTitleAttributes];</span><br><span class="line">        appearance.stackedLayoutAppearance &#x3D; inlineLayoutAppearance;</span><br><span class="line">        self.tabBar.standardAppearance &#x3D; appearance;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">#else</span><br><span class="line">    </span><br><span class="line">    [[UITabBar appearance] setBarTintColor:[UIColor whiteColor]];</span><br><span class="line">    [[UITabBar appearance] setShadowImage:[[UIImage alloc]init]];</span><br><span class="line">    [[UITabBar appearance] setBackgroundImage:[UIImage imageWithColor:[UIColor whiteColor]]];</span><br><span class="line">    [[UITabBar appearance] setTranslucent:NO];</span><br><span class="line">    </span><br><span class="line">#endif</span><br></pre></td></tr></table></figure></div><p> *<em>UINavigationBar *</em></p> <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; 如果需要设置字体就在字典中加入 [UIFont fontWithName:@&quot;Hiragino Sans GB&quot; size:14]</span><br><span class="line">[[UINavigationBar appearance] setTitleTextAttributes:@&#123;NSForegroundColorAttributeName:[UIColor blackColor]&#125;];</span><br><span class="line">[[UINavigationBar appearance] setBarTintColor:[UIColor whiteColor]]; &#x2F;&#x2F; 导航栏背景颜色</span><br><span class="line">[[UINavigationBar appearance] setTintColor:[UIColor blueColor]]; &#x2F;&#x2F; 导航栏返回按钮、自定义UIBarButtonItem颜色</span><br><span class="line">[[UINavigationBar appearance]  setBackgroundImage:[UIImage imageWithColor:[UIColor whiteColor]] forBarPosition:UIBarPositionAny barMetrics:UIBarMetricsDefault];</span><br><span class="line">[[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]]; &#x2F;&#x2F; 去除自带分割线</span><br><span class="line">[[UINavigationBar appearance] setTranslucent:NO];</span><br></pre></td></tr></table></figure></div><p><strong>translucent属性</strong> </p><p>iOS 7 开始采用了扁平化设计，UINavigationBar和UITabBar附带了半透明效果，translucent属性能决定UITabBar/UINavigationBar是否为半透明的效果，默认为YES，即默认情况下为半透明效果</p><p><strong>设置title属性</strong></p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">self.navigationItem.title &#x3D; @&quot;my title&quot;; &#x2F;&#x2F;sets navigation bar title.</span><br><span class="line">self.tabBarItem.title &#x3D; @&quot;my title&quot;; &#x2F;&#x2F; sets tab bar title.</span><br><span class="line">self.title &#x3D; @&quot;my title&quot;; &#x2F;&#x2F; sets both of these.</span><br></pre></td></tr></table></figure></div><p><strong>UITabBar、UINavigationBar icon图标渲染问题</strong></p> <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">UIImage *leftBarButtonImage &#x3D; [[UIImage imageNamed:@&quot;navbar_back_normal&quot;] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];</span><br><span class="line"></span><br><span class="line">self.navigationItem.leftBarButtonItem &#x3D; [[UIBarButtonItem alloc] initWithImage:leftBarButtonImage style:UIBarButtonItemStylePlain target:self action:@selector(dismiss)];</span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">vc.tabBarItem.title &#x3D; title;</span><br><span class="line">vc.tabBarItem.image &#x3D; [[UIImage imageNamed:image] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];</span><br><span class="line">vc.tabBarItem.selectedImage &#x3D; [[UIImage imageNamed:selectedImage] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];</span><br></pre></td></tr></table></figure></div><p><strong>UIBarButtonItem 间距偏移问题</strong></p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">UIImage *leftBarButtonImage &#x3D; [[UIImage imageNamed:@&quot;navbar_back_normal&quot;] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];</span><br><span class="line"></span><br><span class="line">if (@available(iOS 11.0, *)) &#123;</span><br><span class="line">    UIButton *leftButton &#x3D; [UIButton buttonWithType:UIButtonTypeCustom];</span><br><span class="line">    leftButton.frame &#x3D; CGRectMake(0, 0, 44, 44);</span><br><span class="line">    [leftButton setImage:leftBarButtonImage forState:UIControlStateNormal];</span><br><span class="line">    [leftButton setImage:leftBarButtonImage forState:UIControlStateHighlighted];</span><br><span class="line">    leftButton.contentEdgeInsets &#x3D;UIEdgeInsetsMake(0, -20,0, 0);</span><br><span class="line">    leftButton.imageEdgeInsets &#x3D;UIEdgeInsetsMake(0, -15,0, 0);</span><br><span class="line">    [leftButton addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];</span><br><span class="line">    UIBarButtonItem *leftBarButtonItem &#x3D; [[UIBarButtonItem alloc] initWithCustomView:leftButton];</span><br><span class="line">    self.navigationItem.leftBarButtonItems&#x3D;@[leftBarButtonItem];</span><br><span class="line">    </span><br><span class="line">&#125;else&#123;</span><br><span class="line">    self.navigationItem.leftBarButtonItem &#x3D; [[UIBarButtonItem alloc] initWithImage:leftBarButtonImage style:UIBarButtonItemStylePlain target:self action:@selector(back)];</span><br><span class="line">    UIBarButtonItem *spacer &#x3D; [[UIBarButtonItem alloc] initWithBarButtonSystemItem: UIBarButtonSystemItemFixedSpace target:self action:@selector(back)];</span><br><span class="line">    spacer.width &#x3D; -8;</span><br><span class="line">    self.navigationItem.leftBarButtonItems &#x3D; @[spacer, self.navigationItem.leftBarButtonItem];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><p><strong>UIBarButtonItem frame</strong></p><p>获取self.navigationItem.leftBarButtonItem的frame,因为UIBarButtonItem继承UIView,所以要获取View对象然后在操作</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">UIView *view &#x3D; [self.navigationItem.leftBarButtonItem valueForKey:@&quot;view&quot;];</span><br></pre></td></tr></table></figure></div><hr><p>2019.11.13更新</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;UITabBar&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;code-area-wrap&quot;&gt;&lt;div class=&quot;highlight-tools&quot;&gt;&lt;i class=&quot;fa fa-angle-down code-expand&quot; aria-hidde
+      
+    
+    </summary>
+    
+    
+      <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
+    
+    
+      <category term="UITabBar" scheme="http://duxinfeng.com/tags/UITabBar/"/>
+    
+      <category term="UINavigationBar" scheme="http://duxinfeng.com/tags/UINavigationBar/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SDWebImage源码阅读:NSData+ImageContentType</title>
+    <link href="http://duxinfeng.com/2018/01/23/todo/SDWebImage%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB-NSData-ImageContentType/"/>
+    <id>http://duxinfeng.com/2018/01/23/todo/SDWebImage%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB-NSData-ImageContentType/</id>
+    <published>2018-01-23T09:20:28.000Z</published>
+    <updated>2018-01-23T09:20:28.027Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="categorie1" scheme="http://duxinfeng.com/categories/categorie1/"/>
+    
+    
+      <category term="tag1" scheme="http://duxinfeng.com/tags/tag1/"/>
+    
+      <category term="tag2" scheme="http://duxinfeng.com/tags/tag2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NS_OPTIONS与NS_ENUM</title>
+    <link href="http://duxinfeng.com/2018/01/23/todo/NS-OPTIONS%E4%B8%8ENS-ENUM/"/>
+    <id>http://duxinfeng.com/2018/01/23/todo/NS-OPTIONS%E4%B8%8ENS-ENUM/</id>
+    <published>2018-01-23T09:17:46.000Z</published>
+    <updated>2018-01-23T09:17:46.784Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="categorie1" scheme="http://duxinfeng.com/categories/categorie1/"/>
+    
+    
+      <category term="tag1" scheme="http://duxinfeng.com/tags/tag1/"/>
+    
+      <category term="tag2" scheme="http://duxinfeng.com/tags/tag2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>碎碎念在2018年1月13日</title>
+    <link href="http://duxinfeng.com/2018/01/13/todo/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%8813%E6%97%A5/"/>
+    <id>http://duxinfeng.com/2018/01/13/todo/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%8813%E6%97%A5/</id>
+    <published>2018-01-13T10:19:58.000Z</published>
+    <updated>2018-01-13T10:25:27.554Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="categorie1" scheme="http://duxinfeng.com/categories/categorie1/"/>
+    
+    
+      <category term="tag1" scheme="http://duxinfeng.com/tags/tag1/"/>
+    
+      <category term="tag2" scheme="http://duxinfeng.com/tags/tag2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>碎碎念在2018年1月12日</title>
+    <link href="http://duxinfeng.com/2018/01/12/todo/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%8812%E6%97%A5/"/>
+    <id>http://duxinfeng.com/2018/01/12/todo/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%8812%E6%97%A5/</id>
+    <published>2018-01-12T10:24:47.000Z</published>
+    <updated>2018-01-12T10:48:05.316Z</updated>
+    
+    <content type="html"><![CDATA[<p>安好</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;安好&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="http://duxinfeng.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="tag1" scheme="http://duxinfeng.com/tags/tag1/"/>
+    
+      <category term="tag2" scheme="http://duxinfeng.com/tags/tag2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>碎碎念在2018年1月11日</title>
+    <link href="http://duxinfeng.com/2018/01/11/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%8811%E6%97%A5/"/>
+    <id>http://duxinfeng.com/2018/01/11/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%8811%E6%97%A5/</id>
+    <published>2018-01-11T10:57:20.000Z</published>
+    <updated>2018-01-13T06:43:44.709Z</updated>
+    
+    <content type="html"><![CDATA[<p>新版本昨天上线，首页改版后造成版本崩溃率到达2%。原本三周的开发周期提前一周完成开发并上线，到正式上线中间被拒两次，一次是app第三方Web登录闪退，另一次是误开了Apple Pay设置，但是项目中并未使用Apple Pay，然而在Capabilities中打开了这一项，这个在很早的时候已经打开了，但是在这次审核的时候却不让过了。就在这前一个版本已经因为这个问题被拒了一次，因为最新的Xcode 9.2有个BUG,打包的ipa在iOS 8.2系统设备上用Assets.xcassets管理的本地图片裂开，Xcode 9.1就没问题，所以这一次在另外一个同事电脑上打包提交，合并代码的时候不知道这个设置开关怎么又被打开了，好气。</p><p>这样前前后后时间算起来还是三周了，依然会在成这样事故，有些功能单纯靠测试人员手动测试很难复现出来。接下来准备从四个方面着手解决：</p><p>1、集成BuglyHotfix SDK(v2.1.0)使用热修复功能。BuglyHotfix依然依赖JSPatch，只提供脚本下发功能，如故想通过审核需要对于工程里的JSPatch做混淆。文档地址<a href="https://bugly.qq.com/docs/user-guide/instruction-manual-ios-hotfix/?v=20171123163535" target="_blank" rel="noopener">https://bugly.qq.com/docs/user-guide/instruction-manual-ios-hotfix/?v=20171123163535</a></p><p>2、使用TestFlight进行beta版本测试，让更多的用户一起参与进来。TestFlight功能可邀请2000个用户，只需提供邮箱，但是仍需一天左右的版本审核，才能进行下载安装。</p><p>TestFlight官方文档 <a href="https://help.apple.com/itunes-connect/developer/#/devdc42b26b8" target="_blank" rel="noopener">https://help.apple.com/itunes-connect/developer/#/devdc42b26b8</a></p><p>3、让测试人员搞自动化测试。</p><p>4、引入测试框架，写单元测试。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;新版本昨天上线，首页改版后造成版本崩溃率到达2%。原本三周的开发周期提前一周完成开发并上线，到正式上线中间被拒两次，一次是app第三方Web登录闪退，另一次是误开了Apple Pay设置，但是项目中并未使用Apple Pay，然而在Capabilities中打开了这一项，这
+      
+    
+    </summary>
+    
+    
+      <category term="碎碎念" scheme="http://duxinfeng.com/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+      <category term="BUG" scheme="http://duxinfeng.com/tags/BUG/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>碎碎念在2018年1月10日</title>
+    <link href="http://duxinfeng.com/2018/01/10/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%8810%E6%97%A5/"/>
+    <id>http://duxinfeng.com/2018/01/10/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%8810%E6%97%A5/</id>
+    <published>2018-01-10T08:52:57.000Z</published>
+    <updated>2018-01-11T05:12:19.904Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近几个同事在讨论区块链的事情，讨论一块买着玩玩试试水。早上页看到一QQ群里讨论徐小平对区块链看法的截图被外传的事，该图是徐小平在所投企业CEO群里发的，他明确表示不要外传，但还是有人传出去，也有人觉得这是炒作，找韭菜。</p><p><a href="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2849.JPG" data-fancybox="group" data-caption class="fancybox"><img alt data-src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2849.JPG" class="lazyload" title></a></p><p><a href="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2850.JPG" data-fancybox="group" data-caption class="fancybox"><img alt data-src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2850.JPG" class="lazyload" title></a></p><p><a href="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2851.JPG" data-fancybox="group" data-caption class="fancybox"><img alt data-src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2851.JPG" class="lazyload" title></a></p><p><a href="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2854.PNG" data-fancybox="group" data-caption class="fancybox"><img alt data-src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2854.PNG" class="lazyload" title></a></p><p><a href="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2853.PNG" data-fancybox="group" data-caption class="fancybox"><img alt data-src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2853.PNG" class="lazyload" title></a></p><p>13年的时候开始听路哥说比特币的事，当时他在淘宝买了矿机开始挖币，那个时候已经很难挖了。那一年ripple币给Github用户送ripple币，凡是在2013年5月1日前注册的Github账号且仓库里有代码的用户可获得2020个rippl币，当时价值70块,收到两封邮件收ripple币的，钱也不是很多所以我就先留着了，现在想起来去看邮件的时候钱包链接已失效，账户名和密码也都忘了找不回，哎，这都是命吧。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;最近几个同事在讨论区块链的事情，讨论一块买着玩玩试试水。早上页看到一QQ群里讨论徐小平对区块链看法的截图被外传的事，该图是徐小平在所投企业CEO群里发的，他明确表示不要外传，但还是有人传出去，也有人觉得这是炒作，找韭菜。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://7xj
+      
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="http://duxinfeng.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="碎碎念" scheme="http://duxinfeng.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+      <category term="区块链" scheme="http://duxinfeng.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>app极速建站</title>
+    <link href="http://duxinfeng.com/2018/01/09/app%E6%9E%81%E9%80%9F%E5%BB%BA%E7%AB%99/"/>
+    <id>http://duxinfeng.com/2018/01/09/app%E6%9E%81%E9%80%9F%E5%BB%BA%E7%AB%99/</id>
+    <published>2018-01-09T06:19:58.000Z</published>
+    <updated>2020-02-17T15:48:27.773Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="icon-生成工具"><a href="#icon-生成工具" class="headerlink" title="icon 生成工具"></a>icon 生成工具</h3><p>地址：<a href="http://makeappicon.com" target="_blank" rel="noopener">http://makeappicon.com</a></p><p>上传一张1024*1024像素的icon图，给你生成iOS和Android 全套icon,可用下载下来的文件与工程里icon配置文件夹直接替换</p><h3 id="手机模板"><a href="#手机模板" class="headerlink" title="手机模板"></a>手机模板</h3><p>地址：<a href="https://mockuphone.com" target="_blank" rel="noopener">https://mockuphone.com</a> ，也可以在线上传一张图进行与看效果 <a href="https://mockuphone.com/instant_iphonex" target="_blank" rel="noopener">https://mockuphone.com/instant_iphonex</a></p><p>包含iOS和Android主流机型，可以在模拟器上截图，然后上传图片生成带模型的手机截图</p><h3 id="App-Store-商店模板"><a href="#App-Store-商店模板" class="headerlink" title="App Store 商店模板"></a>App Store 商店模板</h3><p>地址：<a href="https://app.shotbot.io" target="_blank" rel="noopener">https://app.shotbot.io</a> （目前有五套模板）</p><p>上传app截图，生成一套不同场景下使用应用的商店模板图，如下</p><p><a href="http://7xj2sw.com1.z0.glb.clouddn.com/WX20180110-184608.png" data-fancybox="group" data-caption class="fancybox"><img alt data-src="http://7xj2sw.com1.z0.glb.clouddn.com/WX20180110-184608.png" class="lazyload" title></a><br>[### App站点生成工具</p><p>地址：<a href="https://appsite.skygear.io" target="_blank" rel="noopener">https://appsite.skygear.io</a> （目前有五套模板）</p><p>1、输入app名字，根据输入框下面搜索结果选择你的app，选择下一步</p><p>2、根据app自动从App Store上上自动获取app的信息，然后生成一个简介模板，可以对模板里面信息进行编辑和模板选择，进行下一步</p><p>3、进行预览，进行下一步下载网页源码</p><p>点击Download HTML按钮生成网页源码，解压源码包把里面文件上传到你的github仓库上(假设你的github用户名叫xxx,新建的网页仓库叫xxxapp)，再新建一个xxx.github.io，这个时候直接访问<code>https://xxx.github.io/appsite</code> 就可以，也可以把源码直接上传xxx.github.io仓库，直接访问<code>https://xxx.github.io</code>即可，效果如下：</p><p><a href="http://7xj2sw.com1.z0.glb.clouddn.com/WX20180110-184905.png" data-fancybox="group" data-caption class="fancybox"><img alt data-src="http://7xj2sw.com1.z0.glb.clouddn.com/WX20180110-184905.png" class="lazyload" title></a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;icon-生成工具&quot;&gt;&lt;a href=&quot;#icon-生成工具&quot; class=&quot;headerlink&quot; title=&quot;icon 生成工具&quot;&gt;&lt;/a&gt;icon 生成工具&lt;/h3&gt;&lt;p&gt;地址：&lt;a href=&quot;http://makeappicon.com&quot; target
+      
+    
+    </summary>
+    
+    
+      <category term="工具" scheme="http://duxinfeng.com/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="AppStore" scheme="http://duxinfeng.com/tags/AppStore/"/>
+    
+      <category term="app" scheme="http://duxinfeng.com/tags/app/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>碎碎念在2018年1月9日</title>
+    <link href="http://duxinfeng.com/2018/01/09/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%889%E6%97%A5/"/>
+    <id>http://duxinfeng.com/2018/01/09/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%889%E6%97%A5/</id>
+    <published>2018-01-09T03:40:15.000Z</published>
+    <updated>2018-01-13T06:42:50.140Z</updated>
+    
+    <content type="html"><![CDATA[<p>在<a href="https://atjason.com" target="_blank" rel="noopener">https://atjason.com</a>中看到作者<code>每天写一点</code>从2015年11月18日坚持到现在已有两年多，然后又想起记流水账了。</p><p>长时间不写不知道怎么开头，偶尔有零碎的想法，放在了备忘录上想等着哪天有时间、空闲了、无聊的时候捡起来整理一下，到后真的有那么一天，却一点兴趣也没有，或者草草的复制粘贴一些片段丢进去。</p><p>写文字是需要有内容输入的，否则就是吃老本了，每天地铁上下班基本都是在刷微信订阅号和微信看一看，偶尔知乎、小密圈和微博基本上就是过下脑子，真的看到有用的东西，基本过两天都不记得了。写文字可以帮你思考，有些有用的东西能记得更久一些吧，当某一天再回看的时候又是什么样的体验？</p><blockquote><p>愿你出走半生，归来仍是少年。</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;在&lt;a href=&quot;https://atjason.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://atjason.com&lt;/a&gt;中看到作者&lt;code&gt;每天写一点&lt;/code&gt;从2015年11月18日坚持到现在已有两年多，然后又想起记
+      
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="http://duxinfeng.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="碎碎念" scheme="http://duxinfeng.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>fastlane安装与使用</title>
+    <link href="http://duxinfeng.com/2017/12/04/fastlane%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
+    <id>http://duxinfeng.com/2017/12/04/fastlane%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/</id>
+    <published>2017-12-04T08:39:21.000Z</published>
+    <updated>2017-12-06T11:59:55.743Z</updated>
+    
+    <content type="html"><![CDATA[<p>最终效果：在终端上输入<code>bundle exec fastlane beta</code> ,自动打包(ad-hoc)ipa并上传到<a href="https://www.pgyer.com" target="_blank" rel="noopener">https://www.pgyer.com</a></p><ol><li>确保 Xcode command line 已经安装</li><li>gem install fastlane –verbose</li><li>到工程的目录下执行fastlane init</li><li>按照提示输入 AppID以及密码</li></ol><h3 id="使用-bundler-管理依赖"><a href="#使用-bundler-管理依赖" class="headerlink" title="使用 bundler 管理依赖"></a>使用 bundler 管理依赖</h3><p>bundler 用来管理 fastlane 自身版本和 fastlane 运行时的相关依赖版本, 相当于 iOS 开发中的 CocoaPods 框架, 使用方法也和 CocoaPods 如出一辙</p><p>安装bundler：sudo gem install bundler</p><p>在项目根目录下新建 Gemfile 文件并写入<br>source “<a href="https://gems.ruby-china.org&quot;" target="_blank" rel="noopener">https://gems.ruby-china.org&quot;</a></p><p>gem “fastlane”<br>gem “cocoapods”</p><p>安装依赖库, 生成 Gemfile.lock 文件, 这个文件和我们平常接触的 Podfile.lock 文件功能一致, 配置 CI 时也需要在每次构建前调用该命令<br>bundle install</p><p>更新 Gemfile.lock 文件</p><p>bundle exec fastlane [lane]</p><h3 id="安装蒲公英插件"><a href="#安装蒲公英插件" class="headerlink" title="安装蒲公英插件"></a>安装蒲公英插件</h3><p>fastlane add_plugin pgyer</p><p>执行上述命令后，Fastlane 会自动在 App 目录中生成 fastlane 目录，其中就会有 Fastlane 的配置文件 fastlane/Fastfile，这里，我们用 vim 打开：</p><p>vim ./fastlane/Fastfile</p><p>然后，我们找到我们在用的工作流（action），在 gym 指令后，加入蒲公英插件的配置信息。例如：</p><p>lane :beta do<br>  gym(export_method: “ad-hoc”)<br>  pgyer(api_key: “7f15xxxxxxxxxxxxxxxxxx141”, user_key: “4a5bcxxxxxxxxxxxxxxx3a9e”)<br>end</p><p>打包并自动上传 App 到蒲公英</p><p>经过以上配置后，就可以使用 Fastlane 来打包 App，并自动上传到蒲公英了。在终端下，定位到项目所在目录，输入以下命令即可：</p><p>bundle exec fastlane beta</p><p>参考文档</p><ol><li><a href="https://www.pgyer.com/doc/view/fastlane" target="_blank" rel="noopener">https://www.pgyer.com/doc/view/fastlane</a></li><li><a href="http://www.jianshu.com/p/5661000d4d7f" target="_blank" rel="noopener">http://www.jianshu.com/p/5661000d4d7f</a></li><li><a href="https://github.com/fastlane-old/gym/issues/122" target="_blank" rel="noopener">https://github.com/fastlane-old/gym/issues/122</a></li><li><a href="http://www.jianshu.com/p/edcd8d9430f6" target="_blank" rel="noopener">http://www.jianshu.com/p/edcd8d9430f6</a></li><li><a href="https://github.com/mythkiven/AD_Fastlane" target="_blank" rel="noopener">https://github.com/mythkiven/AD_Fastlane</a></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;最终效果：在终端上输入&lt;code&gt;bundle exec fastlane beta&lt;/code&gt; ,自动打包(ad-hoc)ipa并上传到&lt;a href=&quot;https://www.pgyer.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http
+      
+    
+    </summary>
+    
+    
+      <category term="工具" scheme="http://duxinfeng.com/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="fastlane" scheme="http://duxinfeng.com/tags/fastlane/"/>
+    
+      <category term="pgyer" scheme="http://duxinfeng.com/tags/pgyer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于FileZila菜单被遮挡不能拖动问题</title>
+    <link href="http://duxinfeng.com/2017/11/30/%E5%85%B3%E4%BA%8EFileZila%E8%8F%9C%E5%8D%95%E8%A2%AB%E9%81%AE%E6%8C%A1%E4%B8%8D%E8%83%BD%E6%8B%96%E5%8A%A8%E9%97%AE%E9%A2%98/"/>
+    <id>http://duxinfeng.com/2017/11/30/%E5%85%B3%E4%BA%8EFileZila%E8%8F%9C%E5%8D%95%E8%A2%AB%E9%81%AE%E6%8C%A1%E4%B8%8D%E8%83%BD%E6%8B%96%E5%8A%A8%E9%97%AE%E9%A2%98/</id>
+    <published>2017-11-30T03:04:18.000Z</published>
+    <updated>2017-12-04T09:23:17.109Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、系统偏好设置 –&gt; 通用 –&gt; 外观  –&gt; (勾选)自动隐藏和显示菜单栏</p><p>2、待状态栏隐藏后，FileZila导航栏有小部分能看见，选中导航栏进行移动</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1、系统偏好设置 –&amp;gt; 通用 –&amp;gt; 外观  –&amp;gt; (勾选)自动隐藏和显示菜单栏&lt;/p&gt;
+&lt;p&gt;2、待状态栏隐藏后，FileZila导航栏有小部分能看见，选中导航栏进行移动&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="工具" scheme="http://duxinfeng.com/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="FileZila" scheme="http://duxinfeng.com/tags/FileZila/"/>
+    
+  </entry>
+  
+</feed>
