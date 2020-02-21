@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://duxinfeng.com/"/>
-  <updated>2019-11-28T11:21:46.844Z</updated>
+  <updated>2020-02-20T17:39:38.018Z</updated>
   <id>http://duxinfeng.com/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test2</title>
+    <link href="http://duxinfeng.com/2020/02/21/test2/"/>
+    <id>http://duxinfeng.com/2020/02/21/test2/</id>
+    <published>2020-02-20T17:39:38.000Z</published>
+    <updated>2020-02-20T17:39:38.018Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+      <category term="默认" scheme="http://duxinfeng.com/tags/%E9%BB%98%E8%AE%A4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://duxinfeng.com/2020/02/21/test/"/>
+    <id>http://duxinfeng.com/2020/02/21/test/</id>
+    <published>2020-02-20T16:43:05.000Z</published>
+    <updated>2020-02-20T16:43:05.619Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+      <category term="默认" scheme="http://duxinfeng.com/tags/%E9%BB%98%E8%AE%A4/"/>
+    
+  </entry>
   
   <entry>
     <title>碎碎念在2019年11月</title>
@@ -495,62 +529,6 @@
     
     
       <category term="碎碎念" scheme="http://duxinfeng.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>fastlane安装与使用</title>
-    <link href="http://duxinfeng.com/2017/12/04/fastlane%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
-    <id>http://duxinfeng.com/2017/12/04/fastlane%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/</id>
-    <published>2017-12-04T08:39:21.000Z</published>
-    <updated>2017-12-06T11:59:55.743Z</updated>
-    
-    <content type="html"><![CDATA[<p>最终效果：在终端上输入<code>bundle exec fastlane beta</code> ,自动打包(ad-hoc)ipa并上传到<a href="https://www.pgyer.com" target="_blank" rel="noopener">https://www.pgyer.com</a></p><ol><li>确保 Xcode command line 已经安装</li><li>gem install fastlane –verbose</li><li>到工程的目录下执行fastlane init</li><li>按照提示输入 AppID以及密码</li></ol><h3 id="使用-bundler-管理依赖"><a href="#使用-bundler-管理依赖" class="headerlink" title="使用 bundler 管理依赖"></a>使用 bundler 管理依赖</h3><p>bundler 用来管理 fastlane 自身版本和 fastlane 运行时的相关依赖版本, 相当于 iOS 开发中的 CocoaPods 框架, 使用方法也和 CocoaPods 如出一辙</p><p>安装bundler：sudo gem install bundler</p><p>在项目根目录下新建 Gemfile 文件并写入<br>source “<a href="https://gems.ruby-china.org&quot;" target="_blank" rel="noopener">https://gems.ruby-china.org&quot;</a></p><p>gem “fastlane”<br>gem “cocoapods”</p><p>安装依赖库, 生成 Gemfile.lock 文件, 这个文件和我们平常接触的 Podfile.lock 文件功能一致, 配置 CI 时也需要在每次构建前调用该命令<br>bundle install</p><p>更新 Gemfile.lock 文件</p><p>bundle exec fastlane [lane]</p><h3 id="安装蒲公英插件"><a href="#安装蒲公英插件" class="headerlink" title="安装蒲公英插件"></a>安装蒲公英插件</h3><p>fastlane add_plugin pgyer</p><p>执行上述命令后，Fastlane 会自动在 App 目录中生成 fastlane 目录，其中就会有 Fastlane 的配置文件 fastlane/Fastfile，这里，我们用 vim 打开：</p><p>vim ./fastlane/Fastfile</p><p>然后，我们找到我们在用的工作流（action），在 gym 指令后，加入蒲公英插件的配置信息。例如：</p><p>lane :beta do<br>  gym(export_method: “ad-hoc”)<br>  pgyer(api_key: “7f15xxxxxxxxxxxxxxxxxx141”, user_key: “4a5bcxxxxxxxxxxxxxxx3a9e”)<br>end</p><p>打包并自动上传 App 到蒲公英</p><p>经过以上配置后，就可以使用 Fastlane 来打包 App，并自动上传到蒲公英了。在终端下，定位到项目所在目录，输入以下命令即可：</p><p>bundle exec fastlane beta</p><p>参考文档</p><ol><li><a href="https://www.pgyer.com/doc/view/fastlane" target="_blank" rel="noopener">https://www.pgyer.com/doc/view/fastlane</a></li><li><a href="http://www.jianshu.com/p/5661000d4d7f" target="_blank" rel="noopener">http://www.jianshu.com/p/5661000d4d7f</a></li><li><a href="https://github.com/fastlane-old/gym/issues/122" target="_blank" rel="noopener">https://github.com/fastlane-old/gym/issues/122</a></li><li><a href="http://www.jianshu.com/p/edcd8d9430f6" target="_blank" rel="noopener">http://www.jianshu.com/p/edcd8d9430f6</a></li><li><a href="https://github.com/mythkiven/AD_Fastlane" target="_blank" rel="noopener">https://github.com/mythkiven/AD_Fastlane</a></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;最终效果：在终端上输入&lt;code&gt;bundle exec fastlane beta&lt;/code&gt; ,自动打包(ad-hoc)ipa并上传到&lt;a href=&quot;https://www.pgyer.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http
-      
-    
-    </summary>
-    
-    
-      <category term="工具" scheme="http://duxinfeng.com/categories/%E5%B7%A5%E5%85%B7/"/>
-    
-    
-      <category term="fastlane" scheme="http://duxinfeng.com/tags/fastlane/"/>
-    
-      <category term="pgyer" scheme="http://duxinfeng.com/tags/pgyer/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于FileZila菜单被遮挡不能拖动问题</title>
-    <link href="http://duxinfeng.com/2017/11/30/%E5%85%B3%E4%BA%8EFileZila%E8%8F%9C%E5%8D%95%E8%A2%AB%E9%81%AE%E6%8C%A1%E4%B8%8D%E8%83%BD%E6%8B%96%E5%8A%A8%E9%97%AE%E9%A2%98/"/>
-    <id>http://duxinfeng.com/2017/11/30/%E5%85%B3%E4%BA%8EFileZila%E8%8F%9C%E5%8D%95%E8%A2%AB%E9%81%AE%E6%8C%A1%E4%B8%8D%E8%83%BD%E6%8B%96%E5%8A%A8%E9%97%AE%E9%A2%98/</id>
-    <published>2017-11-30T03:04:18.000Z</published>
-    <updated>2017-12-04T09:23:17.109Z</updated>
-    
-    <content type="html"><![CDATA[<p>1、系统偏好设置 –&gt; 通用 –&gt; 外观  –&gt; (勾选)自动隐藏和显示菜单栏</p><p>2、待状态栏隐藏后，FileZila导航栏有小部分能看见，选中导航栏进行移动</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;1、系统偏好设置 –&amp;gt; 通用 –&amp;gt; 外观  –&amp;gt; (勾选)自动隐藏和显示菜单栏&lt;/p&gt;
-&lt;p&gt;2、待状态栏隐藏后，FileZila导航栏有小部分能看见，选中导航栏进行移动&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-      <category term="工具" scheme="http://duxinfeng.com/categories/%E5%B7%A5%E5%85%B7/"/>
-    
-    
-      <category term="FileZila" scheme="http://duxinfeng.com/tags/FileZila/"/>
     
   </entry>
   
