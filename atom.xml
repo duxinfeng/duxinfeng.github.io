@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://duxinfeng.com/"/>
-  <updated>2020-03-11T12:23:32.965Z</updated>
+  <updated>2020-03-11T15:48:12.790Z</updated>
   <id>http://duxinfeng.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://duxinfeng.com/2020/03/11/BB20200311/"/>
     <id>http://duxinfeng.com/2020/03/11/BB20200311/</id>
     <published>2020-03-11T07:21:49.000Z</published>
-    <updated>2020-03-11T12:23:32.965Z</updated>
+    <updated>2020-03-11T15:48:12.790Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="版本提审"><a href="#版本提审" class="headerlink" title="版本提审"></a>版本提审</h3><p>熬到凌晨一点多把这个版本提审了，每次提审都会这样，熬到夜晚很久。平时开发也没有很快的把东西给到测试反馈。安卓版本测试优先级改与苹果。测试人手不够资源不充足，下个版本一定要多催，如果当成一种资源来讲就是多争取一下资源。</p><h3 id="手机系统升级"><a href="#手机系统升级" class="headerlink" title="手机系统升级"></a>手机系统升级</h3><p>趁打包提审期等待期间，把手机系统 iOS 12.4.1 升级到 iOS 13.3.1，然而重启后开机密码由原来的六位变成了成四位，搞的我一脸懵逼，输了多次密码没对的，直到机器被锁10分钟。网上查了一下，大都是四位变六位的案例。 这个时候体会了一把用户面对开发人员写的BUG感受 ，然后尝试万能的重启解决方案就好了，中间卸载一个APP又把系统搞崩溃了，开机之后密码又变成了4位，又做了一次重启解决。</p><h3 id="支付宝品牌色升级"><a href="#支付宝品牌色升级" class="headerlink" title="支付宝品牌色升级"></a>支付宝品牌色升级</h3><p>开机后眼睛瞥见支付宝的主题色变得更蓝了，官方更新文案里说变得更亲和、明快。然而直观感受却不然，色调变得冷，并没有感受到亲和、明快 也没有觉得比以前更好看，可能时间长了就顺眼了吧。想到公司logo相反，最开始这种蓝色变成浅蓝色，顺眼多了。不过也发现苹果应用商店Tab由原来的5个又变成4个了。</p><p><a href="http://qiniu.niuxtech.cn/2020/2020-03-11-1.jpeg" data-fancybox="group" data-caption="img" class="fancybox"><img alt="img" title="img" data-src="http://qiniu.niuxtech.cn/2020/2020-03-11-1.jpeg" class="lazyload"></a></p><h3 id="不要熬夜早点早睡"><a href="#不要熬夜早点早睡" class="headerlink" title="不要熬夜早点早睡"></a>不要熬夜早点早睡</h3><p>每天熬夜在1-2点的时候有一段心率特表高。还是要早点睡。</p><p><a href="http://qiniu.niuxtech.cn/2020/2020-03-11-2.jpeg" data-fancybox="group" data-caption="img" class="fancybox"><img alt="img" title="img" data-src="http://qiniu.niuxtech.cn/2020/2020-03-11-2.jpeg" class="lazyload"></a></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="版本提审"><a href="#版本提审" class="headerlink" title="版本提审"></a>版本提审</h3><p>熬到凌晨一点多把这个版本提审了，每次提审都会这样，熬到夜晚很久。平时开发也没有很快的把东西给到测试反馈。安卓版本测试优先级改与苹果。测试人手不够资源不充足，下个版本一定要多催，如果当成一种资源来讲就是多争取一下资源。</p><h3 id="手机系统升级"><a href="#手机系统升级" class="headerlink" title="手机系统升级"></a>手机系统升级</h3><p>趁打包提审期等待期间，把手机系统 iOS 12.4.1 升级到 iOS 13.3.1，然而重启后开机密码由原来的六位变成了成四位，搞的我一脸懵逼，输了多次密码没对的，直到机器被锁10分钟。网上查了一下，大都是四位变六位的案例。 这个时候体会了一把用户面对开发人员写的BUG感受 ，然后尝试万能的重启解决方案就好了，中间卸载一个APP又把系统搞崩溃了，开机之后密码又变成了4位，又做了一次重启解决。</p><p>系统相册所有照片被复制一遍，这又是什么操作？</p><p>64G存储空间经常告急，导致微信今天已经已经闪退十几次了。</p><h3 id="支付宝品牌色升级"><a href="#支付宝品牌色升级" class="headerlink" title="支付宝品牌色升级"></a>支付宝品牌色升级</h3><p>开机后眼睛瞥见支付宝的主题色变得更蓝了，官方更新文案里说变得更亲和、明快。然而直观感受却不然，色调变得冷，并没有感受到亲和、明快 也没有觉得比以前更好看，可能时间长了就顺眼了吧。想到公司logo相反，最开始这种蓝色变成浅蓝色，顺眼多了。不过也发现苹果应用商店Tab由原来的5个又变成4个了。</p><p><a href="http://qiniu.niuxtech.cn/2020/2020-03-11-1.jpeg" data-fancybox="group" data-caption="img" class="fancybox"><img alt="img" title="img" data-src="http://qiniu.niuxtech.cn/2020/2020-03-11-1.jpeg" class="lazyload"></a></p><h3 id="不要熬夜早点早睡"><a href="#不要熬夜早点早睡" class="headerlink" title="不要熬夜早点早睡"></a>不要熬夜早点早睡</h3><p>每天熬夜在1-2点的时候有一段心率特表高。还是要早点睡。</p><p><a href="http://qiniu.niuxtech.cn/2020/2020-03-11-2.jpeg" data-fancybox="group" data-caption="img" class="fancybox"><img alt="img" title="img" data-src="http://qiniu.niuxtech.cn/2020/2020-03-11-2.jpeg" class="lazyload"></a></p>]]></content>
     
     <summary type="html">
     
