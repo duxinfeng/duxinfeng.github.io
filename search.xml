@@ -287,8 +287,8 @@
     
     <entry>
       <title>Xcode 10  Multiple commands produce 错误</title>
-      <link href="/2018/10/08/undefined/"/>
-      <url>/2018/10/08/undefined/</url>
+      <link href="/2018/10/08/Xcode-10-Multiple-commands-produce/"/>
+      <url>/2018/10/08/Xcode-10-Multiple-commands-produce/</url>
       
         <content type="html"><![CDATA[<p>部分旧的工程用Xcode 10打开打开的时候报如下错：</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Build system information</span><br><span class="line">error: Multiple commands produce &#39;&#x2F;Users&#x2F;xxx&#x2F;Library&#x2F;Developer&#x2F;Xcode&#x2F;DerivedData&#x2F;app-xxx&#x2F;Build&#x2F;Products&#x2F;Debug-iphoneos&#x2F;app.app&#39;:</span><br><span class="line">1) Target &#39;app&#39; has create directory command with output &#39;&#x2F;Users&#x2F;xxx&#x2F;Library&#x2F;Developer&#x2F;Xcode&#x2F;DerivedData&#x2F;app-xxx&#x2F;Build&#x2F;Products&#x2F;Debug-iphoneos&#x2F;app.app&#39;</span><br><span class="line">2) That command depends on command in Target &#39;app&#39;: script phase “[CP] Copy Pods Resources”</span><br></pre></td></tr></table></figure></div><p>解决方案：</p><ol><li><p><code>pod --version</code>检查Cocoapods版本是否是最新的1.5.3，如果不是,终端执行进<code>sudo gem install cocoapods</code>行升级<br>然后到到工程Podfile目录下执行<code>pod install</code>即可解决</p></li><li><p><code>Target -&gt; Build Phases -&gt; Copy Bundle Resources</code> 删除里面的<code>info.plist</code> </p></li></ol><p>参考：<br><a href>https://stackoverflow.com/questions/52382667/xcode-10-error-multiple-commands-produce-for-app-and-appex</a></p>]]></content>
       
@@ -526,8 +526,8 @@
     
     <entry>
       <title>关于FileZila菜单被遮挡不能拖动问题</title>
-      <link href="/2017/11/30/undefined/"/>
-      <url>/2017/11/30/undefined/</url>
+      <link href="/2017/11/30/FileZila/"/>
+      <url>/2017/11/30/FileZila/</url>
       
         <content type="html"><![CDATA[<p>1、系统偏好设置 –&gt; 通用 –&gt; 外观  –&gt; (勾选)自动隐藏和显示菜单栏</p><p>2、待状态栏隐藏后，FileZila导航栏有小部分能看见，选中导航栏进行移动</p>]]></content>
       
@@ -551,10 +551,10 @@
     
     <entry>
       <title>需要提供 Apple ID 验证码才能登录。请键入您的密码，并随后键入显示在您其他设备上的验证码</title>
-      <link href="/2017/10/13/undefined/"/>
-      <url>/2017/10/13/undefined/</url>
+      <link href="/2017/10/13/appid-verify/"/>
+      <url>/2017/10/13/appid-verify/</url>
       
-        <content type="html"><![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>重装了一台MacBook Ari ，但是系统是OS X 10.9.5，一些软件安装不了，只能升级系统。然后在登录账号的时候一直登录失败，提示<code>需要提供 Apple ID 验证码才能登录。请键入您的密码，并随后键入显示在您其他设备上的验证码.</code>，其他设备上也收到验证码，然而就是没有验证码输入框，不知道在哪里输入。如下图（盗用图）：</p><p><a href="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20171013-221619@2x.png" data-fancybox="group" data-caption class="fancybox"><img alt data-src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20171013-221619@2x.png" class="lazyload" title></a></p><p><a href="http://7xj2sw.com1.z0.glb.clouddn.com/cdbf6c81800a19d882c5d4303afa828ba71e46c4.jpg" data-fancybox="group" data-caption class="fancybox"><img alt data-src="http://7xj2sw.com1.z0.glb.clouddn.com/cdbf6c81800a19d882c5d4303afa828ba71e46c4.jpg" class="lazyload" title></a></p><h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><p>一番查找，在百度经验里看了几遍答案，终于在细扣到答案的几个关键字眼<code>把验证码加到密码的后面</code>，试了一下，竟然真的可以。惊不惊喜？意不意外？谁都不服，只服这个验证模式！</p><p><a href="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20171013-222409@2x.png" data-fancybox="group" data-caption class="fancybox"><img alt data-src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20171013-222409@2x.png" class="lazyload" title></a>  </p><br>> 逆风的地方，更适合飞翔，我不怕万人阻挡，只怕自己投降；眼泪的存在，是为了证明悲伤不是一场幻觉。]]></content>
+        <content type="html"><![CDATA[<h4 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h4><p>重装了一台MacBook Ari ，但是系统是OS X 10.9.5，一些软件安装不了，只能升级系统。然后在登录账号的时候一直登录失败，提示<code>需要提供 Apple ID 验证码才能登录。请键入您的密码，并随后键入显示在您其他设备上的验证码.</code>，其他设备上也收到验证码，然而就是没有验证码输入框，不知道在哪里输入。如下图（盗用图）：</p><p><a href="http://qiniu.niuxtech.cn/QQ20171013-221619@2x.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="http://qiniu.niuxtech.cn/QQ20171013-221619@2x.png" class="lazyload"></a></p><p><a href="http://qiniu.niuxtech.cn/cdbf6c81800a19d882c5d4303afa828ba71e46c4.jpg" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="http://qiniu.niuxtech.cn/cdbf6c81800a19d882c5d4303afa828ba71e46c4.jpg" class="lazyload"></a></p><h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><p>一番查找，在百度经验里看了几遍答案，终于在细扣到答案的几个关键字眼<code>把验证码加到密码的后面</code>，试了一下，竟然真的可以。惊不惊喜？意不意外？谁都不服，只服这个验证模式！</p><p><a href="http://qiniu.niuxtech.cn/QQ20171013-222409@2x.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="http://qiniu.niuxtech.cn/QQ20171013-222409@2x.png" class="lazyload"></a>  </p><hr><p>逆风的地方，更适合飞翔，我不怕万人阻挡，只怕自己投降；眼泪的存在，是为了证明悲伤不是一场幻觉。</p>]]></content>
       
       
       <categories>
@@ -630,8 +630,8 @@
     
     <entry>
       <title>工具备忘</title>
-      <link href="/2017/09/16/undefined/"/>
-      <url>/2017/09/16/undefined/</url>
+      <link href="/2017/09/16/tools/"/>
+      <url>/2017/09/16/tools/</url>
       
         <content type="html"><![CDATA[<blockquote><p>有时候去查一些东西的时候无意中能遇到一些好玩的工具，有意思的网站，比较小众，等想起来的时候发现又找不到了，然后就整理在这里。</p></blockquote><h4 id="Material-Design图标：https-material-io-icons"><a href="#Material-Design图标：https-material-io-icons" class="headerlink" title="Material Design图标：https://material.io/icons"></a>Material Design图标：<a href="https://material.io/icons" target="_blank" rel="noopener">https://material.io/icons</a></h4><blockquote><p>博客使用的<a href="https://github.com/viosey/hexo-theme-material" target="_blank" rel="noopener">material</a>主题，在自定义侧边栏图标时想换中，但是主题并没有实例图标名字的示例，无意中发现在这里，图标对于名字。 </p></blockquote><h4 id="开源图标：https-feathericons-com"><a href="#开源图标：https-feathericons-com" class="headerlink" title="开源图标：https://feathericons.com"></a>开源图标：<a href="https://feathericons.com" target="_blank" rel="noopener">https://feathericons.com</a></h4><h4 id="编写文档工具Docsify-https-docsify-js-org"><a href="#编写文档工具Docsify-https-docsify-js-org" class="headerlink" title="编写文档工具Docsify:https://docsify.js.org"></a>编写文档工具Docsify:<a href="https://docsify.js.org" target="_blank" rel="noopener">https://docsify.js.org</a></h4><h4 id="https-www-appsight-io"><a href="#https-www-appsight-io" class="headerlink" title="https://www.appsight.io"></a><a href="https://www.appsight.io" target="_blank" rel="noopener">https://www.appsight.io</a></h4><blockquote><p>查找第三方SDK被哪些app使用，或者某个app都使用了哪些第三方库（目前一些不知名的app查不到）</p></blockquote><h3 id="icon-生成工具-http-makeappicon-com"><a href="#icon-生成工具-http-makeappicon-com" class="headerlink" title="icon 生成工具 http://makeappicon.com"></a>icon 生成工具 <a href="http://makeappicon.com" target="_blank" rel="noopener">http://makeappicon.com</a></h3><h3 id="手机模板-https-mockuphone-com"><a href="#手机模板-https-mockuphone-com" class="headerlink" title="手机模板 https://mockuphone.com"></a>手机模板 <a href="https://mockuphone.com" target="_blank" rel="noopener">https://mockuphone.com</a></h3><h3 id="App-Store-商店模板-https-app-shotbot-io"><a href="#App-Store-商店模板-https-app-shotbot-io" class="headerlink" title="App Store 商店模板 https://app.shotbot.io"></a>App Store 商店模板 <a href="https://app.shotbot.io" target="_blank" rel="noopener">https://app.shotbot.io</a></h3><h3 id="App站点生成工具-https-appsite-skygear-io"><a href="#App站点生成工具-https-appsite-skygear-io" class="headerlink" title="App站点生成工具 https://appsite.skygear.io"></a>App站点生成工具 <a href="https://appsite.skygear.io" target="_blank" rel="noopener">https://appsite.skygear.io</a></h3>]]></content>
       
@@ -734,10 +734,10 @@
     
     <entry>
       <title>ERROR ITMS-90086 +  ERROR ITMS-90203</title>
-      <link href="/2017/05/22/undefined/"/>
-      <url>/2017/05/22/undefined/</url>
+      <link href="/2017/05/22/error-itms-90086/"/>
+      <url>/2017/05/22/error-itms-90086/</url>
       
-        <content type="html"><![CDATA[<p>打包app提交到审核的时候报错：<br>1、ERROR ITMS-90086: “Missing 64-bit support.<br>2、ERROR ITMS-90203: “Invalid architecture: Apps that include an app extension and framework must support arm64.</p><p><a href="http://7xj2sw.com1.z0.glb.clouddn.com/ERROR-ITMS-90086.png" data-fancybox="group" data-caption class="fancybox"><img alt data-src="http://7xj2sw.com1.z0.glb.clouddn.com/ERROR-ITMS-90086.png" class="lazyload" title></a></p><p>提示app不支持64-bit（也有可能第三方SDK、第三方库不支持造成）,一般出现这种问题需要检查工程配合情况： TARGETS -&gt; Build Settings中的Architectures中</p><p><a href="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20170526-181451.png" data-fancybox="group" data-caption class="fancybox"><img alt data-src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20170526-181451.png" class="lazyload" title></a></p><p>在这个版本优化推送通知的时候加入了iOS10的一些新特性,添加了iOS10的Extension和Service，检查了一下竟然没有armv64的支持，手动加上即可。<br><a href="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20170526-181038.png" data-fancybox="group" data-caption class="fancybox"><img alt data-src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20170526-181038.png" class="lazyload" title></a></p><p><a href="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20170526-181107.png" data-fancybox="group" data-caption class="fancybox"><img alt data-src="http://7xj2sw.com1.z0.glb.clouddn.com/QQ20170526-181107.png" class="lazyload" title></a></p>]]></content>
+        <content type="html"><![CDATA[<p>打包app提交到审核的时候报错：<br>1、ERROR ITMS-90086: “Missing 64-bit support.<br>2、ERROR ITMS-90203: “Invalid architecture: Apps that include an app extension and framework must support arm64.</p><p><a href="http://qiniu.niuxtech.cn/ERROR-ITMS-90086.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="http://qiniu.niuxtech.cn/ERROR-ITMS-90086.png" class="lazyload"></a></p><p>提示app不支持64-bit（也有可能第三方SDK、第三方库不支持造成）,一般出现这种问题需要检查工程配合情况： TARGETS -&gt; Build Settings中的Architectures中</p><p><a href="http://qiniu.niuxtech.cn/QQ20170526-181451.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="http://qiniu.niuxtech.cn/QQ20170526-181451.png" class="lazyload"></a></p><p>在这个版本优化推送通知的时候加入了iOS10的一些新特性,添加了iOS10的Extension和Service，检查了一下竟然没有armv64的支持，手动加上即可。<br><a href="http://qiniu.niuxtech.cn/QQ20170526-181038.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="http://qiniu.niuxtech.cn/QQ20170526-181038.png" class="lazyload"></a></p><p><a href="http://qiniu.niuxtech.cn/QQ20170526-181107.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="http://qiniu.niuxtech.cn/QQ20170526-181107.png" class="lazyload"></a></p>]]></content>
       
       
       <categories>
@@ -809,8 +809,8 @@
     
     <entry>
       <title>WKWebView</title>
-      <link href="/2017/04/10/undefined/"/>
-      <url>/2017/04/10/undefined/</url>
+      <link href="/2017/04/10/WKWebView/"/>
+      <url>/2017/04/10/WKWebView/</url>
       
         <content type="html"><![CDATA[<h3 id="加载本地html"><a href="#加载本地html" class="headerlink" title="加载本地html"></a>加载本地html</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">WKWebViewConfiguration *configuration &#x3D; [[WKWebViewConfiguration alloc] init];</span><br><span class="line">WKWebView *wkWebView &#x3D; [[WKWebView alloc] initWithFrame:self.view.frame configuration:configuration];</span><br><span class="line">wkWebView.backgroundColor &#x3D; [UIColor whiteColor];</span><br><span class="line">wkWebView.scrollView.showsVerticalScrollIndicator &#x3D; NO;</span><br><span class="line">[wkWebView.scrollView setContentInset:UIEdgeInsetsMake(0, 0, 44, 0)];</span><br><span class="line">NSString *filePath &#x3D; [[NSBundle mainBundle] pathForResource:@&quot;abc&quot; ofType:@&quot;html&quot;];</span><br><span class="line">NSURL *baseURL &#x3D; [NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]];</span><br><span class="line">NSError *error;</span><br><span class="line">NSString *html &#x3D; [NSString stringWithContentsOfFile:filePath</span><br><span class="line">                                           encoding:NSUTF8StringEncoding</span><br><span class="line">                                              error:&amp;error];</span><br><span class="line">[wkWebView loadHTMLString:html baseURL:baseURL];</span><br><span class="line">[self.view addSubview:wkWebView];</span><br></pre></td></tr></table></figure></div><h3 id="加载一个网页"><a href="#加载一个网页" class="headerlink" title="加载一个网页"></a>加载一个网页</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">WKWebViewConfiguration *configuration &#x3D; [[WKWebViewConfiguration alloc] init];</span><br><span class="line"> WKWebView *wkWebView &#x3D; [[WKWebView alloc] initWithFrame:self.view.bounds configuration:configuration];</span><br><span class="line"> wkWebView.backgroundColor &#x3D; [UIColor whiteColor];</span><br><span class="line"> wkWebView.scrollView.showsVerticalScrollIndicator &#x3D; NO;</span><br><span class="line"> NSURL *url &#x3D; [[NSURL alloc]initWithString:@&quot;http:&#x2F;&#x2F;www.baidu.com&quot;];</span><br><span class="line"> [wkWebView loadRequest:[NSURLRequest requestWithURL:url]];</span><br><span class="line"> [self.view addSubview:wkWebView];</span><br></pre></td></tr></table></figure></div><h3 id="加载本地PDF"><a href="#加载本地PDF" class="headerlink" title="加载本地PDF"></a>加载本地PDF</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">- (void)didLoadLocalPDF:(NSURL *)filePath</span><br><span class="line">&#123;    </span><br><span class="line">    WKWebViewConfiguration *configuration &#x3D; [[WKWebViewConfiguration alloc] init];</span><br><span class="line">    WKWebView *wkWebView &#x3D; [[WKWebView alloc] initWithFrame:self.view.bounds configuration:configuration];</span><br><span class="line">    wkWebView.backgroundColor &#x3D; [UIColor whiteColor];</span><br><span class="line">    wkWebView.scrollView.showsVerticalScrollIndicator &#x3D; NO;</span><br><span class="line">    [wkWebView loadData:[NSData dataWithContentsOfURL:filePath] MIMEType:@&quot;application&#x2F;pdf&quot; characterEncodingName:@&quot;UTF-8&quot; baseURL:nil];</span><br><span class="line">    [self.view addSubview:wkWebView];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><h3 id="加载在线PDF"><a href="#加载在线PDF" class="headerlink" title="加载在线PDF"></a>加载在线PDF</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">WKWebViewConfiguration *configuration &#x3D; [[WKWebViewConfiguration alloc] init];</span><br><span class="line">WKWebView *wkWebView &#x3D; [[WKWebView alloc] initWithFrame:self.view.bounds configuration:configuration];</span><br><span class="line">wkWebView.backgroundColor &#x3D; [UIColor whiteColor];</span><br><span class="line">wkWebView.scrollView.showsVerticalScrollIndicator &#x3D; NO;</span><br><span class="line">NSURL *url &#x3D; [[NSURL alloc]initWithString:@&quot;https:&#x2F;&#x2F;xxx.pdf&quot;];</span><br><span class="line">[wkWebView loadRequest:[NSURLRequest requestWithURL:url]];</span><br><span class="line">[self.view addSubview:wkWebView];</span><br></pre></td></tr></table></figure></div>]]></content>
       
@@ -834,8 +834,8 @@
     
     <entry>
       <title>貌似很有道理</title>
-      <link href="/2017/01/02/undefined/"/>
-      <url>/2017/01/02/undefined/</url>
+      <link href="/2017/01/02/truth/"/>
+      <url>/2017/01/02/truth/</url>
       
         <content type="html"><![CDATA[<p>1、如果有一天： 你不再寻找爱情，只是去爱；你不再渴望成功，只是去做； 你不再追求成长，只是去修；一切才真正开始！ </p><p>2、如果不能在一起，就不要给对方任何希望任何暗示，这才是最大的担当；分开了，不去打搅让对方安然生活，这才是最后的温柔。</p><p>3、不要去听别人的忽悠，你人生的每一步都必须靠自己的能力完成。自己肚子里没有料，手上没本事，认识再多人也没用。人脉只会给你机会，但抓住机会还是要靠真本事。所以，修炼自己，比到处逢迎别人重要的多。</p><p>4、这世上，没有能回去的感情。就算真的回去了，你也会发现，一切已经面目全非。唯一能回去的，只是存于心底的记忆。是的，回不去了，所以，我们只能一直往前。</p><p>5、以前以为坚持就是永不动摇，现在才明白，坚持是犹豫着、退缩着、心猿意马着，但还在继续往前走 。</p>]]></content>
       
@@ -850,6 +850,8 @@
         <tags>
             
             <tag> 摘录 </tag>
+            
+            <tag> 复盘 </tag>
             
         </tags>
       
@@ -990,8 +992,8 @@
     
     <entry>
       <title>DOUAudioStreamer设置currentTime无效</title>
-      <link href="/2016/01/31/undefined/"/>
-      <url>/2016/01/31/undefined/</url>
+      <link href="/2016/01/31/DOUAudioStreamer%E8%AE%BE%E7%BD%AEcurrentTime%E6%97%A0%E6%95%88/"/>
+      <url>/2016/01/31/DOUAudioStreamer%E8%AE%BE%E7%BD%AEcurrentTime%E6%97%A0%E6%95%88/</url>
       
         <content type="html"><![CDATA[<h3 id="关于DOUAudioStreamer"><a href="#关于DOUAudioStreamer" class="headerlink" title="关于DOUAudioStreamer"></a>关于DOUAudioStreamer</h3><p>DOUAudioStreamer是基于豆瓣团队Core Audio实现的用于iOS/Mac的开源流媒体播放引擎。代码托管地址：<a href="https://github.com/douban/DOUAudioStreamer" target="_blank" rel="noopener">https://github.com/douban/DOUAudioStreamer</a></p><h3 id="示例Demo"><a href="#示例Demo" class="headerlink" title="示例Demo"></a>示例Demo</h3><p>1、官方有个demo:<a href="https://github.com/douban/DOUAudioStreamer/tree/master/example/DOUASDemo" target="_blank" rel="noopener">https://github.com/douban/DOUAudioStreamer/tree/master/example/DOUASDemo</a><br>2、另一个功能比较完善的demo:<a href="https://github.com/Aufree/ESTMusicPlayer" target="_blank" rel="noopener">https://github.com/Aufree/ESTMusicPlayer</a></p><h3 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h3><p>因为需求问题，我需要在初始化DOUAudioStreamer对象时，就去设置currentTime属性：</p><pre><code>_streamer = [DOUAudioStreamer streamerWithAudioFile:track];_streamer.currentTime = 10.0; [_streamer play];</code></pre><p>然而，这并不像我们相信那样，从10s的时候开始播放。</p><h3 id="猥琐的解决办法"><a href="#猥琐的解决办法" class="headerlink" title="猥琐的解决办法"></a>猥琐的解决办法</h3><p>当然如果你正常的播放音频文件，然后拖动滑动条从某个时间点开始播放是没有问题的，完全正常。也就是说streamer在play之前有个加载音频文件的缓冲时间。所以想到一个比较猥琐的办法，</p><pre><code>_streamer = [DOUAudioStreamer streamerWithAudioFile:track];[_streamer play];[NSThread sleepForTimeInterval:0.5];_audioStreamer.currentTime = 10.0;</code></pre><p>嗯，貌似草草的解决了。</p><p>如果看过demo的知道，demo里会有几个KVO的方法，其中有一个是监听 <code>updateSliderValue</code>方法，监听_audioStreamer当前播放进度。</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">- (void)removeStreamerObserver &#123;</span><br><span class="line">    [_audioStreamer removeObserver:self forKeyPath:@&quot;status&quot;];</span><br><span class="line">    [_audioStreamer removeObserver:self forKeyPath:@&quot;duration&quot;];</span><br><span class="line">    [_audioStreamer removeObserver:self forKeyPath:@&quot;bufferingRatio&quot;];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">- (void)addStreamerObserver &#123;</span><br><span class="line">    [_audioStreamer addObserver:self forKeyPath:@&quot;status&quot; options:NSKeyValueObservingOptionNew context:kStatusKVOKey];</span><br><span class="line">    [_audioStreamer addObserver:self forKeyPath:@&quot;duration&quot; options:NSKeyValueObservingOptionNew context:kDurationKVOKey];</span><br><span class="line">    [_audioStreamer addObserver:self forKeyPath:@&quot;bufferingRatio&quot; options:NSKeyValueObservingOptionNew context:kBufferingRatioKVOKey];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context &#123;</span><br><span class="line">    if (context &#x3D;&#x3D; kStatusKVOKey) &#123;</span><br><span class="line">        [self performSelector:@selector(updateStatus)</span><br><span class="line">                     onThread:[NSThread mainThread]</span><br><span class="line">                   withObject:nil</span><br><span class="line">                waitUntilDone:NO];</span><br><span class="line">    &#125; else if (context &#x3D;&#x3D; kDurationKVOKey) &#123;</span><br><span class="line">        [self performSelector:@selector(updateSliderValue:)</span><br><span class="line">                     onThread:[NSThread mainThread]</span><br><span class="line">                   withObject:nil</span><br><span class="line">                waitUntilDone:NO];</span><br><span class="line">    &#125; else if (context &#x3D;&#x3D; kBufferingRatioKVOKey) &#123;</span><br><span class="line">        [self performSelector:@selector(updateBufferingStatus)</span><br><span class="line">                     onThread:[NSThread mainThread]</span><br><span class="line">                   withObject:nil</span><br><span class="line">                waitUntilDone:NO];</span><br><span class="line">    &#125; else &#123;</span><br><span class="line">        [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><p>所以又意淫出另外一个方法，如果<code>self.audioStreamer.currentTime &lt; 10</code>, 我就设置<code>self.audioStreamer.currentTime = 10;</code>,</p><p>初始化</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">_streamer &#x3D; [DOUAudioStreamer streamerWithAudioFile:track];</span><br><span class="line">[_streamer play];</span><br></pre></td></tr></table></figure></div><p>然后，在updateSliderValue方法里做判断</p><pre><code>if (self.audioStreamer.currentTime&lt;10){     self.audioStreamer.currentTime = 10;}</code></pre><h3 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h3><p>当然遇到这样问题，也去Github上提交了issue(<a href="https://github.com/douban/DOUAudioStreamer/issues/102" target="_blank" rel="noopener">https://github.com/douban/DOUAudioStreamer/issues/102</a>)，但是一直没有回复，也没有精力去研究源码，改一改，也没用那水平，所以就这样解决了。</p><p>也想过找另外类似的播放引擎，确实找打一个StreamingKit：<a href="https://github.com/tumtumtum/StreamingKit" target="_blank" rel="noopener">https://github.com/tumtumtum/StreamingKit</a><br>确实也简单易用，但是和DOUAudioStreamer存在同样的问题，最终还是选择了DOUAudioStreamer。</p>]]></content>
       
@@ -1065,24 +1067,18 @@
     
     <entry>
       <title>碎碎念在12月31日</title>
-      <link href="/2015/12/31/undefined/"/>
-      <url>/2015/12/31/undefined/</url>
+      <link href="/2015/12/31/BB20151231/"/>
+      <url>/2015/12/31/BB20151231/</url>
       
         <content type="html"><![CDATA[<p>梦想总是要有的，万一要实现了呢？</p>]]></content>
       
       
       <categories>
           
-          <category> 生活 </category>
+          <category> 碎碎念 </category>
           
       </categories>
       
-      
-        <tags>
-            
-            <tag> 碎碎念 </tag>
-            
-        </tags>
       
     </entry>
     
@@ -1090,24 +1086,18 @@
     
     <entry>
       <title>碎碎念在12月20日</title>
-      <link href="/2015/12/20/undefined/"/>
-      <url>/2015/12/20/undefined/</url>
+      <link href="/2015/12/20/BB20151220/"/>
+      <url>/2015/12/20/BB20151220/</url>
       
         <content type="html"><![CDATA[<p>临近过年，琐事也多了起来。各种朋友同学亲戚结婚</p><h4 id="关于介绍iOS项目结构的文章"><a href="#关于介绍iOS项目结构的文章" class="headerlink" title="关于介绍iOS项目结构的文章"></a>关于介绍iOS项目结构的文章</h4><p><a href="http://limboy.me/ios/2013/09/23/build-ios-application.html" target="_blank" rel="noopener">http://limboy.me/ios/2013/09/23/build-ios-application.html</a></p><p><a href="http://www.samirchen.com/ios-project-structure/" target="_blank" rel="noopener">http://www.samirchen.com/ios-project-structure/</a></p><h4 id="关于Git，还没看，low了一眼看作者写的不错"><a href="#关于Git，还没看，low了一眼看作者写的不错" class="headerlink" title="关于Git，还没看，low了一眼看作者写的不错"></a>关于Git，还没看，low了一眼看作者写的不错</h4><p><a href="http://github.phodal.com" target="_blank" rel="noopener">http://github.phodal.com</a></p><h4 id="这世界上99-的事情都可以用钱来解决"><a href="#这世界上99-的事情都可以用钱来解决" class="headerlink" title="这世界上99%的事情都可以用钱来解决"></a>这世界上99%的事情都可以用钱来解决</h4><p>当前我正在陷入这个99%的情况中，在尴尬的年纪里缺钱。。。</p><h4 id="被上一课"><a href="#被上一课" class="headerlink" title="被上一课"></a>被上一课</h4><h5 id="内向的人"><a href="#内向的人" class="headerlink" title="内向的人"></a>内向的人</h5><p>不善于言谈，社交恐惧，不会表达。有的时候在描述一件事情的时候结结巴巴，有的时候说完人家不知道你说的什么，有的时候人家听不清在说啥，只看到喉喽在动。缺气势，没气场。</p><h5 id="没主见"><a href="#没主见" class="headerlink" title="没主见"></a>没主见</h5><p>唯唯诺诺，心态不成熟，缺乏担当。</p><h5 id="笨，缺心眼"><a href="#笨，缺心眼" class="headerlink" title="笨，缺心眼"></a>笨，缺心眼</h5><p>事情只看到表面，而隐含的意思</p>]]></content>
       
       
       <categories>
           
-          <category> 生活 </category>
+          <category> 碎碎念 </category>
           
       </categories>
       
-      
-        <tags>
-            
-            <tag> 碎碎念 </tag>
-            
-        </tags>
       
     </entry>
     
@@ -1165,8 +1155,8 @@
     
     <entry>
       <title>碎碎念在12月14日</title>
-      <link href="/2015/12/14/undefined/"/>
-      <url>/2015/12/14/undefined/</url>
+      <link href="/2015/12/14/BB20151214/"/>
+      <url>/2015/12/14/BB20151214/</url>
       
         <content type="html"><![CDATA[<p>因为一些不可抗拒因素，所以这一期碎碎念是后来追加的。</p><p>不过发现也没那多内容拿出来叨叨了，本来也就是记一记碎事，愈发归于平淡。</p><h4 id="发现一个不错repo"><a href="#发现一个不错repo" class="headerlink" title="发现一个不错repo"></a>发现一个不错repo</h4><p>关于创业，关于如何做好产品的一些优秀文章个人收集：<a href="https://github.com/voff12/awesome-product-thought" target="_blank" rel="noopener">https://github.com/voff12/awesome-product-thought</a></p><p>很值得一读，不过目前我看了<code>雷军在联想的内部分享</code>这一篇，<code>信仰</code>、<code>超出预期</code>、<code>口碑</code>是看完这篇文章时候比较兴趣的词汇。（此时我在绞尽脑汁想写一段读后感，无奈词穷，还欠思考，还是多读书多看报。）</p><h4 id="接力GoAgent翻墙工具"><a href="#接力GoAgent翻墙工具" class="headerlink" title="接力GoAgent翻墙工具"></a>接力GoAgent翻墙工具</h4><p>并未尝试能不能用，有需要可以尝试尝试。</p><p>Github：<a href="https://github.com/XX-net/XX-Net" target="_blank" rel="noopener">https://github.com/XX-net/XX-Net</a></p><h4 id="PHPHub-iOS开源客户端"><a href="#PHPHub-iOS开源客户端" class="headerlink" title="PHPHub iOS开源客户端"></a>PHPHub iOS开源客户端</h4><p>又一社区开源了iOS客户单源码。之前看到这个源码客户端的时候拉不到数据，于是提了一个issue，然后这周作者回复了我可以用了。<br>GitHub:<a href="https://github.com/Aufree/phphub-ios" target="_blank" rel="noopener">https://github.com/Aufree/phphub-ios</a></p>]]></content>
       
@@ -1189,25 +1179,23 @@
     
     
     <entry>
-      <title>《人性的弱点读书》读书笔记</title>
-      <link href="/2015/12/11/undefined/"/>
-      <url>/2015/12/11/undefined/</url>
+      <title>《人性的弱点》读书笔记</title>
+      <link href="/2015/12/11/read20151211/"/>
+      <url>/2015/12/11/read20151211/</url>
       
-        <content type="html"><![CDATA[<p>摘录部分是在读书的时候做的笔记，也有一些对特立观点的无法描述，但是作者能通俗的表达出来。</p><ol><li><p>为什么我会摘抄这一点呢？或多或少某一点打动了，说出了我心里表达不出来的，</p></li><li><p>个人的成功只要百分之十五院子专业能力，另外的百分之八十五则来自“人类工程学”，即人格特质和领导能力。</p></li><li><p>无论是工程、会计、建筑还是其他需要技术能力的行业，专业的人才只要有过硬的技术就能找到工作。但想要拿高薪，他们必须在专业技能之外还具备表达能力、领导能力和激发他人的工作热情的能力。</p></li><li><p>人际交往能力决定了我们的受欢迎程度、我的幸福感和自我价值。</p></li><li><p>每当你需要解决管教孩子、说服家人或者安抚客户等具体问题时，请不要听任自己的本能反应，因为第一反应往往是错的。</p><blockquote><p>不要误解作者说的第一反应就是错的，而是作者前提条件的时候，“管教孩子”“舒服家人”“解决、安抚客户问题”，其实我想说的应该是说在你冲动的时候，告诉你要冷静思考</p></blockquote></li></ol><ol><li><p>批评是无用的，她激起抵触，让人急于辩白；批评是危险的，它会伤害自尊，甚至让人萌生恨意。</p></li><li><p>责备所引发的怨恨不仅无益，更会大几家人、朋友和员工的积极性。</p></li></ol><ol><li><p>对性和成功的欲望是人类永恒的动机。</p><blockquote><p>-为什么不是永恒的动力，翻译问题？</p></blockquote></li><li><p>人性的根源深处，强烈渴求他人的欣赏。</p></li><li><p>一些精神分裂患者确实在疯癫中得到了现实世界中无法获得的被重视感。</p></li><li><p>人们如此渴望他们的认同，甚至不惜以发疯为代价。</p></li><li><p>真心实意地感谢他人、赞美他人</p></li><li><p>我个人非常喜欢草莓和奶油，不过我惊奇发现，鱼类居然对人间美味不感兴趣，只喜欢吃虫子。所以每次去钓鱼的时候，我不会考虑自己想要什么，而是考虑鱼想要什么。</p><blockquote><p>对考虑用户的需求，用户想要什么，不能我们自己坐在那意淫用户想要什么，当然有的用户也不知自己想要什么，那我们就要去意淫他们的需求，发现他们还需要什么</p></blockquote></li><li><p>说服别人的首要途径，是引发对方强烈的欲求。</p></li><li><p>人们只有真心热爱自己做的事，才有可能取得成功。</p></li><li><p>哪怕你不习惯微笑，也请努力试看。独自一个人的时候，假装很开心–这些举动真的会让你开心起来。</p><blockquote><p>科学解释：人们往往认为感觉先于行动，但实际上，感觉与行动是同步的。相较于情绪，只有调整行为，才能够调整间接的调整兴趣</p><p> 想要找回丢失的快乐，就偷偷的坐直身体，愉快的谈天做事，感觉快乐已经回到你的身边，这是通往快乐的最佳方式。</p></blockquote></li></ol><ol><li><p>无论对于任何人，无论以何种语言，自己的名字都是世界是哪个最甜蜜的词汇</p></li><li><p>专注倾听，鼓励他人谈论自己。</p></li><li><p>发自肺腑的赞美所产生的力量。</p></li><li><p>如果能得到他人的重视，很多人得生活会因此改变。</p></li><li><p>每个人在内心深处都渴望被重视。</p><blockquote><p>在学校里渴望被老师重视，在工作中渴望被上司老板重视。就像上一句说的，如果能得到他人的重视，很多人的生活会因此改变</p></blockquote></li><li><p>争辩、抱怨和反驳或许会带来暂时的胜利，但是你永远无法通过这表面的胜利赢得对方的尊敬–本杰明 富兰克林。</p></li><li><p>要比所有人聪明，但是不要告诉他们这一点。</p></li><li><p>如果你想了解为人处世知道，提升个人魅力，不妨读一读本杰明·富兰克林的自传。</p><blockquote><p>所以在看这本书的时候，我又买了一本富兰克林自传</p></blockquote></li><li><p>尊重他人的观点，绝不要说“你错了”。</p></li><li><p>不经意地抛出系那个发，引起他的兴趣，让他自行揣摩。</p><blockquote><p>这个好像是是说服上级或建议或拍马屁什么的时候处理方式</p></blockquote></li><li><p>同理心是为人处世的制胜之道。</p></li><li><p>若想让交流变得流畅，请像重视自己感受一样重视对方。</p></li><li><p>同情所产生的化学作用能够平息怨气。</p></li><li><p>激发对方内心深处的高尚情操</p></li></ol>]]></content>
+        <content type="html"><![CDATA[<p>摘录部分是在读这本书的时候做的笔记，或多或少有一点打动了我，说出了我内心里表达不出来的东西。</p><ol><li><p>个人的成功只要百分之十五的专业能力，另外的百分之八十五则来自“人类工程学”，即人格特质和领导能力。</p></li><li><p>无论是工程、会计、建筑还是其他需要技术能力的行业，专业的人才只要有过硬的技术就能找到工作。但想要拿高薪，他们必须在专业技能之外还具备表达能力、领导能力和激发他人的工作热情的能力。</p></li><li><p>人际交往能力决定了我们的受欢迎程度、我的幸福感和自我价值。</p></li><li><p>每当你需要解决管教孩子、说服家人或者安抚客户等具体问题时，请不要听任自己的本能反应，因为第一反应往往是错的。<!--不要误解作者说的第一反应就是错的，而是作者前提条件的时候，“管教孩子”“舒服家人”“解决、安抚客户问题”，其实我想说的应该是说在你冲动的时候，告诉你要冷静思考--></p></li><li><p>批评是无用的，她激起抵触，让人急于辩白；批评是危险的，它会伤害自尊，甚至让人萌生恨意。</p></li><li><p>责备所引发的怨恨不仅无益，更会大几家人、朋友和员工的积极性。</p></li><li><p>对性和成功的欲望是人类永恒的动机。<!--为什么不是永恒的动力，翻译问题？--></p></li><li><p>人性的根源深处，强烈渴求他人的欣赏。</p></li><li><p>一些精神分裂患者确实在疯癫中得到了现实世界中无法获得的被重视感。</p></li><li><p>人们如此渴望他们的认同，甚至不惜以发疯为代价。</p></li><li><p>真心实意地感谢他人、赞美他人。</p></li><li><p>我个人非常喜欢草莓和奶油，不过我惊奇发现，鱼类居然对人间美味不感兴趣，只喜欢吃虫子。所以每次去钓鱼的时候，我不会考虑自己想要什么，而是考虑鱼想要什么。（对考虑用户的需求，用户想要什么，不能我们自己坐在那意淫用户想要什么，当然有的用户也不知自己想要什么，那我们就要去意淫他们的需求，发现他们还需要什么）</p></li><li><p>说服别人的首要途径，是引发对方强烈的欲求。</p></li><li><p>人们只有真心热爱自己做的事，才有可能取得成功。</p></li><li><p>哪怕你不习惯微笑，也请努力试看。独自一个人的时候，假装很开心–这些举动真的会让你开心起来。<!--科学解释：人们往往认为感觉先于行动，但实际上，感觉与行动是同步的。相较于情绪，只有调整行为，才能够调整间接的调整兴趣--></p><!--想要找回丢失的快乐，就偷偷的坐直身体，愉快的谈天做事，感觉快乐已经回到你的身边，这是通往快乐的最佳方式。--></li><li><p>无论对于任何人，无论以何种语言，自己的名字都是世界是哪个最甜蜜的词汇。</p></li><li><p>专注倾听，鼓励他人谈论自己。</p></li><li><p>发自肺腑的赞美所产生的力量。</p></li><li><p>如果能得到他人的重视，很多人得生活会因此改变。</p></li><li><p>每个人在内心深处都渴望被重视。<!--在学校里渴望被老师重视，在工作中渴望被上司老板重视。就像上一句说的，如果能得到他人的重视，很多人的生活会因此改变--></p></li><li><p>争辩、抱怨和反驳或许会带来暂时的胜利，但是你永远无法通过这表面的胜利赢得对方的尊敬–本杰明 富兰克林。</p></li><li><p>要比所有人聪明，但是不要告诉他们这一点。</p></li><li><p>如果你想了解为人处世知道，提升个人魅力，不妨读一读本杰明·富兰克林的自传。<!--所以在看这本书的时候，我又买了一本富兰克林自传--></p></li><li><p>尊重他人的观点，绝不要说“你错了”。</p></li><li><p>不经意地抛出系那个发，引起他的兴趣，让他自行揣摩。<!--这个好像是是说服上级或建议或拍马屁什么的时候处理方式--></p></li><li><p>同理心是为人处世的制胜之道。</p></li><li><p>若想让交流变得流畅，请像重视自己感受一样重视对方。</p></li><li><p>同情所产生的化学作用能够平息怨气。</p></li><li><p>激发对方内心深处的高尚情操。</p></li></ol>]]></content>
       
       
       <categories>
           
-          <category> 生活 </category>
+          <category> 读书 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 读书 </tag>
-            
-            <tag> 笔记 </tag>
+            <tag> 人性的弱点 </tag>
             
         </tags>
       
@@ -1242,22 +1230,26 @@
     
     <entry>
       <title>碎碎念在12月6日</title>
-      <link href="/2015/12/06/undefined/"/>
-      <url>/2015/12/06/undefined/</url>
+      <link href="/2015/12/06/BB20151206/"/>
+      <url>/2015/12/06/BB20151206/</url>
       
         <content type="html"><![CDATA[<h4 id="搬家"><a href="#搬家" class="headerlink" title="搬家"></a>搬家</h4><p>从去年的五月份的时候说搬家，在公司部分资助一直搬到现在，搬了一年半终于搬离天通苑北，来到公司附近，现在东西全部办过来了，找了一两个星期的房子，明天再回去交接一下，终于心里一个石头可以落下了，不过还的置办生活用品。</p><h4 id="Swift开源"><a href="#Swift开源" class="headerlink" title="Swift开源"></a>Swift开源</h4><p>本周最重磅的消息就是苹果兑现承诺，终于赶在年底前把Swift开源了，官网<a href="https://swift.org" target="_blank" rel="noopener">https://swift.org</a>,听说当天被手动DDos了，访问不到。github:<a href="https://github.com/apple/swift" target="_blank" rel="noopener">https://github.com/apple/swift</a>开源当天star过万，截止目前已有19010个star，170人贡献代码。也该准备准备好好学习下Swift了。</p><h4 id="关于ASO"><a href="#关于ASO" class="headerlink" title="关于ASO"></a>关于ASO</h4><p>周六app被拒，因为在做ASO的时候标题写的有点过，大概五月份苹果就开始严查副标题，虽然可以写255个字，如果你的副标题太长还是会被拒，然后建议你写到关键词或者描述里面，关于ASO标题、副标题、关键词等一些权值在八月份的时候学习了一段时候，然后做了一次分享，PPT:<a href="https://docs.google.com/presentation/d/19Jp49NY07U25GQ_PUAQSH7VzChgTboJ5LvZvX4HMuhY/edit?usp=sharing" target="_blank" rel="noopener">https://docs.google.com/presentation/d/19Jp49NY07U25GQ_PUAQSH7VzChgTboJ5LvZvX4HMuhY/edit?usp=sharing</a>.<br>因为关键词限制255个字符，偶然得知，关键词可以不隔开，所有的词连在一起，这样被拆分后的关键词覆盖可以超过1200+，不过也有缺点，就是会产生较多的无用关键词，总体来说还是好的。</p><h4 id="线上读书活动完成"><a href="#线上读书活动完成" class="headerlink" title="线上读书活动完成"></a>线上读书活动完成</h4><p>三周前我参加了一个<a href="http://www.yiqixxx.com/e/iODU2NQ==/" target="_blank" rel="noopener">21天挑战——每天读书半小时第一期</a>的活动，今天正好结束，502人参加，156人挑战失败，第一天的时候超过40人挑战失败，然后挑战完成不仅可以拿回自己的本金，还可以平分失败人得本金，能多得45.22.</p><p>从理财角度上分析，我用100元，12天后我得到145.22，这个投资回报率超过45%。不过从收获方面来看自己学到的东西属于自己，谁也拿不走,这样就转的更多了。</p><p>谈一点体会：</p><p>这21天里我读了《人性的弱点》（100%）、《黑客与画家》（90%），因为书中有的章节自己现在这个水平和精力读起来还是难以理解，所以会显得枯燥，然后读了之后没有任何感觉，这个时候最好的办法的就是换一本容易理解的书去读，比如人物传记。因为每天夜晚到家晚，所以为了完成读书任务，在读起来的时候明显觉得有点赶，不能静心来去体会，也会造成效率差。</p><p>从中最大收获就是，发现自己读的书太少，也就是你读的书越多，就会发现自己读的越少，很矛盾，但是那是你的真是体会。在读一本书的时候，你能从这本书中找到下一本或下下本要读的书，就是这么神奇。</p><p>当然，书读完完了，还差读后感，需要补上。</p><h4 id="朋友圈刷了两条鸡汤"><a href="#朋友圈刷了两条鸡汤" class="headerlink" title="朋友圈刷了两条鸡汤"></a>朋友圈刷了两条鸡汤</h4><p>每个大人，曾经都是孩子，只是后来他们忘记了！</p><p>你学过的每一样东西，你遭受的每一次苦难，都会在你一生中的某个时候派上用场。</p><h4 id="微博上刷了几个段子"><a href="#微博上刷了几个段子" class="headerlink" title="微博上刷了几个段子"></a>微博上刷了几个段子</h4><p>假如生活欺骗了，<br>不要悲伤，不要心急，<br>多被骗几次记好了！</p><p>比你优秀的人还在努力，<br>那你努力还有个屁用！</p><p>上帝为你关上一扇门的同时，<br>还会顺带夹一下你的脑袋！</p><p>长得丑就是病，<br>不然整形医院为什么叫医院！</p><p>咸鱼翻了身，<br>还是咸鱼！</p><p>丑小鸭会变成白天鹅，<br>不是因为它努力了，<br>而是因为它父母本来就是白天鹅！</p><p>胖子瘦下来了，<br>不一定就漂亮！</p><p>不要以为全世界都抛弃了你，<br>世界根本没空搭理你！</p><p>如果你特别迷恋一个人，<br>那一定是你配不上他！</p><p>墙角的瓜不甜，<br>但是有瓜吃啊！</p><p>没有外表，<br>谁TM看你内心啊！</p><p>世界上99%的事情，<br>都能用钱来解决！</p>]]></content>
       
       
       <categories>
           
-          <category> 生活 </category>
+          <category> 碎碎念 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 碎碎念 </tag>
+            <tag> 搬家 </tag>
+            
+            <tag> ASO </tag>
+            
+            <tag> Swift </tag>
             
         </tags>
       
@@ -1398,10 +1390,10 @@
     
     <entry>
       <title>ERROR ITMS-90046:Invalid Code Signing Entitlements</title>
-      <link href="/2015/11/03/undefined/"/>
-      <url>/2015/11/03/undefined/</url>
+      <link href="/2015/11/03/ERROR-ITMS-90046/"/>
+      <url>/2015/11/03/ERROR-ITMS-90046/</url>
       
-        <content type="html"><![CDATA[<p>###使用Xcode 7 打包上传app时候环境没变突然报错，如下：</p><p><code>ERROR ITMS-90046: &quot;Invalid Code Signing Entitlements. Your application bundle&#39;s signature contains code signing entitlements that are not supported on iOS. Specifically, value &#39;development&#39; for key &#39;aps-environment&#39; in &#39;Payload/app&#39; is not supported.&quot;</code></p><p>解决方案：clean 工程然后重新打包上传。</p><p>参考：<a href="http://www.devdiv.com/forum.php?mod=viewthread&amp;tid=213847" target="_blank" rel="noopener">http://www.devdiv.com/forum.php?mod=viewthread&amp;tid=213847</a></p>]]></content>
+        <content type="html"><![CDATA[<p>###使用Xcode 7 打包上传app时候环境没变突然报错，如下：</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ERROR ITMS-90046: &quot;Invalid Code Signing Entitlements. Your application bundle&#39;s signature contains code signing entitlements that are not supported on iOS. Specifically, value &#39;development&#39; for key &#39;aps-environment&#39; in &#39;Payload&#x2F;app&#39; is not supported.</span><br></pre></td></tr></table></figure></div><p>解决方案：clean 工程然后重新打包上传。</p><p>参考：<a href="http://www.devdiv.com/forum.php?mod=viewthread&amp;tid=213847" target="_blank" rel="noopener">http://www.devdiv.com/forum.php?mod=viewthread&amp;tid=213847</a></p>]]></content>
       
       
       <categories>
@@ -1565,10 +1557,10 @@
     
     <entry>
       <title>段子</title>
-      <link href="/2015/09/24/undefined/"/>
-      <url>/2015/09/24/undefined/</url>
+      <link href="/2015/09/24/joke/"/>
+      <url>/2015/09/24/joke/</url>
       
-        <content type="html"><![CDATA[<p>虽然同事叫乎我段子手，但实际还是差的很远，个人也比较喜欢段子，此处作为收集，积累。争取早日进入段子界！</p><hr><ul><li><p>不是所有的女人都喜欢钱，还有些善良的女人喜欢小动物。<br>例如：宝马，路虎，捷豹，野马，当然还有天猫</p></li><li><p>转让半瓶雪碧，4月初才买的，喝了才一半，里边还有很多气儿，平时没咋舍得喝，平常喝完一直放在冷水里泡着，喝完就拧上盖，外表九成新，量很足，包行货，假一罚万，真的很好喝，平常一小口就能透心凉，价格私聊，非诚勿扰。最近手头紧，迫不得已！买不起的别逼逼！</p></li><li><p>当年我成绩很差，老师和同学都嘲笑我，说我肯定考不上大学，以后只能去种地。 我不服气，暗暗下定决心，起早贪黑，努力学习，成绩突飞猛进，终于考上了大学。 读了生物，毕业后跑去种地。 我就是要证明给他们看：种地是命中注定的，和考不考得上大学没关系！</p></li><li><p>全都闪开，我要赞他。这是我朋友，他从小患有小儿麻痹症l，十岁才会自己尿尿，十五岁才能正常走路，他虽然有生理缺陷，精神也有问题，患有羊颠疯，时常抽风，但是他有一个伟大的志向，希望光复中国的非主流事业，你们看，他已经迈出了人生的第一步，希望各位给他投上你宝贵的一赞，请大家帮助残疾人！！他是个好孩子，大家不要伤害他！</p></li></ul>]]></content>
+        <content type="html"><![CDATA[<p>虽然同事叫乎我段子手，但实际还是差的很远，个人也比较喜欢段子，此处作为收集，积累。争取早日进入段子界！</p><ul><li><p>不是所有的女人都喜欢钱，还有些善良的女人喜欢小动物。<br>例如：宝马，路虎，捷豹，野马，当然还有天猫</p></li><li><p>转让半瓶雪碧，4月初才买的，喝了才一半，里边还有很多气儿，平时没咋舍得喝，平常喝完一直放在冷水里泡着，喝完就拧上盖，外表九成新，量很足，包行货，假一罚万，真的很好喝，平常一小口就能透心凉，价格私聊，非诚勿扰。最近手头紧，迫不得已！买不起的别逼逼！</p></li><li><p>当年我成绩很差，老师和同学都嘲笑我，说我肯定考不上大学，以后只能去种地。 我不服气，暗暗下定决心，起早贪黑，努力学习，成绩突飞猛进，终于考上了大学。 读了生物，毕业后跑去种地。 我就是要证明给他们看：种地是命中注定的，和考不考得上大学没关系！</p></li><li><p>全都闪开，我要赞他。这是我朋友，他从小患有小儿麻痹症l，十岁才会自己尿尿，十五岁才能正常走路，他虽然有生理缺陷，精神也有问题，患有羊颠疯，时常抽风，但是他有一个伟大的志向，希望光复中国的非主流事业，你们看，他已经迈出了人生的第一步，希望各位给他投上你宝贵的一赞，请大家帮助残疾人！！他是个好孩子，大家不要伤害他！</p></li></ul>]]></content>
       
       
       <categories>
@@ -1584,8 +1576,8 @@
     
     <entry>
       <title>个人GitHub Star Repo分类</title>
-      <link href="/2015/09/08/undefined/"/>
-      <url>/2015/09/08/undefined/</url>
+      <link href="/2015/09/08/repo/"/>
+      <url>/2015/09/08/repo/</url>
       
         <content type="html"><![CDATA[<p>个人GitHub主页Star Repo 分类，方便查找</p><blockquote><p>网络请求库</p></blockquote><ul><li><a href="https://github.com/AFNetworking/AFNetworking" target="_blank" rel="noopener">https://github.com/AFNetworking/AFNetworking</a></li><li><a href="https://github.com/Alamofire/AlamofireImage" target="_blank" rel="noopener">https://github.com/Alamofire/AlamofireImage</a></li></ul><blockquote><p>菜单</p></blockquote><ul><li><a href="https://github.com/yoavlt/LiquidFloatingActionButton" target="_blank" rel="noopener">https://github.com/yoavlt/LiquidFloatingActionButton</a></li><li><a href="https://github.com/smasoumi/FAB-Loading" target="_blank" rel="noopener">https://github.com/smasoumi/FAB-Loading</a></li><li><a href="https://github.com/nitingeorge227/NGSplitMenuController" target="_blank" rel="noopener">https://github.com/nitingeorge227/NGSplitMenuController</a> （iPad侧滑菜单）</li></ul><blockquote><p>刷新</p></blockquote><ul><li><a href="https://github.com/CoderMJLee/MJRefresh" target="_blank" rel="noopener">https://github.com/CoderMJLee/MJRefresh</a></li><li><a href="https://github.com/anaglik/PeriscopyPullToRefresh" target="_blank" rel="noopener">https://github.com/anaglik/PeriscopyPullToRefresh</a></li></ul><blockquote><p>自定义 Alert、ActionSheet </p></blockquote><ul><li><a href="https://github.com/adad184/MMPopupView" target="_blank" rel="noopener">https://github.com/adad184/MMPopupView</a></li><li><a href="https://github.com/oyuk/OYSimpleAlertController" target="_blank" rel="noopener">https://github.com/oyuk/OYSimpleAlertController</a></li></ul><blockquote><p>Loading、动画</p></blockquote><ul><li><a href="https://github.com/jonathantribouharet/JTMaterialSpinner" target="_blank" rel="noopener">https://github.com/jonathantribouharet/JTMaterialSpinner</a></li><li><a href="https://github.com/poolqf/FillableLoaders" target="_blank" rel="noopener">https://github.com/poolqf/FillableLoaders</a> (注水动画)</li><li><a href="https://github.com/BLPoonia/BLMultiColorLoader" target="_blank" rel="noopener">https://github.com/BLPoonia/BLMultiColorLoader</a></li><li><a href="https://github.com/BLPoonia/BLLoader" target="_blank" rel="noopener">https://github.com/BLPoonia/BLLoader</a></li></ul><blockquote><p>自定义相机、照片裁剪</p></blockquote><ul><li><a href="https://github.com/kishikawakatsumi/PEPhotoCropEditor" target="_blank" rel="noopener">https://github.com/kishikawakatsumi/PEPhotoCropEditor</a></li><li><a href="https://github.com/mukyasa/MMCamScanner" target="_blank" rel="noopener">https://github.com/mukyasa/MMCamScanner</a></li><li><a href="https://github.com/Aevit/SCCaptureCamera" target="_blank" rel="noopener">https://github.com/Aevit/SCCaptureCamera</a></li><li><a href="https://github.com/kimsungwhee/KSHMosaicCamera" target="_blank" rel="noopener">https://github.com/kimsungwhee/KSHMosaicCamera</a></li><li><a href="https://github.com/mmackh/IPDFCameraViewController" target="_blank" rel="noopener">https://github.com/mmackh/IPDFCameraViewController</a></li><li><a href="https://github.com/GabrielAlva/Cool-iOS-Camera" target="_blank" rel="noopener">https://github.com/GabrielAlva/Cool-iOS-Camera</a></li></ul><blockquote><p>UITableView 动画</p></blockquote><ul><li><a href="https://github.com/mukyasa/MMTransitionEffect" target="_blank" rel="noopener">https://github.com/mukyasa/MMTransitionEffect</a></li><li><a href="https://github.com/KittenYang/KYPingTransition" target="_blank" rel="noopener">https://github.com/KittenYang/KYPingTransition</a></li><li><a href="https://github.com/KittenYang/KYElegantPhotoGallery" target="_blank" rel="noopener">https://github.com/KittenYang/KYElegantPhotoGallery</a></li><li><a href="https://github.com/terenceLuffy/AppStoreStyleHorizontalScrollView" target="_blank" rel="noopener">https://github.com/terenceLuffy/AppStoreStyleHorizontalScrollView</a></li><li><a href="https://github.com/xxxAIRINxxx/ARNTransitionAnimator" target="_blank" rel="noopener">https://github.com/xxxAIRINxxx/ARNTransitionAnimator</a></li><li><a href="https://github.com/y-hryk/YSLTransitionAnimator" target="_blank" rel="noopener">https://github.com/y-hryk/YSLTransitionAnimator</a></li><li><a href="https://github.com/xxxAIRINxxx/GooglePlayTransition" target="_blank" rel="noopener">https://github.com/xxxAIRINxxx/GooglePlayTransition</a></li></ul><blockquote><p>导航栏</p></blockquote><ul><li><a href="https://github.com/gklka/GKFadeNavigationController" target="_blank" rel="noopener">https://github.com/gklka/GKFadeNavigationController</a></li><li><a href="https://github.com/bryankeller/BLKFlexibleHeightBar" target="_blank" rel="noopener">https://github.com/bryankeller/BLKFlexibleHeightBar</a></li></ul><blockquote><p>UISwitch</p></blockquote><ul><li><a href="https://github.com/gontovnik/DGRunkeeperSwitch" target="_blank" rel="noopener">https://github.com/gontovnik/DGRunkeeperSwitch</a></li></ul><blockquote><p>Emoji 、键盘</p></blockquote><ul><li><a href="https://github.com/ayushgoel/AGEmojiKeyboard" target="_blank" rel="noopener">https://github.com/ayushgoel/AGEmojiKeyboard</a></li></ul><blockquote><p>输入框</p></blockquote><ul><li><a href="https://github.com/ws00801526/XMChatBarExample" target="_blank" rel="noopener">https://github.com/ws00801526/XMChatBarExample</a></li></ul><blockquote><p>日历、DatePicker</p></blockquote><ul><li><a href="https://github.com/jonathantribouharet/JTCalendar" target="_blank" rel="noopener">https://github.com/jonathantribouharet/JTCalendar</a></li><li><a href="https://github.com/hons82/THCalendarDatePicker" target="_blank" rel="noopener">https://github.com/hons82/THCalendarDatePicker</a></li></ul><blockquote><p>视频播放类</p></blockquote><ul><li><a href="https://github.com/0xced/XCDYouTubeKit" target="_blank" rel="noopener">https://github.com/0xced/XCDYouTubeKit</a></li><li><a href="https://github.com/iMoreApps/ffmpeg-avplayer-for-ios" target="_blank" rel="noopener">https://github.com/iMoreApps/ffmpeg-avplayer-for-ios</a></li><li><a href="https://github.com/36Kr-Mobile/KRVideoPlayer" target="_blank" rel="noopener">https://github.com/36Kr-Mobile/KRVideoPlayer</a></li></ul>]]></content>
       
