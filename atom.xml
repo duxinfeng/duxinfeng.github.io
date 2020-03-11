@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://duxinfeng.com/"/>
-  <updated>2020-03-11T12:15:15.476Z</updated>
+  <updated>2020-03-11T12:23:32.965Z</updated>
   <id>http://duxinfeng.com/</id>
   
   <author>
@@ -18,18 +18,18 @@
   
   <entry>
     <title>碎碎念在2020年3月11日</title>
-    <link href="http://duxinfeng.com/2020/03/11/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82020%E5%B9%B43%E6%9C%8811%E6%97%A5/"/>
-    <id>http://duxinfeng.com/2020/03/11/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82020%E5%B9%B43%E6%9C%8811%E6%97%A5/</id>
+    <link href="http://duxinfeng.com/2020/03/11/BB20200311/"/>
+    <id>http://duxinfeng.com/2020/03/11/BB20200311/</id>
     <published>2020-03-11T07:21:49.000Z</published>
-    <updated>2020-03-11T12:15:15.476Z</updated>
+    <updated>2020-03-11T12:23:32.965Z</updated>
     
-    <content type="html"><![CDATA[<h3 id><a href="#" class="headerlink" title></a></h3><p>熬到凌晨一点多把这个版本提审了，每次提审都会这样，熬到夜晚很久。平时开发也没有很快的把东西给到测试反馈。安卓版本测试优先级改与苹果。测试人手不够资源不充足，下个版本一定要多催，如果当成一种资源来讲就是多争取一下资源。</p><h3 id="-1"><a href="#-1" class="headerlink" title></a></h3><p>趁打包提审期等待期间，把手机系统 iOS 12.4.1 升级到 iOS 13.3.1，然而重启后开机密码由原来的六位变成了成四位，搞的我一脸懵逼，输了多次密码没对的，直到机器被锁10分钟。网上查了一下，大都是四位变六位的案例。 这个时候体会了一把用户面对开发人员写的BUG感受 ，然后尝试万能的重启解决方案就好了，中间卸载一个APP又把系统搞崩溃了，开机之后密码又变成了4位，又做了一次重启解决。</p><h3 id="-2"><a href="#-2" class="headerlink" title></a></h3><p>开机后眼睛瞥见支付宝的主题色变得更蓝了，官方更新文案里说变得更亲和、明快。然而直观感受却不然，色调变得冷，并没有感受到亲和、明快 也没有觉得比以前更好看，可能时间长了就顺眼了吧。想到公司logo相反，最开始这种蓝色变成浅蓝色，顺眼多了。不过也发现苹果应用商店Tab由原来的5个又变成4个了。</p><p><a href="http://qiniu.niuxtech.cn/2020/2020-03-11-1.jpeg" data-fancybox="group" data-caption="img" class="fancybox"><img alt="img" data-src="http://qiniu.niuxtech.cn/2020/2020-03-11-1.jpeg" class="lazyload" title="img"></a>))</p><h3 id="-3"><a href="#-3" class="headerlink" title></a></h3><p>每天熬夜在1-2点的时候有一段心率特表高。还是要早点睡。</p><p><a href="http://qiniu.niuxtech.cn/2020/2020-03-11-2.jpeg" data-fancybox="group" data-caption="img" class="fancybox"><img alt="img" data-src="http://qiniu.niuxtech.cn/2020/2020-03-11-2.jpeg" class="lazyload" title="img"></a></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="版本提审"><a href="#版本提审" class="headerlink" title="版本提审"></a>版本提审</h3><p>熬到凌晨一点多把这个版本提审了，每次提审都会这样，熬到夜晚很久。平时开发也没有很快的把东西给到测试反馈。安卓版本测试优先级改与苹果。测试人手不够资源不充足，下个版本一定要多催，如果当成一种资源来讲就是多争取一下资源。</p><h3 id="手机系统升级"><a href="#手机系统升级" class="headerlink" title="手机系统升级"></a>手机系统升级</h3><p>趁打包提审期等待期间，把手机系统 iOS 12.4.1 升级到 iOS 13.3.1，然而重启后开机密码由原来的六位变成了成四位，搞的我一脸懵逼，输了多次密码没对的，直到机器被锁10分钟。网上查了一下，大都是四位变六位的案例。 这个时候体会了一把用户面对开发人员写的BUG感受 ，然后尝试万能的重启解决方案就好了，中间卸载一个APP又把系统搞崩溃了，开机之后密码又变成了4位，又做了一次重启解决。</p><h3 id="支付宝品牌色升级"><a href="#支付宝品牌色升级" class="headerlink" title="支付宝品牌色升级"></a>支付宝品牌色升级</h3><p>开机后眼睛瞥见支付宝的主题色变得更蓝了，官方更新文案里说变得更亲和、明快。然而直观感受却不然，色调变得冷，并没有感受到亲和、明快 也没有觉得比以前更好看，可能时间长了就顺眼了吧。想到公司logo相反，最开始这种蓝色变成浅蓝色，顺眼多了。不过也发现苹果应用商店Tab由原来的5个又变成4个了。</p><p><a href="http://qiniu.niuxtech.cn/2020/2020-03-11-1.jpeg" data-fancybox="group" data-caption="img" class="fancybox"><img alt="img" title="img" data-src="http://qiniu.niuxtech.cn/2020/2020-03-11-1.jpeg" class="lazyload"></a></p><h3 id="不要熬夜早点早睡"><a href="#不要熬夜早点早睡" class="headerlink" title="不要熬夜早点早睡"></a>不要熬夜早点早睡</h3><p>每天熬夜在1-2点的时候有一段心率特表高。还是要早点睡。</p><p><a href="http://qiniu.niuxtech.cn/2020/2020-03-11-2.jpeg" data-fancybox="group" data-caption="img" class="fancybox"><img alt="img" title="img" data-src="http://qiniu.niuxtech.cn/2020/2020-03-11-2.jpeg" class="lazyload"></a></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h3 id&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;熬到凌晨一点多把这个版本提审了，每次提审都会这样，熬到夜晚很久。平时开发也没有很快的把东西给到测试反馈。安卓版本测试优先级改与苹果。测试人手不够资源不充足，下个版本一定
+        &lt;h3 id=&quot;版本提审&quot;&gt;&lt;a href=&quot;#版本提审&quot; class=&quot;headerlink&quot; title=&quot;版本提审&quot;&gt;&lt;/a&gt;版本提审&lt;/h3&gt;&lt;p&gt;熬到凌晨一点多把这个版本提审了，每次提审都会这样，熬到夜晚很久。平时开发也没有很快的把东西给到测试反馈。安卓版本测试优先级改
       
     
     </summary>
@@ -46,18 +46,55 @@
   
   <entry>
     <title>碎碎念在2020年3月5日</title>
-    <link href="http://duxinfeng.com/2020/03/06/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82020%E5%B9%B43%E6%9C%885%E6%97%A5/"/>
-    <id>http://duxinfeng.com/2020/03/06/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82020%E5%B9%B43%E6%9C%885%E6%97%A5/</id>
+    <link href="http://duxinfeng.com/2020/03/06/BB20200305/"/>
+    <id>http://duxinfeng.com/2020/03/06/BB20200305/</id>
     <published>2020-03-05T18:05:46.000Z</published>
-    <updated>2020-03-11T07:16:21.630Z</updated>
+    <updated>2020-03-11T14:21:40.373Z</updated>
+    
+    <content type="html"><![CDATA[<p>再次用印象笔记的每日工作计划模板，来管理工作计划。先尝试一段时间吧，没有计划的工作，每天感觉什么都没有干，但是也没有闲着。</p><p>3.2号的时候，</p>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;p&gt;再次用印象笔记的每日工作计划模板，来管理工作计划。先尝试一段时间吧，没有计划的工作，每天感觉什么都没有干，但是也没有闲着。&lt;/p&gt;
+&lt;p&gt;3.2号的时候，&lt;/p&gt;
+
+      
     
     </summary>
     
     
       <category term="碎碎念" scheme="http://duxinfeng.com/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
+    
+  </entry>
+  
+  <entry>
+    <title>傻瓜背单词</title>
+    <link href="http://duxinfeng.com/2020/03/05/fool-word-app/"/>
+    <id>http://duxinfeng.com/2020/03/05/fool-word-app/</id>
+    <published>2020-03-05T13:21:40.000Z</published>
+    <updated>2020-03-11T13:25:09.885Z</updated>
+    
+    <content type="html"><![CDATA[<p>在微信群里看到一个人分享某一屏的截图，看到一个背单词的App傻瓜英语，然后就去下载体验一番。</p><p>相比其他背单词App,比较打动我的特点:</p><ol><li>纯外教发音,口语纯正。</li><li>发音的时候会把单词的音标拆分来读，可以很清晰的看到发音的口型。</li><li>背单词部分基本上是免费，免费的部分做的也很用心。</li><li>界面很干净，没有太多刻意营销的广告入口。</li></ol><p><a href="http://qiniu.niuxtech.cn/2020/20200305-3.jpeg" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="http://qiniu.niuxtech.cn/2020/20200305-3.jpeg" class="lazyload"></a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;在微信群里看到一个人分享某一屏的截图，看到一个背单词的App傻瓜英语，然后就去下载体验一番。&lt;/p&gt;
+&lt;p&gt;相比其他背单词App,比较打动我的特点:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;纯外教发音,口语纯正。&lt;/li&gt;
+&lt;li&gt;发音的时候会把单词的音标拆分来读，可以很清晰的看到发音的
+      
+    
+    </summary>
+    
+    
+    
+      <category term="默认" scheme="http://duxinfeng.com/tags/%E9%BB%98%E8%AE%A4/"/>
     
   </entry>
   
@@ -87,8 +124,8 @@
   
   <entry>
     <title>2019年终总结</title>
-    <link href="http://duxinfeng.com/2020/02/22/2019%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
-    <id>http://duxinfeng.com/2020/02/22/2019%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</id>
+    <link href="http://duxinfeng.com/2020/02/22/2019-year-end-summary/"/>
+    <id>http://duxinfeng.com/2020/02/22/2019-year-end-summary/</id>
     <published>2020-02-22T07:41:48.000Z</published>
     <updated>2020-02-22T13:22:56.143Z</updated>
     
@@ -113,9 +150,36 @@
   </entry>
   
   <entry>
+    <title>记一次URL的编码解码的坑</title>
+    <link href="http://duxinfeng.com/2020/02/17/url-coding-and-decoding/"/>
+    <id>http://duxinfeng.com/2020/02/17/url-coding-and-decoding/</id>
+    <published>2020-02-17T13:17:08.000Z</published>
+    <updated>2020-03-11T13:20:11.213Z</updated>
+    
+    <content type="html"><![CDATA[<p>由于服务器端返回的音频资源链接带中文字符，所以在播放这个资源文件的时候，需要对URL进行一次编码。但是由于资源并不一定严格标准，有的编码有的没有编码。所以客户端在拿到这个资源文件的时候，无法播放。对于这种情况，需要先对资源进行解码，然后再进行编码，再进行播放。</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">NSString *URLString &#x3D; [url stringByRemovingPercentEncoding];</span><br><span class="line">URLString &#x3D; [URLString stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];</span><br></pre></td></tr></table></figure></div>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;由于服务器端返回的音频资源链接带中文字符，所以在播放这个资源文件的时候，需要对URL进行一次编码。但是由于资源并不一定严格标准，有的编码有的没有编码。所以客户端在拿到这个资源文件的时候，无法播放。对于这种情况，需要先对资源进行解码，然后再进行编码，再进行播放。&lt;/p&gt;
+&lt;d
+      
+    
+    </summary>
+    
+    
+      <category term="iOS" scheme="http://duxinfeng.com/categories/iOS/"/>
+    
+    
+      <category term="NSURL" scheme="http://duxinfeng.com/tags/NSURL/"/>
+    
+  </entry>
+  
+  <entry>
     <title>碎碎念在2019年11月</title>
-    <link href="http://duxinfeng.com/2019/11/28/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82019%E5%B9%B411%E6%9C%88/"/>
-    <id>http://duxinfeng.com/2019/11/28/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82019%E5%B9%B411%E6%9C%88/</id>
+    <link href="http://duxinfeng.com/2019/11/28/undefined/"/>
+    <id>http://duxinfeng.com/2019/11/28/undefined/</id>
     <published>2019-11-28T11:11:40.000Z</published>
     <updated>2019-11-28T11:21:46.844Z</updated>
     
@@ -147,12 +211,12 @@
   
   <entry>
     <title>ERROR ITMS-90474： iPad Multitasking support requires these orientations</title>
-    <link href="http://duxinfeng.com/2019/10/18/ERROR-ITMS-90474%EF%BC%9A-iPad-Multitasking-support-requires-these-orientations/"/>
-    <id>http://duxinfeng.com/2019/10/18/ERROR-ITMS-90474%EF%BC%9A-iPad-Multitasking-support-requires-these-orientations/</id>
+    <link href="http://duxinfeng.com/2019/10/18/error-itms-90474/"/>
+    <id>http://duxinfeng.com/2019/10/18/error-itms-90474/</id>
     <published>2019-10-18T08:14:21.000Z</published>
-    <updated>2019-10-18T08:50:35.175Z</updated>
+    <updated>2020-03-11T12:49:34.790Z</updated>
     
-    <content type="html"><![CDATA[<p> 上传AppStore时候发现ERROR ITMS-90474错误</p><blockquote><p> ERROR ITMS-90474: “Invalid Bundle. iPad Multitasking support requires these orientations: ‘UIInterfaceOrientationPortrait,UIInterfaceOrientationPortraitUpsideDown,UIInterfaceOrientationLandscapeLeft,UIInterfaceOrientationLandscapeRight’. Found ‘UIInterfaceOrientationLandscapeLeft,UIInterfaceOrientationLandscapeRight</p></blockquote><p>大概意思是: 无效的安装包，iPad 多任务功能需要 App 支持所有方向。</p><p>因为 iOS9 后 App 默认开启多任务功能，而多任务功能需要 App 支持所有方向，如果我们 App 是有需要支持多任务，则需要开启 App 对各个方向（上、下、左、右）的支持。如果 App 不需要开启多任务，则只需要将如下示意图的 requires full screen 勾选上就 OK，具体做法如下图:</p><p><a href="images/2019/WX20191018-163517@2x.png" data-fancybox="group" data-caption="WX20191018-163517@2x" class="fancybox"><img alt="WX20191018-163517@2x" data-src="images/2019/WX20191018-163517@2x.png" class="lazyload" title="WX20191018-163517@2x"></a></p>]]></content>
+    <content type="html"><![CDATA[<p> 上传AppStore时候发现ERROR ITMS-90474错误</p><blockquote><p> ERROR ITMS-90474: “Invalid Bundle. iPad Multitasking support requires these orientations: ‘UIInterfaceOrientationPortrait,UIInterfaceOrientationPortraitUpsideDown,UIInterfaceOrientationLandscapeLeft,UIInterfaceOrientationLandscapeRight’. Found ‘UIInterfaceOrientationLandscapeLeft,UIInterfaceOrientationLandscapeRight</p></blockquote><p>大概意思是: 无效的安装包，iPad 多任务功能需要 App 支持所有方向。</p><p>因为 iOS9 后 App 默认开启多任务功能，而多任务功能需要 App 支持所有方向，如果我们 App 是有需要支持多任务，则需要开启 App 对各个方向（上、下、左、右）的支持。如果 App 不需要开启多任务，则只需要将如下示意图的 requires full screen 勾选上就 OK，具体做法如下图:</p><p><a href="images/2019/WX20191018-163517@2x.png" data-fancybox="group" data-caption="WX20191018-163517@2x" class="fancybox"><img alt="WX20191018-163517@2x" title="WX20191018-163517@2x" data-src="images/2019/WX20191018-163517@2x.png" class="lazyload"></a></p>]]></content>
     
     <summary type="html">
     
@@ -177,10 +241,10 @@
   
   <entry>
     <title>支付宝和微信H5支付</title>
-    <link href="http://duxinfeng.com/2019/02/23/%E6%94%AF%E4%BB%98%E5%AE%9D%E5%92%8C%E5%BE%AE%E4%BF%A1H5%E6%94%AF%E4%BB%98/"/>
-    <id>http://duxinfeng.com/2019/02/23/%E6%94%AF%E4%BB%98%E5%AE%9D%E5%92%8C%E5%BE%AE%E4%BF%A1H5%E6%94%AF%E4%BB%98/</id>
+    <link href="http://duxinfeng.com/2019/02/23/alipay-wechatpay/"/>
+    <id>http://duxinfeng.com/2019/02/23/alipay-wechatpay/</id>
     <published>2019-02-23T05:22:54.000Z</published>
-    <updated>2019-03-18T05:49:11.848Z</updated>
+    <updated>2020-03-11T13:28:21.188Z</updated>
     
     <content type="html"><![CDATA[<p>因业务需要，移除项目中支付宝支付SDK和微信支付的SDK,改为网页支付。通过H5网页调起微信和支付宝的客户端进行支付，支付完成返回客户端，做到调用SDK一样的体验。</p><p>支付宝和微信建议以App的方式集成， 都不建议在app内部使用网页来支付，但也没有不允许，目前可行，不过也说不好以后会不会禁止这种方式。</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">- (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler &#123;</span><br><span class="line"></span><br><span class="line">    NSString* url &#x3D; navigationAction.request.URL.absoluteString;</span><br><span class="line"></span><br><span class="line">    if ([url hasPrefix:@&quot;alipays:&#x2F;&#x2F;&quot;] || [url hasPrefix:@&quot;alipay:&#x2F;&#x2F;&quot;]) &#123;</span><br><span class="line"></span><br><span class="line">        BOOL success &#x3D; [[UIApplication sharedApplication]openURL:navigationAction.request.URL];</span><br><span class="line">        if (success) &#123;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    if ([url hasPrefix:@&quot;weixin:&#x2F;&#x2F;wap&#x2F;pay&quot;]) &#123;</span><br><span class="line"></span><br><span class="line">        BOOL success &#x3D; [[UIApplication sharedApplication]openURL:navigationAction.request.URL];</span><br><span class="line"></span><br><span class="line">        if (success) &#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    decisionHandler(WKNavigationActionPolicyAllow);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><p>微信支付回调问题</p><p>TARGETS → Info →  URL Types 增加一项 URL Schemes 填写回调的url <code>www.xxx.com</code></p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">NSMutableURLRequest *request &#x3D; [NSMutableURLRequest requestWithURL:[NSURL URLWithString:self.urlstring]];</span><br><span class="line">NSDictionary *headers &#x3D; [request allHTTPHeaderFields];</span><br><span class="line">BOOL hasReferer &#x3D; [headers objectForKey:@&quot;Referer&quot;] !&#x3D; nil;</span><br><span class="line">if (!hasReferer) &#123;</span><br><span class="line">       [request setValue:@&quot;www.xxx.com:&#x2F;&#x2F;&quot; forHTTPHeaderField: @&quot;Referer&quot;];</span><br><span class="line">  &#125;</span><br><span class="line">[self.webView loadRequest:request];</span><br></pre></td></tr></table></figure></div><p>注意：</p><ol><li>在iOS系统中，唤起支付宝App支付完成后，不会自动回到浏览器或商户App。用户可手工切回到浏览器或商户App。</li><li>审核过程中，除了隐藏入口，代码和注释里面一些包含 支付宝支付 alipay 微信支付 weixinpay weichatpay 类似这样的字段要屏蔽掉，否则在审核期间扫描代码的时候因为隐藏功能而拒审核，最好还是老老实实接苹果支付。</li></ol><p>参考链接：</p><p><a href="https://docs.open.alipay.com/203/107091/" target="_blank" rel="noopener">https://docs.open.alipay.com/203/107091/</a></p><p><a href="https://docs.open.alipay.com/203" target="_blank" rel="noopener">https://docs.open.alipay.com/203</a></p><p><a href="https://nearwmy.github.io/2017/12/04/%E5%BE%AE%E4%BF%A1H5%E6%94%AF%E4%BB%98%E4%B9%8B%E5%9B%9E%E8%B7%B3%20safari%20%E6%B5%8F%E8%A7%88%E5%99%A8/" target="_blank" rel="noopener">https://nearwmy.github.io/2017/12/04/%E5%BE%AE%E4%BF%A1H5%E6%94%AF%E4%BB%98%E4%B9%8B%E5%9B%9E%E8%B7%B3%20safari%20%E6%B5%8F%E8%A7%88%E5%99%A8/</a></p><p><a href="https://github.com/mjl123iOS/iOS_WXh5" target="_blank" rel="noopener">https://github.com/mjl123iOS/iOS_WXh5</a></p><p><a href="https://github.com/cheenbee/cheenbee.github.io/issues/1" target="_blank" rel="noopener">https://github.com/cheenbee/cheenbee.github.io/issues/1</a></p>]]></content>
     
@@ -206,8 +270,8 @@
   
   <entry>
     <title>佛祖保佑,永无BUG</title>
-    <link href="http://duxinfeng.com/2018/10/15/%E4%BD%9B%E7%A5%96%E4%BF%9D%E4%BD%91-%E6%B0%B8%E6%97%A0BUG/"/>
-    <id>http://duxinfeng.com/2018/10/15/%E4%BD%9B%E7%A5%96%E4%BF%9D%E4%BD%91-%E6%B0%B8%E6%97%A0BUG/</id>
+    <link href="http://duxinfeng.com/2018/10/15/undefined/"/>
+    <id>http://duxinfeng.com/2018/10/15/undefined/</id>
     <published>2018-10-15T07:23:34.000Z</published>
     <updated>2018-10-15T07:57:00.011Z</updated>
     
@@ -233,12 +297,20 @@
   
   <entry>
     <title>在纠结什么?</title>
-    <link href="http://duxinfeng.com/2018/10/15/%E5%9C%A8%E7%BA%A0%E7%BB%93%E4%BB%80%E4%B9%88/"/>
-    <id>http://duxinfeng.com/2018/10/15/%E5%9C%A8%E7%BA%A0%E7%BB%93%E4%BB%80%E4%B9%88/</id>
+    <link href="http://duxinfeng.com/2018/10/15/sowhat/"/>
+    <id>http://duxinfeng.com/2018/10/15/sowhat/</id>
     <published>2018-10-15T07:22:07.000Z</published>
-    <updated>2018-10-15T07:59:44.782Z</updated>
+    <updated>2020-03-11T13:58:29.621Z</updated>
+    
+    <content type="html"><![CDATA[<p>如题吧！</p>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;p&gt;如题吧！&lt;/p&gt;
+
+      
     
     </summary>
     
@@ -252,8 +324,8 @@
   
   <entry>
     <title>Xcode 10 library not found for -lstdc++.6.0.9</title>
-    <link href="http://duxinfeng.com/2018/10/08/Xcode-10-library-not-found-for-lstdc-6-0-9/"/>
-    <id>http://duxinfeng.com/2018/10/08/Xcode-10-library-not-found-for-lstdc-6-0-9/</id>
+    <link href="http://duxinfeng.com/2018/10/08/undefined/"/>
+    <id>http://duxinfeng.com/2018/10/08/undefined/</id>
     <published>2018-10-08T08:08:33.000Z</published>
     <updated>2018-10-12T03:08:30.271Z</updated>
     
@@ -278,8 +350,8 @@
   
   <entry>
     <title>Xcode 10  Multiple commands produce 错误</title>
-    <link href="http://duxinfeng.com/2018/10/08/Xcode-10-Multiple-commands-produce-%E9%94%99%E8%AF%AF/"/>
-    <id>http://duxinfeng.com/2018/10/08/Xcode-10-Multiple-commands-produce-%E9%94%99%E8%AF%AF/</id>
+    <link href="http://duxinfeng.com/2018/10/08/undefined/"/>
+    <id>http://duxinfeng.com/2018/10/08/undefined/</id>
     <published>2018-10-08T07:03:49.000Z</published>
     <updated>2018-10-12T03:06:09.104Z</updated>
     
@@ -307,8 +379,8 @@
   
   <entry>
     <title>WKWebView与WebViewJavascriptBridge踩到的坑</title>
-    <link href="http://duxinfeng.com/2018/05/03/WKWebView%E4%B8%8EWebViewJavascriptBridge%E8%B8%A9%E5%88%B0%E7%9A%84%E5%9D%91/"/>
-    <id>http://duxinfeng.com/2018/05/03/WKWebView%E4%B8%8EWebViewJavascriptBridge%E8%B8%A9%E5%88%B0%E7%9A%84%E5%9D%91/</id>
+    <link href="http://duxinfeng.com/2018/05/03/undefined/"/>
+    <id>http://duxinfeng.com/2018/05/03/undefined/</id>
     <published>2018-05-03T02:03:57.000Z</published>
     <updated>2018-10-09T08:29:41.589Z</updated>
     
@@ -338,8 +410,8 @@
   
   <entry>
     <title>获取Images.xcassets启动图、Images.xcassets Icon</title>
-    <link href="http://duxinfeng.com/2018/04/09/%E8%8E%B7%E5%8F%96Images-xcassets%E5%90%AF%E5%8A%A8%E5%9B%BE%E3%80%81Images-xcassets-Icon/"/>
-    <id>http://duxinfeng.com/2018/04/09/%E8%8E%B7%E5%8F%96Images-xcassets%E5%90%AF%E5%8A%A8%E5%9B%BE%E3%80%81Images-xcassets-Icon/</id>
+    <link href="http://duxinfeng.com/2018/04/09/undefined/"/>
+    <id>http://duxinfeng.com/2018/04/09/undefined/</id>
     <published>2018-04-09T08:15:35.000Z</published>
     <updated>2018-12-04T06:48:17.678Z</updated>
     
@@ -366,10 +438,10 @@
   
   <entry>
     <title>UITabBar、UINavigationBar设置</title>
-    <link href="http://duxinfeng.com/2018/03/28/UITabBar%E3%80%81UINavigationBar%E8%AE%BE%E7%BD%AE/"/>
-    <id>http://duxinfeng.com/2018/03/28/UITabBar%E3%80%81UINavigationBar%E8%AE%BE%E7%BD%AE/</id>
+    <link href="http://duxinfeng.com/2018/03/28/UITabBar-UINavigationBar/"/>
+    <id>http://duxinfeng.com/2018/03/28/UITabBar-UINavigationBar/</id>
     <published>2018-03-28T09:20:49.000Z</published>
-    <updated>2019-11-13T11:57:30.592Z</updated>
+    <updated>2020-03-11T14:25:03.582Z</updated>
     
     <content type="html"><![CDATA[<p><strong>UITabBar</strong></p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">        NSDictionary *normalTitleAttributes &#x3D; @&#123;NSForegroundColorAttributeName:[UIColor grayColor],NSFontAttributeName:[UIFont systemFontOfSize:10]&#125;;</span><br><span class="line">    NSDictionary *selectedTitleAttributes &#x3D; @&#123;NSForegroundColorAttributeName:[UIColor redColor],NSFontAttributeName:[UIFont systemFontOfSize:10]&#125;;</span><br><span class="line">    [[UITabBarItem appearance] setTitleTextAttributes:normalTitleAttributes forState:UIControlStateNormal];</span><br><span class="line">    [[UITabBarItem appearance] setTitleTextAttributes:selectedTitleAttributes forState:UIControlStateSelected];</span><br><span class="line">  </span><br><span class="line">#if __IPHONE_OS_VERSION_MAX_ALLOWED &gt;&#x3D; 130000</span><br><span class="line">  </span><br><span class="line">    if (@available(iOS 13.0, *)) &#123;</span><br><span class="line">       </span><br><span class="line">        UITabBarAppearance* appearance &#x3D;  self.tabBar.standardAppearance.copy;</span><br><span class="line">        appearance.backgroundImage &#x3D; [UIImage imageWithColor:[UIColor whiteColor]];</span><br><span class="line">        appearance.shadowImage &#x3D; [UIImage new];</span><br><span class="line">        appearance.shadowColor &#x3D; [UIColor clearColor];</span><br><span class="line">        UITabBarItemAppearance *inlineLayoutAppearance &#x3D; [[UITabBarItemAppearance alloc] init];</span><br><span class="line">        [inlineLayoutAppearance.normal setTitleTextAttributes:normalTitleAttributes];</span><br><span class="line">        [inlineLayoutAppearance.selected setTitleTextAttributes:selectedTitleAttributes];</span><br><span class="line">        appearance.stackedLayoutAppearance &#x3D; inlineLayoutAppearance;</span><br><span class="line">        self.tabBar.standardAppearance &#x3D; appearance;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">#else</span><br><span class="line">    </span><br><span class="line">    [[UITabBar appearance] setBarTintColor:[UIColor whiteColor]];</span><br><span class="line">    [[UITabBar appearance] setShadowImage:[[UIImage alloc]init]];</span><br><span class="line">    [[UITabBar appearance] setBackgroundImage:[UIImage imageWithColor:[UIColor whiteColor]]];</span><br><span class="line">    [[UITabBar appearance] setTranslucent:NO];</span><br><span class="line">    </span><br><span class="line">#endif</span><br></pre></td></tr></table></figure></div><p> *<em>UINavigationBar *</em></p> <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; 如果需要设置字体就在字典中加入 [UIFont fontWithName:@&quot;Hiragino Sans GB&quot; size:14]</span><br><span class="line">[[UINavigationBar appearance] setTitleTextAttributes:@&#123;NSForegroundColorAttributeName:[UIColor blackColor]&#125;];</span><br><span class="line">[[UINavigationBar appearance] setBarTintColor:[UIColor whiteColor]]; &#x2F;&#x2F; 导航栏背景颜色</span><br><span class="line">[[UINavigationBar appearance] setTintColor:[UIColor blueColor]]; &#x2F;&#x2F; 导航栏返回按钮、自定义UIBarButtonItem颜色</span><br><span class="line">[[UINavigationBar appearance]  setBackgroundImage:[UIImage imageWithColor:[UIColor whiteColor]] forBarPosition:UIBarPositionAny barMetrics:UIBarMetricsDefault];</span><br><span class="line">[[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]]; &#x2F;&#x2F; 去除自带分割线</span><br><span class="line">[[UINavigationBar appearance] setTranslucent:NO];</span><br></pre></td></tr></table></figure></div><p><strong>translucent属性</strong> </p><p>iOS 7 开始采用了扁平化设计，UINavigationBar和UITabBar附带了半透明效果，translucent属性能决定UITabBar/UINavigationBar是否为半透明的效果，默认为YES，即默认情况下为半透明效果</p><p><strong>设置title属性</strong></p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">self.navigationItem.title &#x3D; @&quot;my title&quot;; &#x2F;&#x2F;sets navigation bar title.</span><br><span class="line">self.tabBarItem.title &#x3D; @&quot;my title&quot;; &#x2F;&#x2F; sets tab bar title.</span><br><span class="line">self.title &#x3D; @&quot;my title&quot;; &#x2F;&#x2F; sets both of these.</span><br></pre></td></tr></table></figure></div><p><strong>UITabBar、UINavigationBar icon图标渲染问题</strong></p> <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">UIImage *leftBarButtonImage &#x3D; [[UIImage imageNamed:@&quot;navbar_back_normal&quot;] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];</span><br><span class="line"></span><br><span class="line">self.navigationItem.leftBarButtonItem &#x3D; [[UIBarButtonItem alloc] initWithImage:leftBarButtonImage style:UIBarButtonItemStylePlain target:self action:@selector(dismiss)];</span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">vc.tabBarItem.title &#x3D; title;</span><br><span class="line">vc.tabBarItem.image &#x3D; [[UIImage imageNamed:image] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];</span><br><span class="line">vc.tabBarItem.selectedImage &#x3D; [[UIImage imageNamed:selectedImage] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];</span><br></pre></td></tr></table></figure></div><p><strong>UIBarButtonItem 间距偏移问题</strong></p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">UIImage *leftBarButtonImage &#x3D; [[UIImage imageNamed:@&quot;navbar_back_normal&quot;] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];</span><br><span class="line"></span><br><span class="line">if (@available(iOS 11.0, *)) &#123;</span><br><span class="line">    UIButton *leftButton &#x3D; [UIButton buttonWithType:UIButtonTypeCustom];</span><br><span class="line">    leftButton.frame &#x3D; CGRectMake(0, 0, 44, 44);</span><br><span class="line">    [leftButton setImage:leftBarButtonImage forState:UIControlStateNormal];</span><br><span class="line">    [leftButton setImage:leftBarButtonImage forState:UIControlStateHighlighted];</span><br><span class="line">    leftButton.contentEdgeInsets &#x3D;UIEdgeInsetsMake(0, -20,0, 0);</span><br><span class="line">    leftButton.imageEdgeInsets &#x3D;UIEdgeInsetsMake(0, -15,0, 0);</span><br><span class="line">    [leftButton addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];</span><br><span class="line">    UIBarButtonItem *leftBarButtonItem &#x3D; [[UIBarButtonItem alloc] initWithCustomView:leftButton];</span><br><span class="line">    self.navigationItem.leftBarButtonItems&#x3D;@[leftBarButtonItem];</span><br><span class="line">    </span><br><span class="line">&#125;else&#123;</span><br><span class="line">    self.navigationItem.leftBarButtonItem &#x3D; [[UIBarButtonItem alloc] initWithImage:leftBarButtonImage style:UIBarButtonItemStylePlain target:self action:@selector(back)];</span><br><span class="line">    UIBarButtonItem *spacer &#x3D; [[UIBarButtonItem alloc] initWithBarButtonSystemItem: UIBarButtonSystemItemFixedSpace target:self action:@selector(back)];</span><br><span class="line">    spacer.width &#x3D; -8;</span><br><span class="line">    self.navigationItem.leftBarButtonItems &#x3D; @[spacer, self.navigationItem.leftBarButtonItem];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><p><strong>UIBarButtonItem frame</strong></p><p>获取self.navigationItem.leftBarButtonItem的frame,因为UIBarButtonItem继承UIView,所以要获取View对象然后在操作</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">UIView *view &#x3D; [self.navigationItem.leftBarButtonItem valueForKey:@&quot;view&quot;];</span><br></pre></td></tr></table></figure></div><hr><p>2019.11.13更新</p>]]></content>
     
@@ -394,101 +466,9 @@
   </entry>
   
   <entry>
-    <title>SDWebImage源码阅读:NSData+ImageContentType</title>
-    <link href="http://duxinfeng.com/2018/01/23/todo/SDWebImage%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB-NSData-ImageContentType/"/>
-    <id>http://duxinfeng.com/2018/01/23/todo/SDWebImage%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB-NSData-ImageContentType/</id>
-    <published>2018-01-23T09:20:28.000Z</published>
-    <updated>2018-01-23T09:20:28.027Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="categorie1" scheme="http://duxinfeng.com/categories/categorie1/"/>
-    
-    
-      <category term="tag1" scheme="http://duxinfeng.com/tags/tag1/"/>
-    
-      <category term="tag2" scheme="http://duxinfeng.com/tags/tag2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>NS_OPTIONS与NS_ENUM</title>
-    <link href="http://duxinfeng.com/2018/01/23/todo/NS-OPTIONS%E4%B8%8ENS-ENUM/"/>
-    <id>http://duxinfeng.com/2018/01/23/todo/NS-OPTIONS%E4%B8%8ENS-ENUM/</id>
-    <published>2018-01-23T09:17:46.000Z</published>
-    <updated>2018-01-23T09:17:46.784Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="categorie1" scheme="http://duxinfeng.com/categories/categorie1/"/>
-    
-    
-      <category term="tag1" scheme="http://duxinfeng.com/tags/tag1/"/>
-    
-      <category term="tag2" scheme="http://duxinfeng.com/tags/tag2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>碎碎念在2018年1月13日</title>
-    <link href="http://duxinfeng.com/2018/01/13/todo/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%8813%E6%97%A5/"/>
-    <id>http://duxinfeng.com/2018/01/13/todo/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%8813%E6%97%A5/</id>
-    <published>2018-01-13T10:19:58.000Z</published>
-    <updated>2018-01-13T10:25:27.554Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="categorie1" scheme="http://duxinfeng.com/categories/categorie1/"/>
-    
-    
-      <category term="tag1" scheme="http://duxinfeng.com/tags/tag1/"/>
-    
-      <category term="tag2" scheme="http://duxinfeng.com/tags/tag2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>碎碎念在2018年1月12日</title>
-    <link href="http://duxinfeng.com/2018/01/12/todo/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%8812%E6%97%A5/"/>
-    <id>http://duxinfeng.com/2018/01/12/todo/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%8812%E6%97%A5/</id>
-    <published>2018-01-12T10:24:47.000Z</published>
-    <updated>2018-01-12T10:48:05.316Z</updated>
-    
-    <content type="html"><![CDATA[<p>安好</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;安好&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-      <category term="生活" scheme="http://duxinfeng.com/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-      <category term="tag1" scheme="http://duxinfeng.com/tags/tag1/"/>
-    
-      <category term="tag2" scheme="http://duxinfeng.com/tags/tag2/"/>
-    
-  </entry>
-  
-  <entry>
     <title>碎碎念在2018年1月11日</title>
-    <link href="http://duxinfeng.com/2018/01/11/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%8811%E6%97%A5/"/>
-    <id>http://duxinfeng.com/2018/01/11/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%8811%E6%97%A5/</id>
+    <link href="http://duxinfeng.com/2018/01/11/undefined/"/>
+    <id>http://duxinfeng.com/2018/01/11/undefined/</id>
     <published>2018-01-11T10:57:20.000Z</published>
     <updated>2018-01-13T06:43:44.709Z</updated>
     
@@ -513,19 +493,19 @@
   
   <entry>
     <title>碎碎念在2018年1月10日</title>
-    <link href="http://duxinfeng.com/2018/01/10/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%8810%E6%97%A5/"/>
-    <id>http://duxinfeng.com/2018/01/10/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82018%E5%B9%B41%E6%9C%8810%E6%97%A5/</id>
+    <link href="http://duxinfeng.com/2018/01/10/BB20180110/"/>
+    <id>http://duxinfeng.com/2018/01/10/BB20180110/</id>
     <published>2018-01-10T08:52:57.000Z</published>
-    <updated>2018-01-11T05:12:19.904Z</updated>
+    <updated>2020-03-11T14:04:23.357Z</updated>
     
-    <content type="html"><![CDATA[<p>最近几个同事在讨论区块链的事情，讨论一块买着玩玩试试水。早上页看到一QQ群里讨论徐小平对区块链看法的截图被外传的事，该图是徐小平在所投企业CEO群里发的，他明确表示不要外传，但还是有人传出去，也有人觉得这是炒作，找韭菜。</p><p><a href="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2849.JPG" data-fancybox="group" data-caption class="fancybox"><img alt data-src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2849.JPG" class="lazyload" title></a></p><p><a href="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2850.JPG" data-fancybox="group" data-caption class="fancybox"><img alt data-src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2850.JPG" class="lazyload" title></a></p><p><a href="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2851.JPG" data-fancybox="group" data-caption class="fancybox"><img alt data-src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2851.JPG" class="lazyload" title></a></p><p><a href="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2854.PNG" data-fancybox="group" data-caption class="fancybox"><img alt data-src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2854.PNG" class="lazyload" title></a></p><p><a href="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2853.PNG" data-fancybox="group" data-caption class="fancybox"><img alt data-src="http://7xj2sw.com1.z0.glb.clouddn.com/IMG_2853.PNG" class="lazyload" title></a></p><p>13年的时候开始听路哥说比特币的事，当时他在淘宝买了矿机开始挖币，那个时候已经很难挖了。那一年ripple币给Github用户送ripple币，凡是在2013年5月1日前注册的Github账号且仓库里有代码的用户可获得2020个rippl币，当时价值70块,收到两封邮件收ripple币的，钱也不是很多所以我就先留着了，现在想起来去看邮件的时候钱包链接已失效，账户名和密码也都忘了找不回，哎，这都是命吧。</p>]]></content>
+    <content type="html"><![CDATA[<p>最近几个同事在讨论区块链的事情，讨论一块买着玩玩试试水。早上页看到一QQ群里讨论徐小平对区块链看法的截图被外传的事，该图是徐小平在所投企业CEO群里发的，他明确表示不要外传，但还是有人传出去，也有人觉得这是炒作，找韭菜。</p><p><a href="http://qiniu.niuxtech.cn/IMG_2849.JPG" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="http://qiniu.niuxtech.cn/IMG_2849.JPG" class="lazyload"></a></p><p><a href="http://qiniu.niuxtech.cn/IMG_2850.JPG" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="http://qiniu.niuxtech.cn/IMG_2850.JPG" class="lazyload"></a></p><p><a href="http://qiniu.niuxtech.cn/IMG_2851.JPG" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="http://qiniu.niuxtech.cn/IMG_2851.JPG" class="lazyload"></a></p><p><a href="http://qiniu.niuxtech.cn/IMG_2854.PNG" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="http://qiniu.niuxtech.cn/IMG_2854.PNG" class="lazyload"></a></p><p><a href="http://qiniu.niuxtech.cn/IMG_2853.PNG" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="http://qiniu.niuxtech.cn/IMG_2853.PNG" class="lazyload"></a></p><p>13年的时候开始听路哥说比特币的事，当时他在淘宝买了矿机开始挖币，那个时候已经很难挖了。那一年ripple币给Github用户送ripple币，凡是在2013年5月1日前注册的Github账号且仓库里有代码的用户可获得2020个rippl币，当时价值70块,收到两封邮件收ripple币的，钱也不是很多所以我就先留着了，现在想起来去看邮件的时候钱包链接已失效，账户名和密码也都忘了找不回，哎，这都是命吧。</p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;最近几个同事在讨论区块链的事情，讨论一块买着玩玩试试水。早上页看到一QQ群里讨论徐小平对区块链看法的截图被外传的事，该图是徐小平在所投企业CEO群里发的，他明确表示不要外传，但还是有人传出去，也有人觉得这是炒作，找韭菜。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://7xj
+&lt;p&gt;&lt;a href=&quot;http://qin
       
     
     </summary>
@@ -537,6 +517,60 @@
       <category term="碎碎念" scheme="http://duxinfeng.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
       <category term="区块链" scheme="http://duxinfeng.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>app极速建站</title>
+    <link href="http://duxinfeng.com/2018/01/09/undefined/"/>
+    <id>http://duxinfeng.com/2018/01/09/undefined/</id>
+    <published>2018-01-09T06:19:58.000Z</published>
+    <updated>2020-02-17T15:48:27.773Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="icon-生成工具"><a href="#icon-生成工具" class="headerlink" title="icon 生成工具"></a>icon 生成工具</h3><p>地址：<a href="http://makeappicon.com" target="_blank" rel="noopener">http://makeappicon.com</a></p><p>上传一张1024*1024像素的icon图，给你生成iOS和Android 全套icon,可用下载下来的文件与工程里icon配置文件夹直接替换</p><h3 id="手机模板"><a href="#手机模板" class="headerlink" title="手机模板"></a>手机模板</h3><p>地址：<a href="https://mockuphone.com" target="_blank" rel="noopener">https://mockuphone.com</a> ，也可以在线上传一张图进行与看效果 <a href="https://mockuphone.com/instant_iphonex" target="_blank" rel="noopener">https://mockuphone.com/instant_iphonex</a></p><p>包含iOS和Android主流机型，可以在模拟器上截图，然后上传图片生成带模型的手机截图</p><h3 id="App-Store-商店模板"><a href="#App-Store-商店模板" class="headerlink" title="App Store 商店模板"></a>App Store 商店模板</h3><p>地址：<a href="https://app.shotbot.io" target="_blank" rel="noopener">https://app.shotbot.io</a> （目前有五套模板）</p><p>上传app截图，生成一套不同场景下使用应用的商店模板图，如下</p><p><a href="http://7xj2sw.com1.z0.glb.clouddn.com/WX20180110-184608.png" data-fancybox="group" data-caption class="fancybox"><img alt data-src="http://7xj2sw.com1.z0.glb.clouddn.com/WX20180110-184608.png" class="lazyload" title></a><br>[### App站点生成工具</p><p>地址：<a href="https://appsite.skygear.io" target="_blank" rel="noopener">https://appsite.skygear.io</a> （目前有五套模板）</p><p>1、输入app名字，根据输入框下面搜索结果选择你的app，选择下一步</p><p>2、根据app自动从App Store上上自动获取app的信息，然后生成一个简介模板，可以对模板里面信息进行编辑和模板选择，进行下一步</p><p>3、进行预览，进行下一步下载网页源码</p><p>点击Download HTML按钮生成网页源码，解压源码包把里面文件上传到你的github仓库上(假设你的github用户名叫xxx,新建的网页仓库叫xxxapp)，再新建一个xxx.github.io，这个时候直接访问<code>https://xxx.github.io/appsite</code> 就可以，也可以把源码直接上传xxx.github.io仓库，直接访问<code>https://xxx.github.io</code>即可，效果如下：</p><p><a href="http://7xj2sw.com1.z0.glb.clouddn.com/WX20180110-184905.png" data-fancybox="group" data-caption class="fancybox"><img alt data-src="http://7xj2sw.com1.z0.glb.clouddn.com/WX20180110-184905.png" class="lazyload" title></a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;icon-生成工具&quot;&gt;&lt;a href=&quot;#icon-生成工具&quot; class=&quot;headerlink&quot; title=&quot;icon 生成工具&quot;&gt;&lt;/a&gt;icon 生成工具&lt;/h3&gt;&lt;p&gt;地址：&lt;a href=&quot;http://makeappicon.com&quot; target
+      
+    
+    </summary>
+    
+    
+      <category term="工具" scheme="http://duxinfeng.com/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="AppStore" scheme="http://duxinfeng.com/tags/AppStore/"/>
+    
+      <category term="app" scheme="http://duxinfeng.com/tags/app/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>碎碎念在2018年1月9日</title>
+    <link href="http://duxinfeng.com/2018/01/09/BB20180109/"/>
+    <id>http://duxinfeng.com/2018/01/09/BB20180109/</id>
+    <published>2018-01-09T03:40:15.000Z</published>
+    <updated>2020-03-11T13:25:19.490Z</updated>
+    
+    <content type="html"><![CDATA[<p>在<a href="https://atjason.com" target="_blank" rel="noopener">https://atjason.com</a>中看到作者<code>每天写一点</code>从2015年11月18日坚持到现在已有两年多，然后又想起记流水账了。</p><p>长时间不写不知道怎么开头，偶尔有零碎的想法，放在了备忘录上想等着哪天有时间、空闲了、无聊的时候捡起来整理一下，到后真的有那么一天，却一点兴趣也没有，或者草草的复制粘贴一些片段丢进去。</p><p>写文字是需要有内容输入的，否则就是吃老本了，每天地铁上下班基本都是在刷微信订阅号和微信看一看，偶尔知乎、小密圈和微博基本上就是过下脑子，真的看到有用的东西，基本过两天都不记得了。写文字可以帮你思考，有些有用的东西能记得更久一些吧，当某一天再回看的时候又是什么样的体验？</p><blockquote><p>愿你出走半生，归来仍是少年。</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;在&lt;a href=&quot;https://atjason.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://atjason.com&lt;/a&gt;中看到作者&lt;code&gt;每天写一点&lt;/code&gt;从2015年11月18日坚持到现在已有两年多，然后又想起记
+      
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="http://duxinfeng.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="碎碎念" scheme="http://duxinfeng.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
   </entry>
   
