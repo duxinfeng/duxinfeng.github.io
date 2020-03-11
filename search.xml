@@ -4,11 +4,57 @@
   
     
     <entry>
-      <title>2020博客重新打理</title>
-      <link href="/2020/02/22/2020%E5%8D%9A%E5%AE%A2%E9%87%8D%E6%96%B0%E6%89%93%E7%90%86/"/>
-      <url>/2020/02/22/2020%E5%8D%9A%E5%AE%A2%E9%87%8D%E6%96%B0%E6%89%93%E7%90%86/</url>
+      <title>碎碎念在2020年3月11日</title>
+      <link href="/2020/03/11/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82020%E5%B9%B43%E6%9C%8811%E6%97%A5/"/>
+      <url>/2020/03/11/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82020%E5%B9%B43%E6%9C%8811%E6%97%A5/</url>
+      
+        <content type="html"><![CDATA[<h3 id><a href="#" class="headerlink" title></a></h3><p>熬到凌晨一点多把这个版本提审了，每次提审都会这样，熬到夜晚很久。平时开发也没有很快的把东西给到测试反馈。安卓版本测试优先级改与苹果。测试人手不够资源不充足，下个版本一定要多催，如果当成一种资源来讲就是多争取一下资源。</p><h3 id="-1"><a href="#-1" class="headerlink" title></a></h3><p>趁打包提审期等待期间，把手机系统 iOS 12.4.1 升级到 iOS 13.3.1，然而重启后开机密码由原来的六位变成了成四位，搞的我一脸懵逼，输了多次密码没对的，直到机器被锁10分钟。网上查了一下，大都是四位变六位的案例。 这个时候体会了一把用户面对开发人员写的BUG感受 ，然后尝试万能的重启解决方案就好了，中间卸载一个APP又把系统搞崩溃了，开机之后密码又变成了4位，又做了一次重启解决。</p><h3 id="-2"><a href="#-2" class="headerlink" title></a></h3><p>开机后眼睛瞥见支付宝的主题色变得更蓝了，官方更新文案里说变得更亲和、明快。然而直观感受却不然，色调变得冷，并没有感受到亲和、明快 也没有觉得比以前更好看，可能时间长了就顺眼了吧。想到公司logo相反，最开始这种蓝色变成浅蓝色，顺眼多了。不过也发现苹果应用商店Tab由原来的5个又变成4个了。</p><p><a href="http://qiniu.niuxtech.cn/2020/2020-03-11-1.jpeg" data-fancybox="group" data-caption="img" class="fancybox"><img alt="img" data-src="http://qiniu.niuxtech.cn/2020/2020-03-11-1.jpeg" class="lazyload" title="img"></a>))</p><h3 id="-3"><a href="#-3" class="headerlink" title></a></h3><p>每天熬夜在1-2点的时候有一段心率特表高。还是要早点睡。</p><p><a href="http://qiniu.niuxtech.cn/2020/2020-03-11-2.jpeg" data-fancybox="group" data-caption="img" class="fancybox"><img alt="img" data-src="http://qiniu.niuxtech.cn/2020/2020-03-11-2.jpeg" class="lazyload" title="img"></a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 碎碎念 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 熬夜 </tag>
+            
+            <tag> 复盘 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>碎碎念在2020年3月5日</title>
+      <link href="/2020/03/06/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82020%E5%B9%B43%E6%9C%885%E6%97%A5/"/>
+      <url>/2020/03/06/%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%9C%A82020%E5%B9%B43%E6%9C%885%E6%97%A5/</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 碎碎念 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2020重新装修一下博客</title>
+      <link href="/2020/02/22/2020%E9%87%8D%E6%96%B0%E8%A3%85%E4%BF%AE%E4%B8%80%E4%B8%8B%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2020/02/22/2020%E9%87%8D%E6%96%B0%E8%A3%85%E4%BF%AE%E4%B8%80%E4%B8%8B%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<p>把<a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a> 上主题来回看了三四遍，希望能找个简洁、干净、能突出写作文字的主题，一直没选好。</p><p>2015-2017</p><p>2017-2020</p><p>现在</p>]]></content>
       
       
       
