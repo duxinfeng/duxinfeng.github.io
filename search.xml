@@ -95,16 +95,24 @@
     
     <entry>
       <title>2020重新装修一下博客</title>
-      <link href="/2020/02/22/2020%E9%87%8D%E6%96%B0%E8%A3%85%E4%BF%AE%E4%B8%80%E4%B8%8B%E5%8D%9A%E5%AE%A2/"/>
-      <url>/2020/02/22/2020%E9%87%8D%E6%96%B0%E8%A3%85%E4%BF%AE%E4%B8%80%E4%B8%8B%E5%8D%9A%E5%AE%A2/</url>
+      <link href="/2020/02/22/new-blog/"/>
+      <url>/2020/02/22/new-blog/</url>
       
-        <content type="html"><![CDATA[<p>把<a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a> 上主题来回看了三四遍，希望能找个简洁、干净、能突出写作文字的主题，一直没选好。</p><p>2015-2017</p><p>2017-2020</p><p>现在</p>]]></content>
+        <content type="html"><![CDATA[<h3 id="新主题-Butterfly"><a href="#新主题-Butterfly" class="headerlink" title="新主题 Butterfly"></a>新主题 Butterfly</h3><p>受疫情影响，一直呆在家中，又开始倒腾Blog。基于 GitHub Page + Hexo + Butterfly 主题重新搞一搞，并给每篇文章自定义了固定连连接，不会再有一段编码的中文字符。</p><p>然后顺便研究了一下GitHub的持续集成服务 <a href="https://help.github.com/en/articles/about-github-actions" target="_blank" rel="noopener">GitHub Actions</a> ，和 Travis CI 一样，这样每次提交源码到另一个单独的个仓库，然后每次push代码都能出发Action，生成静态文件部署到 <a href="https://duxinfengg.github.io" target="_blank" rel="noopener">https://duxinfengg.github.io</a> 上，速度也不错。</p><p>因为文章并不多，还是没有hexo g d 来的快，还把之前的提交记录都重置没了，所以还是采用这种方式了。</p><h3 id="Material主题"><a href="#Material主题" class="headerlink" title="Material主题"></a>Material主题</h3><p>前一个主题 <a href="https://github.com/bolnh/hexo-theme-material" target="_blank" rel="noopener">Material</a> 大概用了两年左右，17年开始折腾的，也没写多少东西，主题作者也没更新了，就弃用了。</p><p>来来回回在 <a href="https://hexo.io/theme" target="_blank" rel="noopener">https://hexo.io/theme</a> 上翻了回看了三四遍，希望能找个简洁、干净、能突出写作文字的主题，最后选择了<a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener">Butterfly</a> 。</p><p>无论是刚换的 Butterfly 还是弃用的 Material 都是基于 Material Design 风格的主题。</p><p>当然，换主题，换面貌也是希望有一个新的开始，但愿自己能坚持下去。</p>]]></content>
       
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+          <category> Butterfly </category>
+          
+      </categories>
       
       
         <tags>
             
-            <tag> 默认 </tag>
+            <tag> Blog </tag>
             
         </tags>
       
