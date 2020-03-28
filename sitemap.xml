@@ -2,6 +2,153 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://duxinfeng.com/2015/12/15/git-ignore/</loc>
+    
+    <lastmod>2020-03-28T15:59:07.874Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://duxinfeng.com/2018/10/15/no-bug/</loc>
+    
+    <lastmod>2020-03-28T15:58:10.505Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://duxinfeng.com/2017/05/01/bug-and-bug/</loc>
+    
+    <lastmod>2020-03-28T15:57:45.531Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://duxinfeng.com/2017/04/10/WKWebView/</loc>
+    
+    <lastmod>2020-03-28T15:57:22.735Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://duxinfeng.com/2015/05/03/uiwebview/</loc>
+    
+    <lastmod>2020-03-28T15:57:06.115Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://duxinfeng.com/2018/05/03/WKWebView-WebViewJavascriptBridge/</loc>
+    
+    <lastmod>2020-03-28T15:56:48.015Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://duxinfeng.com/2018/04/09/Images.xcassets/</loc>
+    
+    <lastmod>2020-03-28T15:54:25.054Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://duxinfeng.com/2016/01/15/nsurl-initialization-failed/</loc>
+    
+    <lastmod>2020-03-28T15:53:18.336Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://duxinfeng.com/2015/07/04/readbook/</loc>
+    
+    <lastmod>2020-03-28T15:52:35.583Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://duxinfeng.com/2015/07/01/apple-service/</loc>
+    
+    <lastmod>2020-03-28T15:51:59.585Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://duxinfeng.com/2018/01/11/BB20180111/</loc>
+    
+    <lastmod>2020-03-28T15:51:28.628Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://duxinfeng.com/2016/03/27/BB20160327/</loc>
+    
+    <lastmod>2020-03-28T15:51:09.425Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://duxinfeng.com/2015/10/12/city-api/</loc>
+    
+    <lastmod>2020-03-28T15:50:46.625Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://duxinfeng.com/2015/10/23/uiviewcontroller-push-pop/</loc>
+    
+    <lastmod>2020-03-28T15:50:24.443Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://duxinfeng.com/2017/05/18/wechat-lab/</loc>
+    
+    <lastmod>2020-03-28T15:49:45.733Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://duxinfeng.com/2015/05/01/about-blog/</loc>
+    
+    <lastmod>2020-03-28T15:49:11.973Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://duxinfeng.com/2016/05/26/ios-thread/</loc>
+    
+    <lastmod>2020-03-28T15:46:06.341Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://duxinfeng.com/2017/08/05/error-lipo-can''t-write-to-output-file/</loc>
+    
+    <lastmod>2020-03-28T15:45:29.070Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://duxinfeng.com/2018/01/09/app-web/</loc>
+    
+    <lastmod>2020-03-28T15:44:23.678Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://duxinfeng.com/2018/10/08/xcode10--lstdc++.6.0.9/</loc>
+    
+    <lastmod>2020-03-28T15:43:58.626Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://duxinfeng.com/2016/01/04/alipay-warning/</loc>
+    
+    <lastmod>2020-03-28T15:41:58.030Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://duxinfeng.com/2015/07/12/RESideMenu/</loc>
     
     <lastmod>2020-03-28T12:35:00.319Z</lastmod>
@@ -131,13 +278,6 @@
     <loc>http://duxinfeng.com/2015/12/11/read20151211/</loc>
     
     <lastmod>2020-03-11T15:11:08.218Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://duxinfeng.com/2017/04/10/WKWebView/</loc>
-    
-    <lastmod>2020-03-11T14:53:20.248Z</lastmod>
     
   </url>
   

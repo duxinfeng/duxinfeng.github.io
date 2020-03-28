@@ -236,6 +236,31 @@
     
     
     <entry>
+      <title>佛祖保佑,永无BUG</title>
+      <link href="/2018/10/15/no-bug/"/>
+      <url>/2018/10/15/no-bug/</url>
+      
+        <content type="html"><![CDATA[<p>收藏几个有趣的代码注释</p><h3 id="一"><a href="#一" class="headerlink" title="一"></a>一</h3><p><img src="/" class="lazyload" data-src="images/2018/WX20181015-152803.png"  alt=""></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;*</span><br><span class="line"> *                   _ooOoo_</span><br><span class="line"> *                  o8888888o</span><br><span class="line"> *                  88&quot; . &quot;88</span><br><span class="line"> *                  (| -_- |)</span><br><span class="line"> *                  O\  &#x3D;  &#x2F;O</span><br><span class="line"> *               ____&#x2F;&#96;---&#39;\____</span><br><span class="line"> *             .&#39;  \\|     |&#x2F;&#x2F;  &#96;.</span><br><span class="line"> *            &#x2F;  \\|||  :  |||&#x2F;&#x2F;  \</span><br><span class="line"> *           &#x2F;  _||||| -:- |||||-  \</span><br><span class="line"> *           |   | \\\  -  &#x2F;&#x2F;&#x2F; |   |</span><br><span class="line"> *           | \_|  &#39;&#39;\---&#x2F;&#39;&#39;  |   |</span><br><span class="line"> *           \  .-\__  &#96;-&#96;  ___&#x2F;-. &#x2F;</span><br><span class="line"> *         ___&#96;. .&#39;  &#x2F;--.--\  &#96;. . __</span><br><span class="line"> *      .&quot;&quot; &#39;&lt;  &#96;.___\_&lt;|&gt;_&#x2F;___.&#39;  &gt;&#39;&quot;&quot;.</span><br><span class="line"> *     | | :  &#96;- \&#96;.;&#96;\ _ &#x2F;&#96;;.&#96;&#x2F; - &#96; : | |</span><br><span class="line"> *     \  \ &#96;-.   \_ __\ &#x2F;__ _&#x2F;   .-&#96; &#x2F;  &#x2F;</span><br><span class="line"> *&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#96;-.____&#96;-.___\_____&#x2F;___.-&#96;____.-&#39;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</span><br><span class="line"> *                   &#96;&#x3D;---&#x3D;&#39;</span><br><span class="line"> *.............................................</span><br><span class="line"> *         佛祖保佑            永无BUG</span><br><span class="line"> *         佛曰:</span><br><span class="line"> *         写字楼里写字间，写字间里程序员；</span><br><span class="line"> *         程序人员写程序，又拿程序换酒钱。</span><br><span class="line"> *         酒醒只在网上坐，酒醉还来网下眠；</span><br><span class="line"> *         酒醉酒醒日复日，网上网下年复年。</span><br><span class="line"> *         但愿老死电脑间，不愿鞠躬老板前</span><br><span class="line"> *         奔驰宝马贵者趣，公交自行程序员。</span><br><span class="line"> *         别人笑我忒疯癫，我笑自己命太贱；</span><br><span class="line"> *         不见满街漂亮妹，哪个归得程序员？</span><br><span class="line"> *&#x2F;</span><br></pre></td></tr></table></figure><h3 id="二"><a href="#二" class="headerlink" title="二"></a>二</h3><p><img src="/" class="lazyload" data-src="images/2018/WX20181015-152817.png"  alt=""></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;* Code is far away from bug with the god animal protecting</span><br><span class="line"> *</span><br><span class="line"> *    ┏┓   ┏┓</span><br><span class="line"> *   ┏┛┻━━━┛┻┓</span><br><span class="line"> *   ┃       ┃</span><br><span class="line"> *   ┃       ┃</span><br><span class="line"> *   ┃ ┳┛ ┗┳ ┃</span><br><span class="line"> *   ┃       ┃</span><br><span class="line"> *   ┃   ┻   ┃</span><br><span class="line"> *   ┃       ┃</span><br><span class="line"> *   ┗━┓   ┏━┛</span><br><span class="line"> *     ┃   ┃</span><br><span class="line"> *     ┃   ┃</span><br><span class="line"> *    ┏┛    ┗━━━┓</span><br><span class="line"> *    ┃        ┣┓</span><br><span class="line"> *    ┃        ┏┛</span><br><span class="line"> *    ┗┓┓┏━┳┓┏━┛</span><br><span class="line"> *     ┃┫┫ ┃┫┫</span><br><span class="line"> *     ┗┻┛ ┗┻┛</span><br><span class="line"> *&#x2F;</span><br></pre></td></tr></table></figure><h3 id="三"><a href="#三" class="headerlink" title="三"></a>三</h3><p><img src="/" class="lazyload" data-src="images/2018/WX20181015-152843.png"  alt=""></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&#x2F;**</span><br><span class="line"> *               ii.                                         ;9ABH,</span><br><span class="line"> *              SA391,                                    .r9GG35&amp;G</span><br><span class="line"> *              &amp;#ii13Gh;                               i3X31i;:,rB1</span><br><span class="line"> *              iMs,:,i5895,                         .5G91:,:;:s1:8A</span><br><span class="line"> *               33::::,,;5G5,                     ,58Si,,:::,sHX;iH1</span><br><span class="line"> *                Sr.,:;rs13BBX35hh11511h5Shhh5S3GAXS:.,,::,,1AG3i,GG</span><br><span class="line"> *                .G51S511sr;;iiiishS8G89Shsrrsh59S;.,,,,,..5A85Si,h8</span><br><span class="line"> *               :SB9s:,............................,,,.,,,SASh53h,1G.</span><br><span class="line"> *            .r18S;..,,,,,,,,,,,,,,,,,,,,,,,,,,,,,....,,.1H315199,rX,</span><br><span class="line"> *          ;S89s,..,,,,,,,,,,,,,,,,,,,,,,,....,,.......,,,;r1ShS8,;Xi</span><br><span class="line"> *        i55s:.........,,,,,,,,,,,,,,,,.,,,......,.....,,....r9&amp;5.:X1</span><br><span class="line"> *       59;.....,.     .,,,,,,,,,,,...        .............,..:1;.:&amp;s</span><br><span class="line"> *      s8,..;53S5S3s.   .,,,,,,,.,..      i15S5h1:.........,,,..,,:99</span><br><span class="line"> *      93.:39s:rSGB@A;  ..,,,,.....    .SG3hhh9G&amp;BGi..,,,,,,,,,,,,.,83</span><br><span class="line"> *      G5.G8  9#@@@@@X. .,,,,,,.....  iA9,.S&amp;B###@@Mr...,,,,,,,,..,.;Xh</span><br><span class="line"> *      Gs.X8 S@@@@@@@B:..,,,,,,,,,,. rA1 ,A@@@@@@@@@H:........,,,,,,.iX:</span><br><span class="line"> *     ;9. ,8A#@@@@@@#5,.,,,,,,,,,... 9A. 8@@@@@@@@@@M;    ....,,,,,,,,S8</span><br><span class="line"> *     X3    iS8XAHH8s.,,,,,,,,,,...,..58hH@@@@@@@@@Hs       ...,,,,,,,:Gs</span><br><span class="line"> *    r8,        ,,,...,,,,,,,,,,.....  ,h8XABMMHX3r.          .,,,,,,,.rX:</span><br><span class="line"> *   :9, .    .:,..,:;;;::,.,,,,,..          .,,.               ..,,,,,,.59</span><br><span class="line"> *  .Si      ,:.i8HBMMMMMB&amp;5,....                    .            .,,,,,.sMr</span><br><span class="line"> *  SS       :: h@@@@@@@@@@#; .                     ...  .         ..,,,,iM5</span><br><span class="line"> *  91  .    ;:.,1&amp;@@@@@@MXs.                            .          .,,:,:&amp;S</span><br><span class="line"> *  hS ....  .:;,,,i3MMS1;..,..... .  .     ...                     ..,:,.99</span><br><span class="line"> *  ,8; ..... .,:,..,8Ms:;,,,...                                     .,::.83</span><br><span class="line"> *   s&amp;: ....  .sS553B@@HX3s;,.    .,;13h.                            .:::&amp;1</span><br><span class="line"> *    SXr  .  ...;s3G99XA&amp;X88Shss11155hi.                             ,;:h&amp;,</span><br><span class="line"> *     iH8:  . ..   ,;iiii;,::,,,,,.                                 .;irHA</span><br><span class="line"> *      ,8X5;   .     .......                                       ,;iihS8Gi</span><br><span class="line"> *         1831,                                                 .,;irrrrrs&amp;@</span><br><span class="line"> *           ;5A8r.                                            .:;iiiiirrss1H</span><br><span class="line"> *             :X@H3s.......                                .,:;iii;iiiiirsrh</span><br><span class="line"> *              r#h:;,...,,.. .,,:;;;;;:::,...              .:;;;;;;iiiirrss1</span><br><span class="line"> *             ,M8 ..,....,.....,,::::::,,...         .     .,;;;iiiiiirss11h</span><br><span class="line"> *             8B;.,,,,,,,.,.....          .           ..   .:;;;;iirrsss111h</span><br><span class="line"> *            i@5,:::,,,,,,,,.... .                   . .:::;;;;;irrrss111111</span><br><span class="line"> *            9Bi,:,,,,......                        ..r91;;;;;iirrsss1ss1111</span><br><span class="line"> *&#x2F;</span><br></pre></td></tr></table></figure><h3 id="四"><a href="#四" class="headerlink" title="四"></a>四</h3><p><img src="/" class="lazyload" data-src="images/2018/WX20181015-152916.png"  alt=""></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;**</span><br><span class="line"> *                                         ,s555SB@@&amp;</span><br><span class="line"> *                                      :9H####@@@@@Xi</span><br><span class="line"> *                                     1@@@@@@@@@@@@@@8</span><br><span class="line"> *                                   ,8@@@@@@@@@B@@@@@@8</span><br><span class="line"> *                                  :B@@@@X3hi8Bs;B@@@@@Ah,</span><br><span class="line"> *             ,8i                  r@@@B:     1S ,M@@@@@@#8;</span><br><span class="line"> *            1AB35.i:               X@@8 .   SGhr ,A@@@@@@@@S</span><br><span class="line"> *            1@h31MX8                18Hhh3i .i3r ,A@@@@@@@@@5</span><br><span class="line"> *            ;@&amp;i,58r5                 rGSS:     :B@@@@@@@@@@A</span><br><span class="line"> *             1#i  . 9i                 hX.  .: .5@@@@@@@@@@@1</span><br><span class="line"> *              sG1,  ,G53s.              9#Xi;hS5 3B@@@@@@@B1</span><br><span class="line"> *               .h8h.,A@@@MXSs,           #@H1:    3ssSSX@1</span><br><span class="line"> *               s ,@@@@@@@@@@@@Xhi,       r#@@X1s9M8    .GA981</span><br><span class="line"> *               ,. rS8H#@@@@@@@@@@#HG51;.  .h31i;9@r    .8@@@@BS;i;</span><br><span class="line"> *                .19AXXXAB@@@@@@@@@@@@@@#MHXG893hrX#XGGXM@@@@@@@@@@MS</span><br><span class="line"> *                s@@MM@@@hsX#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;,</span><br><span class="line"> *              :GB@#3G@@Brs ,1GM@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@B,</span><br><span class="line"> *            .hM@@@#@@#MX 51  r;iSGAM@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@8</span><br><span class="line"> *          :3B@@@@@@@@@@@&amp;9@h :Gs   .;sSXH@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:</span><br><span class="line"> *      s&amp;HA#@@@@@@@@@@@@@@M89A;.8S.       ,r3@@@@@@@@@@@@@@@@@@@@@@@@@@@r</span><br><span class="line"> *   ,13B@@@@@@@@@@@@@@@@@@@5 5B3 ;.         ;@@@@@@@@@@@@@@@@@@@@@@@@@@@i</span><br><span class="line"> *  5#@@#&amp;@@@@@@@@@@@@@@@@@@9  .39:          ;@@@@@@@@@@@@@@@@@@@@@@@@@@@;</span><br><span class="line"> *  9@@@X:MM@@@@@@@@@@@@@@@#;    ;31.         H@@@@@@@@@@@@@@@@@@@@@@@@@@:</span><br><span class="line"> *   SH#@B9.rM@@@@@@@@@@@@@B       :.         3@@@@@@@@@@@@@@@@@@@@@@@@@@5</span><br><span class="line"> *     ,:.   9@@@@@@@@@@@#HB5                 .M@@@@@@@@@@@@@@@@@@@@@@@@@B</span><br><span class="line"> *           ,ssirhSM@&amp;1;i19911i,.             s@@@@@@@@@@@@@@@@@@@@@@@@@@S</span><br><span class="line"> *              ,,,rHAri1h1rh&amp;@#353Sh:          8@@@@@@@@@@@@@@@@@@@@@@@@@#:</span><br><span class="line"> *            .A3hH@#5S553&amp;@@#h   i:i9S          #@@@@@@@@@@@@@@@@@@@@@@@@@A.</span><br><span class="line"> *</span><br><span class="line"> *</span><br><span class="line"> *</span><br><span class="line"> *&#x2F;</span><br></pre></td></tr></table></figure><h3 id="五"><a href="#五" class="headerlink" title="五"></a>五</h3><p><img src="/" class="lazyload" data-src="images/2018/WX20181015-152725.png"  alt=""></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;**</span><br><span class="line"> **************************************************************</span><br><span class="line"> *                                                            *</span><br><span class="line"> *   .&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-.       *</span><br><span class="line"> *    |                     ______                     |      *</span><br><span class="line"> *    |                  .-&quot;      &quot;-.                  |      *</span><br><span class="line"> *    |                 &#x2F;            \                 |      *</span><br><span class="line"> *    |     _          |              |          _     |      *</span><br><span class="line"> *    |    ( \         |,  .-.  .-.  ,|         &#x2F; )    |      *</span><br><span class="line"> *    |     &gt; &quot;&#x3D;._     | )(__&#x2F;  \__)( |     _.&#x3D;&quot; &lt;     |      *</span><br><span class="line"> *    |    (_&#x2F;&quot;&#x3D;._&quot;&#x3D;._ |&#x2F;     &#x2F;\     \| _.&#x3D;&quot;_.&#x3D;&quot;\_)    |      *</span><br><span class="line"> *    |           &quot;&#x3D;._&quot;(_     ^^     _)&quot;_.&#x3D;&quot;           |      *</span><br><span class="line"> *    |               &quot;&#x3D;\__|IIIIII|__&#x2F;&#x3D;&quot;               |      *</span><br><span class="line"> *    |              _.&#x3D;&quot;| \IIIIII&#x2F; |&quot;&#x3D;._              |      *</span><br><span class="line"> *    |    _     _.&#x3D;&quot;_.&#x3D;&quot;\          &#x2F;&quot;&#x3D;._&quot;&#x3D;._     _    |      *</span><br><span class="line"> *    |   ( \_.&#x3D;&quot;_.&#x3D;&quot;     &#96;--------&#96;     &quot;&#x3D;._&quot;&#x3D;._&#x2F; )   |      *</span><br><span class="line"> *    |    &gt; _.&#x3D;&quot;                            &quot;&#x3D;._ &lt;    |      *</span><br><span class="line"> *    |   (_&#x2F;                                    \_)   |      *</span><br><span class="line"> *    |                                                |      *</span><br><span class="line"> *    &#39;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;-&#x3D;&#39;      *</span><br><span class="line"> *                                                            *</span><br><span class="line"> *           LASCIATE OGNI SPERANZA, VOI CH&#39;ENTRATE           *</span><br><span class="line"> **************************************************************</span><br><span class="line"> *&#x2F;</span><br></pre></td></tr></table></figure><h3 id="六"><a href="#六" class="headerlink" title="六"></a>六</h3><p><img src="/" class="lazyload" data-src="images/2018/WX20181015-152741.png"  alt=""></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&#x2F;**</span><br><span class="line"> *                    .::::.</span><br><span class="line"> *                  .::::::::.</span><br><span class="line"> *                 :::::::::::  FUCK YOU</span><br><span class="line"> *             ..:::::::::::&#39;</span><br><span class="line"> *           &#39;::::::::::::&#39;</span><br><span class="line"> *             .::::::::::</span><br><span class="line"> *        &#39;::::::::::::::..</span><br><span class="line"> *             ..::::::::::::.</span><br><span class="line"> *           &#96;&#96;::::::::::::::::</span><br><span class="line"> *            ::::&#96;&#96;:::::::::&#39;        .:::.</span><br><span class="line"> *           ::::&#39;   &#39;:::::&#39;       .::::::::.</span><br><span class="line"> *         .::::&#39;      ::::     .:::::::&#39;::::.</span><br><span class="line"> *        .:::&#39;       :::::  .:::::::::&#39; &#39;:::::.</span><br><span class="line"> *       .::&#39;        :::::.:::::::::&#39;      &#39;:::::.</span><br><span class="line"> *      .::&#39;         ::::::::::::::&#39;         &#96;&#96;::::.</span><br><span class="line"> *  ...:::           ::::::::::::&#39;              &#96;&#96;::.</span><br><span class="line"> * &#96;&#96;&#96;&#96; &#39;:.          &#39;:::::::::&#39;                  ::::..</span><br><span class="line"> *                    &#39;.:::::&#39;                    &#39;:&#39;&#96;&#96;&#96;&#96;..</span><br><span class="line"> *&#x2F;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 备忘 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 注释 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>在纠结什么?</title>
       <link href="/2018/10/15/sowhat/"/>
       <url>/2018/10/15/sowhat/</url>
@@ -253,6 +278,31 @@
         <tags>
             
             <tag> 租房 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Xcode 10 library not found for -lstdc++.6.0.9</title>
+      <link href="/2018/10/08/xcode10--lstdc++.6.0.9/"/>
+      <url>/2018/10/08/xcode10--lstdc++.6.0.9/</url>
+      
+        <content type="html"><![CDATA[<h3 id="错误原因："><a href="#错误原因：" class="headerlink" title="错误原因："></a>错误原因：</h3><p><code>libstdc++</code>库五年前已经废弃，已经在iOS 12模拟器中删除，也不支持(tvOS和watchOS)平台。苹果建议大家使用经过了 <code>llvm</code> 优化过并且全面支持C++11的 <code>libc++</code> 库，<code>libc++</code> 为 <code>llvm</code> 项目重新编写的库，简化了代码，速度也有加快。</p><h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案:"></a>解决方案:</h3><ol><li><p><code>Target -&gt; Build Phases -&gt; Link Binary With Libraries</code>里把<code>libstdc++.6.0.9.tbd</code>替换成<code>libc++.tbd</code>。然后Xcode 导航菜单栏，<code>File -&gt; Workspace Setting</code> 然后把上面的<code>Build System</code>设置成<code>Legacy Build System</code>，下面的<code>Build System</code>设置为<code>Use Shared Setting</code>(或者上面的<code>Build System</code>默认<code>New Build System (Default)</code>,下面<code>Build System</code>设置成<code>Legacy Build System</code>好像都可以)。</p></li><li><p>手动将 Xcode 9 中的库 <code>libstdc++.6.0.9.tbd</code> 复制到 Xcode 10 目录下（未验证）</p><pre><code>Xcode 9 路径`/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib`Xcode 10 路径`/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib`目录下具体操作：真机拷贝tdb库到/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/模拟器拷贝dylib库到/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/模拟器拷贝tdb库到/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib/对应库下载地址: https://github.com/Kila2/libstdc-.6.0.9.tbd ,iPhoneOS文件下的库对应真机目录下的库，iPhoneSimulator目录下的库对应模拟器下的库</code></pre></li></ol><h3 id="自己业务"><a href="#自己业务" class="headerlink" title="自己业务"></a>自己业务</h3><p>如果自己业务中使用<code>libstdc++</code>直接换成<code>libc++</code></p><p>如果使用cocoapods集成的第三方SDK中包含<code>libstdc++</code>，则需要第三方服务升级支持，或者改用手动集成，然后把<code>libstdc++</code>换成<code>libc++</code></p><p>参考：<br><a href="https://awhisper.github.io/2018/06/08/libstdc-inxcode10ios12" target="_blank" rel="noopener">https://awhisper.github.io/2018/06/08/libstdc-inxcode10ios12</a><br><a href="https://github.com/Kila2/libstdc-.6.0.9.tbd" target="_blank" rel="noopener">https://github.com/Kila2/libstdc-.6.0.9.tbd</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> iOS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Xcode10 </tag>
             
         </tags>
       
@@ -288,6 +338,60 @@
     
     
     <entry>
+      <title>WKWebView与WebViewJavascriptBridge踩到的坑</title>
+      <link href="/2018/05/03/WKWebView-WebViewJavascriptBridge/"/>
+      <url>/2018/05/03/WKWebView-WebViewJavascriptBridge/</url>
+      
+        <content type="html"><![CDATA[<p><strong>WKWebview Delegate 不执行</strong></p><p>需要设置 [self.bridge setWebViewDelegate:self];</p><p><strong>调试时网页端alert()无法弹出</strong></p><p>需要手动去WKUIDelegate三个方法中实现</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">#pragma mark -- WKUIDelegate</span><br><span class="line">&#x2F;&#x2F; 显示一个按钮。点击后调用completionHandler回调</span><br><span class="line">- (void)webView:(WKWebView *)webView runJavaScriptAlertPanelWithMessage:(NSString *)message initiatedByFrame:(WKFrameInfo *)frame completionHandler:(void (^)(void))completionHandler&#123;</span><br><span class="line">    </span><br><span class="line">    UIAlertController *alertController &#x3D; [UIAlertController alertControllerWithTitle:message message:nil preferredStyle:UIAlertControllerStyleAlert];</span><br><span class="line">    [alertController addAction:[UIAlertAction actionWithTitle:@&quot;确定&quot; style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) &#123;</span><br><span class="line">        </span><br><span class="line">        completionHandler();</span><br><span class="line">    &#125;]];</span><br><span class="line">    [self presentViewController:alertController animated:YES completion:nil];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 显示两个按钮，通过completionHandler回调判断用户点击的确定还是取消按钮</span><br><span class="line">- (void)webView:(WKWebView *)webView runJavaScriptConfirmPanelWithMessage:(NSString *)message initiatedByFrame:(WKFrameInfo *)frame completionHandler:(void (^)(BOOL))completionHandler&#123;</span><br><span class="line">    </span><br><span class="line">    UIAlertController *alertController &#x3D; [UIAlertController alertControllerWithTitle:message message:nil preferredStyle:UIAlertControllerStyleAlert];</span><br><span class="line">    [alertController addAction:[UIAlertAction actionWithTitle:@&quot;确定&quot; style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) &#123;</span><br><span class="line">        </span><br><span class="line">        completionHandler(YES);</span><br><span class="line">    &#125;]];</span><br><span class="line">    [alertController addAction:[UIAlertAction actionWithTitle:@&quot;取消&quot; style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) &#123;</span><br><span class="line">        </span><br><span class="line">        completionHandler(NO);</span><br><span class="line">    &#125;]];</span><br><span class="line">    [self presentViewController:alertController animated:YES completion:nil];</span><br><span class="line">    </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 显示一个带有输入框和一个确定按钮的，通过completionHandler回调用户输入的内容</span><br><span class="line">- (void)webView:(WKWebView *)webView runJavaScriptTextInputPanelWithPrompt:(NSString *)prompt defaultText:(NSString *)defaultText initiatedByFrame:(WKFrameInfo *)frame completionHandler:(void (^)(NSString * _Nullable))completionHandler&#123;</span><br><span class="line">    </span><br><span class="line">    UIAlertController *alertController &#x3D; [UIAlertController alertControllerWithTitle:@&quot;&quot; message:nil preferredStyle:UIAlertControllerStyleAlert];</span><br><span class="line">    [alertController addTextFieldWithConfigurationHandler:^(UITextField * _Nonnull textField) &#123;</span><br><span class="line">        </span><br><span class="line">    &#125;];</span><br><span class="line">    [alertController addAction:[UIAlertAction actionWithTitle:@&quot;确定&quot; style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) &#123;</span><br><span class="line">        </span><br><span class="line">        completionHandler(alertController.textFields.lastObject.text);</span><br><span class="line">    &#125;]];</span><br><span class="line">    [self presentViewController:alertController animated:YES completion:nil];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> iOS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> WKWebView </tag>
+            
+            <tag> WebViewJavascriptBridge </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>获取Images.xcassets启动图、Images.xcassets Icon</title>
+      <link href="/2018/04/09/Images.xcassets/"/>
+      <url>/2018/04/09/Images.xcassets/</url>
+      
+        <content type="html"><![CDATA[<h3 id="获取Images-xcassets-Icon文件"><a href="#获取Images-xcassets-Icon文件" class="headerlink" title="获取Images.xcassets Icon文件"></a>获取Images.xcassets Icon文件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">NSDictionary *infoPlist &#x3D; [[NSBundle mainBundle] infoDictionary];</span><br><span class="line">NSString *icon &#x3D; [[infoPlist valueForKeyPath:@&quot;CFBundleIcons.CFBundlePrimaryIcon.CFBundleIconFiles&quot;]lastObject];</span><br><span class="line">UIImage *image &#x3D; [UIImage imageNamed:icon];</span><br></pre></td></tr></table></figure><h3 id="获取Images-xcassets启动图"><a href="#获取Images-xcassets启动图" class="headerlink" title="获取Images.xcassets启动图"></a>获取Images.xcassets启动图</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">+ (NSString *)fetchLunchImageName</span><br><span class="line">&#123;</span><br><span class="line">    CGSize winSize &#x3D; [UIScreen mainScreen].bounds.size;</span><br><span class="line">    NSArray* imagesDict &#x3D; [[[NSBundle mainBundle] infoDictionary] valueForKey:@&quot;UILaunchImages&quot;];</span><br><span class="line">    for (NSDictionary* dict in imagesDict) &#123;</span><br><span class="line">        if(CGSizeEqualToSize(CGSizeFromString(dict[@&quot;UILaunchImageSize&quot;]),winSize))</span><br><span class="line">        &#123;</span><br><span class="line">            return dict[@&quot;UILaunchImageName&quot;];</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    return nil;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="App-version"><a href="#App-version" class="headerlink" title="App version"></a>App version</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">NSString *version &#x3D; [[[NSBundle mainBundle] infoDictionary] objectForKey:@&quot;CFBundleShortVersionString&quot;];</span><br></pre></td></tr></table></figure><h3 id="Bundleid"><a href="#Bundleid" class="headerlink" title="Bundleid"></a>Bundleid</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">NSString *bundleid &#x3D; [[[NSBundle mainBundle] infoDictionary] objectForKey:@&quot;CFBundleIdentifier&quot;];</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> iOS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Images.xcassets </tag>
+            
+            <tag> 启动图 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>UITabBar、UINavigationBar设置</title>
       <link href="/2018/03/28/UITabBar-UINavigationBar/"/>
       <url>/2018/03/28/UITabBar-UINavigationBar/</url>
@@ -315,6 +419,31 @@
     
     
     <entry>
+      <title>碎碎念在2018年1月11日</title>
+      <link href="/2018/01/11/BB20180111/"/>
+      <url>/2018/01/11/BB20180111/</url>
+      
+        <content type="html"><![CDATA[<p>新版本昨天上线，首页改版后造成版本崩溃率到达2%。原本三周的开发周期提前一周完成开发并上线，到正式上线中间被拒两次，一次是app第三方Web登录闪退，另一次是误开了Apple Pay设置，但是项目中并未使用Apple Pay，然而在Capabilities中打开了这一项，这个在很早的时候已经打开了，但是在这次审核的时候却不让过了。就在这前一个版本已经因为这个问题被拒了一次，因为最新的Xcode 9.2有个BUG,打包的ipa在iOS 8.2系统设备上用Assets.xcassets管理的本地图片裂开，Xcode 9.1就没问题，所以这一次在另外一个同事电脑上打包提交，合并代码的时候不知道这个设置开关怎么又被打开了，好气。</p><p>这样前前后后时间算起来还是三周了，依然会在成这样事故，有些功能单纯靠测试人员手动测试很难复现出来。接下来准备从四个方面着手解决：</p><p>1、集成BuglyHotfix SDK(v2.1.0)使用热修复功能。BuglyHotfix依然依赖JSPatch，只提供脚本下发功能，如故想通过审核需要对于工程里的JSPatch做混淆。文档地址<a href="https://bugly.qq.com/docs/user-guide/instruction-manual-ios-hotfix/?v=20171123163535" target="_blank" rel="noopener">https://bugly.qq.com/docs/user-guide/instruction-manual-ios-hotfix/?v=20171123163535</a></p><p>2、使用TestFlight进行beta版本测试，让更多的用户一起参与进来。TestFlight功能可邀请2000个用户，只需提供邮箱，但是仍需一天左右的版本审核，才能进行下载安装。</p><p>TestFlight官方文档 <a href="https://help.apple.com/itunes-connect/developer/#/devdc42b26b8" target="_blank" rel="noopener">https://help.apple.com/itunes-connect/developer/#/devdc42b26b8</a></p><p>3、让测试人员搞自动化测试。</p><p>4、引入测试框架，写单元测试。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 碎碎念 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> BUG </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>碎碎念在2018年1月10日</title>
       <link href="/2018/01/10/BB20180110/"/>
       <url>/2018/01/10/BB20180110/</url>
@@ -334,6 +463,35 @@
             <tag> 碎碎念 </tag>
             
             <tag> 区块链 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>app极速建站</title>
+      <link href="/2018/01/09/app-web/"/>
+      <url>/2018/01/09/app-web/</url>
+      
+        <content type="html"><![CDATA[<h3 id="icon-生成工具"><a href="#icon-生成工具" class="headerlink" title="icon 生成工具"></a>icon 生成工具</h3><p>地址：<a href="http://makeappicon.com" target="_blank" rel="noopener">http://makeappicon.com</a></p><p>上传一张1024*1024像素的icon图，给你生成iOS和Android 全套icon,可用下载下来的文件与工程里icon配置文件夹直接替换</p><h3 id="手机模板"><a href="#手机模板" class="headerlink" title="手机模板"></a>手机模板</h3><p>地址：<a href="https://mockuphone.com" target="_blank" rel="noopener">https://mockuphone.com</a> ，也可以在线上传一张图进行与看效果 <a href="https://mockuphone.com/instant_iphonex" target="_blank" rel="noopener">https://mockuphone.com/instant_iphonex</a></p><p>包含iOS和Android主流机型，可以在模拟器上截图，然后上传图片生成带模型的手机截图</p><h3 id="App-Store-商店模板"><a href="#App-Store-商店模板" class="headerlink" title="App Store 商店模板"></a>App Store 商店模板</h3><p>地址：<a href="https://app.shotbot.io" target="_blank" rel="noopener">https://app.shotbot.io</a> （目前有五套模板）</p><p>上传app截图，生成一套不同场景下使用应用的商店模板图，如下</p><p><img src="/" class="lazyload" data-src="http://qiniu.niuxtech.cn/WX20180110-184608.png"  alt=""><br>App站点生成工具 </p><p>地址：<a href="https://appsite.skygear.io" target="_blank" rel="noopener">https://appsite.skygear.io</a> （目前有五套模板）</p><p>1、输入app名字，根据输入框下面搜索结果选择你的app，选择下一步</p><p>2、根据app自动从App Store上上自动获取app的信息，然后生成一个简介模板，可以对模板里面信息进行编辑和模板选择，进行下一步</p><p>3、进行预览，进行下一步下载网页源码</p><p>点击Download HTML按钮生成网页源码，解压源码包把里面文件上传到你的github仓库上(假设你的github用户名叫xxx,新建的网页仓库叫xxxapp)，再新建一个xxx.github.io，这个时候直接访问<code>https://xxx.github.io/appsite</code> 就可以，也可以把源码直接上传xxx.github.io仓库，直接访问<code>https://xxx.github.io</code>即可，效果如下：</p><p><img src="/" class="lazyload" data-src="http://qiniu.niuxtech.cn/WX20180110-184905.png"  alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> AppStore </tag>
+            
+            <tag> app </tag>
+            
+            <tag> Web </tag>
             
         </tags>
       
@@ -523,6 +681,31 @@
     
     
     <entry>
+      <title>error: lipo: can&#39;t write to output file</title>
+      <link href="/2017/08/05/error-lipo-can&#39;&#39;t-write-to-output-file/"/>
+      <url>/2017/08/05/error-lipo-can&#39;&#39;t-write-to-output-file/</url>
+      
+        <content type="html"><![CDATA[<p>对于128G 空间也是够了，随着配置各种开发环境的增多，经常编译打包的时候提示数据不能写入。<br>有时候报如下错：</p><p><code>error: lipo: can&#39;t write to output file: /Users/用户名/Library/Developer/Xcode/DerivedData/project-fljetreqmwyqxwgsfkrfzxkxrfkm/Build/Intermediates/ArchiveIntermediates/project/BuildProductsPath/Release-iphoneos/project.app.dSYM/Contents/Resources/DWARF/project.lipo (Undefined error: 0)</code></p><p>1、检查是不是硬盘空间不够了，清理空间<br>2、清空<code>Library/Developer/Xcode/DerivedData/</code>文件下内容，能腾出不少空间来</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> iOS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 打包 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>DTCoreText使用总结</title>
       <link href="/2017/08/02/DTCoreText%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/"/>
       <url>/2017/08/02/DTCoreText%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/</url>
@@ -602,6 +785,56 @@
     
     
     <entry>
+      <title>微信实验室</title>
+      <link href="/2017/05/18/wechat-lab/"/>
+      <url>/2017/05/18/wechat-lab/</url>
+      
+        <content type="html"><![CDATA[<p>微信v6.5.8推出一项实验室新功能，目前包括搜一搜和看一看，更新最新版本.<code>我</code>-&gt; <code>设置</code> -&gt; <code>实验室</code> 进入<code>看一看</code>和<code>搜一搜</code>把启用开关打开，返回<code>发现</code>页即可看到 </p><p><img src="/" class="lazyload" data-src="http://qiniu.niuxtech.cn/IMG_1703.JPG"  alt=""></p><p><img src="/" class="lazyload" data-src="http://qiniu.niuxtech.cn/IMG_1704.JPG"  alt=""></p><p><img src="/" class="lazyload" data-src="http://qiniu.niuxtech.cn/IMG_1705.JPG"  alt=""></p><p><img src="/" class="lazyload" data-src="http://qiniu.niuxtech.cn/IMG_1702.JPG"  alt=""></p><p><img src="/" class="lazyload" data-src="http://qiniu.niuxtech.cn/IMG_1708.JPG"  alt=""></p><p><img src="/" class="lazyload" data-src="http://qiniu.niuxtech.cn/IMG_1706.JPG"  alt=""></p><p><img src="/" class="lazyload" data-src="http://qiniu.niuxtech.cn/IMG_1700.JPG"  alt=""></p><p>网上看到比较有意思的一张图片</p><p><img src="/" class="lazyload" data-src="http://qiniu.niuxtech.cn/IMG_1707.JPG"  alt=""></p><p>发朋友圈可以同步到Facebook和Twitter了。</p><p><img src="/" class="lazyload" data-src="http://qiniu.niuxtech.cn/IMG_1709.JPG"  alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 微信 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>修复小BUG的时候修出一个大BUG</title>
+      <link href="/2017/05/01/bug-and-bug/"/>
+      <url>/2017/05/01/bug-and-bug/</url>
+      
+        <content type="html"><![CDATA[<p>回北京的高铁上接到师兄电话说app的崩溃率有点高，问我有没有回来看一下什么情况。</p><p>今天凌晨的时候4.0.0修复版本上线，主要修复iOS 7用户的几个页面崩溃问题，因为没有iOS 7设备，所以只能请根据崩溃日志定位，但是又不能保证100%没问题，所以也就没有给测试直接上了，然后就是所有新用户用不了，对代码过于自信了，自己也没有测，唉！</p><p>加了两次jspatch 热修复SDK,一次因为编译SDK 导致的编译问题，打包出来的app 有问题，还有就是加上了还没用，苹果拒了带走热修复SDK 的app ，所以这一次对公司造成影响挺大的，以后提交一定还是走固定流程，步骤不能省。</p><p>10点到家，开始修改，开始提交加急审核！</p><p>友盟后台统计到一个4.0.2的版本，但是并没有这个版本啊，刚才到后天发现提包可能提到有问题，上周五我是怎么了。。。</p><p>快十二点发完版，然后发加急邮件，苹果还是很给力，大概一个小时左右就审核通过了。 </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 复盘 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>WKWebView</title>
       <link href="/2017/04/10/WKWebView/"/>
       <url>/2017/04/10/WKWebView/</url>
@@ -654,6 +887,35 @@
     
     
     <entry>
+      <title>iOS多线程备忘</title>
+      <link href="/2016/05/26/ios-thread/"/>
+      <url>/2016/05/26/ios-thread/</url>
+      
+        <content type="html"><![CDATA[<h3 id="进程与线程"><a href="#进程与线程" class="headerlink" title="进程与线程"></a>进程与线程</h3><p>进程: 启动Chrome浏览器，就是启动一个进程</p><p>线程：使用Chrome一遍下载一遍浏览网页，这个时候有多个线程，下载的线程和加载网页的线程. </p><p>一个进程至少有一个线程，线程在进程中执行。线程中串行执行任务，同一时间只能执行一个任务。</p><h3 id="NSThread"><a href="#NSThread" class="headerlink" title="NSThread"></a>NSThread</h3><p>开启一个线程进行任务处理</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[NSThread detachNewThreadSelector:@selector(dosomething) toTarget:self withObject:nil];</span><br><span class="line">[NSThread detachNewThreadWithBlock:^&#123;</span><br><span class="line">        [self dosomething];</span><br><span class="line">    &#125;];</span><br><span class="line">NSThread *thread &#x3D; [[NSThread alloc] initWithTarget:self selector:@selector(dosomething) object:nil];</span><br><span class="line">    [thread start];</span><br></pre></td></tr></table></figure><p>NSObject类拓展直接使用</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[self performSelectorInBackground:@selector(dosomething) withObject:nil];</span><br><span class="line">[self performSelectorOnMainThread:@selector(dosomething) withObject:nil waitUntilDone:NO];</span><br><span class="line">[self performSelector:@selector(dosomething) withObject:nil];</span><br></pre></td></tr></table></figure><p>创建一个异步任务在后台执行，然后在主线程更新UI操作</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">[self performSelectorInBackground:@selector(requestData:) withObject:@&quot;https:&#x2F;&#x2F;xxx.png&quot;];</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">- (void)requestData:(NSString *)urlString</span><br><span class="line">&#123;</span><br><span class="line">    NSData *data &#x3D; [NSData dataWithContentsOfURL:[NSURL URLWithString:urlString]];</span><br><span class="line">    [self performSelectorOnMainThread:@selector(updateUI:) withObject:data waitUntilDone:NO];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">- (void)updateUI:(NSData *)data</span><br><span class="line">&#123;</span><br><span class="line">    &#x2F;&#x2F; 拿到data，跟新UI</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="NSOperation、NSOperationQueue"><a href="#NSOperation、NSOperationQueue" class="headerlink" title="NSOperation、NSOperationQueue"></a>NSOperation、NSOperationQueue</h3><h3 id="Grand-Centeral-Dispatch"><a href="#Grand-Centeral-Dispatch" class="headerlink" title="Grand Centeral Dispatch"></a>Grand Centeral Dispatch</h3><h4 id="并行与串行"><a href="#并行与串行" class="headerlink" title="并行与串行"></a>并行与串行</h4><p>dispatch_get_global_queue 全局并行队列<br>dispatch_get_main_queue 主线程串行队列</p><p>dispatch_sync(xxx, ^{ }) 同步线程<br>dispatch_async(xxx, ^{ }) 异步线程</p><p>搭配使用   </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^&#123;</span><br><span class="line">        &#x2F;&#x2F; 子线程中耗时操作</span><br><span class="line">        dispatch_async(dispatch_get_main_queue(), ^&#123;</span><br><span class="line">            &#x2F;&#x2F; 主线程中更新页面</span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;);</span><br></pre></td></tr></table></figure><h4 id="GCD单例"><a href="#GCD单例" class="headerlink" title="GCD单例"></a>GCD单例</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">static dispatch_once_t onceToken;</span><br><span class="line">dispatch_once(&amp;onceToken, ^&#123;</span><br><span class="line">        </span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure><p>执行一次，常用来写单例方法</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">+ (id)sharedManager &#123;</span><br><span class="line">    </span><br><span class="line">    static dispatch_once_t once;</span><br><span class="line">    </span><br><span class="line">    static id instance;</span><br><span class="line">    </span><br><span class="line">    dispatch_once(&amp;once, ^&#123;</span><br><span class="line">        </span><br><span class="line">        instance &#x3D; [[self alloc] init];</span><br><span class="line">        </span><br><span class="line">    &#125;);</span><br><span class="line">    </span><br><span class="line">    return instance;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h4 id="GCD定时器"><a href="#GCD定时器" class="headerlink" title="GCD定时器"></a>GCD定时器</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">__block int timeout &#x3D; 3;</span><br><span class="line">dispatch_queue_t queue &#x3D; dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);</span><br><span class="line">dispatch_source_t timer &#x3D; dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0,queue);</span><br><span class="line">dispatch_source_set_timer(timer,dispatch_walltime(NULL, 0),1.0*NSEC_PER_SEC, 0); &#x2F;&#x2F;每秒执行</span><br><span class="line">dispatch_source_set_event_handler(timer, ^&#123;</span><br><span class="line">    if(timeout&lt;&#x3D;0)&#123; &#x2F;&#x2F;倒计时结束，关闭</span><br><span class="line">                </span><br><span class="line">        dispatch_async(dispatch_get_main_queue(), ^&#123;</span><br><span class="line">                           </span><br><span class="line">        &#125;);</span><br><span class="line">     &#125;else&#123;</span><br><span class="line">        </span><br><span class="line">        dispatch_async(dispatch_get_main_queue(), ^&#123;           </span><br><span class="line">                    </span><br><span class="line">        &#125;);</span><br><span class="line">        timeout--;</span><br><span class="line">     &#125;</span><br><span class="line">    &#125;);</span><br><span class="line"> dispatch_resume(timer);</span><br></pre></td></tr></table></figure><h4 id="dispatch-after延后执行"><a href="#dispatch-after延后执行" class="headerlink" title="dispatch_after延后执行"></a>dispatch_after延后执行</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">double delayInSeconds &#x3D; 2.0;</span><br><span class="line">dispatch_time_t popTime &#x3D; dispatch_time(DISPATCH_TIME_NOW, (int64_t) (delayInSeconds * NSEC_PER_SEC));</span><br><span class="line">dispatch_after(popTime, dispatch_get_main_queue(), ^(void)&#123;</span><br><span class="line">    &#x2F;&#x2F; 两秒后执行</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure><h4 id="Dispatch-Group"><a href="#Dispatch-Group" class="headerlink" title="Dispatch Group"></a>Dispatch Group</h4><p>有时候一个页面需要发多个请求，待所以请求完毕，再去更新数据</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">dispatch_queue_t queue &#x3D; dispatch_queue_create(DISPATCH_QUEUE_PRIORITY_DEFAULT,0);</span><br><span class="line">dispatch_group_t group &#x3D; dispatch_group_create();</span><br><span class="line">dispatch_group_async(group, queue, ^&#123;</span><br><span class="line">    NSLog(@&quot;111&quot;);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">dispatch_group_async(group, queue, ^&#123;</span><br><span class="line">    NSLog(@&quot;222&quot;);</span><br><span class="line">&#125;);</span><br><span class="line">   </span><br><span class="line">dispatch_group_async(group, queue, ^&#123;</span><br><span class="line">    NSLog(@&quot;333&quot;);</span><br><span class="line">&#125;);</span><br><span class="line">   </span><br><span class="line">dispatch_group_notify(group, dispatch_get_main_queue(), ^&#123;</span><br><span class="line">    NSLog(@&quot;done&quot;);</span><br><span class="line">&#125;);</span><br><span class="line">   </span><br><span class="line">&#x2F;* dispatch_group_notify 也可以换成下面dispatch_group_wait 等待上面执行完毕再往下执行*&#x2F;</span><br><span class="line">&#x2F;&#x2F;dispatch_group_wait(group, DISPATCH_TIME_FOREVER);</span><br><span class="line">&#x2F;&#x2F;NSLog(@&quot;done&quot;);</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> iOS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> NSThread </tag>
+            
+            <tag> NSOperation </tag>
+            
+            <tag> Grand Centeral Dispatch </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>An error occurred while processing the post-install hook of the Podfile.</title>
       <link href="/2016/04/11/undefined/"/>
       <url>/2016/04/11/undefined/</url>
@@ -671,6 +933,31 @@
         <tags>
             
             <tag> CocoaPods </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>碎碎念在2016年3月27日</title>
+      <link href="/2016/03/27/BB20160327/"/>
+      <url>/2016/03/27/BB20160327/</url>
+      
+        <content type="html"><![CDATA[<p>1、社交障碍。只能和熟悉的人侃侃，和陌生人完全无话可说，不知道聊什么话题。</p><p>2、同样一句话，需要在一个特定时间和场景下才能深入内心。<br>“时光是有限的，所以不要浪费在别人的生命中。不要对信条盲从使自己活在别人的思考结果下。不要让外界意见的噪音淹没自己内心的声音。最重要的是，要有勇气去跟随你的心和直觉，知道自己真正想成为什么样的人，除此之外其他都是次要的。 – 乔布斯”</p><p>3、学神和学霸的差距。学神考了100分学霸考了98分。他们之间的的差距回是多少？2分？那他们真不在一个等级上了。学神之所以考100分是这种那个试卷上只有100分，学霸考98分是本身实力问题。</p><p>4、昨天参加婚宴，今天又一同学结婚。年龄都到了，有对象的都到了该办事的时候，貌似着急的都是父母们。</p><p>5、米3换屏终于换好了，哈哈哈~~</p><p><img src="/" class="lazyload" data-src="http://qiniu.niuxtech.cn/IMG_0773.JPG"  alt=""></p><p><img src="/" class="lazyload" data-src="http://qiniu.niuxtech.cn/IMG_0772.JPG"  alt=""></p><p><img src="/" class="lazyload" data-src="http://qiniu.niuxtech.cn/IMG_0835.JPG"  alt=""></p><p><img src="/" class="lazyload" data-src="http://qiniu.niuxtech.cn/IMG_0836.JPG"  alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 碎碎念 </tag>
             
         </tags>
       
@@ -756,6 +1043,56 @@
     
     
     <entry>
+      <title>NSURL初始化失败</title>
+      <link href="/2016/01/15/nsurl-initialization-failed/"/>
+      <url>/2016/01/15/nsurl-initialization-failed/</url>
+      
+        <content type="html"><![CDATA[<pre><code>NSString *usrstring = @&quot;xxxxxx&quot;;NSURL *URL = [NSURL URLWithString:usrstring];</code></pre><p>有时候你会发现URL为nil;为什么呢？<br>因为你的usrstring里包含中文或者其他什么文字，需要进行一下UTF8转码</p><pre><code>NSURL *URL = [NSURL URLWithString:[urlstring stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];</code></pre><p>本地路径如果有中文字符是没有问题的！</p><pre><code>NSString *path = @&quot;本地路径XXX&quot;;NSURL *URL = [NSURL fileURLWithPath:mp3Path];</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> iOS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> NSURL </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>集成支付宝出现warning:AlipaySDK4Standard/AlipaySDK/Library/UTDID.framework</title>
+      <link href="/2016/01/04/alipay-warning/"/>
+      <url>/2016/01/04/alipay-warning/</url>
+      
+        <content type="html"><![CDATA[<h3 id="警告信息"><a href="#警告信息" class="headerlink" title="警告信息"></a>警告信息</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">warning: (x86_64) &#x2F;Users&#x2F;shanjia.gxd&#x2F;work_space&#x2F;tmp&#x2F;ios-msdk-git&#x2F;AlipaySDK4Standard&#x2F;AlipaySDK&#x2F;Library&#x2F;UTDID.framework&#x2F;UTDID(UTDIDAES.o) unable to open object file: No such file or directory</span><br><span class="line">warning: (x86_64) &#x2F;Users&#x2F;shanjia.gxd&#x2F;work_space&#x2F;tmp&#x2F;ios-msdk-git&#x2F;AlipaySDK4Standard&#x2F;AlipaySDK&#x2F;Library&#x2F;UTDID.framework&#x2F;UTDID(UTDIDBaseUtils.o) unable to open object file: No such file or directory</span><br><span class="line">warning: (x86_64) &#x2F;Users&#x2F;shanjia.gxd&#x2F;work_space&#x2F;tmp&#x2F;ios-msdk-git&#x2F;AlipaySDK4Standard&#x2F;AlipaySDK&#x2F;Library&#x2F;UTDID.framework&#x2F;UTDID(AidRequester.o) unable to open object file: No such file or directory</span><br><span class="line">warning: (x86_64) &#x2F;Users&#x2F;shanjia.gxd&#x2F;work_space&#x2F;tmp&#x2F;ios-msdk-git&#x2F;AlipaySDK4Standard&#x2F;AlipaySDK&#x2F;Library&#x2F;UTDID.framework&#x2F;UTDID(AidManager.o) unable to open object file: No such file or directory</span><br><span class="line">warning: (x86_64) &#x2F;Users&#x2F;shanjia.gxd&#x2F;work_space&#x2F;tmp&#x2F;ios-msdk-git&#x2F;AlipaySDK4Standard&#x2F;AlipaySDK&#x2F;Library&#x2F;UTDID.framework&#x2F;UTDID(UTDIDIntUtils.o) unable to open object file: No such file or directory</span><br><span class="line">warning: (x86_64) &#x2F;Users&#x2F;shanjia.gxd&#x2F;work_space&#x2F;tmp&#x2F;ios-msdk-git&#x2F;AlipaySDK4Standard&#x2F;AlipaySDK&#x2F;Library&#x2F;UTDID.framework&#x2F;UTDID(UTDIDStringUtils.o) unable to open object file: No such file or directory</span><br><span class="line">warning: (x86_64) &#x2F;Users&#x2F;shanjia.gxd&#x2F;work_space&#x2F;tmp&#x2F;ios-msdk-git&#x2F;AlipaySDK4Standard&#x2F;AlipaySDK&#x2F;Library&#x2F;UTDID.framework&#x2F;UTDID(UTDIDTypeConvert.o) unable to open object file: No such file or directory</span><br><span class="line">warning: (x86_64) &#x2F;Users&#x2F;shanjia.gxd&#x2F;work_space&#x2F;tmp&#x2F;ios-msdk-git&#x2F;AlipaySDK4Standard&#x2F;AlipaySDK&#x2F;Library&#x2F;UTDID.framework&#x2F;UTDID(UTDIDMain.o) unable to open object file: No such file or directory</span><br><span class="line">warning: (x86_64) &#x2F;Users&#x2F;shanjia.gxd&#x2F;work_space&#x2F;tmp&#x2F;ios-msdk-git&#x2F;AlipaySDK4Standard&#x2F;AlipaySDK&#x2F;Library&#x2F;UTDID.framework&#x2F;UTDID(UTDIDOpenUDID.o) unable to open object file: No such file or directory</span><br><span class="line">warning: (x86_64) &#x2F;Users&#x2F;shanjia.gxd&#x2F;work_space&#x2F;tmp&#x2F;ios-msdk-git&#x2F;AlipaySDK4Standard&#x2F;AlipaySDK&#x2F;Library&#x2F;UTDID.framework&#x2F;UTDID(UTDIDHelper.o) unable to open object file: No such file or directory</span><br><span class="line">warning: (x86_64) &#x2F;Users&#x2F;shanjia.gxd&#x2F;work_space&#x2F;tmp&#x2F;ios-msdk-git&#x2F;AlipaySDK4Standard&#x2F;AlipaySDK&#x2F;Library&#x2F;UTDID.framework&#x2F;UTDID(AidStorage.o) unable to open object file: No such file or directory</span><br><span class="line">warning: (x86_64) &#x2F;Users&#x2F;shanjia.gxd&#x2F;work_space&#x2F;tmp&#x2F;ios-msdk-git&#x2F;AlipaySDK4Standard&#x2F;AlipaySDK&#x2F;Library&#x2F;UTDID.framework&#x2F;UTDID(UTDevice.o) unable to open object file: No such file or directory</span><br><span class="line">warning: (x86_64) &#x2F;Users&#x2F;shanjia.gxd&#x2F;work_space&#x2F;tmp&#x2F;ios-msdk-git&#x2F;AlipaySDK4Standard&#x2F;AlipaySDK&#x2F;Library&#x2F;UTDID.framework&#x2F;UTDID(UTDIDKeychainItemWrapper.o) unable to open object file: No such file or directory</span><br><span class="line">warning: (x86_64) &#x2F;Users&#x2F;shanjia.gxd&#x2F;work_space&#x2F;tmp&#x2F;ios-msdk-git&#x2F;AlipaySDK4Standard&#x2F;AlipaySDK&#x2F;Library&#x2F;UTDID.framework&#x2F;UTDID(UTDIDPersistentConf.o) unable to open object file: No such file or directory</span><br><span class="line">warning: (x86_64) &#x2F;Users&#x2F;shanjia.gxd&#x2F;work_space&#x2F;tmp&#x2F;ios-msdk-git&#x2F;AlipaySDK4Standard&#x2F;AlipaySDK&#x2F;Library&#x2F;UTDID.framework&#x2F;UTDID(UTDIDPersistentFile.o) unable to open object file: No such file or directory</span><br><span class="line">warning: (x86_64) &#x2F;Users&#x2F;shanjia.gxd&#x2F;work_space&#x2F;tmp&#x2F;ios-msdk-git&#x2F;AlipaySDK4Standard&#x2F;AlipaySDK&#x2F;Library&#x2F;UTDID.framework&#x2F;UTDID(UTDIDGTMBase64.o) unable to open object file: No such file or directory</span><br></pre></td></tr></table></figure><h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p>1) Go to Build Settings -&gt; Build Options -&gt; Debug Information Format</p><p>2) Change the Debug setting from “DWARF with dSYM File” to “DWARF”</p><p>3) Leave the Release setting at “DWARF with dSYM File”</p><p>AlipaySDK.framework 是先 build 的静态 lib ，然后转成的 framework ，但是在 build 静态 lib 时 CLANG_ENABLE_MODULES 没有被设置成 disabled 。</p><p>参考原文：<a href="http://www.cocoachina.com/bbs/3g/read.php?tid=332174" target="_blank" rel="noopener">http://www.cocoachina.com/bbs/3g/read.php?tid=332174</a></p><p>===================</p><h3 id="2017-8-5更新"><a href="#2017-8-5更新" class="headerlink" title="2017.8.5更新"></a>2017.8.5更新</h3><p>现在打包的时候又出现这样的警告:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">warning: (armv7) &#x2F;Users&#x2F;tommy&#x2F;Desktop&#x2F;Project&#x2F;AliPay&#x2F;SourceTree&#x2F;ios-msdk-git&#x2F;AlipaySDK4Standard&#x2F;AlipaySDK&#x2F;Library&#x2F;UTDID.framework&#x2F;UTDID(UTDevice.o) unable to open object file: No such file or directory</span><br><span class="line"></span><br><span class="line">warning: (armv64) &#x2F;Users&#x2F;tommy&#x2F;Desktop&#x2F;Project&#x2F;AliPay&#x2F;SourceTree&#x2F;ios-msdk-git&#x2F;AlipaySDK4Standard&#x2F;AlipaySDK&#x2F;Library&#x2F;UTDID.framework&#x2F;UTDID(UTDevice.o) unable to open object file: No such file or directory</span><br></pre></td></tr></table></figure><p>解决办法: Change the Release setting from “DWARF with dSYM File” to “DWARF”</p><h3 id="2017-8-24更新"><a href="#2017-8-24更新" class="headerlink" title="2017.8.24更新"></a>2017.8.24更新</h3><p>使用2017.8.5更新里的方案是有些问题的，Debug Information Format的release 模式改为DWARF后，在打包的时候不会生成.dSYM文件，这就造成了你无法追踪定位线上BUG</p><p>所以目前只能先忍受这些警告了</p><p>参考原文：<a href="https://stackoverflow.com/questions/35159244/xcode-there-are-no-dsyms-available-for-download" target="_blank" rel="noopener">https://stackoverflow.com/questions/35159244/xcode-there-are-no-dsyms-available-for-download</a></p><h3 id="2018-10-8更新"><a href="#2018-10-8更新" class="headerlink" title="2018.10.8更新"></a>2018.10.8更新</h3><p>今天更新支付宝SDK时，看了下SDK带的<a href="https://docs.open.alipay.com/54/104509" target="_blank" rel="noopener">Demo</a>工程里设置情况,</p><p>Build Settings -&gt; Build Options -&gt; Debug Information Format</p><p>Debug 模式下设置成<code>DWARF</code></p><p>Release 模式下设置成 <code>DWARF with dSYM File</code></p><p>可解决上面遇到的警告问题</p><p><img src="/" class="lazyload" data-src="images/2018/WX20181008-193510.png"  alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> iOS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Alipay </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>碎碎念在12月31日</title>
       <link href="/2015/12/31/BB20151231/"/>
       <url>/2015/12/31/BB20151231/</url>
@@ -811,6 +1148,31 @@
         <tags>
             
             <tag> Alipay </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Git忽略UserInterfaceState.xcuserstate文件</title>
+      <link href="/2015/12/15/git-ignore/"/>
+      <url>/2015/12/15/git-ignore/</url>
+      
+        <content type="html"><![CDATA[<h3 id="关于UserInterfaceState-xcuserstate文件"><a href="#关于UserInterfaceState-xcuserstate文件" class="headerlink" title="关于UserInterfaceState.xcuserstate文件"></a>关于UserInterfaceState.xcuserstate文件</h3><p>路径：ProjectFolder.xcodeproj/project.xcworkspace/xcuserdata/myUserName.xcuserdatad/UserInterfaceState.xcuserstate</p><p>每次打开工程，动一动Xcode UserInterfaceState.xcuserstate就会出现变动。</p><h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p>因为我们团队使用SourceTree进行代码管理，选中UserInterfaceState.xcuserstate右键出现菜单，然后选中<code>停止追踪</code>，然后进行commit。如果是对人协作开发，团队其他人员也需要执行相同操作。<br><img src="/" class="lazyload" data-src="http://qiniu.niuxtech.cn/QQ20151215-3.png"  alt=""></p><h3 id="还有其他解决方案，原理一样"><a href="#还有其他解决方案，原理一样" class="headerlink" title="还有其他解决方案，原理一样"></a>还有其他解决方案，原理一样</h3><pre><code>git rm --cached ProjectFolder.xcodeproj/project.xcworkspace/xcuserdata/myUserName.xcuserdatad/UserInterfaceState.xcuserstategit commit -m &quot;Removed file that shouldn&apos;t be tracked&quot;</code></pre><p>原地址：<a href="http://stackoverflow.com/questions/6564257/cant-ignore-userinterfacestate-xcuserstate" target="_blank" rel="noopener">http://stackoverflow.com/questions/6564257/cant-ignore-userinterfacestate-xcuserstate</a>         </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Xcode </tag>
             
         </tags>
       
@@ -939,9 +1301,9 @@
       
         <tags>
             
-            <tag> 租房 </tag>
-            
             <tag> 复盘 </tag>
+            
+            <tag> 租房 </tag>
             
         </tags>
       
@@ -1106,6 +1468,25 @@
     
     
     <entry>
+      <title>怎么判断viewcontroller是Push还是Pop?</title>
+      <link href="/2015/10/23/uiviewcontroller-push-pop/"/>
+      <url>/2015/10/23/uiviewcontroller-push-pop/</url>
+      
+        <content type="html"><![CDATA[<p>一般情况下判断viewcontroller在返回时需要push还是pop都会在<code>.h</code>文件带一个参数进来。如何让容器自己判断？</p><h3 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h3><pre><code>NSArray* views = [self.navigationController viewControllers];BOOL variable = [views containsObject: self];if (variable) {    [self.navigationController popViewControllerAnimated:YES];}else {    [self dismissViewControllerAnimated:YES completion:^{}];}</code></pre><h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3><pre><code>if (self.navigationController != nil) {    [self.navigationController popViewControllerAnimated:YES];}else{    [self dismissViewControllerAnimated:YES completion:^{}];}</code></pre><p>参考：<a href="http://stackoverflow.com/questions/16562546/how-to-check-whether-the-viewcontroller-is-popped-or-pushed-without-using-the-bo" target="_blank" rel="noopener">http://stackoverflow.com/questions/16562546/how-to-check-whether-the-viewcontroller-is-popped-or-pushed-without-using-the-bo</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> iOS </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>为何你会一年经验用十年</title>
       <link href="/2015/10/18/undefined/"/>
       <url>/2015/10/18/undefined/</url>
@@ -1123,6 +1504,33 @@
         <tags>
             
             <tag> 总结 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>根据ip获取省份/城市的接口</title>
+      <link href="/2015/10/12/city-api/"/>
+      <url>/2015/10/12/city-api/</url>
+      
+        <content type="html"><![CDATA[<p>###淘宝接口</p><p><a href="http://ip.taobao.com/service/getIpInfo.php?ip=119.57.173.141" target="_blank" rel="noopener">http://ip.taobao.com/service/getIpInfo.php?ip=119.57.173.141</a></p><p>#####返回结果</p><pre><code>{&quot;code&quot;: 0,&quot;data&quot;: {    &quot;country&quot;: &quot;中国&quot;,    &quot;country_id&quot;: &quot;CN&quot;,    &quot;area&quot;: &quot;华北&quot;,    &quot;area_id&quot;: &quot;100000&quot;,    &quot;region&quot;: &quot;北京市&quot;,    &quot;region_id&quot;: &quot;110000&quot;,    &quot;city&quot;: &quot;北京市&quot;,    &quot;city_id&quot;: &quot;110100&quot;,    &quot;county&quot;: &quot;&quot;,    &quot;county_id&quot;: &quot;-1&quot;,    &quot;isp&quot;: &quot;日升天信科技&quot;,    &quot;isp_id&quot;: &quot;1000157&quot;,    &quot;ip&quot;: &quot;119.57.173.141&quot;}}</code></pre><p>###新浪接口</p><p><a href="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json&amp;ip=119.57.173.141" target="_blank" rel="noopener">http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json&amp;ip=119.57.173.141</a><br>#####返回结果</p><pre><code>{&quot;ret&quot;: 1,&quot;start&quot;: -1,&quot;end&quot;: -1,&quot;country&quot;: &quot;中国&quot;,&quot;province&quot;: &quot;北京&quot;,&quot;city&quot;: &quot;北京&quot;,&quot;district&quot;: &quot;&quot;,&quot;isp&quot;: &quot;&quot;,&quot;type&quot;: &quot;&quot;,&quot;desc&quot;: &quot;&quot;}</code></pre><p>###百度接口</p><p><a href="http://api.map.baidu.com/location/ip" target="_blank" rel="noopener">http://api.map.baidu.com/location/ip</a></p><p>需要申请key才能用<a href="http://developer.baidu.com/map/index.php?title=webapi/ip-api" target="_blank" rel="noopener">http://developer.baidu.com/map/index.php?title=webapi/ip-api</a></p><p>#####返回结果</p><pre><code>{      address: &quot;CN|北京|北京|None|CHINANET|1|None&quot;,   #地址      content:       #详细内容      {      address: &quot;北京市&quot;,   #简要地址      address_detail:      #详细地址信息      {      city: &quot;北京市&quot;,        #城市      city_code: 131,       #百度城市代码      district: &quot;&quot;,           #区县      province: &quot;北京市&quot;,   #省份      street: &quot;&quot;,            #街道      street_number: &quot;&quot;    #门址      },      point:               #百度经纬度坐标值      {      x: &quot;116.39564504&quot;,      y: &quot;39.92998578&quot;      }      },      status: 0     #返回状态码  }</code></pre><p>###腾讯接口<br>如果网页端查看一下 直接<a href="http://ip.qq.com" target="_blank" rel="noopener">http://ip.qq.com</a></p><pre><code>欢迎您，尊敬的用户您当前的IP为：119.57.173.141该IP所在地为：中国北京市 联通</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 免费接口 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> API </tag>
+            
+            <tag> 城市 </tag>
             
         </tags>
       
@@ -1433,6 +1841,58 @@
     
     
     <entry>
+      <title>读书笔记（一）</title>
+      <link href="/2015/07/04/readbook/"/>
+      <url>/2015/07/04/readbook/</url>
+      
+        <content type="html"><![CDATA[<h4 id="你怎样，世界就怎么样-–-美-戈登"><a href="#你怎样，世界就怎么样-–-美-戈登" class="headerlink" title="你怎样，世界就怎么样 – [美]戈登"></a>你怎样，世界就怎么样 – [美]戈登</h4><p>当我年轻的时候，我的想象力没有受过限制，我梦想改变这个世界。</p><p>当我成熟以后，我发现我不能改变这个世界，我将目光缩短了一些，决定只改变我们的国家。</p><p>当我进入暮年以后，我发现我不能改变我的国家，我最后的愿望仅仅是改变一下我的家庭，但是这样不可能。</p><p>当我躺在床上，行就将木时，我突然意识到：如果一开始我仅仅改变自己，然后作为一个榜样，我可能改变我的家庭；在家人的鼓励下，我可能为我的国家做一些事情。</p><p>然而，谁知道呢？我甚至肯能改变这个世界！</p><p>真的，想要翘起世界，他的最佳支点不是整个地球，而是一个国家、一个民族、一个家庭，也不是别人，它的最佳支点只能是自己的心灵。</p><h4 id="笔记部分"><a href="#笔记部分" class="headerlink" title="笔记部分"></a>笔记部分</h4><ul><li>如果地图和实际情况不一致，那一定是地图错了。</li><li>我们明白的大多数道理常常都是通过不断痛苦经历和错误所得。</li><li>我们是什么样的人，不取决于我们如何想，不取决与我们如何说，不取决于我们如何感受，二取决于我们如何做。</li><li>生活里百分之八十的时间都是在作秀。</li><li>幸福 = 有人爱 + 有事做 + 有所期待</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 读书 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 读书 </tag>
+            
+            <tag> 笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>苹果客服电话</title>
+      <link href="/2015/07/01/apple-service/"/>
+      <url>/2015/07/01/apple-service/</url>
+      
+        <content type="html"><![CDATA[<h3 id="2018-8-1更新"><a href="#2018-8-1更新" class="headerlink" title="2018.8.1更新"></a>2018.8.1更新</h3><p>400-670-1855 已经没有客服人员了，让到 <a href="https://developer.apple.com/contact/" target="_blank" rel="noopener">https://developer.apple.com/contact/</a> 上解决</p><hr><h3 id="客服电话"><a href="#客服电话" class="headerlink" title="客服电话"></a>客服电话</h3><ul><li>苹果客服    ：400-670-1855</li><li>开发者账号  ：400-670-1855</li><li>售后支持    ：400-627-2273</li><li>在线商店    ：400-666-8800 </li></ul><h3 id="世界各地的电话："><a href="#世界各地的电话：" class="headerlink" title="世界各地的电话："></a>世界各地的电话：</h3><p><a href="https://developer.apple.com/contact/phone" target="_blank" rel="noopener">https://developer.apple.com/contact/phone</a></p><h3 id="审核加急地址"><a href="#审核加急地址" class="headerlink" title="审核加急地址"></a>审核加急地址</h3><p><a href="https://developer.apple.com/appstore/contact/appreviewteam/index.html" target="_blank" rel="noopener">https://developer.apple.com/appstore/contact/appreviewteam/index.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 备忘 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 苹果客服 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>mac工具系列</title>
       <link href="/2015/06/24/Mac-tools/"/>
       <url>/2015/06/24/Mac-tools/</url>
@@ -1535,6 +1995,33 @@
     
     
     <entry>
+      <title>UIWebView加载Html</title>
+      <link href="/2015/05/03/uiwebview/"/>
+      <url>/2015/05/03/uiwebview/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>UIWebView加载html分两种方式</p></blockquote><h3 id="加载本地html"><a href="#加载本地html" class="headerlink" title="加载本地html"></a>加载本地html</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">NSString *htmlFile &#x3D; [[NSBundle mainBundle] pathForResource:@&quot;xxx&quot; ofType:@&quot;html&quot;];</span><br><span class="line">NSString* htmlString &#x3D; [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];</span><br><span class="line">[webView loadHTMLString:htmlString baseURL:nil];</span><br></pre></td></tr></table></figure><p>本地加载可以修改html显示的文本大小和字体</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">NSString* formatString &#x3D; [NSString stringWithFormat:</span><br><span class="line">     @&quot;&lt;html&gt;&quot;</span><br><span class="line">     &quot;&lt;style type&#x3D;\&quot;text&#x2F;css\&quot;&gt;&quot;</span><br><span class="line">     &quot;body &#123;background-color:transparent; font-family:helvetica; font-size:%@; color:%@;&#125;&quot;</span><br><span class="line">     &quot;&lt;&#x2F;style&gt;&quot;</span><br><span class="line">     &quot;&lt;body&gt;&quot;</span><br><span class="line">     &quot;&lt;p&gt;%@&lt;&#x2F;p&gt;&quot;</span><br><span class="line">     &quot;&lt;&#x2F;body&gt;&lt;&#x2F;html&gt;&quot;,@&quot;24&quot;,@&quot;#000000&quot;, html];</span><br><span class="line">  [webView loadHTMLString:formatString baseURL:nil];</span><br></pre></td></tr></table></figure><ul><li>background-color:transparent; 背景颜色(透明)</li><li>font-family:helvetica; 字体</li><li>font-size:24; 字体大小</li><li>color:#000fff; 字体的颜色</li></ul><blockquote><p>如果发现本地html在UIWebView加载不出来，请检查html代码编码格式，一般来说都采用的时UTF8编码格式。</p></blockquote><h3 id="加载一个网页"><a href="#加载一个网页" class="headerlink" title="加载一个网页"></a>加载一个网页</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">NSURL *url &#x3D; [NSURLV URLWithString:@&quot;http:&#x2F;&#x2F;duxinfeng.com&quot;];</span><br><span class="line">NSURLRequest *req &#x3D; [NSURLRequest requestWithURL:url];</span><br><span class="line">[webView loadRequest:req];</span><br></pre></td></tr></table></figure><p>如果对html排版有特殊要求，则需要自己或前端写好css文件，可以放本地，也可以加到html文件里面，如果放到本地需要注意路径，当我把css文件放在和xx.xcodeproj 一个目录时是这样的</p><pre><code>[webView loadHTMLString:htmlString baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]];</code></pre><p>如果是放到html里面可以参考网易新闻开源组件(<code>view-source:http://m.163.com/special/newsclient/ios_libraries.html</code>)  chrome打开，或者直接访问查看<a href="http://m.163.com/special/newsclient/ios_libraries.html" target="_blank" rel="noopener">源码</a></p><h3 id="UIWebView-高亮显示问题"><a href="#UIWebView-高亮显示问题" class="headerlink" title="UIWebView 高亮显示问题"></a>UIWebView 高亮显示问题</h3><p>UIWebView 是可以监测html里的数字、电话号码、url链接，然后高亮显示，可以通过设置他的<code>dataDetectorTypes</code>属性来改变</p><pre><code>self.webView.dataDetectorTypes = UIDataDetectorTypeNone;</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> iOS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> UIWebView </tag>
+            
+            <tag> Html </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Mac上 GitHub Pages + Hexo 搭建 Blog</title>
       <link href="/2015/05/01/github-pages-hexo-blog/"/>
       <url>/2015/05/01/github-pages-hexo-blog/</url>
@@ -1554,6 +2041,31 @@
             <tag> Hexo </tag>
             
             <tag> Github Pages </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于这个Blog</title>
+      <link href="/2015/05/01/about-blog/"/>
+      <url>/2015/05/01/about-blog/</url>
+      
+        <content type="html"><![CDATA[<p>曾经多次折腾，想在GitHub上基于Jeyll搭建一个自己的Blog,多次因为环境配置问题惨遭失败，主要还是ruby版本的问题，终于在2014年8月份折腾成功，不幸的是同年12月份电脑坏了，换了一个硬盘，结果发现是硬盘线出问题，当然环境都没有，再次配置环境依然各种错误，无果，在15年五一假期再次折腾，此次试验Hexo 搭建，果然配置比Jekyll简单多，于是有了这个Blog。</p><p>希望这个Blog能伴随、见证我职业道路的成长！</p><p>曾经坚持写Blog一点体会：</p><p>写Blog最大的受益人不是别人，而是自己，只是在帮助自己的同时顺便帮助了别人。那是我大学期间成长最快，成长最多的一段时间。</p><p>2012年五月份在CSDN上写了我的第一篇Blog,也并非原创，只是对当时不是很理解的东西做了一番查阅学习之后有所理解了，然后梳理自己所认为一个思路写之，就这样连续坚持一个年多。在13年暑假之后开始实习，一直到现在就很少更新了。14年7月是在上面留得最后一篇，也因为工作，迟迟没有做更新。</p><p>2015.6.6 补写。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 复盘 </tag>
             
         </tags>
       
