@@ -1,167 +1,99 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>归档 | 新风作浪</title><meta name="author" content="新风作浪"><meta name="copyright" content="新风作浪"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
-<meta property="og:title" content="新风作浪">
-<meta property="og:url" content="http://duxinfeng.com/archives/2018/page/2/index.html">
-<meta property="og:site_name" content="新风作浪">
-<meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://duxinfeng.com/img/avatar.png">
-<meta property="article:author" content="新风作浪">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://duxinfeng.com/img/avatar.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://duxinfeng.com/archives/2018/page/2/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//pingjs.qq.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>归档 | 新风作浪</title><meta name="description" content=""><meta name="author" content="新风作浪"><meta name="copyright" content="新风作浪"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://www.google-analytics.com" crossorigin="crossorigin"/><link rel="preconnect" href="https://hm.baidu.com"/><link rel="preconnect" href="http://ta.qq.com"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="归档"><meta name="twitter:description" content=""><meta name="twitter:image" content="http://duxinfeng.com/img/avatar.png"><meta property="og:type" content="website"><meta property="og:title" content="归档"><meta property="og:url" content="http://duxinfeng.com/archives/2018/page/2/"><meta property="og:site_name" content="新风作浪"><meta property="og:description" content=""><meta property="og:image" content="http://duxinfeng.com/img/avatar.png"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>var autoChangeMode = '1'
+var t = Cookies.get("theme")
+if (autoChangeMode == '1'){
+  var isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+  var isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+  var isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined){
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport){
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour < 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+  }
+  } else if (t == 'light') activateLightMode()
+  else activateDarkMode()
+
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode() 
+} else {
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
+
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
+  }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
+  }
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="canonical" href="http://duxinfeng.com/archives/2018/page/2/"><script>var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
   hm.src = "https://hm.baidu.com/hm.js?5ffec76fdd2b8750d2aeff3027650364";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
-</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-53524827-1"></script><script>window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'UA-53524827-1');
-</script><script>var _mtac = {};
-(function() {
-    var mta = document.createElement("script");
-    mta.src = "//pingjs.qq.com/h5/stats.js?v2.0.4";
-    mta.setAttribute("name", "MTAH5");
-    mta.setAttribute("sid", "66520819");
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(mta, s);
-})();
-</script><script>const GLOBAL_CONFIG = { 
+</script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-53524827-1', 'auto');
+ga('send', 'pageview');
+</script><script src="https://tajs.qq.com/stats?sId=66520819" charset="UTF-8"></script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
   root: '/',
   algolia: undefined,
   localSearch: undefined,
   translate: undefined,
-  noticeOutdate: undefined,
-  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
   copy: {
     success: '复制成功',
     error: '复制错误',
     noSupport: '浏览器不支持'
   },
-  relativeDate: {
-    homepage: false,
-    post: false
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
   },
-  runtime: '天',
-  date_suffix: {
-    just: '刚刚',
-    min: '分钟前',
-    hour: '小时前',
-    day: '天前',
-    month: '个月前'
-  },
+  runtime_unit: '天',
+  runtime: true,
   copyright: undefined,
-  lightbox: 'fancybox',
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
   Snackbar: undefined,
-  source: {
-    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
-    justifiedGallery: {
-      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
-      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
-    },
-    fancybox: {
-      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
-      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
-    }
-  },
-  isPhotoFigcaption: false,
-  islazyload: false,
-  isanchor: false
-}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = { 
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  highlightShrink: 'false',
+  isFontAwesomeV5: false,
+  isPhotoFigcaption: false
+  
+}</script><script>var GLOBAL_CONFIG_SITE = { 
   isPost: false,
   isHome: false,
-  isHighlightShrink: false,
-  isToc: false,
-  postUpdate: '2021-04-27 05:02:00'
-}</script><noscript><style type="text/css">
-  #nav {
-    opacity: 1
-  }
-  .justified-gallery img {
-    opacity: 1
-  }
-
-  #recent-posts time,
-  #post-meta time {
-    display: inline !important
-  }
-</style></noscript><script>(win=>{
-    win.saveToLocal = {
-      set: function setWithExpiry(key, value, ttl) {
-        if (ttl === 0) return
-        const now = new Date()
-        const expiryDay = ttl * 86400000
-        const item = {
-          value: value,
-          expiry: now.getTime() + expiryDay,
-        }
-        localStorage.setItem(key, JSON.stringify(item))
-      },
-
-      get: function getWithExpiry(key) {
-        const itemStr = localStorage.getItem(key)
-
-        if (!itemStr) {
-          return undefined
-        }
-        const item = JSON.parse(itemStr)
-        const now = new Date()
-
-        if (now.getTime() > item.expiry) {
-          localStorage.removeItem(key)
-          return undefined
-        }
-        return item.value
-      }
-    }
-  
-    win.getScript = url => new Promise((resolve, reject) => {
-      const script = document.createElement('script')
-      script.src = url
-      script.async = true
-      script.onerror = reject
-      script.onload = script.onreadystatechange = function() {
-        const loadState = this.readyState
-        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-        script.onload = script.onreadystatechange = null
-        resolve()
-      }
-      document.head.appendChild(script)
-    })
-  
-      win.activateDarkMode = function () {
-        document.documentElement.setAttribute('data-theme', 'dark')
-        if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
-        }
-      }
-      win.activateLightMode = function () {
-        document.documentElement.setAttribute('data-theme', 'light')
-        if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
-        }
-      }
-      const t = saveToLocal.get('theme')
-    
-          if (t === 'dark') activateDarkMode()
-          else if (t === 'light') activateLightMode()
-        
-      const asideStatus = saveToLocal.get('aside-status')
-      if (asideStatus !== undefined) {
-        if (asideStatus === 'hide') {
-          document.documentElement.classList.add('hide-aside')
-        } else {
-          document.documentElement.classList.remove('hide-aside')
-        }
-      }
-    })(window)</script><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="新风作浪" type="application/atom+xml">
-</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">85</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">85</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">11</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header" style="background-image: url('http://qiniu.niuxtech.cn/blog_background.jpeg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">新风作浪</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="page-site-info"><h1 id="site-title">归档</h1></div></header><main class="layout" id="content-inner"><div id="archive"><div class="article-sort-title">文章总览 - 85</div><div class="article-sort"><div class="article-sort-item year">2018</div><div class="article-sort-item"><a class="article-sort-item-img" href="/2018/01/09/BB20180109/" title="碎碎念在2018年1月9日"><img src="http://qiniu.niuxtech.cn/2020/Working-at-desk.png" alt="碎碎念在2018年1月9日" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2018-01-09T11:40:15.000Z" title="发表于 2018-01-09 11:40:15">2018-01-09</time></div><a class="article-sort-item-title" href="/2018/01/09/BB20180109/" title="碎碎念在2018年1月9日">碎碎念在2018年1月9日</a></div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/archives/2018/"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/archives/2018/">1</a><span class="page-number current">2</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">新风作浪</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">85</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">85</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">11</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/duxinfeng" rel="external nofollow noreferrer" target="_blank" title=""><i class="fa fa-github"></i></a><a class="social-icon" href="mailto:duxinfeng99@gmail.com" rel="external nofollow noreferrer" target="_blank" title=""><i class="fa fa-envelope"></i></a><a class="social-icon" href="https://twitter.com/iduxinfeng" rel="external nofollow noreferrer" target="_blank" title=""><i class="fa fa-twitter"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title=""><i class="fa fa-rss"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2020/07/20/mac-book-pro-2017-maintenance/" title="MacBook Pro 2017 维修日志"><img src="http://qiniu.niuxtech.cn/2020/Working-at-desk.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="MacBook Pro 2017 维修日志"/></a><div class="content"><a class="title" href="/2020/07/20/mac-book-pro-2017-maintenance/" title="MacBook Pro 2017 维修日志">MacBook Pro 2017 维修日志</a><time datetime="2020-07-20T20:27:40.000Z" title="发表于 2020-07-20 20:27:40">2020-07-20</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2020/04/09/UIAlertController/" title="仿写一个UIAlertController"><img src="http://qiniu.niuxtech.cn/2020/Working-at-desk.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="仿写一个UIAlertController"/></a><div class="content"><a class="title" href="/2020/04/09/UIAlertController/" title="仿写一个UIAlertController">仿写一个UIAlertController</a><time datetime="2020-04-09T11:18:17.000Z" title="发表于 2020-04-09 11:18:17">2020-04-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2020/03/26/buy-a-bag/" title="想换个背电脑的包"><img src="http://qiniu.niuxtech.cn/2020/Working-at-desk.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="想换个背电脑的包"/></a><div class="content"><a class="title" href="/2020/03/26/buy-a-bag/" title="想换个背电脑的包">想换个背电脑的包</a><time datetime="2020-03-26T00:05:02.000Z" title="发表于 2020-03-26 00:05:02">2020-03-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2020/03/11/BB20200311/" title="碎碎念在2020年3月11日"><img src="http://qiniu.niuxtech.cn/2020/2020-03-11-2.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="碎碎念在2020年3月11日"/></a><div class="content"><a class="title" href="/2020/03/11/BB20200311/" title="碎碎念在2020年3月11日">碎碎念在2020年3月11日</a><time datetime="2020-03-11T15:21:49.000Z" title="发表于 2020-03-11 15:21:49">2020-03-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2020/03/06/BB20200305/" title="碎碎念在2020年3月5日"><img src="http://qiniu.niuxtech.cn/2020/Working-at-desk.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="碎碎念在2020年3月5日"/></a><div class="content"><a class="title" href="/2020/03/06/BB20200305/" title="碎碎念在2020年3月5日">碎碎念在2020年3月5日</a><time datetime="2020-03-06T02:05:46.000Z" title="发表于 2020-03-06 02:05:46">2020-03-06</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
-            <i class="fas fa-folder-open"></i>
-            <span>分类</span>
-            <a class="card-more-btn" href="/categories/" title="查看更多">
-    <i class="fas fa-angle-right"></i></a>
-            </div>
-            <ul class="card-category-list" id="aside-cat-list">
-            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Blog/"><span class="card-category-list-name">Blog</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Git/"><span class="card-category-list-name">Git</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Hexo/"><span class="card-category-list-name">Hexo</span><span class="card-category-list-count">2</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Hexo/Butterfly/"><span class="card-category-list-name">Butterfly</span><span class="card-category-list-count">1</span></a></li></ul></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/iOS/"><span class="card-category-list-name">iOS</span><span class="card-category-list-count">36</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%85%8D%E8%B4%B9%E6%8E%A5%E5%8F%A3/"><span class="card-category-list-name">免费接口</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%A4%87%E5%BF%98/"><span class="card-category-list-name">备忘</span><span class="card-category-list-count">3</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%B7%A5%E5%85%B7/"><span class="card-category-list-name">工具</span><span class="card-category-list-count">10</span></a></li>
-            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/API/" style="font-size: 1.1em; color: #999">API</a> <a href="/tags/APP/" style="font-size: 1.1em; color: #999">APP</a> <a href="/tags/ASO/" style="font-size: 1.1em; color: #999">ASO</a> <a href="/tags/Alipay/" style="font-size: 1.5em; color: #99a9bf">Alipay</a> <a href="/tags/App/" style="font-size: 1.1em; color: #999">App</a> <a href="/tags/App-Store/" style="font-size: 1.1em; color: #999">App Store</a> <a href="/tags/AppStore/" style="font-size: 1.1em; color: #999">AppStore</a> <a href="/tags/Apple-ID/" style="font-size: 1.1em; color: #999">Apple ID</a> <a href="/tags/BUG/" style="font-size: 1.1em; color: #999">BUG</a> <a href="/tags/Blog/" style="font-size: 1.5em; color: #99a9bf">Blog</a> <a href="/tags/CocoaPods/" style="font-size: 1.1em; color: #999">CocoaPods</a> <a href="/tags/Crash/" style="font-size: 1.1em; color: #999">Crash</a> <a href="/tags/DOUAudioStreamer/" style="font-size: 1.1em; color: #999">DOUAudioStreamer</a> <a href="/tags/DTCoreText/" style="font-size: 1.1em; color: #999">DTCoreText</a> <a href="/tags/ERROR/" style="font-size: 1.1em; color: #999">ERROR</a> <a href="/tags/Error/" style="font-size: 1.1em; color: #999">Error</a> <a href="/tags/FMDB/" style="font-size: 1.1em; color: #999">FMDB</a> <a href="/tags/FileZila/" style="font-size: 1.1em; color: #999">FileZila</a> <a href="/tags/GitHub/" style="font-size: 1.1em; color: #999">GitHub</a> <a href="/tags/Github-Pages/" style="font-size: 1.1em; color: #999">Github Pages</a> <a href="/tags/Google/" style="font-size: 1.1em; color: #999">Google</a> <a href="/tags/Grand-Centeral-Dispatch/" style="font-size: 1.1em; color: #999">Grand Centeral Dispatch</a> <a href="/tags/Hexo/" style="font-size: 1.1em; color: #999">Hexo</a> <a href="/tags/Html/" style="font-size: 1.1em; color: #999">Html</a> <a href="/tags/Images-xcassets/" style="font-size: 1.1em; color: #999">Images.xcassets</a> <a href="/tags/Mac/" style="font-size: 1.1em; color: #999">Mac</a> <a href="/tags/MacBook/" style="font-size: 1.1em; color: #999">MacBook</a> <a href="/tags/Mantle/" style="font-size: 1.5em; color: #99a9bf">Mantle</a> <a href="/tags/NSOperation/" style="font-size: 1.1em; color: #999">NSOperation</a> <a href="/tags/NSThread/" style="font-size: 1.1em; color: #999">NSThread</a> <a href="/tags/NSURL/" style="font-size: 1.5em; color: #99a9bf">NSURL</a> <a href="/tags/RESideMenu/" style="font-size: 1.1em; color: #999">RESideMenu</a> <a href="/tags/Swift/" style="font-size: 1.1em; color: #999">Swift</a> <a href="/tags/UIAlertController/" style="font-size: 1.1em; color: #999">UIAlertController</a> <a href="/tags/UINavigationBar/" style="font-size: 1.1em; color: #999">UINavigationBar</a> <a href="/tags/UITabBar/" style="font-size: 1.1em; color: #999">UITabBar</a> <a href="/tags/UIWebView/" style="font-size: 1.1em; color: #999">UIWebView</a> <a href="/tags/WKWebView/" style="font-size: 1.5em; color: #99a9bf">WKWebView</a> <a href="/tags/Web/" style="font-size: 1.1em; color: #999">Web</a> <a href="/tags/WebViewJavascriptBridge/" style="font-size: 1.1em; color: #999">WebViewJavascriptBridge</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span><a class="card-more-btn" href="/archives/" title="查看更多">
-    <i class="fas fa-angle-right"></i></a></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/07/"><span class="card-archive-list-date">七月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/04/"><span class="card-archive-list-date">四月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/03/"><span class="card-archive-list-date">三月 2020</span><span class="card-archive-list-count">4</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/02/"><span class="card-archive-list-date">二月 2020</span><span class="card-archive-list-count">3</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2019/11/"><span class="card-archive-list-date">十一月 2019</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2019/10/"><span class="card-archive-list-date">十月 2019</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2019/02/"><span class="card-archive-list-date">二月 2019</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2018/10/"><span class="card-archive-list-date">十月 2018</span><span class="card-archive-list-count">4</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">85</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2015-05-01T00:00:00.000Z"></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">31.9k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2021-04-27T05:01:59.789Z"></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By 新风作浪</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
+  isSidebar: false  
+  }</script><noscript><style>
+#page-header {
+  opacity: 1
+}
+.justified-gallery img{
+  opacity: 1
+}
+</style></noscript><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="新风作浪" type="application/atom+xml">
+</head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">85</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">85</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">11</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div></div></div><div id="body-wrap"><div class="not-index-bg" id="nav" style="background-image: url(http://qiniu.niuxtech.cn/blog_background.jpeg)"><div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">新风作浪</a></span><span class="pull_right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> 关于</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span></span></div><div id="page_site-info"><h1 id="site_title">归档</h1></div></div><main class="layout_page" id="content-inner"><div id="archive"><div class="article-sort-title">文章总览 - 85</div><div class="article-sort"><div class="article-sort-item year">2018</div><div class="article-sort-item"><div class="article-sort-img"><a class="article-sort-item__img" href="/2018/01/09/BB20180109/"><img src="http://qiniu.niuxtech.cn/2020/Working-at-desk.png" alt="碎碎念在2018年1月9日" onerror="this.onerror=null;this.src='/img/404.jpg'"></a></div><div class="article-sort-post"><a class="article-sort-item__post" href="/2018/01/09/BB20180109/"><i class="fa fa-clock-o" aria-hidden="true"></i><time class="article-sort-item__time" title="发表于 2018-01-09 11:40:15">2018-01-09</time><div class="article-sort-item__title">碎碎念在2018年1月9日</div></a></div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/archives/2018/"><i class="fa fa-fw fa-chevron-left" aria-hidden="true"></i></a><a class="page-number" href="/archives/2018/">1</a><span class="page-number current">2</span></div></nav></div><div class="aside_content" id="aside_content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">新风作浪</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives"><div class="headline">文章</div><div class="length_num">85</div></a></div><div class="card-info-data-item is-center">      <a href="/tags"><div class="headline">标签</div><div class="length_num">85</div></a></div><div class="card-info-data-item is-center">     <a href="/categories"><div class="headline">分类</div><div class="length_num">11</div></a></div></div><div class="card-info-bookmark is-center"><a class="bookmark button--primary button--animated" id="bookmark-it" href="javascript:;" title="加入书签" target="_self"><i class="fa fa-bookmark" aria-hidden="true"></i><span>加入书签</span></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/duxinfeng" target="_blank" title=""><i class="fa fa-github" aria-hidden="true"></i></a><a class="social-icon" href="mailto:duxinfeng99@gmail.com" target="_blank" title=""><i class="fa fa-envelope" aria-hidden="true"></i></a><a class="social-icon" href="https://twitter.com/iduxinfeng" target="_blank" title=""><i class="fa fa-twitter" aria-hidden="true"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title=""><i class="fa fa-rss" aria-hidden="true"></i></a></div></div></div><div class="card-widget card-categories"><div class="card-content"><div class="item-headline"><i class="fa fa-folder-open" aria-hidden="true"></i><span>分类</span></div><ul class="aside-category-item">       <li class="aside-category-list"><a class="aside-category-list_link" href="/categories/Blog/"><span class="aside-category-list_name">Blog</span><span class="aside-category-list_length">1</span></a></li><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/Git/"><span class="aside-category-list_name">Git</span><span class="aside-category-list_length">1</span></a></li><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/Hexo/"><span class="aside-category-list_name">Hexo</span><span class="aside-category-list_length">2</span></a></li><ul class="aside-category-item child"><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/Hexo/Butterfly/"><span class="aside-category-list_name">Butterfly</span><span class="aside-category-list_length">1</span></a></li></ul><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/iOS/"><span class="aside-category-list_name">iOS</span><span class="aside-category-list_length">36</span></a></li><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/%E5%85%8D%E8%B4%B9%E6%8E%A5%E5%8F%A3/"><span class="aside-category-list_name">免费接口</span><span class="aside-category-list_length">1</span></a></li><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/%E5%A4%87%E5%BF%98/"><span class="aside-category-list_name">备忘</span><span class="aside-category-list_length">3</span></a></li><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/%E5%B7%A5%E5%85%B7/"><span class="aside-category-list_name">工具</span><span class="aside-category-list_length">10</span></a></li><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/%E7%94%9F%E6%B4%BB/"><span class="aside-category-list_name">生活</span><span class="aside-category-list_length">13</span></a></li><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"><span class="aside-category-list_name">碎碎念</span><span class="aside-category-list_length">13</span></a></li><li class="aside-category-list"><a class="aside-category-list_link" href="/categories/%E8%AF%BB%E4%B9%A6/"><span class="aside-category-list_name">读书</span><span class="aside-category-list_length">3</span></a></li></ul></div></div><div class="card-widget card-archives"><div class="card-content"><div class="item-headline"><i class="fa fa-archive" aria-hidden="true"></i><span>归档</span></div><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/07/"><span class="archive-list-date">2020年07月</span><span class="archive-list-count">1</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/"><span class="archive-list-date">2020年04月</span><span class="archive-list-count">1</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/"><span class="archive-list-date">2020年03月</span><span class="archive-list-count">4</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/"><span class="archive-list-date">2020年02月</span><span class="archive-list-count">3</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/"><span class="archive-list-date">2019年11月</span><span class="archive-list-count">1</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/10/"><span class="archive-list-date">2019年10月</span><span class="archive-list-count">1</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/02/"><span class="archive-list-date">2019年02月</span><span class="archive-list-count">1</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/"><span class="archive-list-date">2018年10月</span><span class="archive-list-count">4</span></a></li><li class="archive-list-item is-center"><a class="archive-list-link-more" href="/archives" >查看更多</a></li></ul></div></div><div class="card-widget card-webinfo"><div class="card-content"><div class="item-headline"><i class="fa fa-line-chart" aria-hidden="true"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="webinfo-article-name">文章数目 :</div><div class="webinfo-article-count">85</div></div><div class="webinfo-item"><div class="webinfo-runtime-name">已运行时间 :</div><div class="webinfo-runtime-count" id="webinfo-runtime-count" start_date="5/1/2015 00:00:00">     </div></div><div class="webinfo-item">      <div class="webinfo-site-uv-name">本站访客数 :</div><div class="webinfo-site-uv-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="webinfo-site-name">本站总访问量 :</div><div class="webinfo-site-pv-count" id="busuanzi_value_site_pv"></div></div></div></div></div></div></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2015 - 2021 By 新风作浪</div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="darkmode fa fa-moon-o" id="darkmode" title="夜间模式"></i></div><div id="rightside-config-show"><div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><i class="fa fa-arrow-up" id="go-up" title="回到顶部" aria-hidden="true"></i></div></section><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script defer id="ribbon" src="/js/third-party/canvas-ribbon.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="false"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js" async=""></script></body></html>
