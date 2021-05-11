@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>解决 CAGradientLayer 闪烁问题</title>
+      <link href="/2021/05/06/cagradientlayer/"/>
+      <url>/2021/05/06/cagradientlayer/</url>
+      
+        <content type="html"><![CDATA[<p>CAGradientLayer 是 CALayer 的子类，用于绘制带有渐变效果的图层。</p><p>当我们在UIView 的Layer 上添加一个 CAGradientLayer 层的时候，如果</p><p>需要更新 CAGradientLayer frame，如果更新frame前后不一样，会出现肉课件的闪烁过渡，看起来很怪。这是因为渐变色会有一个延迟的绘制过程。</p><p>实现一个渐变背景的 UIView ：</p><p>最开始的时候自定义</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">[self.layer addSublayer:self.vipPriceGradientLayer];</span><br><span class="line"></span><br><span class="line">- (CAGradientLayer *)vipPriceGradientLayer</span><br><span class="line">&#123;</span><br><span class="line">if (!_vipPriceGradientLayer) &#123;</span><br><span class="line">CAGradientLayer *gl &#x3D; [CAGradientLayer layer];</span><br><span class="line">gl.startPoint &#x3D; CGPointMake(0.62, 0);</span><br><span class="line">gl.endPoint &#x3D; CGPointMake(0.62, 1);</span><br><span class="line">gl.colors &#x3D; @[(__bridge id)[UIColor colorWithHexString:@&quot;#FEE5B6&quot;].CGColor, (__bridge id)[UIColor colorWithHexString:@&quot;#FED28B&quot;].CGColor];</span><br><span class="line">gl.locations &#x3D; @[@(0), @(1.0f)];</span><br><span class="line">gl.cornerRadius &#x3D; XXBPtScale(5);</span><br><span class="line">_vipPriceGradientLayer &#x3D; gl;</span><br><span class="line">&#125;</span><br><span class="line">return _vipPriceGradientLayer;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>在设置frame的地方更新 self.vipPriceGradientLayer.frame = </p><p>造成闪涉效果。</p><p><a href="http://qiniu.niuxtech.cn/RPReplay_Final1619799024.mov">http://qiniu.niuxtech.cn/RPReplay_Final1619799024.mov</a></p><p>解决办法： 自定义 layerClass</p><pre><code>+ (Class)layerClass&#123;    return [CAGradientLayer class];&#125;- (instancetype)init&#123;    self = [super init];    if (self) &#123;        CAGradientLayer *gl = (CAGradientLayer *)self.layer;        gl.startPoint = CGPointMake(0.62, 0);        gl.endPoint = CGPointMake(0.62, 1);        gl.colors = @[(__bridge id)[UIColor colorWithHexString:@&quot;#FEE5B6&quot;].CGColor, (__bridge id)[UIColor colorWithHexString:@&quot;#FED28B&quot;].CGColor];        gl.locations = @[@(0), @(1.0f)];        gl.cornerRadius = XXBPtScale(5);        self.frame = DF_FRAME(0, 0, 0,  XXBPtScale(19));    &#125;    return self;&#125;需要了解，UIView 和 CALayer 关系 。关于+ (Class)layerClass 方法  https://developer.apple.com/documentation/uikit/uiview/1622626-layerclass?language=objc</code></pre>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> CAGradientLayer </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>碎碎念在2021年4月27日</title>
       <link href="/2021/04/27/BB20210427/"/>
       <url>/2021/04/27/BB20210427/</url>
