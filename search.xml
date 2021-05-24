@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>GTD工作法</title>
+      <link href="/2021/05/24/gtd/"/>
+      <url>/2021/05/24/gtd/</url>
+      
+        <content type="html"><![CDATA[<p><strong>GTD 全称 Getting Things Done，意思把事情做完。</strong></p><p>其核心理念是必须记录下来要做的事，然后整理安排并让自己一一执行，大致分为收集、整理、组织、回顾和执行五大步骤</p><p><img src="/" class="lazyload" data-src="https://cdn.nlark.com/yuque/0/2021/png/654487/1621785007356-53777eb0-254f-4286-a8eb-94e060b744fd.png"  alt="image.png"></p><h3 id="1-收集"><a href="#1-收集" class="headerlink" title="1. 收集"></a>1. 收集</h3><p>将能够想到的所有应该去做的事情罗列于“待办事宜”中。</p><h3 id="2-整理"><a href="#2-整理" class="headerlink" title="2. 整理"></a>2. 整理</h3><p>将进入“待办事宜”的事项进行分类处理，定时清空。一般来讲，类型<strong>分为“可以立即完成”与“不可立即完成”两类</strong>。<strong>对于可以立即完成的事项立即处理，清空任务</strong>。对于不能立即完成的事项则进入下一步组织环节。</p><h3 id="3-组织"><a href="#3-组织" class="headerlink" title="3. 组织"></a>3. 组织</h3><p>组织是GTD中最核心的规划步骤，需要管理者综合考虑各方面因素，制订出相应的计划。行动的组织可以分为行动清单、等待清单和未来清单三部分。</p><p>①行动清单，是指下一步具体的行动。如果下一步包含多个步骤，则需要细化成更为具体的工作，比如地点和时间等。这样管理者就会了解应该做的工作。”</p><p>②等待清单，是指委派别人去做的工作。</p><p>③未来清单，是指延迟处理未设置具体完成时间的计划。</p><h3 id="4-回顾"><a href="#4-回顾" class="headerlink" title="4. 回顾"></a>4. 回顾</h3><p>回顾是指每周都进行清单回顾、检查和更新的步骤，确保GTD系统的正常运作，并保证下周计划正常进行。</p><h3 id="5-执行"><a href="#5-执行" class="headerlink" title="5. 执行"></a>5. 执行</h3><p>按照清单开始行动。</p><p><strong>GTD的做法实际上是通过工具来防止“瞎忙”情况的出现。事先安排好了每段时间的任务并设置提醒，让我们不错过任何事情，也不会因为担心没时间做一件事而影响其他事情的正常推进。</strong></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> GTD </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>解决 CAGradientLayer 闪烁问题</title>
       <link href="/2021/05/06/cagradientlayer/"/>
       <url>/2021/05/06/cagradientlayer/</url>
