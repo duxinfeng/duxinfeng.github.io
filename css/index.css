@@ -3277,6 +3277,15 @@ figure.highlight pre .tag .attr,
 figure.highlight pre .javascript .function {
   color: #c792ea;
 }
+#article-container figure.highlight .line:before {
+  display: inline-block;
+  padding: 0 6px 0 0;
+  min-width: 30px;
+  color: var(--hlnumber-color);
+  content: counter(line);
+  counter-increment: line;
+  text-align: left;
+}
 #article-container figure.highlight .line.marked {
   background-color: rgba(97,97,97,0.314);
 }
@@ -3309,6 +3318,8 @@ figure.highlight pre .javascript .function {
   background: var(--hl-bg);
   color: var(--hl-color);
   line-height: 1.6;
+  counter-reset: line;
+  white-space: pre-wrap;
 }
 #article-container pre,
 #article-container code {
@@ -3491,77 +3502,6 @@ figure.highlight pre .javascript .function {
 }
 #article-container figure.highlight .highlight-tools .code-lang {
   left: 75px;
-}
-#article-container .code-expand-btn {
-  position: absolute;
-  bottom: 0px;
-  z-index: 10;
-  width: 100%;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  transition: all 0.3s;
-  font-size: 20px;
-  background: var(--hlexpand-bg);
-  text-align: center;
-  font-size: var(--global-font-size);
-  cursor: pointer;
-  -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
-  -o-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0);
-  position: absolute;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: box;
-  display: flex;
-  -webkit-box-align: center;
-  -moz-box-align: center;
-  -o-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  -o-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  height: 32px;
-  font-size: 16px;
-}
-#article-container .code-expand-btn i {
-  color: var(--hlnumber-color);
-  -webkit-animation: 1.2s ease 0s infinite normal none running code-expand-key;
-  -moz-animation: 1.2s ease 0s infinite normal none running code-expand-key;
-  -o-animation: 1.2s ease 0s infinite normal none running code-expand-key;
-  -ms-animation: 1.2s ease 0s infinite normal none running code-expand-key;
-  animation: 1.2s ease 0s infinite normal none running code-expand-key;
-}
-#article-container .code-expand-btn.expand-done {
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
-  -webkit-transition: all 0s, background 0.3s;
-  -moz-transition: all 0s, background 0.3s;
-  -o-transition: all 0s, background 0.3s;
-  -ms-transition: all 0s, background 0.3s;
-  transition: all 0s, background 0.3s;
-}
-#article-container .code-expand-btn.expand-done + table,
-#article-container .code-expand-btn.expand-done + pre {
-  margin-bottom: 1.8em;
-}
-#article-container .code-expand-btn:not(.expand-done) ~ table,
-#article-container .code-expand-btn:not(.expand-done) ~ pre {
-  overflow: hidden;
-  height: 500px;
 }
 @-moz-keyframes code-expand-key {
   0% {
